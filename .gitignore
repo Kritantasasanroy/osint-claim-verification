@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.cache/
+runs/
+.memory/
+results/**/long_term_memory.sqlite3
+Agentic Harness for OSINT.pdf
+
+# Independent review (local only, never committed)
+review/
+results-*.log
