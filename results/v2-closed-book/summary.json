@@ -1,0 +1,1691 @@
+{
+  "cases": 128,
+  "seeds": [
+    0
+  ],
+  "split": "all",
+  "pre_scoped": false,
+  "judge_model": "z-ai/glm-5.3-flash",
+  "budget": {
+    "max_steps": 4,
+    "max_tool_calls": 12,
+    "actions_per_step": 3
+  },
+  "modes": [
+    {
+      "mode": "closed_book",
+      "episodes": 128,
+      "cases": 128,
+      "seeds": 1,
+      "crashed": 0,
+      "accuracy": {
+        "mean": 0.65625,
+        "low": 0.578125,
+        "high": 0.7345703124999989,
+        "cases": 128,
+        "samples": 128
+      },
+      "accuracy_by_kind": {
+        "company": 0.696969696969697,
+        "person": 0.6875,
+        "claim": 0.6329113924050633
+      },
+      "accuracy_by_slice": {
+        "documents": {
+          "mean": 0.6666666666666666,
+          "low": 0.4166666666666667,
+          "high": 0.9166666666666666,
+          "cases": 12,
+          "samples": 12
+        },
+        "injection": {
+          "mean": 0.5,
+          "low": 0.25,
+          "high": 0.75,
+          "cases": 12,
+          "samples": 12
+        },
+        "long_tail": {
+          "mean": 0.71875,
+          "low": 0.5625,
+          "high": 0.875,
+          "cases": 32,
+          "samples": 32
+        },
+        "materiality": {
+          "mean": 0.9166666666666666,
+          "low": 0.75,
+          "high": 1.0,
+          "cases": 12,
+          "samples": 12
+        },
+        "mixed": {
+          "mean": 0.6666666666666666,
+          "low": 0.4166666666666667,
+          "high": 0.9166666666666666,
+          "cases": 12,
+          "samples": 12
+        },
+        "namesake": {
+          "mean": 0.9166666666666666,
+          "low": 0.75,
+          "high": 1.0,
+          "cases": 12,
+          "samples": 12
+        },
+        "non_english": {
+          "mean": 0.75,
+          "low": 0.5,
+          "high": 1.0,
+          "cases": 12,
+          "samples": 12
+        },
+        "post_cutoff": {
+          "mean": 0.25,
+          "low": 0.0,
+          "high": 0.5,
+          "cases": 12,
+          "samples": 12
+        },
+        "temporal_state": {
+          "mean": 0.4166666666666667,
+          "low": 0.16666666666666666,
+          "high": 0.6666666666666666,
+          "cases": 12,
+          "samples": 12
+        }
+      },
+      "verdict_stability": null,
+      "scope_accuracy": 0.96875,
+      "episode_reward": {
+        "mean": 0.4500955937500001,
+        "low": 0.39936606757812504,
+        "high": 0.5008356222656251,
+        "cases": 128,
+        "samples": 128
+      },
+      "step_reward": 0.14622146484375,
+      "process_reward": -0.00258712890625,
+      "process_reward_auroc": 0.6439393939393939,
+      "step_reward_by_step": [
+        0.14622146484375
+      ],
+      "p_correct_by_step": [
+        0.6257421875
+      ],
+      "brier_by_round_multi_round": [],
+      "shipped": {
+        "brier": 0.2503984375,
+        "ece": 0.21906249999999994,
+        "aurc": 0.20693404205509097
+      },
+      "llm_verbalised": {
+        "brier": 0.2503984375,
+        "ece": 0.21906249999999994,
+        "aurc": 0.20693404205509097
+      },
+      "evidence_posterior": {
+        "brier": 0.65625,
+        "ece": 0.65625,
+        "aurc": 0.4429191292811995
+      },
+      "key_fact_recall": {
+        "mean": 0.3828125,
+        "low": 0.30859375,
+        "high": 0.45703125,
+        "cases": 128,
+        "samples": 128
+      },
+      "citation_precision": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "cases": 128,
+        "samples": 128
+      },
+      "steps": 1.0,
+      "multi_round_share": 0.0,
+      "steps_to_stable": 1.0,
+      "verdict_flips": 0.0,
+      "concluded_rate": 0.0,
+      "tool_calls": 0.0,
+      "tool_failure_rate": 0.0,
+      "rejected_repeats": 0.0,
+      "critic_checks": 0.0,
+      "adverse_citing_primary_record": 0.0,
+      "tokens": {
+        "mean": 2110.7109375,
+        "low": 2038.501953125,
+        "high": 2189.75,
+        "cases": 128,
+        "samples": 128
+      },
+      "cost_usd_total": 0.0772259,
+      "wall_clock_s": 5.752020380468821,
+      "call_latency_s": 11.1406328125,
+      "reward_per_10k_tokens": 2.132435975733887,
+      "memories_per_episode": 0.0,
+      "memory_relevant_rate": 0.0,
+      "memory_irrelevant_rate": 0.0,
+      "memory_misleading_rate": 0.0,
+      "misleading_memories_trusted": 0,
+      "memories_distrusted": 0,
+      "failure_modes": {
+        "misreasoned": 44
+      },
+      "episode_reward_in_order": [
+        0.08459566666666665,
+        0.5481523333333334,
+        0.01339766666666667,
+        0.013216333333333337,
+        0.04011966666666668,
+        0.094242,
+        0.037562666666666675,
+        0.6482943333333333,
+        0.01337366666666667,
+        0.6479043333333333,
+        0.032186,
+        0.04030033333333334,
+        0.04789533333333335,
+        0.09465333333333334,
+        0.05716933333333332,
+        0.04021566666666668,
+        0.064291,
+        0.130237,
+        0.04036900000000001,
+        0.5428226666666667,
+        0.5428513333333334,
+        0.5454663333333334,
+        0.7416753333333334,
+        0.5352013333333333,
+        0.052769333333333314,
+        0.7426986666666667,
+        0.5428593333333334,
+        0.7453850000000001,
+        0.5453823333333334,
+        0.7428540000000001,
+        0.04040433333333334,
+        0.7481000000000001,
+        0.7459013333333334,
+        0.7110760000000002,
+        0.7427886666666668,
+        0.7350880000000001,
+        0.7184510000000001,
+        0.5304123333333334,
+        0.7414373333333334,
+        0.7424060000000001,
+        0.648413,
+        0.548498,
+        0.5482636666666667,
+        0.5485586666666666,
+        0.6484483333333333,
+        0.6476900000000001,
+        0.5481333333333334,
+        0.5485110000000001,
+        0.547274,
+        0.54723,
+        0.6484116666666667,
+        0.6484303333333333,
+        0.027046666666666656,
+        0.5484063333333333,
+        0.7484503333333334,
+        0.7477206666666668,
+        0.6489456666666668,
+        0.6489176666666667,
+        0.7488603333333335,
+        0.0018236666666666707,
+        0.7486083333333334,
+        0.6482683333333333,
+        0.6485896666666666,
+        0.7489203333333334,
+        0.7487763333333335,
+        0.648285,
+        0.7482436666666668,
+        0.648423,
+        0.5426493333333333,
+        0.545177,
+        0.5450143333333334,
+        0.5483243333333334,
+        0.6483103333333333,
+        0.013507666666666671,
+        0.037764666666666676,
+        0.013247000000000004,
+        0.052506666666666646,
+        0.10315033333333333,
+        0.040475666666666674,
+        0.040269000000000006,
+        0.7481276666666667,
+        0.7483563333333334,
+        0.14004366666666668,
+        0.5482016666666667,
+        0.7480226666666667,
+        0.548529,
+        0.6481143333333333,
+        0.548173,
+        0.545041,
+        0.09452533333333334,
+        0.10172500000000001,
+        0.07485599999999999,
+        0.039081666666666674,
+        0.7473073333333334,
+        0.052269999999999976,
+        0.5482626666666667,
+        0.026321333333333325,
+        0.6484136666666667,
+        0.7486250000000001,
+        0.7483943333333334,
+        0.7488616666666668,
+        0.7450483333333334,
+        0.7484030000000002,
+        0.7487483333333335,
+        0.7488136666666668,
+        0.7481030000000001,
+        0.026522666666666656,
+        0.7481706666666668,
+        0.04029366666666668,
+        0.03746600000000001,
+        0.7482263333333334,
+        0.544879,
+        0.643605,
+        0.013405000000000004,
+        0.7477730000000001,
+        0.5481943333333333,
+        0.06865500000000001,
+        0.7483496666666668,
+        0.7484056666666667,
+        0.7482323333333334,
+        0.546408,
+        0.021533999999999994,
+        0.2401476666666667,
+        0.05174066666666664,
+        0.01334566666666667,
+        0.05246533333333331,
+        0.6484376666666667,
+        0.7448583333333334
+      ]
+    }
+  ],
+  "comparisons": [],
+  "memory_impact": {
+    "short_vs_none_accuracy": null,
+    "long_vs_short_accuracy": null,
+    "long_vs_short_reward": null,
+    "long_vs_short_tokens": null,
+    "long_vs_short_steps": null,
+    "long_vs_short_accuracy_when_memory_relevant": null,
+    "cases_with_relevant_memory": 0,
+    "long_improved_cases": [],
+    "long_worsened_cases": []
+  },
+  "crashes": [],
+  "diagnoses": [
+    {
+      "case_id": "V2-PC01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-PC02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-PC03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-PC04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-PC05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-PC06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-PC07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-PC08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-PC09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-PC10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-PC11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-PC12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT13",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT14",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT15",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT16",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT17",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT18",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT19",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-LT20",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT21",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT22",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT23",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT24",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT25",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT26",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT27",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT28",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT29",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT30",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT31",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-LT32",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-MA10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MA12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-NS05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NS12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-TS01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-TS02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-TS03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-TS04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-TS05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-TS06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-TS07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-TS08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-TS09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-TS10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-TS11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-TS12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-MX01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MX02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MX03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-MX04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MX05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MX06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MX07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MX08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MX09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-MX10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-MX11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-MX12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-NE01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-NE02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NE03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-NE04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NE05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-NE06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NE07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NE08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NE09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NE10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NE11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-NE12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-DO01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-DO02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-DO03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-DO04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-DO05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-DO06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-DO07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-DO08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-DO09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-DO10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-DO11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-DO12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-IN01",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-IN02",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-IN03",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-IN04",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-IN05",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-IN06",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-IN07",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-IN08",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-IN09",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-IN10",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "misreasoned"
+      ]
+    },
+    {
+      "case_id": "V2-IN11",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "V2-IN12",
+      "mode": "closed_book",
+      "seed": 0,
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    }
+  ]
+}

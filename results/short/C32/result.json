@@ -1,0 +1,102 @@
+{
+  "case_id": "C32",
+  "mode": "short",
+  "kind": "person",
+  "tags": [
+    "insufficient",
+    "no_public_footprint"
+  ],
+  "expected": "UNVERIFIABLE",
+  "verdict": "UNVERIFIABLE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "tool_budget",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.8,
+      "p_correct": 0.8,
+      "reward": {
+        "step": 1,
+        "progress": 0.46666666666666673,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.57835
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.8,
+      "p_correct": 0.8,
+      "reward": {
+        "step": 2,
+        "progress": 0.0,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.52355
+      }
+    },
+    {
+      "step": 3,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.8,
+      "p_correct": 0.8,
+      "reward": {
+        "step": 3,
+        "progress": 0.0,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.7635
+      }
+    },
+    {
+      "step": 4,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 4,
+        "progress": 0.09999999999999998,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.5384615384615384,
+        "tool_failure": 0.0,
+        "cost": 0.506
+      }
+    }
+  ],
+  "tool_calls": 12,
+  "tool_failures": 0,
+  "prompt_tokens": 39821,
+  "completion_tokens": 10641,
+  "cost_usd": 0.009302600000000001,
+  "wall_clock_s": 75.74165489990264,
+  "call_latency_s": 134.678,
+  "key_fact_recall": 1.0,
+  "citation_precision": 0.0,
+  "findings": 0,
+  "conflicts_final": 0,
+  "independent_domains": 0,
+  "evidence_weight": 0.0,
+  "mean_evidence_reliability": 0.0,
+  "authoritative_evidence": false,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 0.0,
+    "calibration": 0.99,
+    "cost": 0.33641333333333334
+  }
+}

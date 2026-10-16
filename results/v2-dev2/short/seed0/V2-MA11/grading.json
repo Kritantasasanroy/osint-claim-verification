@@ -1,0 +1,49 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The full legal name of Binance is Binance Holdings Limited.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Binance Holdings Limited pleaded guilty to US criminal charges.",
+          "supported": true
+        },
+        {
+          "fact": "The guilty plea / plea agreement occurred in November 2023 (November 21, 2023).",
+          "supported": true
+        },
+        {
+          "fact": "Binance agreed to pay approximately $4.3 billion.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The SEC filed a civil lawsuit against Binance Holdings Limited.",
+          "supported": true
+        },
+        {
+          "fact": "The SEC lawsuit was filed on June 5, 2023.",
+          "supported": false
+        },
+        {
+          "fact": "The SEC lawsuit constitutes a major regulator enforcement action.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

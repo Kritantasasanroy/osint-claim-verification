@@ -1,0 +1,193 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Alpa Hong Kong Ltd",
+    "entity": "Alpa Hong Kong Ltd",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.933,
+  "estimative": "very likely",
+  "summary": "Verdict: ADVERSE (93% confidence). The company’s registered name is ALPA HONG KONG LIMITED with company registration number 3321489 and business registration number 75743885 per the Hong Kong Companies Registry.",
+  "findings": [
+    {
+      "statement": "Alpa Hong Kong Ltd is registered as ALPA HONG KONG LIMITED with company registration number 3321489 and business registration number 75743885 in the Hong Kong Companies Registry.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://ofac.treasury.gov/recent-actions/20250916"
+      ]
+    },
+    {
+      "statement": "Alpa Hong Kong Ltd has been sanctioned by the US Office of Foreign Assets Control as a Specially Designated National under the IFSR and SDGT programs and pursuant to Executive Order 13224.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://ofac.treasury.gov/recent-actions/20250916",
+        "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55453",
+        "https://home.treasury.gov/news/press-releases/sb0248"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd Hong Kong Companies Registry registration number status",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Alpa Hong Kong Ltd criminal conviction OR civil judgment",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "sanctions",
+      "query": "Alpa Hong Kong Ltd",
+      "results": 0,
+      "failure": "UnusableArgument: sanctions needs a tool this toolbox offers, got: Alpa Hong Kong Ltd",
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sanctions",
+      "query": "Alpa Hong Kong Ltd sanctions OFAC UN EU",
+      "results": 0,
+      "failure": "UnusableArgument: sanctions needs a tool this toolbox offers, got: Alpa Hong Kong Ltd sanctions OFAC UN EU",
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd criminal conviction insolvency winding up civil judgment Hong Kong",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd company registration number",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd active status Hong Kong Companies Registry 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd criminal charge conviction 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd winding up petition liquidation Hong Kong 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55453",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Alpa Hong Kong Ltd criminal conviction OR charged Hong Kong",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Alpa Hong Kong Ltd winding up petition OR liquidation OR insolvency OR civil judgment Hong Kong",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "The decisive fact is that Alpa Hong Kong Ltd has been sanctioned by the US Office of Foreign Assets Control as a Specially Designated National under the IFSR and SDGT programs and pursuant to Executive Order 13224, as shown in OFAC notices dated 2025-09-16. [withdrawn: no tool checked sanctions]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence was found regarding whether Alpa Hong Kong Ltd is currently active (not dissolved or struck off) according to the Hong Kong Companies Registry as of 2026-10-01.",
+    "No evidence was found regarding any criminal conviction or criminal charges against Alpa Hong Kong Ltd in Hong Kong or any other jurisdiction.",
+    "No evidence was found regarding any insolvency, bankruptcy, winding-up, or liquidation proceedings affecting Alpa Hong Kong Ltd as of 2026-10-01.",
+    "No evidence was found regarding a major civil judgment (e.g., fraud finding, damages exceeding HKD 10 million) against Alpa Hong Kong Ltd in any court as of 2026-10-01."
+  ],
+  "next_steps": [
+    "Check the Hong Kong Companies Registry (e.g., via the Companies Registry e-Services) for the current active/status of Alpa Hong Kong Ltd as of 2026-10-01.",
+    "Search Hong Kong court databases (e.g., Judiciary’s Legal Reference System) for any criminal convictions or charges involving Alpa Hong Kong Ltd.",
+    "Consult the Hong Kong Insolvency and Bankruptcy Registry for any winding-up or liquidation petitions against Alpa Hong Kong Ltd.",
+    "Review UN, EU, and other national sanctions lists (e.g., UK HM Treasury) to confirm whether Alpa Hong Kong Ltd appears elsewhere."
+  ],
+  "sources": [
+    {
+      "url": "https://ofac.treasury.gov/recent-actions/20250916",
+      "title": "Counter Terrorism Designations | Office of Foreign Assets Control",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://sanctionssearch.ofac.treas.gov/Details.aspx?id=55453",
+      "title": "Sanctions List Search",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://home.treasury.gov/news/press-releases/sb0248",
+      "title": "Treasury Targets Financial Network Supporting Iran’s Military | U.S. Department of the Treasury",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

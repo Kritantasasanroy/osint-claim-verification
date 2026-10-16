@@ -1,0 +1,63 @@
+{
+  "case_id": "C21",
+  "mode": "long",
+  "kind": "claim",
+  "tags": [
+    "cluster:patagonia"
+  ],
+  "expected": "TRUE",
+  "verdict": "TRUE",
+  "correct": true,
+  "confidence": 0.92,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "TRUE",
+      "confidence": 0.92,
+      "p_correct": 0.92,
+      "reward": {
+        "step": 1,
+        "progress": 0.67,
+        "information": 0.9998666680061508,
+        "corroboration": 1.0,
+        "redundancy": 0.07692307692307693,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 14987,
+  "completion_tokens": 14755,
+  "cost_usd": 0.0088762,
+  "wall_clock_s": 202.39034030004404,
+  "call_latency_s": 227.237,
+  "key_fact_recall": 1.0,
+  "citation_precision": 0.8,
+  "findings": 5,
+  "conflicts_final": 0,
+  "independent_domains": 9,
+  "evidence_weight": 17.84533669141039,
+  "mean_evidence_reliability": 0.7758842039743649,
+  "authoritative_evidence": true,
+  "memories_retrieved": 6,
+  "memory_labels": {
+    "M144": "irrelevant",
+    "M146": "irrelevant",
+    "M145": "irrelevant",
+    "M147": "irrelevant",
+    "M148": "irrelevant",
+    "M151": "irrelevant"
+  },
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 0.8,
+    "calibration": 0.9936,
+    "cost": 0.19828
+  }
+}

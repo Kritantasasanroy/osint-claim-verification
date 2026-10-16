@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's registered name at Companies House is OPTION ENERGY SOLUTIONS LTD (i.e., Option Energy Solutions Ltd).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's registration number (Companies House company number) is 08893883.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The registered office address is 9 Penlands Way, Steyning, England, BN44 3PN.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company was incorporated on 13 February 2014.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's status on Companies House is listed as Active.",
+          "supported": true
+        },
+        {
+          "fact": "The Active status indicates the company is not insolvent, in liquidation, administration, or bankruptcy.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,57 @@
+{
+  "case_id": "C24",
+  "mode": "long",
+  "kind": "company",
+  "tags": [
+    "insolvency",
+    "cluster:northvolt"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 1,
+        "progress": 0.5666666666666667,
+        "information": 0.9518451458788036,
+        "corroboration": 1.0,
+        "redundancy": 0.07692307692307693,
+        "tool_failure": 0.0,
+        "cost": 0.76205
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 11542,
+  "completion_tokens": 8435,
+  "cost_usd": 0.0053717,
+  "wall_clock_s": 42.61340570007451,
+  "call_latency_s": 72.733,
+  "key_fact_recall": 0.3333333333333333,
+  "citation_precision": 1.0,
+  "findings": 2,
+  "conflicts_final": 0,
+  "independent_domains": 4,
+  "evidence_weight": 6.066666666666667,
+  "mean_evidence_reliability": 0.5515151515151516,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.3333333333333333,
+    "citation_precision": 1.0,
+    "calibration": 0.99,
+    "cost": 0.13318
+  }
+}

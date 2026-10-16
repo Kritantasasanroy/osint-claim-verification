@@ -1,0 +1,243 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Apple named John Ternus CEO and Tim Cook left the company.",
+    "entity": "Apple",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "MIXED",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "The claim is MIXED: John Ternus did become CEO effective September 1, 2026, but Tim Cook did not leave Apple; he became executive chairman and remained employed. Key dates: leadership change announced April 20/21 2026, effective September 1 2026.",
+  "findings": [
+    {
+      "statement": "John Ternus became Apple's CEO effective September 1, 2026.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
+        "https://www.reuters.com/technology/apples-new-ceo-moves-overhaul-company-run-faster-leaner-bloomberg-news-reports-2026-09-29",
+        "https://www.entrepreneur.com/business-news/apples-new-ceo-john-ternus-has-big-plans-to-rewire-how-the-company-works"
+      ]
+    },
+    {
+      "statement": "Tim Cook did not leave Apple; he became executive chairman and remained employed after September 1, 2026.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.apple.com/leadership/tim-cook",
+        "https://www.britannica.com/money/Tim-Cook",
+        "https://voi.id/en/technology/592114",
+        "https://hypebeast.com/2026/9/tim-cook-ends-apple-ceo-era-as-john-ternus-rises"
+      ]
+    },
+    {
+      "statement": "Apple publicly announced the leadership change in April 2026 (April 20/21 2026) stating John Ternus would succeed Tim Cook as CEO and Tim Cook would become executive chairman.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.apple.com/cm/newsroom/topics/company-news",
+        "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
+        "https://en.wikipedia.org/wiki/John_Ternus"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Apple Inc.",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Apple Inc. CEO Tim Cook",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Apple John Ternus appointed CEO",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Tim Cook executive chairman Apple September 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Tim Cook Apple role October 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Tim Cook employment status after September 1 2026 Apple",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Apple Tim Cook executive chairman press release September 2026 site:apple.com",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Apple John Ternus appointed CEO press release date",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "site:sec.gov/edgar/search Apple Inc. executive chairman 2026-09",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "sec_edgar",
+      "query": "Apple Inc. Tim Cook executive chairman",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "GLEIF legal-entity (LEI) records",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No official Apple press release or SEC filing dated on or after September 1, 2026 was found that explicitly states Tim Cook's title as executive chairman and confirms his continued employment.",
+    "No direct SEC 8-K filing for Apple in September 2026 was located to independently verify the leadership transition."
+  ],
+  "next_steps": [
+    "Search Apple's investor relations site for press releases dated September 2026 onward that mention Tim Cook's role.",
+    "Query SEC EDGAR for Apple Inc. 8-K filings in September 2026 related to executive changes.",
+    "Use the Wayback Machine to view snapshots of Apple's leadership page after September 1, 2026 to confirm Tim Cook's title.",
+    "Consult major financial news wires (Bloomberg, Reuters) for September 2026 articles confirming Tim Cook's continued employment as executive chairman."
+  ],
+  "sources": [
+    {
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
+      "title": "Tim Cook to become Apple Executive Chairman John Ternus to become Apple CEO - Apple",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-08-19"
+    },
+    {
+      "url": "https://www.reuters.com/technology/apples-new-ceo-moves-overhaul-company-run-faster-leaner-bloomberg-news-reports-2026-09-29",
+      "title": "Apple's Ternus eyes engineering-led overhaul, Bloomberg News reports | Reuters",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-29"
+    },
+    {
+      "url": "https://www.entrepreneur.com/business-news/apples-new-ceo-john-ternus-has-big-plans-to-rewire-how-the-company-works",
+      "title": "Apple’s New CEO John Ternus Has Plans to Rewire the Company",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-30"
+    },
+    {
+      "url": "https://www.apple.com/leadership/tim-cook",
+      "title": "Apple Leadership - Tim Cook - Apple",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.britannica.com/money/Tim-Cook",
+      "title": "Tim Cook | Biography, Apple CEO, & Business Executive | Britannica Money",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": "2026-09-23"
+    },
+    {
+      "url": "https://voi.id/en/technology/592114",
+      "title": "Tim Cook Leaves Apple CEO's Chair Today",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-13"
+    },
+    {
+      "url": "https://hypebeast.com/2026/9/tim-cook-ends-apple-ceo-era-as-john-ternus-rises",
+      "title": "Tim Cook Ends Apple CEO Role as John Ternus Takes Over | Hypebeast",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-04"
+    },
+    {
+      "url": "https://www.apple.com/cm/newsroom/topics/company-news",
+      "title": "Company News - Newsroom - Apple (CM)",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
+      "title": "Apple taps John Ternus as CEO to replace Tim Cook, becoming chairman",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Ternus",
+      "title": "John Ternus - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Carlos Ghosn's full name is Carlos Ghosn.",
+          "supported": true
+        },
+        {
+          "fact": "He was CEO of Michelin North America.",
+          "supported": true
+        },
+        {
+          "fact": "He was chairman and CEO of Renault.",
+          "supported": true
+        },
+        {
+          "fact": "He was chairman of AvtoVAZ.",
+          "supported": true
+        },
+        {
+          "fact": "He was chairman and CEO of Nissan.",
+          "supported": true
+        },
+        {
+          "fact": "He was chairman of Mitsubishi Motors.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "In 2018, Carlos Ghosn was arrested in Japan on suspicion of financial misconduct at Nissan.",
+          "supported": true
+        },
+        {
+          "fact": "In 2019, Carlos Ghosn was under house arrest in Japan awaiting trial.",
+          "supported": true
+        },
+        {
+          "fact": "He was under house arrest awaiting trial in November 2019 specifically.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Carlos Ghosn escaped from Japan in 2019.",
+          "supported": true
+        },
+        {
+          "fact": "He departed Japan specifically in December 2019.",
+          "supported": false
+        },
+        {
+          "fact": "He escaped by concealing himself inside a large box that was shipped as freight on a private jet.",
+          "supported": true
+        },
+        {
+          "fact": "At the time of the escape he was under house arrest awaiting trial.",
+          "supported": true
+        },
+        {
+          "fact": "His departure violated his bail conditions.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

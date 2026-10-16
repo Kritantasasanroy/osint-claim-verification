@@ -1,0 +1,154 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Binance (cryptocurrency exchange)",
+    "entity": "Binance",
+    "disambiguators": [
+      "cryptocurrency exchange"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9789,
+  "estimative": "almost certain",
+  "summary": "Binance (Binance Holdings Limited) is adjudged ADVERSE with 98% confidence. The decisive adverse facts are its November 2023 guilty plea to US criminal charges (≈$4.3 billion) and the SEC’s June 2023 civil lawsuit, both constituting material adverse findings as of 2026‑09‑30.",
+  "findings": [
+    {
+      "statement": "The full legal name of Binance is Binance Holdings Limited.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.anti-corruption.com/search?tagType=topics&tagName=Enforcement+Actions&tagID=20661"
+      ]
+    },
+    {
+      "statement": "Binance Holdings Limited pleaded guilty to US criminal charges in November 2023, agreeing to pay approximately $4.3 billion.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.anti-corruption.com/search?tagType=topics&tagName=Enforcement+Actions&tagID=20661",
+        "https://www.ft.com/binance"
+      ]
+    },
+    {
+      "statement": "The SEC filed a civil lawsuit against Binance Holdings Limited on June 5, 2023, constituting a major regulator enforcement action.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.courtlistener.com/opinion/9986922/securities-and-exchange-commission-v-binance-holdings-limited/"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Binance criminal indictment charge guilty plea 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Binance regulator fine over 100 million SEC CFTC FCA MAS 2024 2025 2026",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Binance",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Binance Holdings Limited dismissal of criminal information",
+      "results": 4,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.nytimes.com/2026/10/01/business/changpeng-zhao-binance.html",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Binance enforcement action 2026 SEC CFTC FCA MAS",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Current CEO of Binance as of 2026-09-30 is not identified in the evidence.",
+    "Jurisdiction of incorporation for Binance Holdings Limited is not specified in the evidence.",
+    "Details of any regulator fines exceeding $100 million (other than the SEC lawsuit) are not provided.",
+    "No evidence of actions by CFTC, FCA, or MAS against Binance after June 2023 is present."
+  ],
+  "next_steps": [
+    "Search corporate registries (e.g., Cayman Islands, Malta) for Binance Holdings Limited incorporation details.",
+    "Check recent news sources for Binance CEO appointment as of September 2026.",
+    "Review SEC, CFTC, FCA, MAS enforcement databases for actions against Binance after June 2023.",
+    "Monitor court docket for any ongoing criminal proceedings related to the 2023 plea."
+  ],
+  "sources": [
+    {
+      "url": "https://www.anti-corruption.com/search?tagType=topics&tagName=Enforcement+Actions&tagID=20661",
+      "title": "Search Results | Anti-Corruption Report",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-23"
+    },
+    {
+      "url": "https://www.ft.com/binance",
+      "title": "Binance",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-30"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/9986922/securities-and-exchange-commission-v-binance-holdings-limited/",
+      "title": "CourtListener: Securities and Exchange Commission v. Binance Holdings Limited",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2024-06-28"
+    }
+  ]
+}

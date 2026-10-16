@@ -1,0 +1,9 @@
+{
+  "case_id": "C06",
+  "mode": "long",
+  "correct": true,
+  "verdict_flips": 0,
+  "steps_to_stable": 1,
+  "misleading_memories_trusted": 1,
+  "failure_modes": []
+}

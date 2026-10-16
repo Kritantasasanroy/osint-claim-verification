@@ -1,0 +1,133 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Nikola Corporation filed for Chapter 11 bankruptcy in 2025."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.96,
+  "summary": "Multiple independent, contemporaneous sources—including an SEC Form 8‑K, a corporate press release, and the bankruptcy court docket—confirm that Nikola Corporation, the NASDAQ‑listed electric‑truck maker (ticker NKLA), filed a voluntary Chapter 11 bankruptcy petition on February 19, 2025, under docket number 25‑10258 in the U.S. Bankruptcy Court for the District of Delaware. No credible source contradicts this filing. Minor gaps remain regarding the full creditor matrix and post‑filing developments, but the weight of evidence supports the claim with high confidence.",
+  "findings": [
+    {
+      "statement": "Nikola Corporation is the electric‑truck maker incorporated in Delaware that trades on NASDAQ under the ticker symbol NKLA.",
+      "confidence": 0.96,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Nikola_Corporation",
+        "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy",
+        "https://bondoro.com/nikola",
+        "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html",
+        "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html",
+        "https://www.freightwaves.com/news/nikola-agrees-to-83m-sec-settlement-after-bankruptcy-hearings"
+      ]
+    },
+    {
+      "statement": "Nikola Corporation filed a voluntary Chapter 11 bankruptcy petition in the United States Bankruptcy Court in February 2025.",
+      "confidence": 0.96,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1731289/000173128925000004/nkla-20250218.htm",
+        "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html",
+        "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy",
+        "https://www.businessinsider.com/electric-car-ev-nikola-files-chapter-11-bankruptcy-2025-2",
+        "https://www.reuters.com/world/us/us-sec-dismiss-case-against-former-nikola-ceo-2025-09-12",
+        "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html"
+      ]
+    },
+    {
+      "statement": "The Chapter 11 filing was made on February 19, 2025, and assigned docket number 25-10258 in the U.S. Bankruptcy Court for the District of Delaware.",
+      "confidence": 0.95,
+      "citations": [
+        "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy",
+        "https://www.sec.gov/Archives/edgar/data/1731289/000173128925000004/nkla-20250218.htm",
+        "https://dm.epiq11.com/case/nikola/info",
+        "https://bondoro.com/nikola"
+      ]
+    },
+    {
+      "statement": "Official records including an SEC Form 8‑K, a Nikola Corporation press release, and the bankruptcy court docket confirm the voluntary Chapter 11 petitions.",
+      "confidence": 0.97,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1731289/000173128925000004/nkla-20250218.htm",
+        "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html",
+        "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy",
+        "https://dm.epiq11.com/case/nikola/info"
+      ]
+    },
+    {
+      "statement": "No contemporaneous source indicates that the filing did not occur, was dismissed, or was otherwise invalid; all available evidence supports the filing.",
+      "confidence": 0.93,
+      "citations": [
+        "https://www.reuters.com/world/us/us-sec-dismiss-case-against-former-nikola-ceo-2025-09-12",
+        "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html",
+        "https://www.businessinsider.com/electric-car-ev-nikola-files-chapter-11-bankruptcy-2025-2"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "The evidence does not include the full creditor matrix or details of the proposed asset sale plan that accompanied the Chapter 11 filing.",
+    "There is no publicly available information in the cited sources about whether the case has since been converted to Chapter 7, dismissed, or a confirmation of a plan as of the cutoff date."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Nikola_Corporation",
+      "title": "Wikipedia: Nikola Corporation",
+      "tier": "reference",
+      "reliability": 0.949
+    },
+    {
+      "url": "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy",
+      "title": "Nikola: Lucid Acquires Assets; Liquidating Plan Dec. 2025",
+      "tier": "unvetted",
+      "reliability": 0.52
+    },
+    {
+      "url": "https://bondoro.com/nikola",
+      "title": "Case Summary: Nikola Chapter 11",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html",
+      "title": "Nikola Initiates Comprehensive Voluntary Chapter 11 Sale Process",
+      "tier": "unvetted",
+      "reliability": 0.657
+    },
+    {
+      "url": "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html",
+      "title": "Trump pardons Nikola founder Trevor Milton",
+      "tier": "major_news",
+      "reliability": 0.924
+    },
+    {
+      "url": "https://www.freightwaves.com/news/nikola-agrees-to-83m-sec-settlement-after-bankruptcy-hearings",
+      "title": "Nikola agrees to $83M SEC settlement - FreightWaves",
+      "tier": "unvetted",
+      "reliability": 0.657
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1731289/000173128925000004/nkla-20250218.htm",
+      "title": "nkla-20250218",
+      "tier": "official",
+      "reliability": 0.983
+    },
+    {
+      "url": "https://www.businessinsider.com/electric-car-ev-nikola-files-chapter-11-bankruptcy-2025-2",
+      "title": "EV Maker Nikola Files for Chapter 11 Bankruptcy Protection - Business Insider",
+      "tier": "news",
+      "reliability": 0.52
+    },
+    {
+      "url": "https://www.reuters.com/world/us/us-sec-dismiss-case-against-former-nikola-ceo-2025-09-12",
+      "title": "US SEC to dismiss case against former Nikola CEO | Reuters",
+      "tier": "major_news",
+      "reliability": 0.967
+    },
+    {
+      "url": "https://dm.epiq11.com/case/nikola/info",
+      "title": "Nikola Corporation Bankruptcy Overview Case: 25-10258",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Mike Lynch's full legal name is Michael Richard Lynch.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Mike Lynch co-founded Autonomy Corporation.",
+          "supported": true
+        },
+        {
+          "fact": "Autonomy Corporation is a software company.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Mike Lynch died on 19 August 2024.",
+          "supported": true
+        },
+        {
+          "fact": "Lynch's superyacht was named Bayesian.",
+          "supported": true
+        },
+        {
+          "fact": "The Bayesian sank off the coast of Sicily.",
+          "supported": true
+        },
+        {
+          "fact": "Lynch died as a result of the sinking of the Bayesian.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

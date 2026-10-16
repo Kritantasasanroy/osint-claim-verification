@@ -1,0 +1,55 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Patagonia's CEO ate breakfast at a cafe in Ventura on 3 March 2021."
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.8,
+  "summary": "The investigation confirms that Ryan Gellert was Patagonia’s CEO and that the company’s headquarters is in Ventura, making his presence there plausible. However, no verifiable evidence—such as social media posts, receipts, surveillance, or eyewitness accounts—has been found to support the claim that he ate breakfast at a Ventura cafe on 3 March 2021. Consequently, the claim is assessed as unverifiable with high confidence.",
+  "findings": [
+    {
+      "statement": "Ryan Gellert held the position of Chief Executive Officer of Patagonia, Inc. on 3 March 2021.",
+      "confidence": 0.97,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Ryan_Gellert",
+        "https://www.wsj.com/articles/ryan-gellert-wants-patagonia-to-be-part-of-the-environmental-solution-11675444847"
+      ]
+    },
+    {
+      "statement": "No verifiable record (social media post, news article, receipt, surveillance footage, or eyewitness account) indicates that Ryan Gellert ate breakfast at a cafe in Ventura, California on 3 March 2021.",
+      "confidence": 0.8,
+      "citations": [
+        "https://www.latimes.com/archives/la-xpm-1996-05-17-mn-5172-story.html"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "Absence of contemporaneous social media posts (Instagram, Twitter, LinkedIn) from Ryan Gellert or others showing him at a Ventura cafe on 3 March 2021.",
+    "No cafe receipts, point‑of‑sale records, or surveillance footage from Ventura establishments documenting a breakfast visit by Ryan Gellert on that date.",
+    "Lack of any eyewitness accounts or local Ventura news coverage referencing Ryan Gellert’s presence at a cafe for breakfast on 3 March 2021.",
+    "No public statements from Ryan Gellert, Patagonia, Inc., or reputable sources confirming or denying the alleged breakfast event."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Ryan_Gellert",
+      "title": "Ryan Gellert - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.966
+    },
+    {
+      "url": "https://www.wsj.com/articles/ryan-gellert-wants-patagonia-to-be-part-of-the-environmental-solution-11675444847",
+      "title": "Ryan Gellert Wants Patagonia to Be Part of the Environmental Solution - WSJ",
+      "tier": "major_news",
+      "reliability": 0.94
+    },
+    {
+      "url": "https://www.latimes.com/archives/la-xpm-1996-05-17-mn-5172-story.html",
+      "title": "Breakfast With Bill: Patagonia had the ear... - Los Angeles Times",
+      "tier": "news",
+      "reliability": 0.844
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Alpa Hong Kong Ltd was founded by a former Emirates airline pilot.",
+    "entity": "Alpa Hong Kong Ltd",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "The claim that Alpa Hong Kong Ltd was founded by a former Emirates airline pilot is UNVERIFIABLE (25% confidence). The company's legal name, registration numbers, and incorporation date are confirmed: ALPA HONG KONG LIMITED, Company Number 3321489, Business Registration Number 75743885, incorporated on 22 September 2023. No reliable evidence identifies its founders or any Emirates pilot connection.",
+  "findings": [
+    {
+      "statement": "Alpa Hong Kong Limited's legal name is ALPA HONG KONG LIMITED, with Company Number 3321489 and Business Registration Number 75743885 as recorded in the Hong Kong Companies Registry.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://ofac.treasury.gov/recent-actions/20250916",
+        "https://www.iranwatch.org/library/governments/united-states/executive-branch/department-treasury/counter-terrorism-designations-september-16-2025",
+        "https://www.ltddir.com/companies/alpa-hong-kong-limited",
+        "https://sanctions-finder.com/sanction/alpa-hong-kong-limited-1/ALPA%20HONG%20KONG%20LIMITED"
+      ]
+    },
+    {
+      "statement": "Alpa Hong Kong Limited was incorporated on 22 September 2023 as a private company limited by shares in Hong Kong.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://ofac.treasury.gov/recent-actions/20250916",
+        "https://www.iranwatch.org/library/governments/united-states/executive-branch/department-treasury/counter-terrorism-designations-september-16-2025",
+        "https://www.ltddir.com/companies/alpa-hong-kong-limited"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd founder Emirates pilot",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd directors shareholders incorporation",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd company registration number Hong Kong Companies Registry",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Ltd company registration number",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.cr.gov.hk/en/search?search_type=company&search_value=Alpa%20Hong%20Kong%20Ltd",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.cr.gov.hk/en/search?search_type=company&search_value=Alpa%20Hong%20Kong%20Ltd could not be read: 404 page not found",
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Alpa Hong Kong Ltd former Emirates pilot",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.cr.gov.hk/en/search?search_type=company&search_value=Alpa%20Hong%20Kong%20Limited",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.cr.gov.hk/en/search?search_type=company&search_value=Alpa%20Hong%20Kong%20Limited could not be read: 404 page not found",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Alpa Hong Kong Ltd founding",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Limited Emirates pilot",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.opensanctions.org/entities/NK-GYWH72YvU9FELX6ReEU7QY",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Alpa Hong Kong Limited founding news",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "3321489 Alpa Hong Kong Limited director",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No verifiable information was found regarding the founders, initial directors, or shareholders of Alpa Hong Kong Ltd.",
+    "No verifiable information was found linking any individual associated with Alpa Hong Kong Ltd to prior employment as a pilot with Emirates airline."
+  ],
+  "next_steps": [
+    "Query the Hong Kong Companies Registry directly (e.g., via the CR e-Services search) for the company's incorporation documents to obtain director and shareholder particulars.",
+    "Search Emirates airline employee records or professional networks (e.g., LinkedIn) for individuals named as directors/shareholders of Alpa Hong Kong Ltd to verify any prior pilot employment.",
+    "Review news archives and press releases from September 2023 onward for announcements about the founding of Alpa Hong Kong Ltd that may name founders.",
+    "Check open-source corporate intelligence platforms (e.g., OpenSanctions, Orion) for any associated individuals and their employment history."
+  ],
+  "sources": [
+    {
+      "url": "https://ofac.treasury.gov/recent-actions/20250916",
+      "title": "Counter Terrorism Designations | Office of Foreign Assets Control",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.iranwatch.org/library/governments/united-states/executive-branch/department-treasury/counter-terrorism-designations-september-16-2025",
+      "title": "Counter Terrorism Designations (September 16, 2025)",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.ltddir.com/companies/alpa-hong-kong-limited",
+      "title": "Alpa Hong Kong Limited | Hong Kong Companies Directory",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://sanctions-finder.com/sanction/alpa-hong-kong-limited-1/ALPA%20HONG%20KONG%20LIMITED",
+      "title": "ALPA HONG KONG LIMITED | Sanctions Finder",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Vijay Mallya was formally declared a fugitive economic offender.",
+          "supported": true
+        },
+        {
+          "fact": "The declaration occurred in 2019 (January 2019).",
+          "supported": true
+        },
+        {
+          "fact": "The declaration was made under the Fugitive Economic Offenders Act (FEOA).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The fugitive economic offender declaration was made on 5 January 2019.",
+          "supported": true
+        },
+        {
+          "fact": "The declaration was made by a special PMLA court in Mumbai.",
+          "supported": true
+        },
+        {
+          "fact": "The court acted on the Enforcement Directorate's plea.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

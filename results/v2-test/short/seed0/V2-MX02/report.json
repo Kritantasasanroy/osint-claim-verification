@@ -1,0 +1,276 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Sam Bankman-Fried was convicted of fraud and sentenced to life in prison.",
+    "entity": "Sam Bankman-Fried",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.8307,
+  "estimative": "very likely",
+  "summary": "The claim that Sam Bankman-Fried was convicted of fraud and sentenced to life in prison is FALSE; he was convicted of fraud and sentenced to 25 years in prison, a sentence that remains unchanged as of 2026-10-01.",
+  "findings": [
+    {
+      "statement": "Sam Bankman-Fried's full legal name is Samuel Benjamin Bankman-Fried.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+      ]
+    },
+    {
+      "statement": "Sam Bankman-Fried was born on March 5, 1992.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+      ]
+    },
+    {
+      "statement": "As of 2026, Sam Bankman-Fried's primary professional role is that of the disgraced founder of the cryptocurrency exchange FTX.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.cnn.com/2026/09/10/politics/sam-bankman-fried-appeals-conviction-to-supreme-court",
+        "https://www.forbes.com/sites/conormurray/2026/06/12/disgraced-ftx-founder-sam-bankman-fried-loses-appeal-of-25-year-sentence/",
+        "https://nypost.com/2026/06/12/business/sam-bankman-fried-loses-bid-to-overturn-crypto-fraud-conviction/"
+      ]
+    },
+    {
+      "statement": "Sam Bankman-Fried has been criminally convicted of fraud-related offenses.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+        "https://www.cnn.com/2026/09/10/politics/sam-bankman-fried-appeals-conviction-to-supreme-court",
+        "https://www.forbes.com/sites/conormurray/2026/06/12/disgraced-ftx-founder-sam-bankman-fried-loses-appeal-of-25-year-sentence/",
+        "https://nypost.com/2026/06/12/business/sam-bankman-fried-loses-bid-to-overturn-crypto-fraud-conviction/"
+      ]
+    },
+    {
+      "statement": "Sam Bankman-Fried was sentenced to 25 years in prison on March 28, 2024.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+        "https://www.cnn.com/2026/09/10/politics/sam-bankman-fried-appeals-conviction-to-supreme-court",
+        "https://www.forbes.com/sites/conormurray/2026/06/12/disgraced-ftx-founder-sam-bankman-fried-loses-appeal-of-25-year-sentence/",
+        "https://www.reuters.com/technology/sam-bankman-fried-be-sentenced-multi-billion-dollar-ftx-fraud-2024-03-28",
+        "https://www.nytimes.com/2024/03/28/technology/sam-bankman-fried-sentenced.html",
+        "https://www.pbs.org/newshour/show/bankman-fried-sentenced-to-25-years-in-prison-for-massive-ftx-fraud"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, Sam Bankman-Fried's 25-year sentence has not been altered; he remains incarcerated and is appealing to the Supreme Court.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.cnn.com/2026/09/10/politics/sam-bankman-fried-appeals-conviction-to-supreme-court",
+        "https://www.forbes.com/sites/conormurray/2026/06/12/disgraced-ftx-founder-sam-bankman-fried-loses-appeal-of-25-year-sentence/",
+        "https://nypost.com/2026/06/12/business/sam-bankman-fried-loses-bid-to-overturn-crypto-fraud-conviction/",
+        "https://www.cnn.com/2026/06/08/business/sam-bankman-fried-pardon-trump",
+        "https://www.cnbc.com/2025/11/04/ftx-sam-bankman-fried-appeal-sbf.html"
+      ]
+    },
+    {
+      "statement": "No credible source reports a life sentence for Sam Bankman-Fried; all reliable sources indicate a 25-year sentence.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.cnn.com/2026/09/10/politics/sam-bankman-fried-appeals-conviction-to-supreme-court",
+        "https://www.forbes.com/sites/conormurray/2026/06/12/disgraced-ftx-founder-sam-bankman-fried-loses-appeal-of-25-year-sentence/",
+        "https://nypost.com/2026/06/12/business/sam-bankman-fried-loses-bid-to-overturn-crypto-fraud-conviction/",
+        "https://www.cnn.com/2026/06/08/business/sam-bankman-fried-pardon-trump",
+        "https://www.reuters.com/technology/sam-bankman-fried-be-sentenced-multi-billion-dollar-ftx-fraud-2024-03-28",
+        "https://www.nytimes.com/2024/03/28/technology/sam-bankman-fried-sentenced.html",
+        "https://www.pbs.org/newshour/show/bankman-fried-sentenced-to-25-years-in-prison-for-massive-ftx-fraud"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "Date of birth discrepancy: Wikidata lists March 6, 1992 (weak weight 0.22) while Wikipedia lists March 5, 1992 (direct weight 0.75). The Wikipedia entry was given higher weight due to its direct support and greater authority for biographical details, so March 5, 1992 is accepted."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Sam Bankman-Fried",
+      "results": 4,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Sam Bankman-Fried",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Sam Bankman-Fried",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried appeal sentence 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried life sentence 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Sam Bankman-Fried sentenced 25 years prison 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "United States v. Bankman-Fried sentencing",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried 25 year sentence 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.cnn.com/2024/03/28/business/ftx-sam-bankman-fried-sentencing",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact current federal prison facility where Sam Bankman-Fried is incarcerated is not specified in the available sources.",
+    "Details of any pending pardon application outcome (e.g., whether a presidential pardon was granted or denied) are not provided in the evidence.",
+    "Precise date of any potential future sentence modification (e.g., compassionate release) is unknown."
+  ],
+  "next_steps": [
+    "Check the Federal Bureau of Prisons inmate locator for Sam Bankman-Fried's current facility and release date.",
+    "Review the Supreme Court docket for any ruling on his pardon appeal or petition for certiorari.",
+    "Monitor major news wires (e.g., Reuters, AP) for any official announcement of sentence commutation or change.",
+    "Retrieve the sentencing judgment from the PACER system (United States v. Bankman-Fried) to confirm the exact term and any conditions."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+      "title": "Wikipedia: Sam Bankman-Fried",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.cnn.com/2026/09/10/politics/sam-bankman-fried-appeals-conviction-to-supreme-court",
+      "title": "Former crypto billionaire Sam Bankman-Fried appeals conviction to Supreme Court - CNN",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-09-10"
+    },
+    {
+      "url": "https://www.forbes.com/sites/conormurray/2026/06/12/disgraced-ftx-founder-sam-bankman-fried-loses-appeal-of-25-year-sentence/",
+      "title": "Disgraced FTX Founder Sam Bankman-Fried Loses Appeal Of 25-Year Sentence - Forbes",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://nypost.com/2026/06/12/business/sam-bankman-fried-loses-bid-to-overturn-crypto-fraud-conviction/",
+      "title": "Sam Bankman-Fried loses bid to overturn crypto fraud conviction, 25-year prison sentence - New York Post",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.reuters.com/technology/sam-bankman-fried-be-sentenced-multi-billion-dollar-ftx-fraud-2024-03-28",
+      "title": "Bankman-Fried sentenced to 25 years for multi-billion dollar FTX fraud | Reuters",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.nytimes.com/2024/03/28/technology/sam-bankman-fried-sentenced.html",
+      "title": "Sam Bankman-Fried Sentenced to 25 Years in Prison for FTX Fraud - The New York Times",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.pbs.org/newshour/show/bankman-fried-sentenced-to-25-years-in-prison-for-massive-ftx-fraud",
+      "title": "Bankman-Fried sentenced to 25 years in prison for massive FTX fraud | PBS News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.cnn.com/2026/06/08/business/sam-bankman-fried-pardon-trump",
+      "title": "Sam Bankman-Fried asks Trump for a pardon - CNN",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-08"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/11/04/ftx-sam-bankman-fried-appeal-sbf.html",
+      "title": "Appeals court dubious of FTX founder Bankman-Fried’s conviction challenge - CNBC",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-11-04"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Velmira Ostrakova (procurement officer, Ruse, Bulgaria)",
+    "entity": "Velmira Ostrakova",
+    "disambiguators": [
+      "procurement officer",
+      "Ruse, Bulgaria"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.3333,
+  "estimative": "unlikely",
+  "summary": "As of 2026-10-01, the verdict on Velmira Ostrakova is UNVERIFIABLE with 33% confidence because no reliable evidence was located regarding her employment, date of birth, professional licenses, or any adverse records.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Velmira Ostrakova convicted OR sanctioned OR charged",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova procurement officer Ruse Bulgaria 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova date of birth",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://obshtinaruse.bg/en",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova Ruse municipality procurement",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Velmira Ostrakova sanction OR investigation",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://obshtinaruse.bg/en/ruse-municipality-signs-a-contract-for-24-million-leva-under-a-european-project",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova bankruptcy OR insolvency",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "wikidata",
+      "query": "Velmira Ostrakova",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova site:obshtinaruse.bg",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova born",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Velmira Ostrakova court OR lawsuit OR conviction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence found regarding Velmira Ostrakova's current employment as a procurement officer in Ruse, Bulgaria.",
+    "No evidence found regarding Velmira Ostrakova's date of birth or any professional licenses or affiliations.",
+    "No evidence found regarding any criminal charges, convictions, regulator sanctions, insolvency, bankruptcy, or major civil judgments against Velmira Ostrakova."
+  ],
+  "next_steps": [
+    "Query the Bulgarian public procurement portal for staff listings or contract awards involving Velmira Ostrakova.",
+    "Search the Ruse municipality's official staff directory or personnel records for the name Velmira Ostrakova.",
+    "Consult the Bulgarian court registry (e.g., Justice Ministry portal) for any civil or criminal cases bearing the name Velmira Ostrakova.",
+    "Contact relevant Bulgarian professional licensing bodies (e.g., Ministry of Economy, Chamber of Commerce) to verify any licenses held by Velmira Ostrakova."
+  ],
+  "sources": []
+}

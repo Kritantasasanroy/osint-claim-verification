@@ -1,0 +1,105 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "FTX Trading Ltd is incorporated in Antigua and Barbuda",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "FTX Trading Ltd filed for Chapter 11 bankruptcy on November 11, 2022",
+          "supported": true
+        },
+        {
+          "fact": "FTX US acquired LedgerX, a regulated US options exchange, in 2021",
+          "supported": true
+        },
+        {
+          "fact": "LedgerX was sold out of FTX's bankruptcy to MIAX in 2023",
+          "supported": true
+        },
+        {
+          "fact": "As of June 2, 2025, FTX Trading Ltd was not fully licensed to operate in the United States",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried co-founded FTX (founded in 2019 by SBF and Gary Wang)",
+          "supported": true
+        },
+        {
+          "fact": "SBF was sentenced in March 2024 to 25 years in prison",
+          "supported": true
+        },
+        {
+          "fact": "SBF is serving a 25-year prison sentence for defrauding investors and lenders in connection with FTX",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, SBF remains incarcerated (behind bars)",
+          "supported": true
+        },
+        {
+          "fact": "SBF could not have led the exchange in 2025",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "FTX Trading Ltd remained a Chapter 11 debtor as of December 3, 2025",
+          "supported": true
+        },
+        {
+          "fact": "FTX's exchange collapsed in 2022 and is no longer operating (formerly operated)",
+          "supported": true
+        },
+        {
+          "fact": "FTX did not relaunch its exchange worldwide in 2025",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "LedgerX was sold out of FTX's bankruptcy to MIAX in 2023",
+          "supported": true
+        },
+        {
+          "fact": "After its bankruptcy, FTX Trading Ltd did not obtain any new United States regulatory licenses",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of 2026-10-01, SBF is incarcerated serving a 25-year sentence",
+          "supported": true
+        },
+        {
+          "fact": "SBF was sentenced in 2024 to 25 years in prison after conviction on fraud and conspiracy counts",
+          "supported": true
+        },
+        {
+          "fact": "SBF is unable to lead any company",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

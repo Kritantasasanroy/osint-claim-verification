@@ -1,0 +1,56 @@
+{
+  "case_id": "C25",
+  "mode": "short",
+  "kind": "claim",
+  "tags": [
+    "cluster:northvolt"
+  ],
+  "expected": "TRUE",
+  "verdict": "TRUE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "TRUE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 1,
+        "progress": 0.65,
+        "information": 0.9984814509919321,
+        "corroboration": 1.0,
+        "redundancy": 0.05555555555555555,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 16576,
+  "completion_tokens": 17129,
+  "cost_usd": 0.0102221,
+  "wall_clock_s": 0.036167000187560916,
+  "call_latency_s": 172.104,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 6,
+  "conflicts_final": 0,
+  "independent_domains": 9,
+  "evidence_weight": 12.98,
+  "mean_evidence_reliability": 0.5035714285714286,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.99,
+    "cost": 0.2247
+  }
+}

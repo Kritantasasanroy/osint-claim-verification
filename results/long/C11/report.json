@@ -1,0 +1,104 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Sam Bankman-Fried was sentenced to 25 years in prison."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "summary": "Multiple reliable sources confirm that Sam Bankman-Fried was sentenced to 25 years in prison on March 28, 2024, and that this sentence has been upheld on appeal. The evidence is consistent, though direct judicial documents were not provided in the supplied material.",
+  "findings": [
+    {
+      "statement": "The exact length of the prison sentence imposed on Sam Bankman-Fried is 25 years.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.cnbc.com/2024/03/28/live-updates-ftx-founder-sam-bankman-fried-sentencing.html",
+        "https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes"
+      ]
+    },
+    {
+      "statement": "Sam Bankman-Fried was sentenced on March 28, 2024, and the recorded term of imprisonment in that sentencing order is 25 years.",
+      "confidence": 0.94,
+      "citations": [
+        "https://www.cnbc.com/2024/03/28/live-updates-ftx-founder-sam-bankman-fried-sentencing.html",
+        "https://www.nbcwashington.com/news/business/money-report/celsius-ceo-alex-mashinsky-sentenced-to-12-years-in-multi-billion-dollar-crypto-fraud-case/3909794",
+        "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+      ]
+    },
+    {
+      "statement": "Reputable news outlets such as Reuters, CNBC, and ABC News report a 25-year prison sentence for Sam Bankman-Fried.",
+      "confidence": 0.93,
+      "citations": [
+        "https://www.reuters.com/legal/famous-wall-street-figures-who-have-been-sentenced-prison-2024-07-10",
+        "https://www.cnbc.com/2024/03/28/live-updates-ftx-founder-sam-bankman-fried-sentencing.html",
+        "https://abcnews.com/US/former-crypto-mogul-sam-bankman-fried-transferred-new/story?id=120236745"
+      ]
+    },
+    {
+      "statement": "Subsequent legal documents, including appeal notices and appellate rulings, confirm the 25-year prison term for Sam Bankman-Fried.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.tradingview.com/news/cointelegraph:412f6e69d094b:0-sam-bankman-fried-loses-appeal-to-overturn-25-year-prison-sentence",
+        "https://www.foxbusiness.com/politics/convicted-crypto-fraudster-sam-bankman-fried-trump-pardon-loses-judges-overturn-25-year-prison-sentence",
+        "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No direct link to the official sentencing transcript or docket from the United States District Court for the Southern District of New York was provided in the evidence.",
+    "No Bureau of Prisons inmate record or official incarceration document was cited to independently verify the current status of the sentence.",
+    "The evidence relies heavily on secondary reports; while consistent, primary judicial documents would strengthen verification."
+  ],
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/2024/03/28/live-updates-ftx-founder-sam-bankman-fried-sentencing.html",
+      "title": "FTX founder Sam Bankman-Fried sentenced to 25 years for crypto fraud",
+      "tier": "major_news",
+      "reliability": 0.94
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes",
+      "title": "Department of Justice | Homepage | United States Department of Justice",
+      "tier": "official",
+      "reliability": 0.982
+    },
+    {
+      "url": "https://www.nbcwashington.com/news/business/money-report/celsius-ceo-alex-mashinsky-sentenced-to-12-years-in-multi-billion-dollar-crypto-fraud-case/3909794",
+      "title": "Celsius CEO Alex Mashinsky sentenced to 12 years in multi-billion-dollar crypto fraud case – NBC4 Washington",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried",
+      "title": "Trial of Sam Bankman-Fried - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.96
+    },
+    {
+      "url": "https://www.reuters.com/legal/famous-wall-street-figures-who-have-been-sentenced-prison-2024-07-10",
+      "title": "Famous Wall Street figures who have been sentenced to prison | Reuters",
+      "tier": "major_news",
+      "reliability": 0.925
+    },
+    {
+      "url": "https://abcnews.com/US/former-crypto-mogul-sam-bankman-fried-transferred-new/story?id=120236745",
+      "title": "Former crypto mogul Sam Bankman-Fried transferred out of New York prison - ABC News",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.tradingview.com/news/cointelegraph:412f6e69d094b:0-sam-bankman-fried-loses-appeal-to-overturn-25-year-prison-sentence",
+      "title": "Sam Bankman-Fried loses appeal to overturn 25-year prison sentence — TradingView News",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.foxbusiness.com/politics/convicted-crypto-fraudster-sam-bankman-fried-trump-pardon-loses-judges-overturn-25-year-prison-sentence",
+      "title": "Crypto fraudster Bankman-Fried loses federal appeal while seeking Trump pardon | Fox Business",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

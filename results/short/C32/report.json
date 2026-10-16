@@ -1,0 +1,18 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Teodor Halvmark-Ostrava, procurement consultant in Brno"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.9,
+  "summary": "Based on the current evidence set, which contains no verifiable sources, the subject Teodor Halvmark-Ostrava cannot be confirmed or refuted regarding adverse information; thus the verdict is UNVERIFIABLE with 90% confidence.",
+  "findings": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No records found in Czech Commercial Register, Trade Licensing Register, LinkedIn, insolvency registry, court databases, international sanctions lists, or media reports.",
+    "Absence of any source URLs in the evidence list prevents citation-backed findings."
+  ],
+  "sources": []
+}

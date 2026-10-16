@@ -1,0 +1,10 @@
+{
+  "case_id": "V2-MX03",
+  "mode": "short",
+  "seed": 0,
+  "correct": true,
+  "verdict_flips": 0,
+  "steps_to_stable": 3,
+  "misleading_memories_trusted": 0,
+  "failure_modes": []
+}

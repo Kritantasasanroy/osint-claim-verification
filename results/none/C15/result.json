@@ -1,0 +1,57 @@
+{
+  "case_id": "C15",
+  "mode": "none",
+  "kind": "company",
+  "tags": [
+    "fraud",
+    "cluster:nikola"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.92,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.92,
+      "p_correct": 0.92,
+      "reward": {
+        "step": 1,
+        "progress": 0.5866666666666667,
+        "information": 0.9993493248227793,
+        "corroboration": 1.0,
+        "redundancy": 0.05555555555555555,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 15471,
+  "completion_tokens": 16646,
+  "cost_usd": 0.0098701,
+  "wall_clock_s": 51.828463200014085,
+  "call_latency_s": 172.759,
+  "key_fact_recall": 0.25,
+  "citation_precision": 0.5,
+  "findings": 6,
+  "conflicts_final": 0,
+  "independent_domains": 7,
+  "evidence_weight": 14.674999999999999,
+  "mean_evidence_reliability": 0.7825,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.25,
+    "citation_precision": 0.5,
+    "calibration": 0.9936,
+    "cost": 0.21411333333333332
+  }
+}

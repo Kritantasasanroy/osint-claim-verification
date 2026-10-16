@@ -1,0 +1,203 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Chris Evans, the British TV presenter, played Captain America in Marvel films.",
+    "entity": "Chris Evans",
+    "disambiguators": [
+      "the British TV presenter"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.7832,
+  "estimative": "likely",
+  "summary": "VERDICT: FALSE (78% confidence). The British TV presenter Christopher James Evans (born 1 April 1966) has never been credited as playing Captain America in any Marvel film; his notable presenting roles include The One Show, Radio 2 Live in Hyde Park, TFI Friday revival, Top Gear, and Virgin Radio UK breakfast show.",
+  "findings": [
+    {
+      "statement": "Christopher James Evans, born 1 April 1966, is an English television presenter, radio DJ, and producer.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Chris_Evans_(presenter)"
+      ]
+    },
+    {
+      "statement": "He has presented The One Show on Fridays between 2010 and 2015, co-hosted Radio 2 Live in Hyde Park between 2011 and 2018, presented a revival series of TFI Friday after signing a three-year Top Gear deal in 2015, stepped down as Top Gear presenter in July 2016, and moved to Virgin Radio UK to present its breakfast show in September 2018.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Chris_Evans_(presenter)"
+      ]
+    },
+    {
+      "statement": "Chris Evans, the British TV presenter, has never been credited as playing Captain America in any Marvel Studios film.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://time.com/3923993/new-top-gear-host-chris-evans",
+        "https://www.drivencarguide.co.nz/news/no-captain-america-is-not-hosting-top-gear",
+        "https://www.standard.co.uk/culture/tvfilm/top-gear-captain-america-fans-confused-as-they-discover-the-other-chris-evans-10325952.html",
+        "https://www.reddit.com/r/OutOfTheLoop/comments/445pxv/why_do_top_gear_fans_hate_chris_evans"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Chris Evans British television presenter",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Chris Evans (presenter)",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Chris Evans Captain America Marvel",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Chris Evans presenter IMDb",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Chris Evans Captain America presenter",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "site:marvel.com Chris Evans presenter",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.imdb.com/name/nm0262632",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.imdb.com/name/nm0262632 could not be read: Failed to fetch url",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Chris Evans TV presenter Captain America marvel",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "'Chris Evans' 'Top Gear' 'Captain America'",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.marvel.com/articles/movies/captain-america-the-first-avenger-casting-chris-evans-steve-rogers",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The IMDb page for Chris Evans (nm0262632) could not be read directly, limiting verification of his filmography from that source.",
+    "Official Marvel Studios cast lists for the Captain America films were not accessed; reliance was on secondary sources.",
+    "No direct press release or statement from Marvel confirming the absence of the British presenter was located."
+  ],
+  "next_steps": [
+    "Retrieve and read the IMDb page for Chris Evans (nm0262632) to verify his filmography.",
+    "Consult official Marvel Studios cast lists for Captain America: The First Avenger, The Winter Soldier, Civil War, and related films.",
+    "Search Variety and Hollywood Reporter archives for any casting announcements involving a British TV presenter named Chris Evans as Captain America.",
+    "Check press release archives on Marvel.com for statements about the casting of Captain America that mention Chris Evans."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Chris_Evans_(presenter)",
+      "title": "Wikipedia: Chris Evans (presenter)",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://time.com/3923993/new-top-gear-host-chris-evans",
+      "title": "5 Things to Know About the New 'Top Gear' Host Chris Evans",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://www.drivencarguide.co.nz/news/no-captain-america-is-not-hosting-top-gear",
+      "title": "No, Captain America is not hosting Top Gear",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.standard.co.uk/culture/tvfilm/top-gear-captain-america-fans-confused-as-they-discover-the-other-chris-evans-10325952.html",
+      "title": "Top Gear: Captain America fans confused as they discover ...",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.reddit.com/r/OutOfTheLoop/comments/445pxv/why_do_top_gear_fans_hate_chris_evans",
+      "title": "Why do Top Gear fans hate Chris Evans? : r/OutOfTheLoop",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

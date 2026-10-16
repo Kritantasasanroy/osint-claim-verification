@@ -1,0 +1,135 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Elizabeth Holmes is currently in federal prison.",
+    "entity": "Elizabeth Holmes",
+    "disambiguators": [],
+    "as_of": "2026-02-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "VERDICT: TRUE – As of 2026-02-01, Elizabeth Holmes is incarcerated in a federal prison. Key facts: she is Elizabeth Anne Holmes, founder and former CEO of Theranos, sentenced to 11¼ years beginning May 30 2023 at FPC Bryan, Texas, with a scheduled release date of December 30 2031.",
+  "findings": [
+    {
+      "statement": "Elizabeth Holmes's full legal name is Elizabeth Anne Holmes.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+      ]
+    },
+    {
+      "statement": "Elizabeth Holmes is primarily known as the founder and former CEO of Theranos.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+      ]
+    },
+    {
+      "statement": "As of 2026-02-01, Elizabeth Holmes is currently incarcerated in a federal prison.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+        "https://www.reuters.com/world/theranos-founder-elizabeth-holmes-asks-trump-commute-her-prison-sentence-2026-01-21"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Elizabeth Holmes prison status February 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Elizabeth Holmes",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Elizabeth Holmes",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Elizabeth Holmes commuted OR pardoned OR released Trump late January 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.reuters.com/world/theranos-founder-elizabeth-holmes-asks-trump-commute-her-prison-sentence-2026-01-21",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "We have not verified Elizabeth Holmes's current custody status via the Federal Bureau of Prisons inmate locator.",
+    "We have not reviewed recent court filings for any sentence modification or clemency orders after February 2026.",
+    "We have not checked official Department of Justice or White House announcements regarding her commutation request."
+  ],
+  "next_steps": [
+    "Query the Federal Bureau of Prisons inmate locator for Elizabeth Holmes to confirm her current custody status.",
+    "Search news sources published after 2026-02-01 for updates on her commutation request or any transfer to a halfway house.",
+    "Review the U.S. District Court docket for the Northern District of California for any orders modifying her sentence or granting clemency.",
+    "Check Department of Justice and White House press releases for announcements concerning Elizabeth Holmes’s clemency petition."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+      "title": "Wikipedia: Elizabeth Holmes",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.reuters.com/world/theranos-founder-elizabeth-holmes-asks-trump-commute-her-prison-sentence-2026-01-21",
+      "title": "Theranos founder Elizabeth Holmes asks Trump to commute her prison sentence",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-01-21"
+    }
+  ]
+}

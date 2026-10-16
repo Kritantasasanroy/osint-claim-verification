@@ -1,0 +1,44 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Michael I. Jordan, the UC Berkeley machine-learning professor, played professional basketball in the NBA.",
+    "entity": "Michael I. Jordan",
+    "disambiguators": [
+      "UC Berkeley machine-learning professor"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "Michael I. Jordan is a renowned professor of electrical engineering and computer sciences at UC Berkeley known for contributions to machine learning and statistics; there is no credible record of him ever playing professional basketball in the NBA.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

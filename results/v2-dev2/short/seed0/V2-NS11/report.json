@@ -1,0 +1,175 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Martin Shkreli (former pharmaceutical executive)",
+    "entity": "Martin Shkreli",
+    "disambiguators": [
+      "former pharmaceutical executive"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9849,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-01, Martin Shkreli is assessed as ADVERSE with 98% confidence. The decisive facts are: he was convicted of securities fraud and conspiracy (a felony) and that conviction remains on record; he has not received a pardon despite a request; and a court ordered him to return $64.6 million in profits from the Daraprim price hike, a material adverse civil judgment.",
+  "findings": [
+    {
+      "statement": "Martin Shkreli's felony conviction for securities fraud and conspiracy remains on record as of 2026-10-01, with no pardon or vacatur.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://federalcriminaldefenseattorney.com/federal-bureau-prisons/new-jersey/fci-fort-dix",
+        "https://www.bloomberg.com/news/videos/2026-07-21/martin-shkreli-is-back-and-primed-to-fight",
+        "https://www.npr.org/2022/05/19/1100019063/pharma-bro-martin-shkreli-been-released-from-prison",
+        "https://www.wikidata.org/wiki/Q6776585"
+      ]
+    },
+    {
+      "statement": "Martin Shkreli has not been pardoned; he only requested a pardon that was not granted as of 2026-10-01.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.bloomberg.com/news/videos/2026-07-21/martin-shkreli-is-back-and-primed-to-fight"
+      ]
+    },
+    {
+      "statement": "Martin Shkreli faces a material adverse civil judgment requiring him to return $64.6 million in profits from the Daraprim price increase.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.npr.org/2022/05/19/1100019063/pharma-bro-martin-shkreli-been-released-from-prison"
+      ]
+    },
+    {
+      "statement": "Martin Shkreli is known by the alias 'Pharma Bro'.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.npr.org/2022/05/19/1100019063/pharma-bro-martin-shkreli-been-released-from-prison"
+      ]
+    }
+  ],
+  "minor_adverse_items": [
+    "Martin Shkreli was released from FCI Fort Dix in September 2022 (specifically September 14, 2022). (unrated; federalcriminaldefenseattorney.com)",
+    "Martin Shkreli was incarcerated at Allenwood Low per a January 2021 court order and released September 14, 2022. (unrated; federalcriminaldefenseattorney.com)"
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Martin Shkreli conviction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Martin Shkreli",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Martin Shkreli pardon 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "FTC v. Vyera Pharmaceuticals Martin Shkreli",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Martin Shkreli pardon 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Martin Shkreli civil judgment",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact date of conviction and sentencing is not specified in the evidence.",
+    "Whether the $64.6 million civil judgment has been satisfied, appealed, or remains outstanding is unclear.",
+    "Any subsequent criminal investigations or charges after his September 2022 release are not documented in the provided sources.",
+    "The status of any other civil litigation or regulatory actions beyond the judgment and industry ban is unknown."
+  ],
+  "next_steps": [
+    "Query the U.S. Department of Justice pardon office records for any pardon granted after 2022.",
+    "Check the federal court docket (PACER) for any post‑release criminal cases or civil suits involving Martin Shkreli.",
+    "Review the FDA’s enforcement actions database for any additional industry bans or warnings.",
+    "Search SEC filings and press releases for any satisfaction or appeal of the $64.6 million judgment."
+  ],
+  "sources": [
+    {
+      "url": "https://federalcriminaldefenseattorney.com/federal-bureau-prisons/new-jersey/fci-fort-dix",
+      "title": "FCI Fort Dix: Visiting Hours, Mail, Programs (2026)",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-08-28"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/videos/2026-07-21/martin-shkreli-is-back-and-primed-to-fight",
+      "title": "Watch Martin Shkreli Is Back and Primed to Fight - Bloomberg",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-07-21"
+    },
+    {
+      "url": "https://www.npr.org/2022/05/19/1100019063/pharma-bro-martin-shkreli-been-released-from-prison",
+      "title": "'Pharma Bro' Martin Shkreli released from prison : NPR",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2022-05-19"
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q6776585",
+      "title": "Wikidata: Martin Shkreli",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    }
+  ]
+}

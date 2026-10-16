@@ -1,0 +1,188 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Linda Yaccarino is still the CEO of X.",
+    "entity": "Linda Yaccarino",
+    "disambiguators": [
+      "CEO of X"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "Bottom line first: Linda Yaccarino is NOT the CEO of X as of 2026-10-01. She was appointed CEO on 2023-06-06, resigned in July 2025, and since then has been CEO of eMed. The weight of reliable sources confirming her resignation and current role outweighs any contrary or ambiguous claims, yielding a FALSE verdict with 99% confidence.",
+  "findings": [
+    {
+      "statement": "Linda Yaccarino was appointed CEO of X Corp on June 6, 2023.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Linda_Yaccarino"
+      ]
+    },
+    {
+      "statement": "Linda Yaccarino resigned as CEO of X in July 2025.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.hindustantimes.com/trending/former-x-ceo-reveals-elon-musk-s-insatiable-sense-of-urgency-behind-his-trillionaire-success-101791439939871.html"
+      ]
+    },
+    {
+      "statement": "As of October 2026, Linda Yaccarino is the CEO of eMed, not X.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://timesofindia.indiatimes.com/education/careers/news/former-x-ceo-linda-yaccarino-says-elon-musks-insatiable-sense-of-urgency-is-the-secret-to-his-trillion-dollar-fortune/articleshow/134782024.cms"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [
+    "As of 2026-10-01, what is Linda Yaccarino's official title at X according to the company's leadership page or a reliable source? - supported by adweek.com, cbsnews.com, fortune.com, wsj.com, x.com (weight 2.85) vs refuted by bwmarketingworld.com, finance.yahoo.com, hindustantimes.com, linkedin.com, timesofindia.indiatimes.com (weight 1.70)"
+  ],
+  "conflict_notes": [
+    "The sources that state Linda Yaccarino is stepping down or no longer CEO of X (adweek.com, cbsnews.com, fortune.com, wsj.com, x.com) carry a combined weight of 2.85, while the sources that describe her as a former CEO or reference her resignation (bwmarketingworld.com, finance.yahoo.com, hindustantimes.com, linkedin.com, timesofindia.indiatimes.com) carry a combined weight of 1.70. The higher weight of the stepping‑down sources, combined with explicit statements of her July 2025 resignation and her current role as CEO of eMed, leads to the conclusion that the claim \"Linda Yaccarino is still the CEO of X\" is FALSE."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Linda Yaccarino CEO X October 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Linda Yaccarino appointed CEO X",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Linda Yaccarino",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "X Corp names new CEO successor after Linda Yaccarino resignation",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://timesofindia.indiatimes.com/education/careers/news/former-x-ceo-linda-yaccarino-says-elon-musks-insatiable-sense-of-urgency-is-the-secret-to-his-trillion-dollar-fortune/articleshow/134782024.cms",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.hindustantimes.com/trending/former-x-ceo-reveals-elon-musk-s-insatiable-sense-of-urgency-behind-his-trillionaire-success-101791439939871.html",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "X CEO October 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.cbsnews.com/news/x-twitter-linda-yaccarino-steps-down",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "encyclopedia",
+      "query": "Linda Yaccarino",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Linda_Yaccarino",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact day of Linda Yaccarino’s resignation in July 2025 is not specified in the sources.",
+    "No archived version of X’s official leadership page for October 2026 was consulted to confirm the absence of her name.",
+    "No direct press release or SEC filing from X Corp announcing her departure or successor was reviewed."
+  ],
+  "next_steps": [
+    "Check the Wayback Machine for snapshots of X’s leadership page in October 2026.",
+    "Search X Corp’s SEC filings (e.g., 8‑K) for any announcement of a CEO change in mid‑2025.",
+    "Look for a press release from X announcing Linda Yaccarino’s successor after July 2025.",
+    "Review Linda Yaccarino’s LinkedIn profile for her current title and dates."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Linda_Yaccarino",
+      "title": "Linda Yaccarino - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.hindustantimes.com/trending/former-x-ceo-reveals-elon-musk-s-insatiable-sense-of-urgency-behind-his-trillionaire-success-101791439939871.html",
+      "title": "Former X CEO reveals Elon Musk’s ‘insatiable sense of urgency’ behind his trillionaire success | Trending",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-08"
+    },
+    {
+      "url": "https://timesofindia.indiatimes.com/education/careers/news/former-x-ceo-linda-yaccarino-says-elon-musks-insatiable-sense-of-urgency-is-the-secret-to-his-trillion-dollar-fortune/articleshow/134782024.cms",
+      "title": "Former X CEO Linda Yaccarino says Elon Musk's 'insatiable sense of urgency' is the secret to his trillion-dollar fortune - The Times of India",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-08"
+    }
+  ]
+}

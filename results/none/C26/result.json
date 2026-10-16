@@ -1,0 +1,58 @@
+{
+  "case_id": "C26",
+  "mode": "none",
+  "kind": "person",
+  "tags": [
+    "ambiguous_name",
+    "clean_entity",
+    "cluster:jordan"
+  ],
+  "expected": "NO_ADVERSE",
+  "verdict": "NO_ADVERSE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "NO_ADVERSE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 1,
+        "progress": 0.5666666666666667,
+        "information": 0.9776292281438344,
+        "corroboration": 1.0,
+        "redundancy": 0.07692307692307693,
+        "tool_failure": 0.0,
+        "cost": 0.62305
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 10013,
+  "completion_tokens": 8233,
+  "cost_usd": 0.0051178000000000005,
+  "wall_clock_s": 34.93738460005261,
+  "call_latency_s": 60.108000000000004,
+  "key_fact_recall": 0.3333333333333333,
+  "citation_precision": 0.3333333333333333,
+  "findings": 6,
+  "conflicts_final": 0,
+  "independent_domains": 6,
+  "evidence_weight": 7.6,
+  "mean_evidence_reliability": 0.6333333333333333,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.3333333333333333,
+    "citation_precision": 0.3333333333333333,
+    "calibration": 0.99,
+    "cost": 0.12164
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Wirecard AG filed for insolvency on 25 June 2020.",
+          "supported": true
+        },
+        {
+          "fact": "The insolvency filing followed revelations that €1.9 billion was missing.",
+          "supported": true
+        },
+        {
+          "fact": "The fact that the €1.9 billion was missing indicates that trustees did not genuinely confirm the escrow cash.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "EY declared that Wirecard engaged in fraud and provided 'false confirmations and statements with regard to escrow accounts'.",
+          "supported": true
+        },
+        {
+          "fact": "Direct bank confirmation could not be found on the authenticity of the documents received to support the evidence of €1.9bn in cash.",
+          "supported": true
+        },
+        {
+          "fact": "EY checked directly with the respective banks in the Philippines whether the €1.9 billion of escrow cash was really there and found it was not.",
+          "supported": true
+        },
+        {
+          "fact": "On 16 June 2020, EY informed Wirecard that the account balances Wirecard had submitted were forged.",
+          "supported": true
+        },
+        {
+          "fact": "The false confirmations and the absence of any bank confirmation show there was no genuine trustee confirmation of the escrow cash.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

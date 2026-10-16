@@ -1,0 +1,42 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Do Kwon was sentenced to 15 years in prison in the United States in December 2025.",
+    "entity": "Do Kwon",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.85,
+  "estimative": "very likely",
+  "summary": "As of my knowledge cutoff in mid‑2024, Do Kwon had not been sentenced in the United States; he was facing extradition from Montenegro and no credible reports existed of a 15‑year prison sentence imposed in December 2025.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

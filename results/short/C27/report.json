@@ -1,0 +1,61 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Michael I. Jordan, the UC Berkeley machine-learning professor, played professional basketball in the NBA."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.93,
+  "summary": "The claim that Michael I. Jordan, the UC Berkeley machine‑learning professor, played professional basketball in the NBA is false. His academic profile shows no NBA involvement, while NBA records pertain to a different individual, Michael Jordan (no middle initial).",
+  "findings": [
+    {
+      "statement": "Michael I. Jordan is the Pehong Chen Distinguished Professor in the Departments of Electrical Engineering and Computer Sciences and Statistics at UC Berkeley, and previously held a professorship in the Department of Brain and Cognitive Sciences at MIT (1988‑1998).",
+      "confidence": 0.97,
+      "citations": [
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html"
+      ]
+    },
+    {
+      "statement": "NBA draft and player databases list a player named Michael Jordan (without a middle initial) selected third overall by the Chicago Bulls in the 1984 NBA draft, who debuted for the Bulls that season.",
+      "confidence": 0.96,
+      "citations": [
+        "https://www.basketball-reference.com/draft/NBA_1984.html",
+        "https://www.si.com/nba/nba-draft/debating-best-class-all-time-lebron-2003-group-top-michael-jordan-1984"
+      ]
+    },
+    {
+      "statement": "No entry for a player named Michael I. Jordan appears in NBA player databases (Basketball‑Reference.com, NBA.com) or in draft/transaction logs.",
+      "confidence": 0.92,
+      "citations": [
+        "https://www.basketball-reference.com/draft/NBA_1984.html",
+        "https://www.si.com/nba/nba-draft/debating-best-class-all-time-lebron-2003-group-top-michael-jordan-1984"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "We did not locate a direct statement from Michael I. Jordan’s own biography or interview explicitly denying an NBA career; the conclusion rests on the absence of contradictory evidence.",
+    "Our search focused on major NBA databases; we did not examine minor‑league, overseas, or informal professional basketball records that could theoretically contain a player named Michael I. Jordan."
+  ],
+  "sources": [
+    {
+      "url": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html",
+      "title": "Michael Jordan | EECS at UC Berkeley",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.basketball-reference.com/draft/NBA_1984.html",
+      "title": "1984 NBA Draft | Basketball-Reference.com",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.si.com/nba/nba-draft/debating-best-class-all-time-lebron-2003-group-top-michael-jordan-1984",
+      "title": "Debating Best NBA Draft Class of All Time: Does LeBron’s 2003 Group Top Michael Jordan, 1984?",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Michael I. Jordan, the UC Berkeley machine-learning professor, played professional basketball in the NBA."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.9,
+  "summary": "The claim that UC Berkeley professor Michael I. Jordan played professional basketball in the NBA is false; his faculty profile shows no NBA involvement, and authoritative sports records contain no entry for a player with his exact name.",
+  "findings": [
+    {
+      "statement": "The UC Berkeley faculty profile for Michael I. Jordan describes his academic positions and does not mention any NBA professional basketball career.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html"
+      ]
+    },
+    {
+      "statement": "NBA.com, Basketball-Reference.com, and ESPN list only Michael Jordan (without a middle initial) and contain no player record for Michael I. Jordan or Michael Irwin Jordan.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.nba.com/player/893/michael-jordan",
+        "https://www.basketball-reference.com/players/j/jordami01.html",
+        "https://www.espn.com/nba/player/_/id/1035/michael-jordan"
+      ]
+    },
+    {
+      "statement": "No UC Berkeley press releases or biographies located in the evidence mention Michael I. Jordan having any professional basketball experience.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "The full name and date of birth of Michael I. Jordan as stated on his official UC Berkeley faculty profile or biography (Q5) were not provided in the evidence.",
+    "Any UC Berkeley press releases or biographies that mention Michael I. Jordan having professional basketball experience (Q6) were not found in the evidence.",
+    "Sports archives (NBA, FIBA) for a player named Michael Irwin Jordan (Q7) were not located in the evidence."
+  ],
+  "sources": [
+    {
+      "url": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html",
+      "title": "Michael Jordan | EECS at UC Berkeley",
+      "tier": "reference",
+      "reliability": 0.833
+    },
+    {
+      "url": "https://www.nba.com/player/893/michael-jordan",
+      "title": "Michael Jordan | Guard | Chicago Bulls | NBA.com",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.basketball-reference.com/players/j/jordami01.html",
+      "title": "Michael Jordan Stats, Height, Weight, Position, Draft Status and more | Basketball-Reference.com",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.espn.com/nba/player/_/id/1035/michael-jordan",
+      "title": "Michael Jordan - Washington Wizards Guard - ESPN",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

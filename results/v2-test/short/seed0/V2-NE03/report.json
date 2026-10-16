@@ -1,0 +1,206 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Rodrigo Rato, exdirector del FMI, fue condenado en 2024 por delitos contra la Hacienda Pública.",
+    "entity": "Rodrigo Rato",
+    "disambiguators": [
+      "exdirector del FMI"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.9242,
+  "estimative": "very likely",
+  "summary": "Rodrigo Rato, former Managing Director of the IMF (2004‑2007), was convicted in December 2024 by a Madrid court for tax crimes, money laundering and corruption, including three offences against the Treasury (delitos contra la Hacienda Pública). He was sentenced to more than four years imprisonment. No evidence shows he has been acquitted or had those charges dropped. In July 2026 he was ordered to appear as a witness in the Gürtel trial. The verdict is TRUE with high confidence.",
+  "findings": [
+    {
+      "statement": "Rodrigo Rato is the former Managing Director of the International Monetary Fund (IMF).",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.aljazeera.com/news/2024/12/20/spain-court-sentences-ex-imf-chief-to-more-than-four-years-over-corruption",
+        "https://en.wikipedia.org/wiki/Rodrigo_Rato",
+        "https://www.kenyan-post.com/2024/12/court-jails-ex-imf-chief-for-tax-fraud.html"
+      ]
+    },
+    {
+      "statement": "Rodrigo Rato served as Managing Director of the IMF from 2004 to 2007.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.aljazeera.com/news/2024/12/20/spain-court-sentences-ex-imf-chief-to-more-than-four-years-over-corruption",
+        "https://en.wikipedia.org/wiki/Rodrigo_Rato"
+      ]
+    },
+    {
+      "statement": "On 2024-12-20 a Madrid court sentenced Rodrigo Rato to more than four years in prison for tax crimes, money laundering and corruption, including three offences against the Treasury (delitos contra la Hacienda Pública).",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.aljazeera.com/news/2024/12/20/spain-court-sentences-ex-imf-chief-to-more-than-four-years-over-corruption",
+        "https://thestreetjournal.org/former-imf-chief-rodrigo-rato-sentenced-to-over-4-years-imprisonment-in-spain-for-tax-fraud-money-laundering"
+      ]
+    },
+    {
+      "statement": "After 2020, Rodrigo Rato's legal proceedings culminated in a December 2024 conviction for tax fraud, money laundering and corruption.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.aljazeera.com/news/2024/12/20/spain-court-sentences-ex-imf-chief-to-more-than-four-years-over-corruption",
+        "https://thestreetjournal.org/former-imf-chief-rodrigo-rato-sentenced-to-over-4-years-imprisonment-in-spain-for-tax-fraud-money-laundering"
+      ]
+    },
+    {
+      "statement": "The conviction indicates that Rodrigo Rato has not been acquitted or had charges dropped regarding offences against the Treasury.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.aljazeera.com/news/2024/12/20/spain-court-sentences-ex-imf-chief-to-more-than-four-years-over-corruption"
+      ]
+    },
+    {
+      "statement": "On 2026-07-29 the Audiencia Nacional ordered Rodrigo Rato to appear as a witness in the Gürtel trial.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://es.wikipedia.org/wiki/Caso_G%C3%BCrtel"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Rodrigo Rato",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Rodrigo Rato",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Rodrigo Rato condenado 2024 Hacienda Pública",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Rodrigo Rato fraude fiscal 2024",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Rodrigo Rato sentencia 2024 Hacienda Pública site:boe.es",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Rodrigo Rato Tribunal Supremo sentencia recurso 2025 Hacienda",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Rodrigo Rato absolución archivado Hacienda Pública",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct BOE (Boletín Oficial del Estado) sentencia document was consulted to verify the exact wording and date of the 2024 sentence.",
+    "Information on any appeal or subsequent rulings by the Tribunal Supremo or other higher courts is absent from the evidence set.",
+    "The precise length of the prison sentence (e.g., \"more than four years\" vs. \"nearly five years\") varies slightly across sources, creating minor uncertainty.",
+    "There is no explicit record showing that any charges related to Hacienda Pública were dropped or that an acquittal was issued."
+  ],
+  "next_steps": [
+    "Retrieve the BOE publication containing the 2024 sentencia against Rodrigo Rato to confirm the exact sentence length and legal qualifications.",
+    "Search the Tribunal Supremo website or legal databases for any appeal rulings or final judgments post‑2024.",
+    "Look for updates in the Gürtel trial proceedings to see whether Rodrigo Rato's testimony as a witness has occurred and any resulting legal consequences.",
+    "Consult the Spanish Ministry of Justice's public registry of criminal convictions to verify the absence of acquittals or dismissed charges related to Hacienda Pública."
+  ],
+  "sources": [
+    {
+      "url": "https://www.aljazeera.com/news/2024/12/20/spain-court-sentences-ex-imf-chief-to-more-than-four-years-over-corruption",
+      "title": "Spain court sentences ex-IMF chief to more than four years over corruption | News | Al Jazeera",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2024-12-20"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Rodrigo_Rato",
+      "title": "Wikipedia: Rodrigo Rato",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.kenyan-post.com/2024/12/court-jails-ex-imf-chief-for-tax-fraud.html",
+      "title": "Court jails ex-IMF chief for tax fraud and corruption",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2024-12-21"
+    },
+    {
+      "url": "https://thestreetjournal.org/former-imf-chief-rodrigo-rato-sentenced-to-over-4-years-imprisonment-in-spain-for-tax-fraud-money-laundering",
+      "title": "Former IMF chief, Rodrigo Rato sentenced to over 4 years imprisonment in Spain for tax fraud, money laundering",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2024-12-20"
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Caso_G%C3%BCrtel",
+      "title": "Caso Gürtel - Wikipedia, la enciclopedia libre",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": "2026-09-04"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Ternus is the individual identified as Apple's chief executive officer.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Ternus's tenure as Apple's CEO began effective September 1, 2026.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The statement comes from an Apple press release dated August 19, 2026.",
+          "supported": false
+        },
+        {
+          "fact": "The press release states that John Ternus will become Apple's CEO effective September 1, 2026.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

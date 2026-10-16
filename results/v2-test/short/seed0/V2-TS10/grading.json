@@ -1,0 +1,49 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Pat Gelsinger's full name is Patrick Paul Gelsinger",
+          "supported": true
+        },
+        {
+          "fact": "Pat Gelsinger was born on March 5, 1961",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Pat Gelsinger became Intel's CEO on February 15, 2021",
+          "supported": true
+        },
+        {
+          "fact": "Pat Gelsinger's retirement as Intel's CEO was effective December 1, 2024",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of October 1, 2026, Pat Gelsinger is not Intel's CEO",
+          "supported": true
+        },
+        {
+          "fact": "David Zinsner and Michelle Johnston Holthaus were named Intel's interim co-CEOs after Gelsinger stepped down",
+          "supported": true
+        },
+        {
+          "fact": "As of October 1, 2026, Intel is still led by interim co-CEOs David Zinsner and Michelle Johnston Holthaus",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

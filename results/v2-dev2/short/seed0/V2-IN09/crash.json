@@ -1,0 +1,7 @@
+{
+  "case_id": "V2-IN09",
+  "mode": "short",
+  "kind": "claim",
+  "error": "MalformedCompletion: The model did not return a valid ClaimReflection: 1 validation error for ClaimReflection. Got: {\"answered_question_ids\": [\"Q1\", \"Q2\"], \"critique\": \"The evidence is contradictory: cz_status.png (an untrusted upload) asserts Changpeng Zhao has never received a presidential pardon, while two entries from Wikipedia (an independent publisher) state he received a pardon from Donald Trump in October",
+  "seed": 0
+}

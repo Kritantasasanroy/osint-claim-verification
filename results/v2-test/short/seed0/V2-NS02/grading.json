@@ -1,0 +1,33 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Michael B. Jordan's full name is Michael Bakari Jordan.",
+          "supported": true
+        },
+        {
+          "fact": "Michael B. Jordan's primary profession is actor.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Michael B. Jordan's occupational listing is actor, director, and producer.",
+          "supported": true
+        },
+        {
+          "fact": "Michael B. Jordan has no recorded participation as a player on any professional sports team, including the Chicago Bulls.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

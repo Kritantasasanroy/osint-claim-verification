@@ -1,0 +1,53 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tricolor Holdings filed for Chapter 7 bankruptcy on September 10, 2025.",
+          "supported": true
+        },
+        {
+          "fact": "Tricolor Holdings did not file for Chapter 11 bankruptcy as of 2026-10-01.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tricolor Holdings founder Daniel Chu was indicted for fraud.",
+          "supported": true
+        },
+        {
+          "fact": "The indictment against Daniel Chu was unsealed in December 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The exact legal name of Tricolor Holdings is Tricolor Holdings, LLC.",
+          "supported": true
+        },
+        {
+          "fact": "Tricolor Holdings is incorporated in Texas.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The founder's full legal name is Daniel Chu.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Vijay Mallya was the owner of Kingfisher Airlines.",
+    "entity": "Vijay Mallya",
+    "disambiguators": [
+      "owner of Kingfisher Airlines"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "Verdict: TRUE – Vijay Mallya was the owner of Kingfisher Airlines (99% confidence). Decisive facts: Kingfisher Airlines was established in 2003; Vijay Mallya served as Chairman from January 2004 onward; he held a 1.87% shareholding and was listed as a promoter; multiple sources describe him as chairman and promoter, indicating ownership and control.",
+  "findings": [
+    {
+      "statement": "Vijay Mallya's full legal name is Vijay Vittal Mallya and he is commonly known as Vijay Mallya.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Vijay_Mallya"
+      ]
+    },
+    {
+      "statement": "Kingfisher Airlines was established in 2003.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Kingfisher_Airlines"
+      ]
+    },
+    {
+      "statement": "Vijay Mallya held a 1.87% shareholding in Kingfisher Airlines and was listed as a promoter.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.valueresearchonline.com/stocks/42952/kingfisher-airlines-ltd/shareholding"
+      ]
+    },
+    {
+      "statement": "Vijay Mallya served as Chairman of Kingfisher Airlines from January 2004 onward.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://in.linkedin.com/in/vijay-mallya-22a58312"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Vijay Mallya Kingfisher Airlines ownership stake chairman managing director",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Kingfisher Airlines",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Vijay Mallya",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Kingfisher Airlines promoter Vijay Mallya shareholding",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.valueresearchonline.com/stocks/42952/kingfisher-airlines-ltd/shareholding",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "wikidata",
+      "query": "Kingfisher Airlines",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Vijay Mallya Chairman Kingfisher Airlines 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact timeline of Vijay Mallya's shareholding percentage changes over the life of Kingfisher Airlines is not detailed in the available sources.",
+    "The precise date on which Vijay Mallya ceased to be a promoter or chairman of Kingfisher Airlines is not clearly established by the evidence.",
+    "Any formal legal ownership transfers or share pledges beyond the indicated 1.87% stake are not quantified in the sources consulted."
+  ],
+  "next_steps": [
+    "Check MCA filings for Kingfisher Airlines to trace shareholding changes and promoter status over time.",
+    "Search BSE/NSE disclosures for United Breweries to confirm Vijay Mallya's stake in the parent company.",
+    "Consult UB Group annual reports for any mention of Kingfisher Airlines ownership and Vijay Mallya's role.",
+    "Examine DGCA records for airline registration and management details to corroborate chairman and promoter claims."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Vijay_Mallya",
+      "title": "Vijay Mallya - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Kingfisher_Airlines",
+      "title": "Kingfisher Airlines - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.valueresearchonline.com/stocks/42952/kingfisher-airlines-ltd/shareholding",
+      "title": "Kingfisher Airlines Ltd. Shareholding Pattern",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://in.linkedin.com/in/vijay-mallya-22a58312",
+      "title": "Vijay Mallya - Chairman at UB Group",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

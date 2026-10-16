@@ -1,0 +1,7 @@
+{
+  "case_id": "V2-LT19",
+  "mode": "short",
+  "kind": "company",
+  "error": "MalformedCompletion: The model did not return a valid CompanyReflection: 1 validation error for CompanyReflection. Got: {\"answered_question_ids\": [], \"critique\": \"No evidence has been provided to verify the identity, legal status, or adverse history of Quellbrook Maritime Services FZE (Sharjah). Without confirmation of its registration in SAIF Zone, license details, or screening against sanctions and legal records, i",
+  "seed": 0
+}

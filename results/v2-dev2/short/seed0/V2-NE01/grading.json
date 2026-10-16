@@ -1,0 +1,96 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The subject's name is René Benko.",
+          "supported": true
+        },
+        {
+          "fact": "René Benko was born on 20 May 1977.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "René Benko is the former Signa chief (former CEO of Signa).",
+          "supported": true
+        },
+        {
+          "fact": "René Benko is the founder of Signa Holding.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "In October 2025, René Benko was sentenced to a prison term of two years.",
+          "supported": true
+        },
+        {
+          "fact": "The sentencing court was the Landesgericht Innsbruck.",
+          "supported": true
+        },
+        {
+          "fact": "The two-year prison term was unconditional (unbedingte Haftstrafe).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Landesgericht Innsbruck imposed a two-year prison sentence on René Benko.",
+          "supported": true
+        },
+        {
+          "fact": "This two-year sentence was imposed in October 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "René Benko spent around nine months in pre-trial detention (Untersuchungshaft).",
+          "supported": true
+        },
+        {
+          "fact": "René Benko's first court appearance took place on 14 October 2025.",
+          "supported": true
+        },
+        {
+          "fact": "He remained in pre-trial detention until that first court appearance on 14 October 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The OGH (Oberster Gerichtshof) intervened, overturning a partial acquittal and remanding the case to the Landesgericht for retrial.",
+          "supported": true
+        },
+        {
+          "fact": "After the OGH intervention, Benko's sentence was set at 30 months imprisonment, an increase over the original term.",
+          "supported": true
+        },
+        {
+          "fact": "The 30-month sentence is six months longer than the original two-year term.",
+          "supported": true
+        },
+        {
+          "fact": "The OGH intervention occurred in 2026.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

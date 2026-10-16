@@ -1,0 +1,53 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Ternus's full name is John Patrick Ternus.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Ternus became Apple's chief executive officer effective September 1, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "As of September 30, 2026, John Ternus holds the title of Chief Executive Officer of Apple.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Prior to becoming CEO, John Ternus's position was Senior Vice President of Hardware Engineering at Apple.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Apple issued an official press release announcing John Ternus as its next chief executive officer.",
+          "supported": true
+        },
+        {
+          "fact": "The press release was dated April 20, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "The press release stated Ternus would become CEO effective September 1, 2026.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

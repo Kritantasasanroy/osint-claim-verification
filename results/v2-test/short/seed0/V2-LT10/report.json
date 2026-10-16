@@ -1,0 +1,154 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Bollano Plumbers Limited (Bromley)",
+    "entity": "Bollano Plumbers Limited",
+    "disambiguators": [
+      "Bromley"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.9685,
+  "estimative": "almost certain",
+  "summary": "Verdict: NO_ADVERSE at 97% confidence. No adverse findings (insolvency, sanctions, convictions) were identified in the performed searches.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Bollano Plumbers Limited Bromley Companies House",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Bollano Plumbers Limited insolvency liquidation administration",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Bollano Plumbers Limited fraud conviction sanction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Bollano Plumbers Limited",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Bollano Plumbers Limited winding up petition",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Bollano Plumbers Limited",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Bollano Plumbers Limited site:thegazette.co.uk",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Bollano Plumbers Limited bankruptcy petition",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Bollano Plumbers Limited sanction",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://find-and-update.company-information.service.gov.uk/company/09318175",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.thegazette.co.uk/notice/4630212",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://windinguppetitionsolicitors.co.uk/companies-winding-up-cause-list-12-august-2026",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "The exact legal name of Bollano Plumbers Limited is BOLLANO PLUMBERS LIMITED and its Companies House registration number is 09318175. [withdrawn: no tool checked company_register]",
+    "As of 2026-10-01, Bollano Plumbers Limited is shown as an active company on the Companies House register, with recent accounts filed and a person with significant control. [withdrawn: no tool checked company_register]",
+    "Bollano Plumbers Limited (Bromley) is legally named BOLLANO PLUMBERS LIMITED, company number 09318175, and remains an active company on the Companies House register as of 2026-10-01, with recent filings and a person with significant control. [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence was reviewed regarding insolvency proceedings, liquidation, administration, or bankruptcy for Bollano Plumbers Limited.",
+    "No evidence was reviewed regarding criminal convictions, regulatory sanctions, major enforcement actions, or civil judgments for fraud or serious misconduct.",
+    "Court records search returned zero sources, so judicial involvement has not been verified.",
+    "Official insolvency registers (e.g., Insolvency Service) were not consulted."
+  ],
+  "next_steps": [
+    "Check Companies House for any insolvency filings (e.g., winding-up petitions, administration orders) using the company number 09318175.",
+    "Search The Gazette (thegazette.co.uk) for recent notices related to Bollano Plumbers Limited, such as winding-up petitions or bankruptcy announcements.",
+    "Query court records (e.g., HM Courts & Tribunals Service) for any civil or criminal proceedings involving Bollano Plumbers Limited.",
+    "Consult relevant sanctions lists (UK HM Treasury, OFAC, EU) for any designations against Bollano Plumbers Limited or its officers."
+  ],
+  "sources": []
+}

@@ -1,0 +1,249 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Die Lego-Gruppe hat ihren Hauptsitz in Billund, Dänemark.",
+    "entity": "Die Lego-Gruppe",
+    "disambiguators": [
+      "Billund, Dänemark"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "The Lego Group’s headquarters remains in Billund, Denmark as of 2026-10-01. The official legal name is LEGO System A/S and the registered address according to the Danish CVR is Aastvej 1, 7190 Billund, Denmark. Multiple independent sources (company site, largestcompanies.com, stateofgreen.com, news articles) confirm this, giving a verdict of TRUE with 99% confidence.",
+  "findings": [
+    {
+      "statement": "The official legal name of the Lego Group as registered in Denmark is LEGO System A/S.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/The_Lego_Group",
+        "https://www.lego.com/en-us/aboutus/lego-group/contact/locations",
+        "https://www.largestcompanies.com/company/Lego-System-AS-188714",
+        "https://stateofgreen.com/en/solution-providers/the-lego-group"
+      ]
+    },
+    {
+      "statement": "The registered headquarters address of the Lego Group according to the Danish CVR is Aastvej 1, 7190 Billund, Denmark.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.lego.com/cdn/cs/legal/assets/bltc8bdc1b8e66a88cb/45001.PDF",
+        "https://stateofgreen.com/en/solution-providers/the-lego-group",
+        "https://www.largestcompanies.com/company/Lego-System-AS-188714",
+        "https://exa.ai/websets/directory/lego-offices"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, the Lego Group's headquarters is located in Billund, Denmark.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://jaysbrickblog.com/news/billund-fan-creator-summit-2026",
+        "https://esgnews.com/lego-group-begins-construction-on-116-mw-solar-park-near-denmark-headquarters",
+        "https://www.webwire.com/ViewPressRel.asp?aId=356486",
+        "https://en.wikipedia.org/wiki/The_Lego_Group",
+        "https://www.lego.com/en-us/aboutus/lego-group/management",
+        "https://www.linkedin.com/company/lego-group"
+      ]
+    },
+    {
+      "statement": "An independent authoritative source (largestcompanies.com) confirms the Lego Group's registered headquarters address in Billund, Denmark as Åstvej 1, DK-7190 Billund.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.largestcompanies.com/company/Lego-System-AS-188714"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Lego Group headquarters move 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Lego Group",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Lego Group",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Lego A/S CVR headquarters address Billund",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Lego A/S CVR",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "LEGO A/S CVR registered address datacvr.virk.dk Billund",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Lego Group headquarters Billund 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Lego A/S CVR 35954716 adresse",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "GLEIF legal-entity (LEI) records"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "Conflict regarding the official legal name: Wikipedia states the legal name is \"Lego A/S\" while the Lego Group’s own website, largestcompanies.com, and stateofgreen.com state it is \"LEGO System A/S\". The majority of authoritative sources (company site, business registers, and independent databases) support \"LEGO System A/S\"; Wikipedia may be outdated or using an alternative name, so we weigh in favor of \"LEGO System A/S\". [withdrawn: no tool checked company_register]",
+    "We did not directly query the Danish Central Business Register (datacvr.virk.dk) to verify the CVR entry; our confirmation relies on secondary sources that cite the CVR. [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [],
+  "next_steps": [
+    "Query datacvr.virk.dk for CVR 47458714 to extract the exact legal name and registered address as recorded in the Danish Central Business Register.",
+    "Retrieve the latest annual report or filing from the Lego Group to cross‑check the headquarters address and legal name.",
+    "Check for any recent news releases (post‑September 2026) regarding a potential headquarters move to ensure the information remains current.",
+    "Verify the CVR number 47458714 appears in the EU’s VIES VAT number validation service to confirm the entity’s active status."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Lego_Group",
+      "title": "Wikipedia: The Lego Group",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.lego.com/en-us/aboutus/lego-group/contact/locations",
+      "title": "Locations - About Us - LEGO.com",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.largestcompanies.com/company/Lego-System-AS-188714",
+      "title": "Lego System A/S - Detailed information - Largestcompanies",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://stateofgreen.com/en/solution-providers/the-lego-group",
+      "title": "LEGO System A/S | Connect and explore latest solutions",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.lego.com/cdn/cs/legal/assets/bltc8bdc1b8e66a88cb/45001.PDF",
+      "title": "Certificate of Approval",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://exa.ai/websets/directory/lego-offices",
+      "title": "LEGO Office Locations and Global Headquarters | Explore LEGO's Worldwide Presence",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://jaysbrickblog.com/news/billund-fan-creator-summit-2026",
+      "title": "I'll be in Billund this week for Fan Creator Summit 2026! - Jay's Brick Blog",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-19"
+    },
+    {
+      "url": "https://esgnews.com/lego-group-begins-construction-on-116-mw-solar-park-near-denmark-headquarters",
+      "title": "LEGO Group Begins Construction on 116 MW Solar Park Near Denmark Headquarters - ESG News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-24"
+    },
+    {
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=356486",
+      "title": "Construction begins on new solar park near the LEGO Group’s headquarters",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-18"
+    },
+    {
+      "url": "https://www.lego.com/en-us/aboutus/lego-group/management",
+      "title": "Management - About Us - LEGO.com",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.linkedin.com/company/lego-group",
+      "title": "the LEGO Group",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon was extradited from Montenegro to the United States.",
+          "supported": true
+        },
+        {
+          "fact": "He served about 17 months in jail in Montenegro before being extradited.",
+          "supported": true
+        },
+        {
+          "fact": "This was reported by AP News.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of early 2026, Do Kwon is serving a 15-year federal prison sentence in the United States.",
+          "supported": true
+        },
+        {
+          "fact": "He was sentenced in December 2025.",
+          "supported": true
+        },
+        {
+          "fact": "He received credit for time served in Montenegro.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Montenegrin Ministry of Justice approved Do Kwon's extradition.",
+          "supported": true
+        },
+        {
+          "fact": "The approval occurred in December 2024.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

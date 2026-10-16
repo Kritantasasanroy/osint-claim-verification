@@ -1,0 +1,56 @@
+{
+  "case_id": "C13",
+  "mode": "short",
+  "kind": "claim",
+  "tags": [
+    "cluster:ftx"
+  ],
+  "expected": "TRUE",
+  "verdict": "TRUE",
+  "correct": true,
+  "confidence": 0.86,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "TRUE",
+      "confidence": 0.86,
+      "p_correct": 0.86,
+      "reward": {
+        "step": 1,
+        "progress": 0.61,
+        "information": 0.2683843710533582,
+        "corroboration": 0.6666666666666666,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.7976
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 11701,
+  "completion_tokens": 8288,
+  "cost_usd": 0.0053141,
+  "wall_clock_s": 0.0332502000965178,
+  "call_latency_s": 99.56400000000001,
+  "key_fact_recall": 0.5,
+  "citation_precision": 0.5,
+  "findings": 2,
+  "conflicts_final": 0,
+  "independent_domains": 2,
+  "evidence_weight": 0.625,
+  "mean_evidence_reliability": 0.575,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.5,
+    "citation_precision": 0.5,
+    "calibration": 0.9804,
+    "cost": 0.13326
+  }
+}

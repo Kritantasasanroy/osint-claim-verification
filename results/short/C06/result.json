@@ -1,0 +1,57 @@
+{
+  "case_id": "C06",
+  "mode": "short",
+  "kind": "person",
+  "tags": [
+    "fraud",
+    "cluster:theranos"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.96,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.96,
+      "p_correct": 0.96,
+      "reward": {
+        "step": 1,
+        "progress": 0.6266666666666667,
+        "information": 0.9988580295000504,
+        "corroboration": 1.0,
+        "redundancy": 0.15384615384615385,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 13939,
+  "completion_tokens": 15042,
+  "cost_usd": 0.0089149,
+  "wall_clock_s": 0.034114399924874306,
+  "call_latency_s": 117.203,
+  "key_fact_recall": 0.3333333333333333,
+  "citation_precision": 0.8,
+  "findings": 5,
+  "conflicts_final": 0,
+  "independent_domains": 8,
+  "evidence_weight": 13.55,
+  "mean_evidence_reliability": 0.6925,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.3333333333333333,
+    "citation_precision": 0.8,
+    "calibration": 0.9984,
+    "cost": 0.19320666666666667
+  }
+}

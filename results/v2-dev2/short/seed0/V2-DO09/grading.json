@@ -1,0 +1,29 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai's inception date is 2016 (2016-00-00).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai entered insolvency proceedings in 2025.",
+          "supported": true
+        },
+        {
+          "fact": "Builder.ai announced insolvency proceedings in May 2025 after creditors seized $50 million borrowed in October 2024.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "V2-MX11",
+  "mode": "closed_book",
+  "seed": 0,
+  "correct": false,
+  "verdict_flips": 0,
+  "steps_to_stable": 1,
+  "misleading_memories_trusted": 0,
+  "failure_modes": [
+    "misreasoned"
+  ]
+}

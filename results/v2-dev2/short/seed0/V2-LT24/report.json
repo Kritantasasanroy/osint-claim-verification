@@ -1,0 +1,131 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Quellbrook Maritime Services FZE chartered two tankers to Iran in 2025.",
+    "entity": "Quellbrook Maritime Services FZE",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "As of 2026-10-01, the claim that Quellbrook Maritime Services FZE chartered two tankers to Iran in 2025 is UNVERIFIABLE with 25% confidence due to absence of any verifiable evidence from the performed searches.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Quellbrook Maritime Services FZE tanker Iran 2025 charter",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Quellbrook Maritime Services FZE UAE Federal Authority for Identity and Citizenship registration",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Quellbrook Maritime Services FZE primary business activities headquarters",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "'Quellbrook Maritime Services FZE' license number free zone",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "'Quellbrook Maritime Services FZE' headquarters",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Quellbrook Maritime Services FZE company profile",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Quellbrook Maritime Services FZE core business services",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "gleif",
+      "query": "Quellbrook Maritime Services FZE",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Quellbrook Maritime Services FZE Iran charter party 2025",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Quellbrook Maritime Services FZE Ajman Free Zone license verification",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "GLEIF legal-entity (LEI) records"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence found regarding Quellbrook Maritime Services FZE's registration in UAE free‑zone registry.",
+    "No evidence found regarding the company's primary business activities or headquarters location.",
+    "No evidence found regarding shipping manifests, charter party agreements, or port call records for tanker charters to Iran in 2025."
+  ],
+  "next_steps": [
+    "Search the Ajman Free Zone Authority (or relevant free zone) online registry for Quellbrook Maritime Services FZE license details.",
+    "Review the company's website or any available public filings for business activity and headquarters information.",
+    "Consult maritime databases such as Equasis, MarineTraffic, or Lloyd's List for charter party records and port calls in 2025.",
+    "Check sanctions lists and UAE customs data for any Iran‑related tanker movements linked to the company."
+  ],
+  "sources": []
+}

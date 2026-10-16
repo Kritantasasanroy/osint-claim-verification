@@ -1,0 +1,83 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Vitamin C supplements prevent the common cold in the general population."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.88,
+  "summary": "Vitamin C supplementation does not prevent the common cold in the general population; it may modestly reduce cold duration and shows preventive benefit only under extreme physical stress. Major health authorities have not endorsed vitamin C for cold prevention in the general public.",
+  "findings": [
+    {
+      "statement": "Regular vitamin C supplementation (≥200 mg/day) does not significantly reduce the incidence of the common cold in the general adult population.",
+      "confidence": 0.92,
+      "citations": [
+        "https://cam.cochrane.org/common-cold",
+        "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152",
+        "https://www.sfda.gov.sa/en/awarenessarticle/vitamin-c-preventing-and-treating-common-cold"
+      ]
+    },
+    {
+      "statement": "Regular vitamin C supplementation significantly reduces the duration of cold symptoms in adults (by about 8%) and children (by about 14%).",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+        "https://www.mp.pl/paim/issue/article/16926",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152",
+        "https://www.sfda.gov.sa/en/awarenessarticle/vitamin-c-preventing-and-treating-common-cold"
+      ]
+    },
+    {
+      "statement": "Subgroup analyses show a preventive effect of vitamin C only in individuals under extreme physical stress (e.g., marathon runners, skiers, soldiers) with ~50% reduction in cold incidence, while no effect is seen in the general population.",
+      "confidence": 0.88,
+      "citations": [
+        "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+        "https://www.mp.pl/paim/issue/article/16926",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152",
+        "https://www.sfda.gov.sa/en/awarenessarticle/vitamin-c-preventing-and-treating-common-cold"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "No conflicts detected in the provided evidence."
+  ],
+  "gaps": [
+    "No explicit statements or guidelines from the NIH Office of Dietary Supplements, WHO, or the European Food Safety Authority regarding vitamin C for cold prevention were present in the evidence set.",
+    "The evidence does not address long-term safety or outcomes beyond cold incidence and duration.",
+    "There is limited information on vitamin C effects in populations with baseline deficiency or specific comorbidities outside of extreme physical stress."
+  ],
+  "sources": [
+    {
+      "url": "https://cam.cochrane.org/common-cold",
+      "title": "Common Cold | Cochrane Complementary Medicine",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+      "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152",
+      "title": "Vitamin C for preventing and treating the common cold",
+      "tier": "official",
+      "reliability": 0.982
+    },
+    {
+      "url": "https://www.sfda.gov.sa/en/awarenessarticle/vitamin-c-preventing-and-treating-common-cold",
+      "title": "Vitamin C for preventing and treating the common cold | General Authority for Food and Drug",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.mp.pl/paim/issue/article/16926",
+      "title": "Vitamin C for the common cold and pneumonia",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

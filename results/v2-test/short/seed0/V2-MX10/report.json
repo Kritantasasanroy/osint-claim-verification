@@ -1,0 +1,318 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Tricolor Holdings filed for Chapter 11 bankruptcy and its founder was indicted for fraud.",
+    "entity": "Tricolor Holdings",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "The claim is FALSE: as of 2026-10-01, Tricolor Holdings had filed for Chapter 7 bankruptcy (not Chapter 11) on September 10, 2025, while its founder Daniel Chu had indeed been indicted for fraud, with the indictment unsealed in December 2025.",
+  "findings": [
+    {
+      "statement": "Tricolor Holdings filed for Chapter 7 bankruptcy on September 10, 2025, and did not file for Chapter 11 bankruptcy as of 2026-10-01.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.nbcdfw.com/news/local/founder-bankrupt-subprime-auto-lender-tricolor-holdings-charged-fraud/3957987",
+        "https://businessjournalism.org/2026/01/tricolor-investigation",
+        "https://elevenflo.com/blog/tricolor-holdings-bankruptcy",
+        "https://finance.yahoo.com/news/1-billion-chapter-7-bankruptcy-210700513.html",
+        "https://www.cbsnews.com/texas/news/tricolor-holdings-bankruptcy-founder-fraud-charges"
+      ]
+    },
+    {
+      "statement": "Founder Daniel Chu of Tricolor Holdings was indicted for fraud, with the indictment unsealed in December 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://gfmag.com/private-credit/blackrocks-ceo-exit-signals-private-credit-shift",
+        "https://www.nbcdfw.com/news/local/founder-bankrupt-subprime-auto-lender-tricolor-holdings-charged-fraud/3957987",
+        "https://www.autofinancenews.net/allposts/risk-management/charges-against-ex-tricolor-ceo-daniel-chu-double-in-new-indictment",
+        "https://www.cnbc.com/2025/12/17/tricolor-execs-charged-with-systematic-fraud-after-subprime-auto-lender-roiled-banking-sector.html",
+        "https://www.cbsnews.com/texas/news/tricolor-holdings-bankruptcy-founder-fraud-charges"
+      ]
+    },
+    {
+      "statement": "The exact legal name of Tricolor Holdings is Tricolor Holdings, LLC, and it is incorporated in Texas.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.bloomberg.com/profile/company/1906171D:US",
+        "https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor",
+        "https://www.pacermonitor.com/public/case/60078515/Tricolor_Holdings,_LLC",
+        "https://www.justice.gov/usao-sdny/pr/ceo-cfo-coo-charged-connection-billion-dollar-collapse-tricolor-auto",
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26612"
+      ]
+    },
+    {
+      "statement": "The founder's full legal name is Daniel Chu.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://news.bloomberglaw.com/bankruptcy-law/tricolor-founder-ex-coo-plead-not-guilty-to-fraud-charges",
+        "https://abcnews.com/US/fraud-charges-follow-subprime-auto-lender-tricolor-holdings/story?id=128480305",
+        "https://en.wikipedia.org/wiki/Tricolor_(company)",
+        "https://finance.yahoo.com/news/1-billion-chapter-7-bankruptcy-210700513.html",
+        "https://www.cbsnews.com/texas/news/tricolor-holdings-bankruptcy-founder-fraud-charges"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Tricolor Holdings",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Tricolor Holdings Chapter 11 bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Tricolor Holdings founder indicted fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Tricolor Holdings",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Daniel Chu",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Tricolor Holdings LLC",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Daniel Chu indictment fraud 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.nbcdfw.com/news/local/founder-bankrupt-subprime-auto-lender-tricolor-holdings-charged-fraud/3957987",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Tricolor Holdings bankruptcy",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Tricolor Holdings Chapter 7 bankruptcy docket number",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Daniel Chu indictment fraud charges",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact day and month of the indictment unsealing is not uniformly confirmed across sources; only one source specifies December 17, 2025.",
+    "Specific fraud charges enumerated in the indictment (e.g., conspiracy, bank fraud, wire fraud, running a continuing financial crimes enterprise) are mentioned but not verified via the actual indictment document.",
+    "While a docket number (3:25-bk-33487) and filing date appear in PACER‑related sources, the docket has not been directly inspected to confirm the chapter type.",
+    "No certificate of incorporation or Texas Secretary of State filing was consulted to definitively prove state of incorporation."
+  ],
+  "next_steps": [
+    "Search the Texas Secretary of State’s SOSDirect database for Tricolor Holdings, LLC to obtain the certificate of formation and confirm state of incorporation.",
+    "Access PACER for case number 3:25-bk-33487 to view the bankruptcy petition and confirm whether it is Chapter 7 or Chapter 11.",
+    "Retrieve the Department of Justice press release or indictment PDF (e.g., via justice.gov) to verify the exact unsealing date and the full list of fraud charges.",
+    "Review SEC EDGAR filings for Tricolor Holdings, LLC for any subsequent Chapter 11 notice or voluntary petition that might have been missed."
+  ],
+  "sources": [
+    {
+      "url": "https://www.nbcdfw.com/news/local/founder-bankrupt-subprime-auto-lender-tricolor-holdings-charged-fraud/3957987",
+      "title": "Founder of Tricolor Holdings indicted for fraud – NBC 5 Dallas-Fort Worth",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-12-17"
+    },
+    {
+      "url": "https://businessjournalism.org/2026/01/tricolor-investigation",
+      "title": "No credit, no problem: Auto lender Tricolor’s broken promises to vulnerable customers | The Reynolds Center",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://elevenflo.com/blog/tricolor-holdings-bankruptcy",
+      "title": "Tricolor Holdings Bankruptcy: Proceeds Bar Date Extended",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://finance.yahoo.com/news/1-billion-chapter-7-bankruptcy-210700513.html",
+      "title": "$1 billion Chapter 7 bankruptcy makes car loans harder",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://www.cbsnews.com/texas/news/tricolor-holdings-bankruptcy-founder-fraud-charges",
+      "title": "Executives of Tricolor Holdings, Irving-based bankrupt subprime auto lender, charged with fraud - CBS Texas",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://gfmag.com/private-credit/blackrocks-ceo-exit-signals-private-credit-shift",
+      "title": "BlackRock’s CEO Exit Signals Private Credit Shift",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-02"
+    },
+    {
+      "url": "https://www.autofinancenews.net/allposts/risk-management/charges-against-ex-tricolor-ceo-daniel-chu-double-in-new-indictment",
+      "title": "Charges against ex-Tricolor CEO Daniel Chu double in new indictment",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-24"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/12/17/tricolor-execs-charged-with-systematic-fraud-after-subprime-auto-lender-roiled-banking-sector.html",
+      "title": "Tricolor execs at subprime auto lender charged with 'systematic fraud'",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.bloomberg.com/profile/company/1906171D:US",
+      "title": "Tricolor Holdings LLC - Company Profile and News - Bloomberg Markets",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor",
+      "title": "SEC.gov | SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.pacermonitor.com/public/case/60078515/Tricolor_Holdings,_LLC",
+      "title": "Tricolor Holdings, LLC Bankruptcy (3:25-bk-33487), Texas Northern Bankruptcy Court",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/ceo-cfo-coo-charged-connection-billion-dollar-collapse-tricolor-auto",
+      "title": "CEO, CFO, COO Charged In Connection With Billion-Dollar Collapse Of Tricolor Auto",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26612",
+      "title": "Daniel Chu; Jerome Kollar; Ameryn Seibold",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://news.bloomberglaw.com/bankruptcy-law/tricolor-founder-ex-coo-plead-not-guilty-to-fraud-charges",
+      "title": "Tricolor Founder, Ex-COO Plead Not Guilty to Fraud Charges",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-01-13"
+    },
+    {
+      "url": "https://abcnews.com/US/fraud-charges-follow-subprime-auto-lender-tricolor-holdings/story?id=128480305",
+      "title": "Fraud charges follow subprime auto lender Tricolor Holdings collapse - ABC News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-12-17"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tricolor_(company)",
+      "title": "Tricolor (company) - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    }
+  ]
+}

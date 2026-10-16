@@ -1,0 +1,80 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Wirecard was a Dutch company headquartered in Amsterdam."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.92,
+  "summary": "The claim that Wirecard was a Dutch company headquartered in Amsterdam is false. Multiple authoritative sources—including the German commercial register, Wirecard's own website and annual reports, Wikipedia, and reputable business databases—consistently show that Wirecard AG is incorporated in Germany, with its registered office and headquarters located in Aschheim near Munich. No evidence supports a Dutch registration or Amsterdam headquarters, leading to a FALSE verdict with high confidence.",
+  "findings": [
+    {
+      "statement": "Wirecard AG is incorporated in Germany according to the German commercial register (Handelsregister) and not in the Netherlands.",
+      "confidence": 0.92,
+      "citations": [
+        "https://www.northdata.com/Wirecard%20AG,%20Aschheim/Amtsgericht%20M%C3%BCnchen%20HRB%20169227",
+        "https://en.wikipedia.org/wiki/Wirecard",
+        "https://wirecard.com/page/3?p=company"
+      ]
+    },
+    {
+      "statement": "The registered office address of Wirecard AG is in Aschheim, Germany (e.g., Humboldtstr. 8, 85609 Aschheim; Einsteinring 35, 85609 Aschheim b. München), not Amsterdam.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.northdata.com/Wirecard%20AG,%20Aschheim/Amtsgericht%20M%C3%BCnchen%20HRB%20169227",
+        "https://en.wikipedia.org/wiki/Wirecard",
+        "https://wirecard.com/page/3?p=company",
+        "https://wirecard.com/wp-content/uploads/2020/12/Annual-Report-2017.pdf"
+      ]
+    },
+    {
+      "statement": "No Wirecard entity with headquarters in Amsterdam is registered in the Dutch KVK trade register; all evidence points to a German registration.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.northdata.com/Wirecard%20AG,%20Aschheim/Amtsgericht%20M%C3%BCnchen%20HRB%20169227",
+        "https://en.wikipedia.org/wiki/Wirecard",
+        "https://wirecard.com/page/3?p=company"
+      ]
+    },
+    {
+      "statement": "Authoritative sources such as Wirecard's website, annual reports, and Wikipedia state that Wirecard AG's headquarters is in Aschheim near Munich, Germany.",
+      "confidence": 0.9,
+      "citations": [
+        "https://wirecard.com/wp-content/uploads/2020/12/Annual-Report-2017.pdf",
+        "https://en.wikipedia.org/wiki/Wirecard",
+        "https://wirecard.com/page/3?p=company"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "Direct consultation of the Dutch KVK trade register was not performed; the absence of a Dutch Wirecard entity is inferred from German registration sources and lack of contrary evidence."
+  ],
+  "sources": [
+    {
+      "url": "https://www.northdata.com/Wirecard%20AG,%20Aschheim/Amtsgericht%20M%C3%BCnchen%20HRB%20169227",
+      "title": "Wirecard AG, Aschheim, Germany, District Court of Munich HRB 169227: Network, Financial information",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wirecard",
+      "title": "Wirecard - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.909
+    },
+    {
+      "url": "https://wirecard.com/page/3?p=company",
+      "title": "English – Page 3 – wirecard",
+      "tier": "unvetted",
+      "reliability": 0.657
+    },
+    {
+      "url": "https://wirecard.com/wp-content/uploads/2020/12/Annual-Report-2017.pdf",
+      "title": "Annual Report 2017 | wirecard",
+      "tier": "unvetted",
+      "reliability": 0.657
+    }
+  ]
+}

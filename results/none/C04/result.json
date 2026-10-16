@@ -1,0 +1,56 @@
+{
+  "case_id": "C04",
+  "mode": "none",
+  "kind": "claim",
+  "tags": [
+    "cluster:wirecard"
+  ],
+  "expected": "FALSE",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.95,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.95,
+      "p_correct": 0.95,
+      "reward": {
+        "step": 1,
+        "progress": 0.7,
+        "information": 0.9949075692073008,
+        "corroboration": 1.0,
+        "redundancy": 0.05555555555555555,
+        "tool_failure": 0.0,
+        "cost": 0.98595
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 15064,
+  "completion_tokens": 10395,
+  "cost_usd": 0.0067039,
+  "wall_clock_s": 5.661870000185445,
+  "call_latency_s": 91.715,
+  "key_fact_recall": 1.0,
+  "citation_precision": 0.75,
+  "findings": 4,
+  "conflicts_final": 0,
+  "independent_domains": 5,
+  "evidence_weight": 10.56,
+  "mean_evidence_reliability": 0.5,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 0.75,
+    "calibration": 0.9974999999999999,
+    "cost": 0.16972666666666666
+  }
+}

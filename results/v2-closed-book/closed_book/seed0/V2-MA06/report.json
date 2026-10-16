@@ -1,0 +1,44 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Bose Corporation (audio equipment)",
+    "entity": "Bose Corporation",
+    "disambiguators": [
+      "audio equipment"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.9,
+  "estimative": "very likely",
+  "summary": "Bose Corporation has faced routine patent disputes and minor settlements, but no material adverse findings such as criminal convictions, major regulator actions, bankruptcies, or large civil judgments as of 2026-10-01.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

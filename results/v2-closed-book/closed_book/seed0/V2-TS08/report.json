@@ -1,0 +1,45 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Warren Buffett is currently the CEO of Berkshire Hathaway.",
+    "entity": "Warren Buffett",
+    "disambiguators": [
+      "CEO of Berkshire Hathaway",
+      "currently"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.95,
+  "estimative": "almost certain",
+  "summary": "Warren Buffett has served as Chairman and CEO of Berkshire Hathaway for decades and, as of the latest public information up to 2025, he remained in the CEO role with no announced succession. No credible reports indicate he stepped down before 2026-10-01.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

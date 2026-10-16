@@ -1,0 +1,116 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Nikola Corporation filed for Chapter 11 bankruptcy in 2025."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.9,
+  "summary": "The evidence shows that Nikola Corporation, a Delaware‑incorporated company headquartered in Phoenix, Arizona, filed a voluntary Chapter 11 bankruptcy on February 19, 2025 (case 25-10258), announced the filing in a press release the same day, and has a history of adverse regulatory and legal outcomes including SEC settlements and the fraud conviction of its founder. These points support the verdict that the claim is true with high confidence.",
+  "findings": [
+    {
+      "statement": "Nikola Corporation is incorporated in the State of Delaware and its principal executive offices are located at 4141 E Broadway Road, Phoenix, AZ 85040.",
+      "confidence": 0.9,
+      "citations": [
+        "https://content.edgar-online.com/ExternalLink/EDGAR/0001193125-22-232754.html?hash=0b5c9973e16683cd9e1cfb9ed47fd7aa562fc484cd9d3e9d588082bea2474cdf&dest=d366604dex32_htm"
+      ]
+    },
+    {
+      "statement": "Nikola Corporation filed a voluntary Chapter 11 bankruptcy petition on February 19, 2025, and the case was assigned docket number 25-10258 in the U.S. Bankruptcy Court for the District of Delaware.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html",
+        "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy"
+      ]
+    },
+    {
+      "statement": "The bankruptcy filing indicates the year 2025, as shown in the February 19, 2025 press release.",
+      "confidence": 0.8,
+      "citations": [
+        "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html"
+      ]
+    },
+    {
+      "statement": "Nikola Corporation issued a press release on February 19, 2025 announcing its Chapter 11 bankruptcy filing.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html"
+      ]
+    },
+    {
+      "statement": "Apart from the bankruptcy, Nikola Corporation has adverse signals including an $83 million SEC settlement, a $125 million SEC civil penalty, securities fraud litigation, and the criminal conviction of founder Trevor Milton for fraud.",
+      "confidence": 0.8,
+      "citations": [
+        "https://capital.com/en-eu/analysis/nikola-ipo-and-the-future-of-the-green-truck-stock",
+        "https://legalclarity.org/nikola-fraud-case-conviction-sec-fines-and-lawsuits",
+        "https://pomlaw.com/news/nikola-investors-win-class-certification-in-securities-fraud-litigation",
+        "http://www.pomerantzlaw.com/monitor-issues/nikola-investors-win-class-certification-in-securities-fraud-litigation",
+        "https://www.swfinstitute.org/news/90355/nikola-corporation-to-pay-125-million-to-resolve-fraud-charges",
+        "https://www.mofo.com/resources/news/221017-nikola-founder-fraud-conviction"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No independent verification from the actual bankruptcy court docket (e.g., docket sheet) beyond the case number and press release.",
+    "Lack of detailed financial statements, creditor lists, or asset schedules to gauge the severity of the bankruptcy.",
+    "No confirmation of post‑filing operations or any subsequent developments after the February 2025 filing."
+  ],
+  "sources": [
+    {
+      "url": "https://content.edgar-online.com/ExternalLink/EDGAR/0001193125-22-232754.html?hash=0b5c9973e16683cd9e1cfb9ed47fd7aa562fc484cd9d3e9d588082bea2474cdf&dest=d366604dex32_htm",
+      "title": "Nikola Corp (Form: S-4, Received: 08/29/2022 16:07:46)",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html",
+      "title": "Nikola Initiates Comprehensive Voluntary Chapter 11 Sale Process",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy",
+      "title": "Nikola: Lucid Acquires Assets; Liquidating Plan Dec. 2025",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://capital.com/en-eu/analysis/nikola-ipo-and-the-future-of-the-green-truck-stock",
+      "title": "Nikola Corporation: from $12bn SPAC debut to bankruptcy explained | Capital.com EU",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://legalclarity.org/nikola-fraud-case-conviction-sec-fines-and-lawsuits",
+      "title": "Nikola Fraud Case: Conviction, SEC Fines, and Lawsuits - LegalClarity",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://pomlaw.com/news/nikola-investors-win-class-certification-in-securities-fraud-litigation",
+      "title": "Nikola Investors Win Class Certification in Securities Fraud Litigation - Pomerantz LLP",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "http://www.pomerantzlaw.com/monitor-issues/nikola-investors-win-class-certification-in-securities-fraud-litigation",
+      "title": "Nikola Investors Win Class Certification in Securities Fraud Litigation - Pomerantz LLP",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.swfinstitute.org/news/90355/nikola-corporation-to-pay-125-million-to-resolve-fraud-charges",
+      "title": "Nikola Corporation to Pay $125 Million to Resolve Fraud Charges",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.mofo.com/resources/news/221017-nikola-founder-fraud-conviction",
+      "title": "Nikola Founder’s Fraud Conviction A Cautionary Tale",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

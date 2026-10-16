@@ -1,0 +1,84 @@
+{
+  "key_facts_established": [
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Smith co-founded Smith-Bennett Properties, Inc. in 1981",
+          "supported": true
+        },
+        {
+          "fact": "John Smith helped form the Spicewood Springs Venture joint venture",
+          "supported": true
+        },
+        {
+          "fact": "He served as COO, CEO and Chairman of General Motors",
+          "supported": true
+        },
+        {
+          "fact": "He is principal of Eagle Advisors LLC",
+          "supported": true
+        },
+        {
+          "fact": "He serves on the board of TI Fluid Systems plc",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The cited excerpts contain no evidence that John Smith has been convicted of a crime",
+          "supported": true
+        },
+        {
+          "fact": "The cited excerpts contain no evidence that John Smith has been charged criminally",
+          "supported": true
+        },
+        {
+          "fact": "The cited excerpts contain no evidence that John Smith has been subject to a major regulatory sanction",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "A court record (Fifth Circuit opinion) describes a bankruptcy sale at which Smith submitted the only proposal",
+          "supported": true
+        },
+        {
+          "fact": "Smith bid $837,316.40, the exact sum needed to pay the mortgage note assumed by the joint venture",
+          "supported": true
+        },
+        {
+          "fact": "The joint venture was formed by Smith-Bennett Properties, Inc., a corporation John Smith co-founded",
+          "supported": true
+        },
+        {
+          "fact": "The bankruptcy sale was approved and consummated",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The cited sources show no personal bankruptcy of John Smith",
+          "supported": true
+        },
+        {
+          "fact": "The cited sources show no insolvency of John Smith",
+          "supported": true
+        },
+        {
+          "fact": "The cited sources show no major civil judgment involving John Smith",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Builder.ai, founded by Sachin Dev Duggal, was acquired by Microsoft in 2025.",
+    "entity": "Builder.ai",
+    "disambiguators": [
+      "founded by Sachin Dev Duggal",
+      "acquired by Microsoft in 2025"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.9,
+  "estimative": "very likely",
+  "summary": "As of the knowledge cutoff in 2024 and subsequent public information up to 2026, Builder.ai (formerly Engineer.ai) remained an independent private company; there were no credible reports or announcements of an acquisition by Microsoft in 2025 or any other year.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

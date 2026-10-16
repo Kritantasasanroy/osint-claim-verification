@@ -1,0 +1,76 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "China Evergrande Group was founded in 1996",
+          "supported": true
+        },
+        {
+          "fact": "China Evergrande Group was founded in Guangzhou",
+          "supported": true
+        },
+        {
+          "fact": "China Evergrande Group was founded by Hui Ka Yan",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The head office of China Evergrande Group is located at No.78 Huangpu Avenue West, Tianhe District, Guangzhou, Guangdong Province, PRC",
+          "supported": true
+        },
+        {
+          "fact": "The postal code of the head office is 510620",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "On 29 January 2024, the High Court of Hong Kong made a winding-up order against China Evergrande Group",
+          "supported": true
+        },
+        {
+          "fact": "The winding-up order placed China Evergrande Group into liquidation",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "China Evergrande Group is undergoing formal liquidation proceedings under Hong Kong law",
+          "supported": true
+        },
+        {
+          "fact": "The liquidation was still ongoing as of 2026-10-01",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The cited evidence shows no material adverse regulatory enforcement action against China Evergrande Group",
+          "supported": true
+        },
+        {
+          "fact": "The cited evidence shows no sanction against China Evergrande Group",
+          "supported": true
+        },
+        {
+          "fact": "The cited evidence shows no major civil judgment against China Evergrande Group",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

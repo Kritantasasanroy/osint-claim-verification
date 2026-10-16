@@ -1,0 +1,167 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Charlie Javice (founder of the startup Frank)",
+    "entity": "Charlie Javice",
+    "disambiguators": [
+      "founder of the startup Frank"
+    ],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-13, the verdict is ADVERSE (99% confidence). The decisive adverse facts are: Charlie Javice was arrested in April 2023 for fraud, convicted in September 2025 on multiple fraud counts and sentenced to 85 months in prison, and the SEC charged her with fraud in connection with the $175 million sale of Frank to JPMorgan Chase in 2021.",
+  "findings": [
+    {
+      "statement": "Charlie Javice was arrested in April 2023 for allegedly orchestrating a scheme to fraudulently induce JPMorgan Chase to acquire Frank for $175 million.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.americanbanker.com/news/7-forbes-30-under-30-fintech-founders-who-landed-in-court"
+      ]
+    },
+    {
+      "statement": "Charlie Javice was convicted of conspiracy, wire fraud, bank fraud and securities fraud and sentenced to 85 months in prison in September 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.americanbanker.com/news/7-forbes-30-under-30-fintech-founders-who-landed-in-court",
+        "https://fortune.com/2025/12/23/frank-founder-charlie-javice-jpmorgan-what-did-legal-fees-include",
+        "https://www.npr.org/2025/03/29/nx-s1-5344434/charlie-javice-convicted-defrauding-jpmorgan"
+      ]
+    },
+    {
+      "statement": "The SEC charged Charlie Javice with fraud in connection with the $175 million sale of Frank to JPMorgan Chase in 2021.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://www.sec.gov/newsroom/press-releases/2023-74"
+      ]
+    }
+  ],
+  "minor_adverse_items": [
+    "Charlie Javice is the founder of the student loan assistance startup Frank. (unrated; americanbanker.com)",
+    "Charlie Javice is the founder of a startup that aimed to revolutionize how college students apply for financial aid (Frank). (unrated; npr.org)"
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "Conflicting evidence on Charlie Javice's birth year: Wikipedia states she was born in 1992 or 1993, while a Facebook post implying she was 33 at the time of an undated video suggests a birth year around 1990. The Wikipedia entry is given greater weight due to its broader sourcing."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Charlie Javice Frank founder criminal indictment charge conviction 2023 2024 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Charlie Javice Frank SEC FTC CFPB enforcement action penalty fine",
+      "results": 4,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Charlie Javice Frank bankruptcy insolvency civil judgment fraud lawsuit",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Charlie Javice appeal",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.justice.gov/usao-sdny/pr/startup-ceo-charlie-javice-sentenced-85-months-prison-175-million-fraud",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/newsroom/press-releases/2023-74",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact date of birth (day/month) is not established; only year estimates exist.",
+    "The city or state where Frank was founded is not provided in the evidence.",
+    "No evidence of any bankruptcy or insolvency proceeding involving Charlie Javice or Frank was found in the searched sources.",
+    "The searched sources do not show a civil judgment for fraud or serious misconduct with damages assessed against Charlie Javice."
+  ],
+  "next_steps": [
+    "Search vital records or reputable biographical databases to confirm Charlie Javice's exact date of birth.",
+    "Search state business registries (e.g., Delaware Division of Corporations) for Frank's formation date and location.",
+    "Search federal bankruptcy dockets (PACER) for any bankruptcy filings by Charlie Javice or Frank.",
+    "Search civil court databases (e.g., CourtListener, PACER) for any final judgments or settlements in the lawsuits between Charlie Javice and JPMorgan Chase."
+  ],
+  "sources": [
+    {
+      "url": "https://www.americanbanker.com/news/7-forbes-30-under-30-fintech-founders-who-landed-in-court",
+      "title": "7 Forbes 30 Under 30 fintech founders who landed in court | American Banker",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-03-16"
+    },
+    {
+      "url": "https://fortune.com/2025/12/23/frank-founder-charlie-javice-jpmorgan-what-did-legal-fees-include",
+      "title": "Charlie Javice hits JPMorgan with $74 million legal bill: $530 in gummies, $347 'afternoon snack' | Fortune",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2025-12-23"
+    },
+    {
+      "url": "https://www.npr.org/2025/03/29/nx-s1-5344434/charlie-javice-convicted-defrauding-jpmorgan",
+      "title": "Charlie Javice convicted of defrauding JPMorgan Chase of $175 million : NPR",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-03-29"
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2023-74",
+      "title": "SEC.gov | SEC Charges Founder of Frank with Fraud in Connection with $175 Million Sale of Student Loan Assistance Company",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

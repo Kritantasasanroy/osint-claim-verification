@@ -1,0 +1,69 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt AB filed for bankruptcy",
+          "supported": true
+        },
+        {
+          "fact": "The bankruptcy filing was made under Swedish law",
+          "supported": true
+        },
+        {
+          "fact": "The bankruptcy filing was made in Stockholm",
+          "supported": true
+        },
+        {
+          "fact": "The bankruptcy filing occurred on March 12, 2025",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tesla did not acquire any of Northvolt's Swedish manufacturing plants",
+          "supported": true
+        },
+        {
+          "fact": "Lyten acquired Northvolt Ett in Skellefteå, Sweden",
+          "supported": true
+        },
+        {
+          "fact": "Lyten acquired Ett Expansion in Skellefteå, Sweden",
+          "supported": true
+        },
+        {
+          "fact": "Lyten acquired Northvolt Labs in Västerås, Sweden",
+          "supported": true
+        },
+        {
+          "fact": "Lyten completed the acquisition of the Swedish assets in February 2026",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt Ett is set to resume operations following Lyten's acquisition",
+          "supported": true
+        },
+        {
+          "fact": "Northvolt Labs is set to resume operations following Lyten's acquisition",
+          "supported": true
+        },
+        {
+          "fact": "Commercially produced battery cells from the Skellefteå factory are expected in the second half of 2026",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

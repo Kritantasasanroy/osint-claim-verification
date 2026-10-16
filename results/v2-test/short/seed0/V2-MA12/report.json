@@ -1,0 +1,192 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "China Evergrande Group",
+    "entity": "China Evergrande Group",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9176,
+  "estimative": "very likely",
+  "summary": "China Evergrande Group is ADVERSE due to being under formal liquidation since a Hong Kong court winding-up order on 29 January 2024, with liquidation ongoing as of 2026-10-01. No material adverse regulatory enforcement action was found in the evidence. The exact legal name and Hong Kong Companies Registry registration number remain undetermined.",
+  "findings": [
+    {
+      "statement": "China Evergrande Group was founded in 1996 in Guangzhou by Hui Ka Yan.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Evergrande_Group",
+        "https://finance.yahoo.com/news/china-evergrande-delisted-hong-kong-122330926.html"
+      ]
+    },
+    {
+      "statement": "The head office of China Evergrande Group is located at No.78 Huangpu Avenue West, Tianhe District, Guangzhou, Guangdong Province, PRC, postal code 510620.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.irasia.com/listco/hk/evergrande/contact.htm"
+      ]
+    },
+    {
+      "statement": "On 29 January 2024, the High Court of Hong Kong issued a winding-up order against China Evergrande Group, placing the company in liquidation.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.investing.com/news/economy/china-evergrande-ordered-to-liquidate-by-hong-kong-court-3285406",
+        "https://finance.yahoo.com/news/china-evergrande-delisted-hong-kong-122330926.html",
+        "https://en.wikipedia.org/wiki/Evergrande_Group",
+        "https://evergrandeliquidation.com"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, China Evergrande Group is undergoing formal liquidation proceedings under Hong Kong law.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://finance.yahoo.com/news/china-evergrande-delisted-hong-kong-122330926.html",
+        "https://www.investing.com/news/economy/china-evergrande-ordered-to-liquidate-by-hong-kong-court-3285406"
+      ]
+    },
+    {
+      "statement": "The evidence does not show any material adverse regulatory enforcement action, sanction, or major civil judgment against China Evergrande Group.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.insurancejournal.com/news/international/2026/06/11/873376.htm"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "China Evergrande Group Hong Kong Companies Registry registration number",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "China Evergrande Group",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "China Evergrande Group insolvency liquidation 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "China Evergrande Group winding-up liquidation appeal Chapter 15",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "China Evergrande Group company registration number Hong Kong",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.stc.tid.gov.hk/english/bsg/OnlineSearch.html",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact legal name and registration number of China Evergrande Group as recorded in the Hong Kong Companies Registry were not found in the performed searches."
+  ],
+  "next_steps": [
+    "Search the Hong Kong Companies Registry for 'China Evergrande Group' to obtain the exact legal name and registration number.",
+    "Review any supplementary filings (e.g., Form NN1, NN2) on the HKEXnews site for changes in registered particulars.",
+    "Consult the official Hong Kong Judiciary announcements for any updates on the liquidation proceedings beyond January 2024.",
+    "Monitor reputable financial news sources for any new regulatory enforcement actions against Evergrande Group."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Evergrande_Group",
+      "title": "Wikipedia: Evergrande Group",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://finance.yahoo.com/news/china-evergrande-delisted-hong-kong-122330926.html",
+      "title": "China Evergrande to be delisted from Hong Kong stock exchange following debt woes",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://www.irasia.com/listco/hk/evergrande/contact.htm",
+      "title": "irasia.com - China Evergrande Group",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.investing.com/news/economy/china-evergrande-ordered-to-liquidate-by-hong-kong-court-3285406",
+      "title": "Instant View: China Evergrande ordered to liquidate by Hong Kong court",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://evergrandeliquidation.com",
+      "title": "China Evergrande Group (In Liquidation) – Information Site",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.insurancejournal.com/news/international/2026/06/11/873376.htm",
+      "title": "China Evergrande’s Liquidation Prompts Some PwC Partners to Weigh Shielding Assets - Insurance Journal",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-11"
+    }
+  ]
+}

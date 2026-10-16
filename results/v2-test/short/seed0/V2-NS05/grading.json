@@ -1,0 +1,53 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nikola Tesla died on January 7, 1943.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tesla, Inc. was incorporated on July 1, 2003.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tesla, Inc. was founded (incorporated) by Martin Eberhard and Marc Tarpenning.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nikola Tesla died in 1943.",
+          "supported": true
+        },
+        {
+          "fact": "Tesla, Inc. was incorporated in 2003.",
+          "supported": true
+        },
+        {
+          "fact": "Nikola Tesla died 60 years before Tesla, Inc.'s incorporation.",
+          "supported": true
+        },
+        {
+          "fact": "Nikola Tesla had no involvement in the founding of Tesla, Inc.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

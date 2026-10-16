@@ -1,0 +1,197 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "John Ternus (Apple CEO)",
+    "entity": "John Ternus",
+    "disambiguators": [
+      "Apple CEO"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.9308,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, John Ternus is the Chief Executive Officer of Apple Inc., having assumed the role on September 1, 2026. His full name is John Patrick Ternus. No adverse legal findings (criminal convictions, charges, sanctions, bans, or material civil judgments) were identified in the searched sources, supporting a NO_ADVERSE verdict with 93% confidence.",
+  "findings": [
+    {
+      "statement": "John Ternus’s full name is John Patrick Ternus and, as of 2026-10-01, his current title is Chief Executive Officer of Apple Inc.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/John_Ternus",
+        "https://www.britannica.com/money/John-Ternus",
+        "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html"
+      ]
+    },
+    {
+      "statement": "John Ternus assumed the role of CEO of Apple Inc. on September 1, 2026.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.bloomberg.com/news/articles/2026-08-30/apple-s-new-ceo-john-ternus-takes-reins-from-tim-cook-focusing-on-ai",
+        "https://www.britannica.com/money/John-Ternus",
+        "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
+        "https://www.wsj.com/tech/apple-since-2011-john-ternus-51c1d5d8"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "John Ternus Apple convicted charged sanctioned",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "John Ternus Apple senior vice president hardware engineering title",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "John Ternus Apple CEO assumption date",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "John Ternus legal issues",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "John Ternus Apple CEO fined",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "sanctions",
+      "query": "John Ternus",
+      "results": 0,
+      "failure": "UnusableArgument: sanctions needs a tool this toolbox offers, got: John Ternus",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "John Ternus",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "John Ternus criminal charge",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "John Ternus barred officer director",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "The searches did not include specialized legal databases (e.g., PACER, Bloomberg Law) or international sanctions lists, so sealed civil settlements, administrative sanctions, or foreign proceedings could be missed. [withdrawn: no tool checked sanctions]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct evidence was located regarding John Ternus’s personal wealth, making it impossible to assess whether any hypothetical civil judgment would be material relative to his assets.",
+    "No sources were found that explicitly confirm the absence of criminal charges, convictions, or regulatory sanctions; the lack of adverse findings in news and court record searches is suggestive but not definitive."
+  ],
+  "next_steps": [
+    "Query SEC EDGAR for any insider trading filings or related‑party disclosures involving John Ternus.",
+    "Search PACER and federal district court dockets for any civil or criminal cases bearing his name.",
+    "Check OFAC, EU, and UK sanctions lists for any designations.",
+    "Review Apple’s latest 10‑K and proxy statement for disclosures about executive compensation and any legal proceedings."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Ternus",
+      "title": "John Ternus - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.britannica.com/money/John-Ternus",
+      "title": "John Ternus | Incoming Apple CEO & Hardware Engineering Executive | Britannica Money",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": "2026-06-25"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html",
+      "title": "Apple taps John Ternus as CEO to replace Tim Cook, becoming chairman",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/apple-s-new-ceo-john-ternus-takes-reins-from-tim-cook-focusing-on-ai",
+      "title": "Apple’s New CEO John Ternus Takes Reins From Tim Cook, Focusing on AI - Bloomberg",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-08-30"
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
+      "title": "Tim Cook to become Apple Executive Chairman John Ternus to become Apple CEO - Apple",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.wsj.com/tech/apple-since-2011-john-ternus-51c1d5d8",
+      "title": "The Apple Empire That John Ternus Inherits—by the Numbers - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    }
+  ]
+}

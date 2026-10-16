@@ -1,0 +1,221 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Nikola Corporation filed for Chapter 11 bankruptcy in February 2025.",
+    "entity": "Nikola Corporation",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "nikola_chapter11.png"
+  ],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-01, the claim that Nikola Corporation filed for Chapter 11 bankruptcy in February 2025 is TRUE with 99% confidence. The company, legally named Nikola Corporation and incorporated in Delaware, has its headquarters in Phoenix, Arizona. It filed a voluntary Chapter 11 petition on February 19, 2025 (case number 25-10258) in the U.S. Bankruptcy Court for the District of Delaware, and the case has since seen a liquidation plan confirmed on September 12, 2025 and an appeal reviewed on September 10, 2026.",
+  "findings": [
+    {
+      "statement": "Nikola Corporation's full legal name is Nikola Corporation and it is incorporated in the State of Delaware.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://search.gleif.org/#/record/6354007SKFUCHYZAKQ61",
+        "https://www.sec.gov/Archives/edgar/data/1731289/000173128925000004/nkla-20250218.htm"
+      ]
+    },
+    {
+      "statement": "Nikola Corporation's headquarters is located in Phoenix, Arizona, USA.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.cnbc.com/2025/02/19/nikola-chapter-11-bankruptcy-protection.html",
+        "https://search.gleif.org/#/record/6354007SKFUCHYZAKQ61"
+      ]
+    },
+    {
+      "statement": "Nikola Corporation filed a voluntary Chapter 11 bankruptcy petition in the United States Bankruptcy Court for the District of Delaware on February 19, 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.cnbc.com/2025/02/19/nikola-chapter-11-bankruptcy-protection.html",
+        "https://www.sec.gov/Archives/edgar/data/1731289/000173128925000004/nkla-20250218.htm",
+        "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html"
+      ]
+    },
+    {
+      "statement": "The bankruptcy case of Nikola Corporation is identified by docket number 25-10258, confirming a filing in 2025 (month not specified in this source).",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy"
+      ]
+    },
+    {
+      "statement": "Subsequent developments in the case include a liquidation plan confirmed on September 12, 2025 and a Chapter 11 appeal reviewed on September 10, 2026.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.ad-hoc-news.de/boerse/news/corporate-news/nikola-corporation-stock-faces-a-bankruptcy-plan-appeal/70225032"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Nikola Corporation bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Nikola Corporation",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Nikola Corporation headquarters 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Nikola Corporation Chapter 11 bankruptcy February 19 2025 District of Delaware",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "25-10258 Nikola Corporation",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "25-10258",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "In re Nikola Corporation",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Nikola Corporation Chapter 11 bankruptcy filed February 19 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "25-10258 Nikola Corporation District of Delaware",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "GLEIF legal-entity (LEI) records"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [
+    "The analyst-provided document nikola_chapter11.png is internally consistent with the corroborated evidence: it states that Nikola Corporation filed a voluntary Chapter 11 petition on February 19, 2025, which matches the CNBC article, SEC filing, and press releases. The document is undated but its content aligns with the 2025-02-19 evidence. It is formatted as a screenshot intended for human readers, not explicitly addressing an AI audience."
+  ],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct PACER or official bankruptcy docket retrieval for case number 25-10258 was available in the performed searches, so the case number could not be verified via the court's own system.",
+    "Headquarters location is supported by legal address and news references, but no explicit operational headquarters statement (e.g., from the company's website or a recent SEC filing) was retrieved.",
+    "Evidence does not clarify whether the Chapter 11 case was later converted to Chapter 7 or dismissed; only the liquidation plan confirmation and appeal are noted."
+  ],
+  "next_steps": [
+    "Search PACER or the United States Bankruptcy Court for the District of Delaware docket for case number 25-10258 to retrieve the filing date and any subsequent orders.",
+    "Review Nikola Corporation's most recent SEC 10‑K, 10‑Q, or 8‑K filings for an explicit statement of its current headquarters address.",
+    "Consult the company's investor‑relations website or press‑release archive for any official address confirmation.",
+    "Monitor reputable financial news sources for updates on the bankruptcy case, especially any conversion to Chapter 7 or case dismissal."
+  ],
+  "sources": [
+    {
+      "url": "https://search.gleif.org/#/record/6354007SKFUCHYZAKQ61",
+      "title": "GLEIF: Nikola Corporation",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1731289/000173128925000004/nkla-20250218.htm",
+      "title": "nkla-20250218",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.cnbc.com/2025/02/19/nikola-chapter-11-bankruptcy-protection.html",
+      "title": "Nikola files for Chapter 11 bankruptcy protection",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-02-19"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/nikola-initiates-comprehensive-voluntary-chapter-11-sale-process-302380185.html",
+      "title": "Nikola Initiates Comprehensive Voluntary Chapter 11 Sale Process",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy",
+      "title": "Nikola: Lucid Acquires Assets; Liquidating Plan Dec. 2025",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-05-22"
+    },
+    {
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nikola-corporation-stock-faces-a-bankruptcy-plan-appeal/70225032",
+      "title": "Nikola Corporation stock faces a bankruptcy plan appeal",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-07"
+    }
+  ]
+}

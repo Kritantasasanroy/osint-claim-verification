@@ -1,0 +1,135 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Patagonia's founder transferred ownership of the company to a trust and a nonprofit in 2022."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.92,
+  "summary": "The evidence confirms that Patagonia's founder, Yvon Chouinard, transferred ownership of the company in 2022 to the Patagonia Purpose Trust (which holds all voting stock) and the Holdfast Collective (which holds all nonvoting stock). The transfer is documented on Patagonia's ownership page and reported by multiple news outlets. While the founder no longer holds direct voting shares, he retains practical influence via the trust. Minor gaps remain regarding the precise filing date, trust and nonprofit formation documents, and SEC disclosures.",
+  "findings": [
+    {
+      "statement": "The founder of Patagonia, Inc. is Yvon Chouinard.",
+      "confidence": 0.96,
+      "citations": [
+        "https://www.youtube.com/watch?v=Bu13DzVkNNo",
+        "https://en.wikipedia.org/wiki/Yvon_Chouinard",
+        "https://www.cnbc.com/2022/09/15/yvon-chouinard-donates-patagonia-to-fight-climate-change-protect-land.html",
+        "https://www.nytimes.com/2022/09/14/climate/patagonia-climate-philanthropy-chouinard.html",
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc."
+      ]
+    },
+    {
+      "statement": "In 2022, Yvon Chouinard executed a legal transfer of ownership of Patagonia, Inc.",
+      "confidence": 0.93,
+      "citations": [
+        "https://www.cnbc.com/2022/09/15/yvon-chouinard-donates-patagonia-to-fight-climate-change-protect-land.html",
+        "https://www.nytimes.com/2022/09/14/climate/patagonia-climate-philanthropy-chouinard.html",
+        "https://www.outsideonline.com/business-journal/brands/yvon-chouinard-patagonia-new-ownership",
+        "https://www.wsj.com/articles/patagonia-founder-yvon-chouinardis-giving-company-away-in-pledge-to-fight-climate-change-11663190342",
+        "https://www.businessinsider.com/patagonia-founder-gives-away-company-profits-to-go-climate-crisis-2022-9",
+        "https://www.latimes.com/business/story/2022-09-14/patagonia-founder-yvon-chouinard-donating-shares-history",
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc."
+      ]
+    },
+    {
+      "statement": "Ownership of Patagonia, Inc. was transferred to the Patagonia Purpose Trust (voting stock) and the Holdfast Collective (nonvoting stock).",
+      "confidence": 0.92,
+      "citations": [
+        "https://www.patagonia.com/ownership",
+        "https://www.outsideonline.com/business-journal/brands/yvon-chouinard-patagonia-new-ownership",
+        "https://www.businessinsider.com/patagonia-founder-gives-away-company-profits-to-go-climate-crisis-2022-9",
+        "https://www.latimes.com/business/story/2022-09-14/patagonia-founder-yvon-chouinard-donating-shares-history",
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc."
+      ]
+    },
+    {
+      "statement": "Patagonia's ownership webpage (updated September 2022) serves as a publicly available document recording the transfer to the Patagonia Purpose Trust and Holdfast Collective.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.patagonia.com/ownership",
+        "https://www.outsideonline.com/business-journal/brands/yvon-chouinard-patagonia-new-ownership"
+      ]
+    },
+    {
+      "statement": "After the 2022 transfer, the founder does not retain any voting shares; the Patagonia Purpose Trust owns all voting stock of Patagonia, Inc.",
+      "confidence": 0.88,
+      "citations": [
+        "https://www.patagonia.com/ownership",
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc."
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "Wikipedia states that after transferring voting stock to the Patagonia Purpose Trust, Yvon Chouinard retains effective control of Patagonia via the trust, whereas Patagonia's ownership page says the trust owns all voting stock and the founder does not retain any voting shares. Both sources agree the trust holds the voting stock; the disagreement concerns the founder's indirect control. We weighed the Patagonia ownership page as a primary source describing the legal structure, and interpreted Wikipedia's comment as describing practical influence, concluding that the founder does not hold direct voting shares but retains influence through the trust."
+  ],
+  "gaps": [
+    "The exact date of the state filing or legal registration that formalized the transfer to the Patagonia Purpose Trust and Holdfast Collective is not provided in the evidence.",
+    "Copies of the trust agreement for the Patagonia Purpose Trust and the registration documents (e.g., IRS determination letter, state nonprofit filing) for Holdfast Collective are not available in the evidence set.",
+    "No SEC Form 8-K or equivalent corporate filing disclosing the ownership change is cited in the evidence.",
+    "Registration numbers or official identifiers for the Patagonia Purpose Trust and Holdfast Collective are not supplied."
+  ],
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=Bu13DzVkNNo",
+      "title": "Yvon Chouinard - Patagonia: Growing the Sustainable Company",
+      "tier": "unvetted",
+      "reliability": 0.787
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yvon_Chouinard",
+      "title": "Yvon Chouinard - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.951
+    },
+    {
+      "url": "https://www.cnbc.com/2022/09/15/yvon-chouinard-donates-patagonia-to-fight-climate-change-protect-land.html",
+      "title": "Yvon Chouinard donates Patagonia to fight climate change, protect land",
+      "tier": "major_news",
+      "reliability": 0.93
+    },
+    {
+      "url": "https://www.nytimes.com/2022/09/14/climate/patagonia-climate-philanthropy-chouinard.html",
+      "title": "Patagonia Founder Gives Away the Company to Fight Climate Change - The New York Times",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Patagonia,_Inc.",
+      "title": "Wikipedia: Patagonia, Inc.",
+      "tier": "reference",
+      "reliability": 0.951
+    },
+    {
+      "url": "https://www.outsideonline.com/business-journal/brands/yvon-chouinard-patagonia-new-ownership",
+      "title": "Yvon Chouinard No Longer Owns Patagonia",
+      "tier": "unvetted",
+      "reliability": 0.6
+    },
+    {
+      "url": "https://www.wsj.com/articles/patagonia-founder-yvon-chouinardis-giving-company-away-in-pledge-to-fight-climate-change-11663190342",
+      "title": "Patagonia Founder Is Giving His Company Away in Pledge to Fight Climate Change - WSJ",
+      "tier": "major_news",
+      "reliability": 0.88
+    },
+    {
+      "url": "https://www.businessinsider.com/patagonia-founder-gives-away-company-profits-to-go-climate-crisis-2022-9",
+      "title": "Patagonia Founder Gives Away Company, Profits to Go to Climate Crisis - Business Insider",
+      "tier": "news",
+      "reliability": 0.7
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2022-09-14/patagonia-founder-yvon-chouinard-donating-shares-history",
+      "title": "Patagonia founder Yvon Chouinard's history of activism - Los Angeles Times",
+      "tier": "news",
+      "reliability": 0.8
+    },
+    {
+      "url": "https://www.patagonia.com/ownership",
+      "title": "Yvon Chouinard Donates Patagonia to Fight Climate Crisis",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

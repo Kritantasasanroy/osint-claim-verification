@@ -1,0 +1,45 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "DW.com reported on 15 October 2025 that René Benko was sentenced to two years in prison.",
+          "supported": true
+        },
+        {
+          "fact": "The Local.at reported on 15 October 2025 that René Benko was sentenced to two years in prison.",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was imposed by the Innsbruck State Court (the Regional Court of Innsbruck).",
+          "supported": true
+        },
+        {
+          "fact": "The conviction was for bankruptcy fraud (insolvency fraud).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Bluewin.ch reported that René Benko was sentenced to two and a half years in prison.",
+          "supported": true
+        },
+        {
+          "fact": "Yahoo Finance reported that René Benko was sentenced to two and a half years in prison.",
+          "supported": true
+        },
+        {
+          "fact": "Both outlets reported this on 22 September 2026.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

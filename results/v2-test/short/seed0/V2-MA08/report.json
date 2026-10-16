@@ -1,0 +1,237 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "FTX (cryptocurrency exchange)",
+    "entity": "FTX",
+    "disambiguators": [
+      "cryptocurrency exchange"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "FTX is ADVERSE: as of 2026-10-01 it is in bankruptcy (Chapter 11 filed 2022-11-11) and faces major enforcement actions from the CFTC and SEC for fraud, while no criminal conviction has been recorded.",
+  "findings": [
+    {
+      "statement": "The exact legal name of FTX is FTX Trading Ltd.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://www.troutman.com/insights/prosecutors-and-regulators-announce-criminal-charges-and-civil-enforcement-actions-against-sam-bankman-fried-following-ftx-collapse"
+      ]
+    },
+    {
+      "statement": "FTX Trading Ltd was incorporated in Antigua and Barbuda, with its headquarters in The Bahamas.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement100526"
+      ]
+    },
+    {
+      "statement": "FTX was founded by Sam Bankman‑Fried and Gary Wang.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.troutman.com/insights/prosecutors-and-regulators-announce-criminal-charges-and-civil-enforcement-actions-against-sam-bankman-fried-following-ftx-collapse",
+        "https://abcnews.com/Business/sam-bankman-fried-trial-verdict-reached-federal-fraud/story?id=104520346",
+        "https://www.afslaw.com/services/metaverse-blockchain-digital-assets/crypto-blockchain-bankruptcy/ftx-bankruptcy"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, FTX is undergoing bankruptcy proceedings, having filed a Chapter 11 petition on November 11, 2022.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.courtlistener.com/opinion/9467560/ftx-trading-ltd-v/",
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://www.ebsco.com/research-starters/law/ftx-bankruptcy"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, the CFTC and SEC have brought enforcement actions against FTX for fraud and wrongdoing.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.npr.org/2026/10/08/nx-s1-5903204/crypto-prediction-markets-cftc-weakens",
+        "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement100526",
+        "https://www.cftc.gov/PressRoom/PressReleases/8638-22"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, FTX has not been convicted of a criminal offense; only regulatory charges have been filed.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement100526"
+      ]
+    }
+  ],
+  "minor_adverse_items": [
+    "CFTC under the Biden administration had leveled enforcement cases against FTX for fraud. (unrated; npr.org)"
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "Jurisdiction of incorporation: OFI LA.gov states FTX Trading Ltd is incorporated in Antigua and Barbuda, while a CFTC speech describes FTX as Bahamas‑based (suggesting headquarters or operational base). The incorporation claim is weighted more heavily (specific legal filing) and is treated as the decisive fact."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "FTX criminal conviction fraud charges 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "FTX bankruptcy insolvency court declared bankrupt 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "FTX regulator enforcement ban suspension SEC CFTC 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "FTX Trading Ltd bankruptcy Chapter 11",
+      "results": 5,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "FTX Trading Ltd criminal charge fraud 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "FTX SEC enforcement action 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No verified criminal conviction or criminal charge against FTX or its subsidiaries; only regulatory actions are documented.",
+    "The alleged $12.7 billion CFTC recovery/judgment is based on a low‑weight, unverified source and cannot be confirmed.",
+    "Exact founding date and full list of founders (beyond Sam Bankman‑Fried and Gary Wang) are not provided in the evidence.",
+    "Whether any FTX subsidiary faced formal criminal charges remains undocumented in the supplied sources.",
+    "Whether a formal ban or suspension (as opposed to an enforcement action) was issued by a regulator is not clearly shown."
+  ],
+  "next_steps": [
+    "Search DOJ press releases and PACER for any criminal indictments or convictions related to FTX or its subsidiaries.",
+    "Consult the Antigua and Barbuda corporate registry to confirm FTX Trading Ltd.’s incorporation details and any subsequent changes.",
+    "Review SEC enforcement actions and civil complaints for any judgments or settlements against FTX.",
+    "Examine the bankruptcy docket (via CourtListener or PACER) for the status of the Chapter 11 case and any confirmed distributions to creditors."
+  ],
+  "sources": [
+    {
+      "url": "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+      "title": "FTX Files Chapter 11 Bankruptcy",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.troutman.com/insights/prosecutors-and-regulators-announce-criminal-charges-and-civil-enforcement-actions-against-sam-bankman-fried-following-ftx-collapse",
+      "title": "Prosecutors and Regulators Announce Criminal Charges and Civil Enforcement Actions Against Sam Bankman-Fried Following FTX Collapse - Troutman Pepper Locke",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement100526",
+      "title": "WSJ Op-Ed | CFTC’s New Rules for Crypto | CFTC",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2026-10-05"
+    },
+    {
+      "url": "https://abcnews.com/Business/sam-bankman-fried-trial-verdict-reached-federal-fraud/story?id=104520346",
+      "title": "Sam Bankman-Fried found guilty in federal fraud and conspiracy trial, could face 110 years in prison - ABC News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.afslaw.com/services/metaverse-blockchain-digital-assets/crypto-blockchain-bankruptcy/ftx-bankruptcy",
+      "title": "FTX Bankruptcy | ArentFox Schiff",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/9467560/ftx-trading-ltd-v/",
+      "title": "CourtListener: FTX Trading, Ltd. v.",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2024-01-19"
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/law/ftx-bankruptcy",
+      "title": "FTX bankruptcy | Law | Research Starters | EBSCOhost",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5903204/crypto-prediction-markets-cftc-weakens",
+      "title": "As crypto and prediction markets expand, the CFTC shrinks : NPR",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-10-08"
+    },
+    {
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/8638-22",
+      "title": "CFTC Charges Sam Bankman-Fried, FTX Trading and Alameda with Fraud and Material Misrepresentations | CFTC",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Michael Jordan's full name is Michael Jeffrey Jordan",
+          "supported": true
+        },
+        {
+          "fact": "Michael Jordan was born on 1963-02-17",
+          "supported": true
+        },
+        {
+          "fact": "Michael Jordan is known as a former professional basketball player and businessman",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Michael Jordan played for the Chicago Bulls",
+          "supported": true
+        },
+        {
+          "fact": "Michael Jordan played for the Chicago Bulls in a first stint from 1984 to 1993",
+          "supported": true
+        },
+        {
+          "fact": "Michael Jordan played for the Chicago Bulls in a second stint from 1995 to 1998",
+          "supported": true
+        },
+        {
+          "fact": "Michael Jordan retired from professional basketball in 2003",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "No criminal conviction against Michael Jordan appears in the consulted sources as of 2026-10-01",
+          "supported": true
+        },
+        {
+          "fact": "No indictment against Michael Jordan appears in the consulted sources as of 2026-10-01",
+          "supported": true
+        },
+        {
+          "fact": "No criminal charge against Michael Jordan appears in the consulted sources as of 2026-10-01",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "No bankruptcy or insolvency proceeding against Michael Jordan is reported in the consulted sources as of 2026-10-01",
+          "supported": true
+        },
+        {
+          "fact": "No major civil judgment against Michael Jordan is reported in the consulted sources as of 2026-10-01",
+          "supported": true
+        },
+        {
+          "fact": "No regulatory sanction against Michael Jordan is reported in the consulted sources as of 2026-10-01",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

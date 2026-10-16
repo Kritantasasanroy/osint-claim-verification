@@ -1,0 +1,109 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Rodrigo Rato served as Managing Director (chief) of the International Monetary Fund.",
+          "supported": true
+        },
+        {
+          "fact": "Rato is a former (not current) IMF chief; his IMF tenure has ended.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Rodrigo Rato served as Managing Director of the IMF.",
+          "supported": true
+        },
+        {
+          "fact": "His IMF tenure ran from 2004 to 2007.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "On 20 December 2024, a Madrid court sentenced Rodrigo Rato.",
+          "supported": true
+        },
+        {
+          "fact": "The prison sentence was more than four years.",
+          "supported": true
+        },
+        {
+          "fact": "He was convicted of tax crimes, money laundering and corruption.",
+          "supported": true
+        },
+        {
+          "fact": "The convictions included three offences against the Treasury (delitos contra la Hacienda Pública).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Rodrigo Rato was convicted by a Madrid court in December 2024.",
+          "supported": true
+        },
+        {
+          "fact": "The conviction was for tax fraud, money laundering and corruption.",
+          "supported": true
+        },
+        {
+          "fact": "The conviction occurred after 2020.",
+          "supported": true
+        },
+        {
+          "fact": "The conviction was the culmination of judicial proceedings, with judges finding Rato guilty after a trial.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Judges found Rato guilty of three offences against the Treasury.",
+          "supported": true
+        },
+        {
+          "fact": "Rato was not acquitted of the offences against the Treasury.",
+          "supported": true
+        },
+        {
+          "fact": "The charges for the Treasury offences were not dropped; they proceeded to a guilty verdict.",
+          "supported": true
+        },
+        {
+          "fact": "The only acquittal mentioned (Bankia 2012 listing) was in a separate trial, distinct from the Treasury offences.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Audiencia Nacional agreed that Rodrigo Rato, among other former PP ministers/leaders, should appear in the Gürtel trial.",
+          "supported": true
+        },
+        {
+          "fact": "The appearance was to be as a witness (testigo).",
+          "supported": true
+        },
+        {
+          "fact": "The decision/appearance order was dated 29 July 2026.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

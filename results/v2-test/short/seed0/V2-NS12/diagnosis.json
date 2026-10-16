@@ -1,0 +1,13 @@
+{
+  "case_id": "V2-NS12",
+  "mode": "short",
+  "seed": 0,
+  "correct": true,
+  "verdict_flips": 0,
+  "steps_to_stable": 2,
+  "misleading_memories_trusted": 0,
+  "failure_modes": [
+    "right_for_wrong_reason",
+    "incomplete_findings"
+  ]
+}

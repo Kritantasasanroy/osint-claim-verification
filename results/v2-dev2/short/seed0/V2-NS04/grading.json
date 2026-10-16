@@ -1,0 +1,49 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "A person named Mark Zuckerberg works as a bankruptcy lawyer.",
+          "supported": true
+        },
+        {
+          "fact": "That Mark Zuckerberg practices law in Indianapolis, Indiana.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Mark Zuckerberg is an Indiana bankruptcy lawyer.",
+          "supported": true
+        },
+        {
+          "fact": "His law office is located at 429 North Pennsylvania Street, Suite 100, Indianapolis, IN.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The plaintiff is Mark Zuckerberg, an Indianapolis/Indiana bankruptcy lawyer (not the Meta founder).",
+          "supported": true
+        },
+        {
+          "fact": "He filed a lawsuit against Meta.",
+          "supported": true
+        },
+        {
+          "fact": "The lawsuit was filed in September 2025.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

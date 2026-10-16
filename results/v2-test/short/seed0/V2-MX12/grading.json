@@ -1,0 +1,69 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai was founded by Sachin Dev Duggal.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The full legal name of Builder.ai is Engineer.ai Cloud Services India Private Limited.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai filed for Chapter 7 bankruptcy.",
+          "supported": true
+        },
+        {
+          "fact": "The bankruptcy case is in a Delaware bankruptcy court.",
+          "supported": true
+        },
+        {
+          "fact": "The bankruptcy filing was dated June 2, 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai had a partnership with Microsoft.",
+          "supported": true
+        },
+        {
+          "fact": "The New York Times reported on Builder.ai and its Microsoft partnership on August 31, 2025.",
+          "supported": true
+        },
+        {
+          "fact": "Builder.ai's relationship with Microsoft was a partnership rather than an acquisition.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "No official Microsoft press release or SEC filing indicates an acquisition of Builder.ai in 2025.",
+          "supported": false
+        },
+        {
+          "fact": "The New York Times coverage of Builder.ai's collapse states that no Microsoft press release or SEC filing indicates an acquisition.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "C23",
+  "mode": "none",
+  "correct": true,
+  "verdict_flips": 2,
+  "steps_to_stable": 5,
+  "misleading_memories_trusted": 0,
+  "failure_modes": []
+}

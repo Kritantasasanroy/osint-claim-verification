@@ -1,0 +1,193 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Charlie Javice was acquitted on all counts in March 2025.",
+    "entity": "Charlie Javice",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "javice_acquittal.png"
+  ],
+  "verdict": "FALSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "The claim that Charlie Javice was acquitted on all counts in March 2025 is false. Multiple reliable sources from June 2026 back to December 2025 consistently report that Charlie Javice (full legal name Charlie H. Javice), founder and CEO of the financial aid startup Frank, was convicted of securities fraud, wire fraud, bank fraud, and conspiracy on March 28, 2025, and subsequently sentenced to more than seven years in prison. No credible evidence of an acquittal exists; the only source suggesting acquittal is the analyst‑provided image, which contradicts the corroborated record and is therefore unreliable.",
+  "findings": [
+    {
+      "statement": "Charlie Javice was convicted of fraud in March 2025 on multiple counts.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/",
+        "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
+        "https://www.businessinsider.com/charlie-javice-gps-ankle-bracelet-jpmorgan-fraud-appeal-2026-4",
+        "https://fortune.com/2025/12/23/frank-founder-charlie-javice-jpmorgan-what-did-legal-fees-include/",
+        "https://www.axios.com/2025/09/29/charlie-javice-jp-morgan-fraud-case-sentenced-prison",
+        "https://en.wikipedia.org/wiki/Charlie_Javice"
+      ]
+    },
+    {
+      "statement": "Charlie Javice's full legal name is Charlie H. Javice.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Charlie_Javice"
+      ]
+    },
+    {
+      "statement": "Charlie Javice founded the financial aid startup Frank and served as its CEO until its acquisition in 2021.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Charlie_Javice",
+        "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
+        "https://fortune.com/2025/12/23/frank-founder-charlie-javice-jpmorgan-what-did-legal-fees-include/",
+        "https://techcrunch.com/2025/11/15/jpmorgan-doesnt-want-to-pay-frank-founder-charlie-javices-legal-bills/"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Charlie Javice",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Charlie Javice acquitted March 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Charlie Javice indictment charges Frank JPMorgan",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "United States v. Javice jury verdict",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.axios.com/2025/09/29/charlie-javice-jp-morgan-fraud-case-sentenced-prison",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Charlie_Javice",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [
+    "The analyst-provided document javice_acquittal.png claims a jury acquittal on March 28, 2025, but multiple independent, reliable sources (TechCrunch, CNBC, Business Insider, Fortune, Axios, Wikipedia) uniformly report a conviction on the same date. This internal inconsistency and contradiction with corroborated evidence indicates the document is likely erroneous or fabricated and does not provide reliable information for an AI reader."
+  ],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact alias or any alternative names used by Charlie Javice beyond 'Charlie Javice' and 'Charlie H. Javice' were not confirmed in the available sources.",
+    "The precise date of sentencing (day of the week) and the official judgment document were not directly accessed; reliance is on secondary reporting.",
+    "Details of any post‑conviction appeals or current incarceration status were not established by the performed searches."
+  ],
+  "next_steps": [
+    "Request the docket sheet for United States v. Javice from PACER to confirm the March 2025 verdict and sentencing.",
+    "Locate the official judgment or order on the court’s website to verify the conviction details.",
+    "Search the Department of Justice press release archive for an announcement regarding the Frank/JPMorgan case.",
+    "Review any appeal filings or notices of appeal in the appellate court docket."
+  ],
+  "sources": [
+    {
+      "url": "https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/",
+      "title": "Startup CEO Charlie Javice is reportedly angling for a Trump pardon - TechCrunch",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-14"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
+      "title": "Charlie Javice reportedly seeking a pardon from Trump - CNBC",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-14"
+    },
+    {
+      "url": "https://www.businessinsider.com/charlie-javice-gps-ankle-bracelet-jpmorgan-fraud-appeal-2026-4",
+      "title": "JPMorgan fraud convict Charlie Javice is trying to ditch her ankle bracelet again - Business Insider",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-04-30"
+    },
+    {
+      "url": "https://fortune.com/2025/12/23/frank-founder-charlie-javice-jpmorgan-what-did-legal-fees-include/",
+      "title": "Charlie Javice hits JPMorgan with $74 million legal bill: $530 in gummies, $347 'afternoon snack' - Fortune",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2025-12-23"
+    },
+    {
+      "url": "https://www.axios.com/2025/09/29/charlie-javice-jp-morgan-fraud-case-sentenced-prison",
+      "title": "Charlie Javice sentenced to 7 years in prison for defrauding JP Morgan",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Charlie_Javice",
+      "title": "Charlie Javice - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://techcrunch.com/2025/11/15/jpmorgan-doesnt-want-to-pay-frank-founder-charlie-javices-legal-bills/",
+      "title": "JPMorgan doesn’t want to pay Frank founder Charlie Javice’s legal bills - TechCrunch",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2025-11-15"
+    }
+  ]
+}

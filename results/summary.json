@@ -1,0 +1,1249 @@
+{
+  "cases": 33,
+  "budget": {
+    "max_steps": 5,
+    "max_tool_calls": 12,
+    "actions_per_step": 3
+  },
+  "modes": [
+    {
+      "mode": "none",
+      "episodes": 33,
+      "crashed": 0,
+      "accuracy": 0.9090909090909091,
+      "accuracy_by_kind": {
+        "company": 0.8571428571428571,
+        "person": 0.875,
+        "claim": 0.9444444444444444
+      },
+      "episode_reward": 0.7219165281385281,
+      "step_reward": 0.2893820667984205,
+      "process_reward": 0.14027492394127763,
+      "step_reward_by_step": [
+        0.5183081508340766,
+        -0.01873191488086231,
+        -0.011589388371611744,
+        -0.010216664528373363,
+        0.01330241515015109
+      ],
+      "p_correct_by_step": [
+        0.8657575757575757,
+        0.8136363636363637,
+        0.8066666666666666,
+        0.8166666666666667,
+        0.8318181818181818
+      ],
+      "brier": 0.07561212121212121,
+      "ece": 0.0242424242424242,
+      "key_fact_recall": 0.6717171717171717,
+      "citation_precision": 0.7128427128427129,
+      "steps": 1.696969696969697,
+      "steps_to_stable": 1.393939393939394,
+      "verdict_flips": 0.15151515151515152,
+      "concluded_rate": 0.7878787878787878,
+      "tool_calls": 4.909090909090909,
+      "tool_failure_rate": 0.0,
+      "tokens": 32471.78787878788,
+      "cost_usd_total": 0.2984893,
+      "wall_clock_s": 54.48400809395014,
+      "call_latency_s": 130.29318181818184,
+      "reward_per_10k_tokens": 0.22232115177437412,
+      "memories_per_episode": 0.0,
+      "memory_relevant_rate": 0.0,
+      "memory_irrelevant_rate": 0.0,
+      "memory_misleading_rate": 0.0,
+      "misleading_memories_trusted": 0,
+      "memories_distrusted": 0,
+      "failure_modes": {
+        "incomplete_findings": 8,
+        "source_selection": 2,
+        "premature_stop": 1,
+        "overconfident": 3,
+        "budget_exhausted": 2,
+        "weak_evidence": 1
+      },
+      "episode_reward_in_order": [
+        0.856484,
+        0.6661046666666666,
+        0.8860593333333334,
+        0.8451523333333335,
+        0.8127583333333334,
+        0.717106,
+        0.8796660000000001,
+        0.6835013333333333,
+        0.7775423333333333,
+        0.7281936666666667,
+        0.8828680000000001,
+        0.7488996666666667,
+        0.708734,
+        0.8493604285714287,
+        0.6526286666666666,
+        0.847616,
+        0.7462306666666667,
+        0.8781720000000001,
+        0.5015983333333334,
+        0.308967,
+        0.8757466666666668,
+        0.026105999999999976,
+        0.8356146666666667,
+        0.8188206666666666,
+        0.8760300000000001,
+        0.6530026666666667,
+        0.12648266666666663,
+        0.8807786666666667,
+        0.833766,
+        0.7752313333333333,
+        0.7107946666666668,
+        0.7171373333333334,
+        0.7160913333333334
+      ]
+    },
+    {
+      "mode": "short",
+      "episodes": 33,
+      "crashed": 0,
+      "accuracy": 0.9696969696969697,
+      "accuracy_by_kind": {
+        "company": 0.8571428571428571,
+        "person": 1.0,
+        "claim": 1.0
+      },
+      "episode_reward": 0.7652543362193363,
+      "step_reward": 0.3365868066338788,
+      "process_reward": 0.16356793870935055,
+      "step_reward_by_step": [
+        0.5183081508340766,
+        0.009224047667314966,
+        0.004021639044960126,
+        0.008680604775571808,
+        0.0003443683324880352
+      ],
+      "p_correct_by_step": [
+        0.8657575757575757,
+        0.8606060606060606,
+        0.8642424242424243,
+        0.8815151515151515,
+        0.8815151515151515
+      ],
+      "brier": 0.039457575757575754,
+      "ece": 0.07969696969696972,
+      "key_fact_recall": 0.6868686868686869,
+      "citation_precision": 0.8012265512265512,
+      "steps": 1.606060606060606,
+      "steps_to_stable": 1.121212121212121,
+      "verdict_flips": 0.06060606060606061,
+      "concluded_rate": 0.8484848484848485,
+      "tool_calls": 4.7272727272727275,
+      "tool_failure_rate": 0.0,
+      "tokens": 36395.30303030303,
+      "cost_usd_total": 0.32073450000000003,
+      "wall_clock_s": 33.23176452424377,
+      "call_latency_s": 136.27439393939395,
+      "reward_per_10k_tokens": 0.21026183944180354,
+      "memories_per_episode": 0.0,
+      "memory_relevant_rate": 0.0,
+      "memory_irrelevant_rate": 0.0,
+      "memory_misleading_rate": 0.0,
+      "misleading_memories_trusted": 0,
+      "memories_distrusted": 0,
+      "failure_modes": {
+        "incomplete_findings": 8,
+        "source_selection": 1,
+        "premature_stop": 1,
+        "overconfident": 1
+      },
+      "episode_reward_in_order": [
+        0.856484,
+        0.678518,
+        0.8860593333333334,
+        0.8451523333333335,
+        0.8127583333333334,
+        0.717106,
+        0.8796660000000001,
+        0.6835013333333333,
+        0.7775423333333333,
+        0.7281936666666667,
+        0.8828680000000001,
+        0.7488996666666667,
+        0.708734,
+        0.8493604285714287,
+        0.6526286666666666,
+        0.847616,
+        0.7462306666666667,
+        0.8781720000000001,
+        0.7635003333333334,
+        0.308967,
+        0.8757466666666668,
+        0.514272,
+        0.76693,
+        0.8188206666666666,
+        0.8760300000000001,
+        0.6530026666666667,
+        0.8740636666666668,
+        0.8807786666666667,
+        0.833766,
+        0.7752313333333333,
+        0.614826,
+        0.7148586666666668,
+        0.8031086666666667
+      ]
+    },
+    {
+      "mode": "long",
+      "episodes": 33,
+      "crashed": 0,
+      "accuracy": 0.9696969696969697,
+      "accuracy_by_kind": {
+        "company": 0.8571428571428571,
+        "person": 1.0,
+        "claim": 1.0
+      },
+      "episode_reward": 0.7606823261183262,
+      "step_reward": 0.34229573311089245,
+      "process_reward": 0.1861940381956382,
+      "step_reward_by_step": [
+        0.528130242668438,
+        0.06353223903676948,
+        0.01588537033640428,
+        0.004435428368771685
+      ],
+      "p_correct_by_step": [
+        0.8533333333333334,
+        0.8848484848484848,
+        0.8821212121212121,
+        0.883939393939394
+      ],
+      "brier": 0.03661212121212121,
+      "ece": 0.07757575757575756,
+      "key_fact_recall": 0.6792929292929293,
+      "citation_precision": 0.8194083694083695,
+      "steps": 1.7878787878787878,
+      "steps_to_stable": 1.0909090909090908,
+      "verdict_flips": 0.030303030303030304,
+      "concluded_rate": 0.8181818181818182,
+      "tool_calls": 5.303030303030303,
+      "tool_failure_rate": 0.0,
+      "tokens": 45748.181818181816,
+      "cost_usd_total": 0.3913342,
+      "wall_clock_s": 123.53058406970972,
+      "call_latency_s": 199.82648484848482,
+      "reward_per_10k_tokens": 0.16627596898637975,
+      "memories_per_episode": 2.787878787878788,
+      "memory_relevant_rate": 0.5543478260869565,
+      "memory_irrelevant_rate": 0.3695652173913043,
+      "memory_misleading_rate": 0.07608695652173914,
+      "misleading_memories_trusted": 5,
+      "memories_distrusted": 11,
+      "failure_modes": {
+        "incomplete_findings": 6,
+        "source_selection": 1,
+        "premature_stop": 1,
+        "overconfident": 1
+      },
+      "episode_reward_in_order": [
+        0.8329866666666667,
+        0.7428793333333333,
+        0.8075873333333333,
+        0.8410586666666668,
+        0.8125473333333334,
+        0.8176743333333334,
+        0.6769926666666667,
+        0.6094626666666667,
+        0.777267,
+        0.7840553333333333,
+        0.8834023333333335,
+        0.7115993333333333,
+        0.8210686666666667,
+        0.8491070952380954,
+        0.8268473333333334,
+        0.7959,
+        0.53784,
+        0.8462553333333335,
+        0.6580863333333333,
+        0.2915506666666667,
+        0.8492120000000001,
+        0.6559053333333335,
+        0.7774206666666666,
+        0.7518486666666666,
+        0.8657453333333334,
+        0.8210803333333334,
+        0.8826313333333334,
+        0.8805493333333334,
+        0.8048,
+        0.8724893333333334,
+        0.6147553333333333,
+        0.7147913333333333,
+        0.6871193333333334
+      ]
+    }
+  ],
+  "memory_impact": {
+    "short_vs_none_accuracy": 0.06060606060606061,
+    "long_vs_short_accuracy": 0.0,
+    "long_vs_short_reward": -0.0045720101010100975,
+    "long_vs_short_tokens": 9352.878787878788,
+    "long_vs_short_steps": 0.18181818181818182,
+    "long_vs_short_accuracy_when_memory_relevant": 0.0,
+    "cases_with_relevant_memory": 14,
+    "long_improved_cases": [],
+    "long_worsened_cases": []
+  },
+  "crashes": [],
+  "diagnoses": [
+    {
+      "case_id": "C01",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C02",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 2,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C03",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C04",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C05",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C06",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C07",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C08",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C09",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C10",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C11",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C12",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C13",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C14",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C15",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C16",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C17",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C18",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C19",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 1,
+      "steps_to_stable": 4,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C20",
+      "mode": "none",
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "source_selection",
+        "premature_stop",
+        "overconfident"
+      ]
+    },
+    {
+      "case_id": "C21",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C22",
+      "mode": "none",
+      "correct": false,
+      "verdict_flips": 1,
+      "steps_to_stable": 4,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "source_selection",
+        "budget_exhausted",
+        "overconfident"
+      ]
+    },
+    {
+      "case_id": "C23",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 2,
+      "steps_to_stable": 5,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C24",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C25",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C26",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C27",
+      "mode": "none",
+      "correct": false,
+      "verdict_flips": 1,
+      "steps_to_stable": 2,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "weak_evidence",
+        "budget_exhausted",
+        "overconfident"
+      ]
+    },
+    {
+      "case_id": "C28",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C29",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C30",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C31",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C32",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C33",
+      "mode": "none",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 2,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C01",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C02",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 2,
+      "steps_to_stable": 4,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C03",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C04",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C05",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C06",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C07",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C08",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C09",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C10",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C11",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C12",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C13",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C14",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C15",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C16",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C17",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C18",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C19",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C20",
+      "mode": "short",
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "source_selection",
+        "premature_stop",
+        "overconfident"
+      ]
+    },
+    {
+      "case_id": "C21",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C22",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C23",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C24",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C25",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C26",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C27",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C28",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C29",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C30",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C31",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C32",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C33",
+      "mode": "short",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 2,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C01",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C02",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C03",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C04",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C05",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C06",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 1,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C07",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C08",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C09",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C10",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C11",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C12",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 1,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C13",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 1,
+      "steps_to_stable": 2,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C14",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C15",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C16",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 2,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C17",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 1,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C18",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 2,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C19",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C20",
+      "mode": "long",
+      "correct": false,
+      "verdict_flips": 0,
+      "steps_to_stable": 2,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "source_selection",
+        "premature_stop",
+        "overconfident"
+      ]
+    },
+    {
+      "case_id": "C21",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C22",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C23",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C24",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": [
+        "incomplete_findings"
+      ]
+    },
+    {
+      "case_id": "C25",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C26",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C27",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C28",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C29",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C30",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C31",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C32",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    },
+    {
+      "case_id": "C33",
+      "mode": "long",
+      "correct": true,
+      "verdict_flips": 0,
+      "steps_to_stable": 1,
+      "misleading_memories_trusted": 0,
+      "failure_modes": []
+    }
+  ]
+}

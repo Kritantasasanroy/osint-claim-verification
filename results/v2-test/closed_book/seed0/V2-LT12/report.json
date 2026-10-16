@@ -1,0 +1,44 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Hagenauer GmbH (Immenstadt)",
+    "entity": "Hagenauer GmbH",
+    "disambiguators": [
+      "Immenstadt"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.8,
+  "estimative": "very likely",
+  "summary": "From memory, there are no known criminal convictions, sanctions, insolvency proceedings, regulator bans, or major civil judgments against Hagenauer GmbH (Immenstadt).",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

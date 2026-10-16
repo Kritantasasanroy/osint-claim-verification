@@ -1,0 +1,62 @@
+{
+  "case_id": "C06",
+  "mode": "long",
+  "kind": "person",
+  "tags": [
+    "fraud",
+    "cluster:theranos"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.95,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.95,
+      "p_correct": 0.95,
+      "reward": {
+        "step": 1,
+        "progress": 0.6166666666666667,
+        "information": 0.9805419769595822,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.903
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 13894,
+  "completion_tokens": 9032,
+  "cost_usd": 0.0059054,
+  "wall_clock_s": 89.13204529997893,
+  "call_latency_s": 91.69,
+  "key_fact_recall": 0.6666666666666666,
+  "citation_precision": 1.0,
+  "findings": 3,
+  "conflicts_final": 0,
+  "independent_domains": 4,
+  "evidence_weight": 7.878991596638656,
+  "mean_evidence_reliability": 0.8754435107376284,
+  "authoritative_evidence": true,
+  "memories_retrieved": 4,
+  "memory_labels": {
+    "M29": "relevant",
+    "M31": "relevant",
+    "M34": "misleading",
+    "M35": "relevant"
+  },
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.6666666666666666,
+    "citation_precision": 1.0,
+    "calibration": 0.9974999999999999,
+    "cost": 0.15284
+  }
+}

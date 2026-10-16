@@ -1,0 +1,229 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Trevor Milton is currently serving a prison sentence for fraud.",
+    "entity": "Trevor Milton",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.8467,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, Trevor Milton is NOT currently serving a prison sentence for fraud; he was sentenced to four years in December 2023 for securities and wire fraud, but received a full presidential pardon on March 27 2025 and has not served any prison time.",
+  "findings": [
+    {
+      "statement": "Trevor Milton was sentenced to four years in prison in December 2023 for securities and wire fraud.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.gov.ca.gov/2026/06/16/trumpcriminals4",
+        "https://techcrunch.com/2023/12/18/nikola-founder-trevor-milton-sentenced-to-4-years-for-securities-fraud",
+        "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html"
+      ]
+    },
+    {
+      "statement": "Trevor Milton received a full presidential pardon for his fraud conviction on March 27 2025 (sources differ on March 27 vs March 28; the higher‑weight sources support March 27).",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.newsweek.com/full-list-of-donald-trump-pardons-for-2025-11151896",
+        "https://eletric-vehicles.com/nikola/pardoned-nikola-founder-says-syberjet-beat-a-speed-record-by-48-9"
+      ]
+    },
+    {
+      "statement": "As of October 1 2026, Trevor Milton has not served any of his prison sentence and is not incarcerated.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://scanlon.house.gov/news/documentsingle.aspx?DocumentID=2082",
+        "https://www.gov.ca.gov/2026/06/16/trumpcriminals4",
+        "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "Pardon date discrepancy: newsweek.com and gov.ca.gov indicate March 27 2025, while eletric-vehicles.com indicates March 28 2025; weighed higher-weight sources (newsweek.com weight 0.65, gov.ca.gov weight 0.95) over lower-weight source (eletric-vehicles.com weight 0.40) and resolved in favor of March 27 2025."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Trevor Milton",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Trevor Milton sentenced fraud October 2022",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Trevor Milton incarcerated October 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Trevor Milton",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://assets1.cbsnewsstatic.com/hub/cms/prod_cms_alt/file/2026/10/09/57e354ed-fa61-425f-8de2-554162e9bbba/letter-to-sec.-kennedy.pdf",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Trevor Milton pardon March 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.justice.gov/pardon/media/1395001/dl",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Trevor Milton legal action after pardon 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Trevor Milton pardoned March 27 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Trevor Milton pardon lawsuit overturn",
+      "results": 4,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Trevor Milton pardon conditions",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Trevor Milton new criminal charges after pardon",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Whether the pardon includes any conditions that could lead to re‑incarceration if violated.",
+    "Whether any legal proceedings have been initiated to vacate or overturn the pardon.",
+    "Whether Trevor Milton has faced any new criminal charges or civil judgments after the pardon."
+  ],
+  "next_steps": [
+    "Request the official pardon proclamation from the Department of Justice Pardon Attorney to confirm date and any conditions.",
+    "Search federal court dockets (PACER) for any motions to vacate the pardon or related civil contempt actions.",
+    "Review bankruptcy court filings in the District of Delaware for any updates on Milton's $70 million claim challenge.",
+    "Search for new indictments or civil complaints filed against Trevor Milton after March 2025 using PACER and civil court records."
+  ],
+  "sources": [
+    {
+      "url": "https://www.gov.ca.gov/2026/06/16/trumpcriminals4",
+      "title": "Governor Newsom calls out Trump’s weaponized DOJ as President rewards his criminal cronies with pardons | Governor of California",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2026-06-16"
+    },
+    {
+      "url": "https://techcrunch.com/2023/12/18/nikola-founder-trevor-milton-sentenced-to-4-years-for-securities-fraud",
+      "title": "Nikola founder Trevor Milton sentenced to 4 years for securities fraud | TechCrunch",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2023-12-18"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html",
+      "title": "Trump pardons Nikola founder Trevor Milton",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-03-28"
+    },
+    {
+      "url": "https://www.newsweek.com/full-list-of-donald-trump-pardons-for-2025-11151896",
+      "title": "Full List of Donald Trump Pardons for 2025  - Newsweek",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2025-12-03"
+    },
+    {
+      "url": "https://eletric-vehicles.com/nikola/pardoned-nikola-founder-says-syberjet-beat-a-speed-record-by-48-9",
+      "title": "Pardoned Nikola Founder Says SyberJet Beat a Speed Record by 48.9%",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-08-21"
+    },
+    {
+      "url": "https://scanlon.house.gov/news/documentsingle.aspx?DocumentID=2082",
+      "title": "Scanlon, Welch, Blumenthal, Min Initiate Probe into Improper Influence of Cabinet Members in Trump Pardons | U.S. Congresswoman Mary Gay Scanlon",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2026-10-09"
+    }
+  ]
+}

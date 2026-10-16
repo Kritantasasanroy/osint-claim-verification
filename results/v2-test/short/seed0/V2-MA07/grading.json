@@ -1,0 +1,105 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Wirecard AG is a German-incorporated company (jurisdiction DE, legal address Aschheim, DE).",
+          "supported": true
+        },
+        {
+          "fact": "Wirecard AG has LEI 529900A8LX4KL0YUTH71.",
+          "supported": true
+        },
+        {
+          "fact": "The LEI registration date is 2013-07-26.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Wirecard AG was founded (inception) in 1999.",
+          "supported": true
+        },
+        {
+          "fact": "Wirecard AG was dissolved on 3 September 2020.",
+          "supported": true
+        },
+        {
+          "fact": "Wirecard AG had no active business activity as of 2024.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "A criminal trial related to Wirecard exists.",
+          "supported": true
+        },
+        {
+          "fact": "As of April 2026, Wirecard AG is subject to a criminal trial in Munich.",
+          "supported": false
+        },
+        {
+          "fact": "Wirecard AG is under criminal indictment for alleged fraud or financial misconduct.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "A civil claim sought c. £12m in damages for deceit, alleging a 2016 oral misrepresentation led Wirecard Bank to extend credit to Monarch Airlines.",
+          "supported": true
+        },
+        {
+          "fact": "The deceit claim was brought against Wirecard Bank as defendant.",
+          "supported": false
+        },
+        {
+          "fact": "The case was dismissed in its entirety by Mrs Justice Cockerill DBE, a High Court judge.",
+          "supported": true
+        },
+        {
+          "fact": "The dismissal occurred on 6 October 2026.",
+          "supported": false
+        },
+        {
+          "fact": "The dismissal means no liability was found.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "A ban on short selling of Wirecard's stock was imposed.",
+          "supported": true
+        },
+        {
+          "fact": "The short-selling ban was imposed by a financial regulator.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Wirecard AG filed for insolvency on 25 June 2020, owing creditors almost €4 billion.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Wirecard AG is not undergoing any formal insolvency proceedings.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

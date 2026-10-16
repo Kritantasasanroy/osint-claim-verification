@@ -1,0 +1,189 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "René Benko was sentenced to two years in prison by the Innsbruck Regional Court in October 2025.",
+    "entity": "René Benko",
+    "disambiguators": [
+      "Innsbruck Regional Court",
+      "October 2025"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "MIXED",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "The claim that René Benko was sentenced to two years in prison by the Innsbruck Regional Court in October 2025 is mixed: reliable Austrian outlets (DW, The Local) report a two‑year sentence, while several international outlets (Bluewin, Yahoo Finance) report a two‑and‑a‑half‑year sentence. No official court judgment was accessible, so the exact length remains uncertain.",
+  "findings": [
+    {
+      "statement": "DW.com and The Local.at reported on 15 October 2025 that René Benko was sentenced to two years in prison by the Innsbruck State Court (regional equivalent).",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.dw.com/en/austria-ex-tycoon-benko-guilty-of-fraud-gets-2-years-prison/a-74364777",
+        "https://www.thelocal.at/20251015/austrian-property-tycoon-sentenced-to-two-years-in-jail-for-fraud"
+      ]
+    },
+    {
+      "statement": "Bluewin.ch and Yahoo Finance reported on 22 September 2026 that René Benko was sentenced to two and a half years in prison.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://www.bluewin.ch/en/news/two-and-a-half-years-in-prison-for-investor-benko-li.3609218",
+        "https://finance.yahoo.com/real-estate/articles/austrian-tycoon-benko-gets-two-144833326.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "Conflicting reports on the length of the prison sentence: DW.com and The Local.at (weight 0.85 each) state a two‑year sentence, while Bluewin.ch and Yahoo Finance (weight 0.40 each) state a two‑and‑a‑half‑year sentence. The higher‑weight sources were given more credence, but the disagreement prevents a definitive conclusion, resulting in a mixed verdict."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "René Benko Innsbruck Regional Court sentencing October 2025",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "René Benko sentenced two years prison Innsbruck October 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "René Benko",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "René Benko Innsbruck",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.bluewin.ch/en/news/two-and-a-half-years-in-prison-for-investor-rene-benko-li.3609248",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.luxtimes.lu/businessandfinance/luxembourg-linked-austrian-tycoon-convicted-at-austrian-retrial-sentence-increased/161948340.html",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.luxtimes.lu/businessandfinance/luxembourg-linked-austrian-tycoon-convicted-at-austrian-retrial-sentence-increased/161948340.html could not be read: Failed to fetch url",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "René Benko two and a half years prison Innsbruck",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "René Benko Innsbruck Landesgericht",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Innsbruck Regional Court René Benko Urteil Oktober 2025 Strafe",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.landesgericht-innsbruck.at",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.landesgericht-innsbruck.at could not be read: Failed to fetch url",
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The official Innsbruck Regional Court judgment of October 2025 could not be accessed; the court’s website (landesgericht-innsbruck.at) was unreachable and no direct court record was retrieved.",
+    "Attempts to read the Luxtimes.lu article and the Landesgericht site failed due to fetch errors, leaving no verifiable primary source for the sentencing details.",
+    "No independent verification from Austrian legal databases or ministry of justice records was performed in the provided searches."
+  ],
+  "next_steps": [
+    "Request the official verdict document from the Innsbruck Regional Court (Landesgericht Innsbruck) via their public records office or e‑justice portal.",
+    "Search Austrian legal databases such as Justiz or the Austrian Bar Association’s repository for the case number and judgment text.",
+    "Contact the court’s press office or the prosecutor’s office to confirm the exact sentence imposed on René Benko.",
+    "If available, consult the Signa Holding insolvency proceedings filings for any referenced criminal conviction details."
+  ],
+  "sources": [
+    {
+      "url": "https://www.dw.com/en/austria-ex-tycoon-benko-guilty-of-fraud-gets-2-years-prison/a-74364777",
+      "title": "Austria: ex-tycoon Benko guilty of fraud gets 2 years prison",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-10-15"
+    },
+    {
+      "url": "https://www.thelocal.at/20251015/austrian-property-tycoon-sentenced-to-two-years-in-jail-for-fraud",
+      "title": "Austrian property tycoon sentenced to two years in jail for fraud",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-10-15"
+    },
+    {
+      "url": "https://www.bluewin.ch/en/news/two-and-a-half-years-in-prison-for-investor-benko-li.3609218",
+      "title": "Two and a half years in prison for investor Benko",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-22"
+    },
+    {
+      "url": "https://finance.yahoo.com/real-estate/articles/austrian-tycoon-benko-gets-two-144833326.html",
+      "title": "Austrian tycoon Benko gets two and a half years for fraud in retrial",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-09-22"
+    }
+  ]
+}

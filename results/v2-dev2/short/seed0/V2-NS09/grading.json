@@ -1,0 +1,56 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Jordan Belfort's full legal name is Jordan Ross Belfort.",
+          "supported": true
+        },
+        {
+          "fact": "Jordan Belfort's date of birth is 1962-07-09.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Jordan Belfort is a former stockbroker.",
+          "supported": true
+        },
+        {
+          "fact": "Jordan Belfort is an author.",
+          "supported": true
+        },
+        {
+          "fact": "Jordan Belfort founded Stratton Oakmont.",
+          "supported": true
+        },
+        {
+          "fact": "Jordan Belfort published the memoir The Wolf of Wall Street.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Jordan Belfort pleaded guilty to securities fraud and money laundering in 1999.",
+          "supported": true
+        },
+        {
+          "fact": "Jordan Belfort served 22 months of a four-year prison sentence.",
+          "supported": true
+        },
+        {
+          "fact": "Jordan Belfort's felony conviction remains on his record as of 2026-10-01 (i.e., has not been pardoned or vacated).",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

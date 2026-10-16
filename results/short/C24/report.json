@@ -1,0 +1,41 @@
+{
+  "subject": {
+    "kind": "company",
+    "statement": "Northvolt (Swedish battery maker)"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9,
+  "summary": "Northvolt AB, the Swedish battery maker, has filed for bankruptcy and its subsidiaries are undergoing bankruptcy proceedings, indicating a material adverse financial condition. No adverse findings related to sanctions, criminal convictions, or product recalls were identified in the available evidence.",
+  "findings": [
+    {
+      "statement": "Northvolt AB filed for bankruptcy in Sweden on 12 March 2025, and several of its subsidiaries (Northvolt Revolt AB, Northvolt Systems AB, Northvolt Labs AB) are undergoing bankruptcy proceedings as ordered by the Stockholm District Court on 13 June 2026.",
+      "confidence": 0.9,
+      "citations": [
+        "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden",
+        "https://ackordscentralen.se/en/current-events/information-for-creditors/northvolt"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No evidence was found regarding Northvolt AB's inclusion on any EU sanctions list or US OFAC SDN list.",
+    "No evidence was found of criminal convictions or major civil settlements involving Northvolt AB in the last five years.",
+    "No evidence was found of material product recalls, significant safety incidents, or substantial financial restatements affecting Northvolt AB in the past three years."
+  ],
+  "sources": [
+    {
+      "url": "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden",
+      "title": "Northvolt files for bankruptcy in Sweden | Northvolt",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://ackordscentralen.se/en/current-events/information-for-creditors/northvolt",
+      "title": "Northvolt | Ackordscentralen",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

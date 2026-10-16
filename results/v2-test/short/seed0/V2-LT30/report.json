@@ -1,0 +1,205 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Jensen Huang (Nvidia founder and CEO)",
+    "entity": "Jensen Huang",
+    "disambiguators": [
+      "Nvidia founder and CEO"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.9715,
+  "estimative": "almost certain",
+  "summary": "Verdict: NO_ADVERSE (97% confidence). As of 2026-10-01, Jensen Huang's full name is Jen-Hsun Huang and he is Founder, President, and Chief Executive Officer of Nvidia Corporation, with no known criminal convictions, charges, sanctions, or major civil judgments.",
+  "findings": [
+    {
+      "statement": "Jensen Huang's full legal name is Jen-Hsun Huang and he serves as Founder, President, and Chief Executive Officer of Nvidia Corporation per the company's 2025 annual report filed with the SEC.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000098/finalforfiling-2025xannual.pdf"
+      ]
+    },
+    {
+      "statement": "As of October 1, 2026, there is no public record of Jensen Huang ever being convicted of a crime, charged with a criminal offense, sanctioned by a government regulator, or subject to a major civil judgment.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "http://nvidianews.nvidia.com/bios/jensen-huang",
+        "https://www.businessinsider.com/10-fascinating-facts-about-nvidia-ceo-jensen-huang-2024-2",
+        "https://en.wikipedia.org/wiki/Jensen_Huang",
+        "https://www.youtube.com/watch?v=0c8i4T9BSqY"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Jensen Huang convicted charged sanctioned civil judgment 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "sanctions",
+      "query": "Jensen Huang",
+      "results": 0,
+      "failure": "UnusableArgument: sanctions needs a tool this toolbox offers, got: Jensen Huang",
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "sec_edgar",
+      "query": "Nvidia Corporation 2025 annual report Jensen Huang",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Nvidia Corporation 2025 annual report PDF Jensen Huang CEO",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000012/nvda-20250128.htm",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.sec.gov/Archives/edgar/data/1045810/000104581025000012/nvda-20250128.htm could not be read: 404 page not found",
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Jensen Huang criminal charge 2026 lawsuit",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "encyclopedia",
+      "query": "Nvidia",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Nvidia official history Jensen Huang founder 1993",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.nvidia.com/about-us/",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.nvidia.com/about-us/ could not be read: 404 page not found",
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "Jen-Hsun Huang securities fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "http://nvidianews.nvidia.com/bios/jensen-huang",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "The sanctions lookup tool failed due to missing tool support, so no automated check of sanctions lists was performed. [withdrawn: no tool checked sanctions]",
+    "No search was conducted of foreign government sanctions lists (e.g., EU, UK) or civil judgment repositories beyond the sources examined. [withdrawn: no tool checked sanctions]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The direct SEC page for the 2025 annual report returned a 404 error, preventing verification via that specific URL; however, an alternate SEC URL provided the needed information.",
+    "The Nvidia corporate about-us page was inaccessible (404), limiting direct confirmation from the company's main site.",
+    "No direct search of federal criminal case docket (PACER) was performed to confirm absence of charges."
+  ],
+  "next_steps": [
+    "Query PACER for any federal criminal or civil cases involving Jensen Huang.",
+    "Check the U.S. Department of the Treasury’s OFAC sanctions list and the Consolidated Screening List for Jensen Huang.",
+    "Review the latest SEC EDGAR filings (e.g., 10‑K, 10‑Q) for any disclosed legal proceedings involving Jensen Huang after the 2025 annual report.",
+    "Search European Union sanctions lists and UK HM Treasury sanctions for any mention of Jensen Huang."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000098/finalforfiling-2025xannual.pdf",
+      "title": "2025 NVIDIA Corporation Annual Review",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "http://nvidianews.nvidia.com/bios/jensen-huang",
+      "title": "Jensen Huang | NVIDIA Newsroom",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.businessinsider.com/10-fascinating-facts-about-nvidia-ceo-jensen-huang-2024-2",
+      "title": "Who Is Jensen Huang, Nvidia's Founder and CEO - Business Insider",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+      "title": "Jensen Huang - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0c8i4T9BSqY",
+      "title": "Oral History of Jensen Huang",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

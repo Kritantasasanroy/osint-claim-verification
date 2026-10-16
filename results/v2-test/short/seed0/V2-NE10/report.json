@@ -1,0 +1,139 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Bernard Tapie a été condamné dans l'affaire VA-OM.",
+    "entity": "Bernard Tapie",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.7732,
+  "estimative": "likely",
+  "summary": "",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Bernard Tapie",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Bernard Tapie",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Bernard Tapie VA-OM conviction status 2024 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Bernard Tapie VA-OM condamnation 1995 appel",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Bernard Tapie VA-OM conviction upheld Court of Cassation",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Bernard Tapie VA-OM affaire condamnation appel Cassation 1998",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Bernard Tapie VA-OM conviction",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.lesechos.fr/politique-societe/societe/match-om-va-truque-phocea-retour-sur-le-parcours-judiciaire-de-bernard-tapie-1036751",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Bernard Tapie VA-OM condamnation confirmé appel 1998",
+      "results": 4,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Bernard Tapie VA-OM conviction overturned",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Bernard Tapie condamnation VA-OM Cour de cassation 1998 définitive",
+      "results": 4,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.ouest-france.fr/sport/football/olympique-de-marseille/recit-il-y-a-30-ans-laffaire-va-om-scandale-de-corruption-dans-le-football-francais-73670970-fa0d-11ed-9dad-48744aab688c",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [],
+  "next_steps": [],
+  "sources": []
+}

@@ -1,0 +1,48 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Satya Nadella's full name is Satya Narayana Nadella.",
+          "supported": true
+        },
+        {
+          "fact": "Satya Nadella was born on 19 August 1967.",
+          "supported": true
+        },
+        {
+          "fact": "Satya Nadella's place of birth is Hyderabad, India.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "A Microsoft Build 2026 press release identifies Satya Nadella as Chairman and CEO of Microsoft.",
+          "supported": true
+        },
+        {
+          "fact": "The FY 2026 Q3 earnings call transcript identifies Satya Nadella as chairman and chief executive officer.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Satya Nadella is the Chief Executive Officer and Chairman of Microsoft.",
+          "supported": true
+        },
+        {
+          "fact": "Microsoft's 2026 Form 10-K lists Satya Nadella as Chief Executive Officer and Chairman.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

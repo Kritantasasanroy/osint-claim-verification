@@ -1,0 +1,76 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Indianapolis bankruptcy lawyer Mark S. Zuckerberg sued Meta over his Facebook account being disabled."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.86,
+  "summary": "The evidence confirms that Mark S. Zuckerberg, a licensed Indiana bankruptcy attorney based in Indianapolis, filed a lawsuit against Meta Platforms, Inc. in Marion Superior Court, alleging that Meta disabled his Facebook account(s) for impersonating a celebrity. The case is docketed as 49D06-2509-PL-041410. While the filing occurred on a Tuesday, the exact date and the lawsuit's current status remain unspecified in the sources reviewed.",
+  "findings": [
+    {
+      "statement": "Mark S. Zuckerberg is a licensed bankruptcy attorney practicing in Indianapolis, Indiana.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.americancollegeofbankruptcy.com/directory/mark-steven-zuckerberg-1226",
+        "https://zucklaw.com/choosing-a-bankruptcy-attorney",
+        "https://www.theindianalawyer.com/articles/indiana-attorney-zuckerberg-sues-meta-over-accusations-hes-impersonating-facebook-founder"
+      ]
+    },
+    {
+      "statement": "Mark S. Zuckerberg filed a lawsuit against Meta Platforms, Inc. (formerly Facebook) in Marion Superior Court.",
+      "confidence": 0.9,
+      "citations": [
+        "https://fortune.com/2025/09/05/mark-zuckerberg-lawyer-sues-meta-facebook-impersonating-celebrity",
+        "https://www.theindianalawyer.com/articles/indiana-attorney-zuckerberg-sues-meta-over-accusations-hes-impersonating-facebook-founder"
+      ]
+    },
+    {
+      "statement": "The lawsuit is titled Mark S. Zuckerberg, Bankruptcy Law Office of Mark S. Zuckerberg, P.C. v. Meta Platforms, Inc., case number 49D06-2509-PL-041410.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.theindianalawyer.com/articles/indiana-attorney-zuckerberg-sues-meta-over-accusations-hes-impersonating-facebook-founder"
+      ]
+    },
+    {
+      "statement": "The complaint alleges that Meta disabled Zuckerberg's Facebook account(s) for impersonating a celebrity, forming the basis of the claims.",
+      "confidence": 0.85,
+      "citations": [
+        "https://fortune.com/2025/09/05/mark-zuckerberg-lawyer-sues-meta-facebook-impersonating-celebrity",
+        "https://www.theindianalawyer.com/articles/indiana-attorney-zuckerberg-sues-meta-over-accusations-hes-impersonating-facebook-founder"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "The exact filing date of the lawsuit is not specified in the available sources; only that it was filed on a Tuesday.",
+    "The current status of the lawsuit (pending, dismissed, settled, or judgment) is not reflected in the provided evidence."
+  ],
+  "sources": [
+    {
+      "url": "https://www.americancollegeofbankruptcy.com/directory/mark-steven-zuckerberg-1226",
+      "title": "Mark Steven Zuckerberg | Directory | American College of Bankruptcy",
+      "tier": "unvetted",
+      "reliability": 0.6
+    },
+    {
+      "url": "https://zucklaw.com/choosing-a-bankruptcy-attorney",
+      "title": "How To Choose A Bankruptcy Lawyer-Choosing A Bankruptcy Attorney-Indianapolis Bankruptcy",
+      "tier": "unvetted",
+      "reliability": 0.6
+    },
+    {
+      "url": "https://www.theindianalawyer.com/articles/indiana-attorney-zuckerberg-sues-meta-over-accusations-hes-impersonating-facebook-founder",
+      "title": "Indiana attorney Zuckerberg sues Meta over accusations he's impersonating Facebook founder - The Indiana Lawyer",
+      "tier": "unvetted",
+      "reliability": 0.6
+    },
+    {
+      "url": "https://fortune.com/2025/09/05/mark-zuckerberg-lawyer-sues-meta-facebook-impersonating-celebrity",
+      "title": "Indiana lawyer Mark Zuckerberg sues Meta, claiming pages were disabled for 'impersonating' celebrity | Fortune",
+      "tier": "news",
+      "reliability": 0.65
+    }
+  ]
+}

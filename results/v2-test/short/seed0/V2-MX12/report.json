@@ -1,0 +1,217 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Builder.ai, founded by Sachin Dev Duggal, was acquired by Microsoft in 2025.",
+    "entity": "Builder.ai",
+    "disambiguators": [
+      "founded by Sachin Dev Duggal",
+      "acquired by Microsoft in 2025"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.8056,
+  "estimative": "very likely",
+  "summary": "VERDICT: FALSE – Microsoft did not acquire Builder.ai in 2025. The decisive facts are that Builder.ai was founded by Sachin Dev Duggal, its legal name is Engineer.ai Cloud Services India Private Limited, it filed for Chapter 7 bankruptcy in Delaware on June 2 2025, it had a partnership (not an acquisition) with Microsoft as reported by the New York Times on August 31 2025, and no Microsoft press release or SEC filing indicates an acquisition.",
+  "findings": [
+    {
+      "statement": "Builder.ai was founded by Sachin Dev Duggal.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Builder.ai"
+      ]
+    },
+    {
+      "statement": "The full legal name of Builder.ai is Engineer.ai Cloud Services India Private Limited.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://tracxn.com/d/companies/builder/__qy7nvX2ktAfC5cYTjxUiLzTZZ9Gx2EMXZyRXOv7Ba8A"
+      ]
+    },
+    {
+      "statement": "Builder.ai filed for Chapter 7 bankruptcy in Delaware, with a filing date of June 2, 2025.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.bloomberg.com/news/articles/2025-06-05/builder-ai-files-for-bankruptcy-after-creditors-seize-accounts"
+      ]
+    },
+    {
+      "statement": "Builder.ai had a partnership with Microsoft, not an acquisition, as reported by The New York Times on August 31, 2025.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.nytimes.com/2025/08/31/technology/builder-ai-collapse.html"
+      ]
+    },
+    {
+      "statement": "No official Microsoft press release or SEC filing indicates an acquisition of Builder.ai in 2025, according to The New York Times coverage of its collapse.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.nytimes.com/2025/08/31/technology/builder-ai-collapse.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Builder.ai Microsoft acquisition 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Builder.ai founder Sachin Dev Duggal full name",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Builder.ai legal name",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Builder.ai",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Microsoft Builder.ai acquisition press release 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Microsoft Builder.ai talks 2024 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Builder.ai bankruptcy May 2025 Delaware",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Builder.ai bankruptcy filing date May 20 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Builder.ai Chapter 7 bankruptcy filing June 2 2025 Delaware court",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Builder.ai bankruptcy proceedings May 20 2025 announcement",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "Builder.ai bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact date of any Microsoft acquisition announcement or completion (none found).",
+    "Precise terms and duration of the Microsoft‑Builder.ai partnership.",
+    "Whether any acquisition talks progressed beyond preliminary discussions and why they did not conclude.",
+    "Detailed creditor breakdown in the bankruptcy case, including the exact amount owed to Microsoft for unpaid cloud services."
+  ],
+  "next_steps": [
+    "Query SEC EDGAR for Microsoft’s 2024‑2025 8‑K, 10‑Q, and 10‑K filings for any mention of Builder.ai.",
+    "Review the USPTO assignment database for any trademark or patent transfers from Builder.ai to Microsoft.",
+    "Examine the Delaware bankruptcy court docket (case number from PACER) for the creditor matrix and any proposed settlement with Microsoft.",
+    "Search major news wire services (Reuters, Bloomberg, FT) archives for Microsoft press releases in 2024‑2025 that reference Builder.ai."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Builder.ai",
+      "title": "Builder.ai - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://tracxn.com/d/companies/builder/__qy7nvX2ktAfC5cYTjxUiLzTZZ9Gx2EMXZyRXOv7Ba8A",
+      "title": "Builder.ai - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2025-06-05/builder-ai-files-for-bankruptcy-after-creditors-seize-accounts",
+      "title": "Builder.ai Files for Bankruptcy After Creditors Seize Accounts - Bloomberg",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-06-05"
+    },
+    {
+      "url": "https://www.nytimes.com/2025/08/31/technology/builder-ai-collapse.html",
+      "title": "How Builder.ai Collapsed Amid Silicon Valley’s Biggest Boom - The New York Times",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-08-31"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "René Benko wurde im Oktober 2025 vom Landesgericht Innsbruck zu zwei Jahren Haft verurteilt.",
+    "entity": "René Benko",
+    "disambiguators": [
+      "Oktober 2025",
+      "Landesgericht Innsbruck",
+      "zwei Jahren Haft"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.85,
+  "estimative": "very likely",
+  "summary": "From memory, there is no record of René Benko receiving a two‑year prison sentence from the Innsbruck Regional Court in October 2025; however, without access to up‑to‑date sources the claim cannot be confirmed or refuted.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

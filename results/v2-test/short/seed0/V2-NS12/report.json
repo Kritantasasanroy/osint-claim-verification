@@ -1,0 +1,198 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Apple Corps (the Beatles' company)",
+    "entity": "Apple Corps",
+    "disambiguators": [
+      "the Beatles' company"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.9376,
+  "estimative": "very likely",
+  "summary": "Verdict: NO_ADVERSE at 94% confidence. Decisive facts: Apple Corps Limited (company number 00764797) is a UK-incorporated active company with primary business activity classified as 'Other amusement and recreation activities not elsewhere classified' (SIC 93290) and shows no insolvency or bankruptcy proceedings as of 2026-10-01.",
+  "findings": [
+    {
+      "statement": "The exact legal name of Apple Corps Ltd is Apple Corps Limited.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/00764797"
+      ]
+    },
+    {
+      "statement": "Apple Corps Ltd is incorporated in the United Kingdom (England and Wales).",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/00764797"
+      ]
+    },
+    {
+      "statement": "The company number of Apple Corps Ltd is 00764797.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/00764797"
+      ]
+    },
+    {
+      "statement": "The primary business activity of Apple Corps Ltd is 'Other amusement and recreation activities not elsewhere classified' (SIC 93290).",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/00764797"
+      ]
+    },
+    {
+      "statement": "Apple Corps Ltd is active and has not entered insolvency, liquidation, administration, or bankruptcy.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/00764797"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Apple Corps Ltd",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Apple Corps Ltd criminal charge conviction insolvency bankruptcy civil judgment regulatory sanction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Apple Corps Ltd confirmation statement 2025 business activity",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Apple Corps Ltd criminal conviction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Apple Corps Ltd civil judgment damages",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Apple Corps Ltd regulatory sanction FCA",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Apple Corps Ltd",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "sanctions",
+      "query": "Apple Corps Ltd",
+      "results": 0,
+      "failure": "UnusableArgument: sanctions needs a tool this toolbox offers, got: Apple Corps Ltd",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Apple Corps Ltd lawsuit 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Apple Corps Ltd fraud judgment damages",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Apple Corps Ltd FCA enforcement action",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Apple Corps Ltd prosecuted criminal",
+      "results": 4,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No public court or police records were found indicating criminal charges or convictions against Apple Corps Ltd up to 2026-10-01, but the absence of such records does not guarantee that none exist."
+  ],
+  "next_steps": [
+    "Search the UK National Crime Agency's public police records for any mentions of Apple Corps Ltd.",
+    "Consult the UK Insolvency Service's bankruptcy and winding-up notices for Apple Corps Ltd.",
+    "Review the FCA's enforcement notice database and the SEC's EDGAR system for any sanctions or actions involving Apple Corps Ltd.",
+    "Examine county court judgment (CCJ) registers and the Registry Trust for any civil judgments exceeding £5 million."
+  ],
+  "sources": [
+    {
+      "url": "https://find-and-update.company-information.service.gov.uk/company/00764797",
+      "title": "APPLE CORPS LIMITED overview - Find and update company information - GOV.UK",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

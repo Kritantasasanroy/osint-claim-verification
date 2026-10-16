@@ -1,0 +1,47 @@
+{
+  "subject": {
+    "kind": "company",
+    "statement": "Northvolt (Swedish battery maker)"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9,
+  "summary": "The available evidence shows that Northvolt AB and several of its subsidiaries have entered bankruptcy proceedings in Sweden, which constitutes a material adverse event supporting an ADVERSE verdict with high confidence. No adverse findings related to sanctions, criminal convictions, or product recalls were identified in the supplied sources.",
+  "findings": [
+    {
+      "statement": "Northvolt AB filed for bankruptcy in Sweden, as announced by its Board of Directors on 12 March 2025.",
+      "confidence": 0.95,
+      "citations": [
+        "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden"
+      ]
+    },
+    {
+      "statement": "Northvolt Revolt AB, Northvolt Systems AB, and Northvolt Labs AB are undergoing bankruptcy proceedings, with a proof of debt procedure ordered by the Stockholm District Court on 13 June 2026.",
+      "confidence": 0.9,
+      "citations": [
+        "https://ackordscentralen.se/en/current-events/information-for-creditors/northvolt"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No evidence was found regarding Northvolt AB's inclusion on sanctions, debarment, or watchlists (EU, OFAC, etc.).",
+    "No records of criminal convictions or major civil settlements for Northvolt AB in the last five years were located in the provided evidence.",
+    "No credible reports of material adverse events such as product recalls, safety incidents, or financial restatements affecting Northvolt AB in the past three years were present in the evidence."
+  ],
+  "sources": [
+    {
+      "url": "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden",
+      "title": "Northvolt files for bankruptcy in Sweden | Northvolt",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://ackordscentralen.se/en/current-events/information-for-creditors/northvolt",
+      "title": "Northvolt | Ackordscentralen",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

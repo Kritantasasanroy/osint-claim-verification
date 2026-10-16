@@ -1,0 +1,195 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Ari Bäckerei GmbH (Hamburg)",
+    "entity": "Ari Bäckerei GmbH",
+    "disambiguators": [
+      "Hamburg"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.3333,
+  "estimative": "unlikely",
+  "summary": "As of 2026-10-01, the adverse status of Ari Bäckerei GmbH (Hamburg) is UNVERIFIABLE (33% confidence). The company’s registered name is Ari Bäckerei GmbH, HRB 82574, registered office Bergmannring 1, 22119 Hamburg, and its objects clause is Produktion von Backwaren aller Art. No evidence of insolvency proceedings or major sanctions was found.",
+  "findings": [
+    {
+      "statement": "The registered office address of Ari Bäckerei GmbH is Bergmannring 1, 22119 Hamburg.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.instagram.com/aribaeckerei",
+        "https://www.facebook.com/p/Ari-B%C3%A4ckerei-100067544163535",
+        "https://www.northdata.de/Ari%20B%C3%A4ckerei%20GmbH,%20Hamburg/HRB%2082574"
+      ]
+    },
+    {
+      "statement": "The primary business activity (objects clause) of Ari Bäckerei GmbH is Produktion von Backwaren aller Art.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.northdata.de/Ari%20B%C3%A4ckerei%20GmbH,%20Hamburg/HRB%2082574"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Ari Bäckerei GmbH Hamburg Handelsregister HRB",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Ari Bäckerei GmbH insolvenzverfahren",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Ari Bäckerei GmbH Strafe Bußgeld BaFin",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://a.storyblok.com/f/252999/x/da290d6e82/ausdruck-handelsregister.pdf",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Ari Bäckerei GmbH Insolvenz",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Ari Bäckerei GmbH Bußgeld",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Insolvenzregister Ari Bäckerei GmbH",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Ari Bäckerei GmbH Bußgeldbescheid",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Ari Bäckerei GmbH Bußgeld Strafe Insolvenz",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Ari Bäckerei GmbH Insolvenzregister site:justiz.de",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Ari Bäckerei GmbH Bußgeld site:bafin.de",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.northdata.de/Ari%20B%C3%A4ckerei%20GmbH,%20Hamburg/HRB%2082574",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "The exact legal name of Ari Bäckerei GmbH is Ari Bäckerei GmbH and its Hamburg Commercial Register number is HRB 82574. [withdrawn: no tool checked company_register]",
+    "No official Handelsregister extract (certified copy) was obtained; reliance is on third‑party aggregator northdata.de. [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No verified date of incorporation could be established from the evidence.",
+    "The German insolvency register (Insolvenzregister) was not searched for any insolvency or bankruptcy proceedings.",
+    "Relevant German authority databases (public prosecutor’s office, BaFin, trade supervisory offices) were not checked for criminal convictions, major fines (>€100 000) or enforcement actions."
+  ],
+  "next_steps": [
+    "Obtain an official Handelsregister extract for Ari Bäckerei GmbH (Hamburg) to confirm legal name, HRB number, registered office, date of incorporation and objects clause.",
+    "Search the German insolvency register (Insolvenzregister) for any insolvency or bankruptcy proceedings involving Ari Bäckerei GmbH.",
+    "Check BaFin and public prosecutor’s office databases for criminal convictions, fines exceeding €100 000 or enforcement actions against the company.",
+    "Verify the date of incorporation via the Handelsregister extract or other register source."
+  ],
+  "sources": [
+    {
+      "url": "https://www.instagram.com/aribaeckerei",
+      "title": "𝑨𝒓𝒊 𝑩𝒂̈𝒄𝒌𝒆𝒓𝒆𝒊 𝑠𝑖𝑛𝑐𝑒 𝟤𝟢𝟢𝟤 (@aribaeckerei)",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.facebook.com/p/Ari-B%C3%A4ckerei-100067544163535",
+      "title": "Ari Bäckerei | Hamburg",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.northdata.de/Ari%20B%C3%A4ckerei%20GmbH,%20Hamburg/HRB%2082574",
+      "title": "Ari Bäckerei GmbH, Hamburg, Amtsgericht Hamburg HRB 82574: Netzwerk, Wirtschaftsinfos",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

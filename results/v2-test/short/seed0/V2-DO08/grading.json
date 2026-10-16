@@ -1,0 +1,48 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Charlie Javice was convicted of fraud.",
+          "supported": true
+        },
+        {
+          "fact": "The conviction occurred in March 2025.",
+          "supported": true
+        },
+        {
+          "fact": "The conviction was on multiple counts.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Charlie Javice's full legal name is Charlie H. Javice.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Charlie Javice founded the financial aid startup Frank.",
+          "supported": true
+        },
+        {
+          "fact": "Frank was acquired in 2021.",
+          "supported": true
+        },
+        {
+          "fact": "Charlie Javice served as Frank's CEO until its acquisition in 2021.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

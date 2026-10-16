@@ -1,0 +1,221 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Adam Neumann, the WeWork co-founder, was convicted of fraud.",
+    "entity": "Adam Neumann",
+    "disambiguators": [
+      "the WeWork co-founder"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "Verdict: FALSE – as of 2026-10-01 there is no evidence that Adam Neumann, the WeWork co‑founder, has ever been criminally convicted of fraud. The decisive facts are his identity as the co‑founder of WeWork (established by Wikipedia, Forbes, WSJ), his date of birth (April 25 1979 per Wikipedia), and multiple reputable sources (ExpressNews, The Globe and Mail, social‑media posts) stating he avoided criminal conviction and was never charged with fraud. The New York State Attorney‑General investigated his conduct but filed no charges.",
+  "findings": [
+    {
+      "statement": "Adam Neumann is the Israeli-American billionaire who co-founded WeWork in 2010.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Adam_Neumann",
+        "https://www.forbes.com/profile/adam-neumann",
+        "https://www.wsj.com/business/former-wework-ceo-adam-neumann-says-he-has-regrets-11636497909"
+      ]
+    },
+    {
+      "statement": "Adam Neumann was born on April 25, 1979.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Adam_Neumann"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, Adam Neumann has not been criminally convicted of fraud.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.expressnews.com/business/columnists/michael-taylor/article/adam-neumann-sam-bankman-fried-wework-ftx-18507041.php",
+        "https://www.theglobeandmail.com/business/commentary/article-weworks-adam-neumann-ftxs-sam-bankman-fried-startup-worlds-perpetual",
+        "https://x.com/maggiej464748/status/2107540516799713410",
+        "https://www.linkedin.com/posts/maiken-paaske-08730867_two-of-the-most-spectacular-failures-in-startup-activity-7511436993239818240-aJCh"
+      ]
+    },
+    {
+      "statement": "The New York State Attorney-General investigated Adam Neumann's conduct but no criminal charges were filed.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.theglobeandmail.com/business/commentary/article-weworks-adam-neumann-ftxs-sam-bankman-fried-startup-worlds-perpetual"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Adam Neumann fraud conviction",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Adam Neumann",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Adam Neumann",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Adam Neumann fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Adam Neumann pleaded guilty fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Adam Neumann sealed record expunged",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Adam Neumann fraud conviction 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Adam Neumann fraud conviction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Adam_Neumann",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct access to federal criminal docket (PACER) or state criminal record repositories was performed, so sealed or expunged records could not be ruled out.",
+    "The search did not include civil litigation databases (e.g., SEC filings) that might reveal fraud-related civil settlements or enforcement actions.",
+    "International jurisdiction records (e.g., Israeli courts) were not consulted, leaving open the possibility of proceedings outside the United States."
+  ],
+  "next_steps": [
+    "Search PACER for any federal criminal case involving Adam Neumann and fraud-related keywords.",
+    "Query the New York State Office of Court Administration (or equivalent state criminal record systems) for any state-level criminal filings.",
+    "Review SEC EDGAR for civil enforcement actions or settlements related to WeWork or Adam Neumann.",
+    "Check Israeli Ministry of Justice or court databases for any possible proceedings in Israel."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Adam_Neumann",
+      "title": "Wikipedia: Adam Neumann",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.forbes.com/profile/adam-neumann",
+      "title": "Adam Neumann",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://www.wsj.com/business/former-wework-ceo-adam-neumann-says-he-has-regrets-11636497909",
+      "title": "Former WeWork CEO Adam Neumann Says He Has Regrets - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.expressnews.com/business/columnists/michael-taylor/article/adam-neumann-sam-bankman-fried-wework-ftx-18507041.php",
+      "title": "Taylor: The rises and falls of Sam Bankman-Fried and Adam Neumann",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2023-11-24"
+    },
+    {
+      "url": "https://www.theglobeandmail.com/business/commentary/article-weworks-adam-neumann-ftxs-sam-bankman-fried-startup-worlds-perpetual",
+      "title": "WeWork’s Adam Neumann, FTX’s Sam Bankman-Fried: startup world’s perpetual rot - The Globe and Mail",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2023-11-07"
+    },
+    {
+      "url": "https://x.com/maggiej464748/status/2107540516799713410",
+      "title": "Post",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.linkedin.com/posts/maiken-paaske-08730867_two-of-the-most-spectacular-failures-in-startup-activity-7511436993239818240-aJCh",
+      "title": "Maiken Paaske's Post",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

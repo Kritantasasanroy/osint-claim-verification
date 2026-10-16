@@ -1,0 +1,84 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Michael I. Jordan, professor at UC Berkeley"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.95,
+  "summary": "Michael I. Jordan is a highly regarded professor at UC Berkeley with no identifiable adverse records in the sources reviewed. The available evidence confirms his full name, title, and ongoing affiliation, while no credible sources report criminal convictions, civil litigation, regulatory sanctions, bankruptcy, or allegations of fraud or misconduct. Minor discrepancies regarding emeritus status were weighed against stronger institutional affirmations, supporting the NO_ADVERSE verdict at high confidence.",
+  "findings": [
+    {
+      "statement": "Michael I. Jordan's full name is Michael Irwin Jordan and he holds the Pehong Chen Distinguished Professorship in the Department of Electrical Engineering and Computer Sciences and the Department of Statistics at UC Berkeley.",
+      "confidence": 0.95,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html",
+        "https://yale2020.yale.edu/honorary-degrees/michael-i-jordan",
+        "https://vcresearch.berkeley.edu/faculty/michael-jordan"
+      ]
+    },
+    {
+      "statement": "Michael I. Jordan remains affiliated with UC Berkeley as a professor (including emeritus status) in the Departments of Electrical Engineering and Computer Sciences and Statistics.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html",
+        "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+        "https://yale2020.yale.edu/honorary-degrees/michael-i-jordan",
+        "https://vcresearch.berkeley.edu/faculty/michael-jordan",
+        "https://www.linkedin.com/in/michael-jordan-767032125"
+      ]
+    },
+    {
+      "statement": "No public records indicate criminal convictions, civil litigation, regulatory sanctions, bankruptcy, or allegations of fraud or misconduct against Michael I. Jordan.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html",
+        "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+        "https://yale2020.yale.edu/honorary-degrees/michael-i-jordan",
+        "https://vcresearch.berkeley.edu/faculty/michael-jordan"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "LinkedIn entry describes Michael I. Jordan as Distinguished Professor Emeritus, which appears to refute current active professor status, whereas the UC Berkeley faculty page, Wikipedia, Yale honorary degree page, and VC Research page describe him as a current Pehong Chen Distinguished Professor. The emeritus status was weighed as a continued formal affiliation with UC Berkeley rather than an indication of non‑employment; given the multiple independent institutional sources confirming his ongoing title and departmental affiliation, the conflict was resolved in favor of continued affiliation."
+  ],
+  "gaps": [
+    "Direct queries of federal and state court docket systems (e.g., PACER, state court websites) were not provided in the evidence, so any civil or criminal cases involving Michael I. Jordan could not be confirmed or ruled out.",
+    "Searches of regulatory enforcement databases (SEC EDGAR, FTC enforcement actions) were not included in the evidence, leaving a gap regarding possible sanctions or actions from those agencies.",
+    "Bankruptcy or insolvency filings (e.g., via PACER or commercial bankruptcy databases) were not examined, so any financial judgments against Michael I. Jordan remain unverified."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+      "title": "Michael I. Jordan - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.96
+    },
+    {
+      "url": "https://www2.eecs.berkeley.edu/Faculty/Homepages/jordan.html",
+      "title": "Michael Jordan | EECS at UC Berkeley",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://yale2020.yale.edu/honorary-degrees/michael-i-jordan",
+      "title": "Michael I. Jordan | Yale 2020",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://vcresearch.berkeley.edu/faculty/michael-jordan",
+      "title": "Michael Jordan | Research UC Berkeley",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.linkedin.com/in/michael-jordan-767032125",
+      "title": "Michael Jordan",
+      "tier": "unvetted",
+      "reliability": 0.7
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Iñaki Urdangarin Liebaert is a retired Spanish handball player.",
+          "supported": true
+        },
+        {
+          "fact": "Iñaki Urdangarin Liebaert is the former husband of Infanta Cristina.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Nóos Institute is a nonprofit foundation.",
+          "supported": true
+        },
+        {
+          "fact": "Urdangarin was a leader of the Nóos Institute.",
+          "supported": true
+        },
+        {
+          "fact": "Urdangarin was involved in the Nóos case, accused of using Nóos to embezzle about 6 million euros in public funds.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Wikipedia article on the Nóos affair states that on 17 February 2017 Urdangarin was given a six-year-and-three-month prison sentence for his role in the case.",
+          "supported": true
+        },
+        {
+          "fact": "A Spanish court convicted Urdangarin on 17 February 2017 (entailed by the imposition of a prison sentence in the Spanish Nóos case).",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was six years and three months in prison.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The cited excerpt from the Iñaki Urdangarin Wikipedia article states that in June 2018 he was sentenced to 5 years and 10 months in prison.",
+          "supported": true
+        },
+        {
+          "fact": "The cited excerpt from the Iñaki Urdangarin Wikipedia article states that the sentence was reduced on appeal by the Supreme Court on 12 June 2018.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Charlie Javice was sentenced to 85 months in prison for defrauding JPMorgan.",
+    "entity": "Charlie Javice",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.9148,
+  "estimative": "very likely",
+  "summary": "Bottom line: Charlie Javice was sentenced to 85 months in prison for defrauding JPMorgan Chase (TRUE, 91% confidence). The sentence was imposed on September 30, 2025 (effective date of incarceration) following a hearing on September 29, 2025 before Judge Alvin K. Hellerstein. She founded Frank in 2017, served as its CEO, and sold the company to JPMorgan Chase in September 2021 for $175 million. Her full legal name is Charlie Javice.",
+  "findings": [
+    {
+      "statement": "Charlie Javice was sentenced to 85 months in federal prison for defrauding JPMorgan Chase.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.whatjobs.com/news/what-was-the-jpmorgan-frank-lawsuit-about",
+        "https://en.wikipedia.org/wiki/Charlie_Javice",
+        "https://mikefisher.substack.com/p/the-arrival-trap",
+        "https://www.forensisgroup.com/resources/expert-legal-witness-blog/united-states-v-charlie-javice-s-d-n-y-2023-capital-market-fraud-and-securities-litigation"
+      ]
+    },
+    {
+      "statement": "Charlie Javice founded Frank, which assisted students with financial aid forms and was acquired by JPMorgan Chase in September 2021 for $175 million.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.sec.gov/files/litigation/complaints/2023/comp-pr2023-74.pdf",
+        "https://en.wikipedia.org/wiki/Charlie_Javice",
+        "https://www.bbc.com/news/articles/c4gwj15djdxo",
+        "https://abcnews.com/Business/charlie-javice-founder-lied-175m-startup-faces-sentencing/story?id=126034577"
+      ]
+    },
+    {
+      "statement": "The full legal name of the individual commonly known as Charlie Javice is Charlie Javice.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.courtlistener.com/opinion/9413259/charlie-javice-v-jp-morgan-chase-bank/",
+        "https://www.bbc.com/news/articles/c4gwj15djdxo"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [
+    "Was Charlie Javice sentenced to 85 months in prison for defrauding JPMorgan Chase? - supported by en.wikipedia.org, forensisgroup.com, mikefisher.substack.com, whatjobs.com (weight 1.85) vs refuted by abcnews.com, facebook.com, youtube.com (weight 1.00)"
+  ],
+  "conflict_notes": [
+    "Q3 Was Charlie Javice sentenced to 85 months in prison for defrauding JPMorgan Chase?: supporting ['en.wikipedia.org', 'forensisgroup.com', 'mikefisher.substack.com', 'whatjobs.com'] (weight 1.85) vs refuting ['abcnews.com', 'facebook.com', 'youtube.com'] (weight 1.00). The supporting evidence outweighs the refuting, leading to a TRUE verdict."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Charlie Javice sentenced 85 months prison JPMorgan Chase",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Charlie Javice full legal name",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Charlie Javice founded Frank acquired by JPMorgan Chase 2021",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Charlie Javice",
+      "results": 5,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Charlie Javice sentencing order site:sdny.uscourts.gov",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "United States v. Javice",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Charlie Javice sentencing order SDNY",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "United States v. Charlie Javice sentencing document",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "United States v. Javice sentencing order PDF",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "United States v. Javice sentencing document site:sdny.uscourts.gov",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.courtlistener.com/docket/67406107/united-states-v-javice",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The official sentencing order or judgment PDF from the US District Court for the Southern District of New York was not located; only docket entries and minute orders were found.",
+    "Details of any financial penalties (e.g., fines, restitution) accompanying the 85‑month sentence are not present in the collected evidence.",
+    "No independent verification of the supervised release term beyond a single news article was found."
+  ],
+  "next_steps": [
+    "Request the official sentencing judgment or order PDF from the Southern District of New York via PACER or the court’s clerk.",
+    "Check the court’s docket for any restitution or fine amounts associated with the case.",
+    "Search for press releases or official statements from the Department of Justice regarding the sentencing.",
+    "Verify the supervised release term by locating the judgment document or the probation office’s notice."
+  ],
+  "sources": [
+    {
+      "url": "https://www.whatjobs.com/news/what-was-the-jpmorgan-frank-lawsuit-about",
+      "title": "What Was the JPMorgan Frank Lawsuit About?",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-29"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Charlie_Javice",
+      "title": "Charlie Javice - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": "2026-08-12"
+    },
+    {
+      "url": "https://mikefisher.substack.com/p/the-arrival-trap",
+      "title": "The Arrival Trap - by Mike Fisher - Fish Food for Thought",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.forensisgroup.com/resources/expert-legal-witness-blog/united-states-v-charlie-javice-s-d-n-y-2023-capital-market-fraud-and-securities-litigation",
+      "title": "United States v. Charlie Javice: Frank User Data Fraud, JPMorgan $175M Acquisition, and Federal Appeal",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/files/litigation/complaints/2023/comp-pr2023-74.pdf",
+      "title": "Charlie Javice",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/c4gwj15djdxo",
+      "title": "Frank founder Charlie Javice sentenced for JPMorgan fraud",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://abcnews.com/Business/charlie-javice-founder-lied-175m-startup-faces-sentencing/story?id=126034577",
+      "title": "Charlie Javice sentenced to 7 years in prison for $175M fraud - ABC News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/9413259/charlie-javice-v-jp-morgan-chase-bank/",
+      "title": "CourtListener: Charlie Javice v. JP Morgan Chase Bank",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2023-07-13"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Jordan Belfort (former stockbroker known as the Wolf of Wall Street)",
+    "entity": "Jordan Belfort",
+    "disambiguators": [
+      "former stockbroker known as the Wolf of Wall Street"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9025,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, Jordan Belfort (full legal name Jordan Ross Belfort, born 1962-07-09) remains adversely regarded due to a felony conviction for securities fraud and money laundering stemming from his 1999 guilty plea, for which he served 22 months in prison; this conviction has not been pardoned or vacated and continues to define his public profile as a former stockbroker and author.",
+  "findings": [
+    {
+      "statement": "Jordan Belfort's full legal name is Jordan Ross Belfort and his date of birth is 1962-07-09.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.wikidata.org/wiki/Q3183674",
+        "https://en.wikipedia.org/wiki/Jordan_Belfort"
+      ]
+    },
+    {
+      "statement": "Jordan Belfort is a former stockbroker and author who founded Stratton Oakmont and published the memoir The Wolf of Wall Street.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.forbes.com/sites/forbestv/2026/07/14/insiders-talk-the-real-wolf-of-wall-street-movie-only-showed-a-mild-version-of-the-true-story/",
+        "https://www.tmz.com/2026/07/13/jordan-belfort-done-with-court-ordered-restitution",
+        "https://au.variety.com/2026/more/global/jordan-belfort-docuseries-real-wolf-of-wall-street-32333/",
+        "https://en.wikipedia.org/wiki/Jordan_Belfort"
+      ]
+    },
+    {
+      "statement": "Jordan Belfort pleaded guilty to securities fraud and money laundering in 1999, served 22 months of a four-year sentence, and this felony conviction remains on his record as of 2026-10-01.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.tmz.com/2026/07/13/jordan-belfort-done-with-court-ordered-restitution",
+        "https://au.variety.com/2026/more/global/jordan-belfort-docuseries-real-wolf-of-wall-street-32333/",
+        "https://en.wikipedia.org/wiki/Jordan_Belfort"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Jordan Belfort",
+      "results": 2,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Jordan Belfort",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Jordan Belfort",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.courtlistener.com/opinion/7332613/united-states-v-belfort/",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.courtlistener.com/opinion/7332613/united-states-v-belfort/ could not be read: Failed to fetch url",
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Jordan Belfort pardon",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Jordan Belfort pardoned",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Jordan Belfort conviction 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "wayback",
+      "query": "https://www.courtlistener.com/opinion/7332613/united-states-v-belfort/",
+      "results": 0,
+      "failure": "ServiceUnavailable: https://archive.org/wayback/available?url=https%3A%2F%2Fwww.courtlistener.com%2Fopinion%2F7332613%2Funited-states-v-belfort%2F kept failing after retries: HTTP 429",
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.tmz.com/2026/07/13/jordan-belfort-done-with-court-ordered-restitution",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Archived (Wayback) copies of pages",
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence reviewed regarding any presidential or federal pardon that might have vacated the conviction.",
+    "No evidence reviewed concerning the current status of court‑ordered restitution payments to victims.",
+    "No evidence reviewed about any subsequent civil judgments or regulatory actions (e.g., SEC bans) after 1999."
+  ],
+  "next_steps": [
+    "Check the U.S. Department of Justice pardon database for any post‑1999 pardons or commutations affecting Jordan Belfort.",
+    "Search recent civil docket records (e.g., PACER) for outstanding restitution or judgment orders related to his 1999 conviction.",
+    "Look for any SEC or FINRA actions or bans issued against Jordan Belfort after 1999.",
+    "Review reputable news outlets from 2023‑2026 for any new legal developments involving Jordan Belfort."
+  ],
+  "sources": [
+    {
+      "url": "https://www.wikidata.org/wiki/Q3183674",
+      "title": "Wikidata: Jordan Belfort",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+      "title": "Wikipedia: Jordan Belfort",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.forbes.com/sites/forbestv/2026/07/14/insiders-talk-the-real-wolf-of-wall-street-movie-only-showed-a-mild-version-of-the-true-story/",
+      "title": "Insiders Talk 'The Real Wolf Of Wall Street': Movie Only Showed A 'Mild Version' Of The True Story - Forbes",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-07-14"
+    },
+    {
+      "url": "https://www.tmz.com/2026/07/13/jordan-belfort-done-with-court-ordered-restitution",
+      "title": "'Wolf of Wall Street' Jordan Belfort Finally Free From Court-Ordered Restitution",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-13"
+    },
+    {
+      "url": "https://au.variety.com/2026/more/global/jordan-belfort-docuseries-real-wolf-of-wall-street-32333/",
+      "title": "Jordan Belfort Docuseries ‘The Real Wolf of Wall Street’ Set at Paramount+ (EXCLUSIVE) - Variety Australia",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-01-26"
+    }
+  ]
+}

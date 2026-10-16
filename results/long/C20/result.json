@@ -1,0 +1,87 @@
+{
+  "case_id": "C20",
+  "mode": "long",
+  "kind": "company",
+  "tags": [
+    "clean_entity",
+    "cluster:patagonia"
+  ],
+  "expected": "NO_ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": false,
+  "confidence": 0.82,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.68,
+      "p_correct": 0.27,
+      "reward": {
+        "step": 1,
+        "progress": -0.0633333333333333,
+        "information": 0.9749207454291434,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.92975
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "ADVERSE",
+      "confidence": 0.72,
+      "p_correct": 0.18,
+      "reward": {
+        "step": 2,
+        "progress": -0.09000000000000002,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.25,
+        "tool_failure": 0.0,
+        "cost": 0.5613
+      }
+    },
+    {
+      "step": 3,
+      "verdict": "ADVERSE",
+      "confidence": 0.82,
+      "p_correct": 0.12,
+      "reward": {
+        "step": 3,
+        "progress": -0.06,
+        "information": 0.7484214469402435,
+        "corroboration": 1.0,
+        "redundancy": 0.4444444444444444,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 9,
+  "tool_failures": 0,
+  "prompt_tokens": 35486,
+  "completion_tokens": 25898,
+  "cost_usd": 0.016497599999999998,
+  "wall_clock_s": 156.24635519995354,
+  "call_latency_s": 315.941,
+  "key_fact_recall": 0.6666666666666666,
+  "citation_precision": 1.0,
+  "findings": 3,
+  "conflicts_final": 0,
+  "independent_domains": 8,
+  "evidence_weight": 10.131428571428572,
+  "mean_evidence_reliability": 0.5485714285714286,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 0.0,
+    "key_fact_recall": 0.6666666666666666,
+    "citation_precision": 1.0,
+    "calibration": 0.3276000000000001,
+    "cost": 0.4092266666666667
+  }
+}

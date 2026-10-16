@@ -1,0 +1,204 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Tricolor Holdings (subprime auto lender)",
+    "entity": "Tricolor Holdings",
+    "disambiguators": [
+      "subprime auto lender"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9681,
+  "estimative": "almost certain",
+  "summary": "ADVERSE: Tricolor Holdings filed for Chapter 7 bankruptcy on 2025-09-10, its executives were charged with systematic fraud in late 2025, and the SEC sued it in September 2026, indicating serious misconduct.",
+  "findings": [
+    {
+      "statement": "The exact legal name of Tricolor Holdings is Tricolor Holdings LLC.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.hlc.com/en/publications/colorblind-investors-allege-tricolors-lenders-and-underwriters-ignored-persistent-red-flags"
+      ]
+    },
+    {
+      "statement": "Tricolor Holdings' principal place of business is Dallas, Texas.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.dallasnews.com/business/article/sec-execs-dallas-subprime-auto-lender-used-bogus-22397814.php"
+      ]
+    },
+    {
+      "statement": "Tricolor Holdings' primary products or services are subprime auto lending and used-vehicle retail.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.hlc.com/en/publications/colorblind-investors-allege-tricolors-lenders-and-underwriters-ignored-persistent-red-flags",
+        "https://www.carpro.com/blog/tricolor-bankruptcy-now-involves-criminal-charges"
+      ]
+    },
+    {
+      "statement": "Tricolor Holdings filed for Chapter 7 bankruptcy on September 10, 2025.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.klgates.com/thought-leadership/Private-Lending-Unfolding-Litigation-Developments-and-Managing-Risks-3-18-2026"
+      ]
+    },
+    {
+      "statement": "Tricolor Holdings executives, including CEO Daniel Chu, have been charged with systematic fraud related to its lending practices.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.barrons.com/articles/tricolor-ceo-charged-in-bank-fraud-scheme-c1e4c78c",
+        "https://www.cnbc.com/2025/12/17/tricolor-execs-charged-with-systematic-fraud-after-subprime-auto-lender-roiled-banking-sector.html",
+        "https://www.carpro.com/blog/tricolor-bankruptcy-now-involves-criminal-charges"
+      ]
+    },
+    {
+      "statement": "In September 2026, the U.S. Securities and Exchange Commission filed a lawsuit against Tricolor Holdings alleging fraud.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.dallasnews.com/business/article/sec-execs-dallas-subprime-auto-lender-used-bogus-22397814.php"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Tricolor Holdings bankruptcy",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Tricolor Holdings CFPB enforcement action fine",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Tricolor Holdings criminal charge lending practices",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Tricolor Holdings SEC fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Tricolor Holdings LLC state of incorporation DUNS number",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Tricolor Holdings",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "State of incorporation for Tricolor Holdings LLC is not provided in the evidence.",
+    "DUNS number for Tricolor Holdings LLC is not provided in the evidence.",
+    "Founding date of Tricolor Holdings is not provided in the evidence.",
+    "Exact fine amount or other monetary penalties in the September 2026 SEC lawsuit are not specified in the evidence.",
+    "Whether any state regulator issued a cease‑and‑desist order, license revocation, or civil judgment exceeding $1 million is not detailed in the evidence."
+  ],
+  "next_steps": [
+    "Check the Texas Secretary of State’s SOSDirect database for Tricolor Holdings LLC’s certificate of formation to confirm state of incorporation and filing number.",
+    "Look up the DUNS number for Tricolor Holdings LLC via Dun & Bradstreet’s D‑B Hoovers or a comparable business‑information service.",
+    "Review the SEC’s official complaint and any settlement documents in the September 2026 lawsuit to determine the exact fine, disgorgement, or other monetary penalties.",
+    "Search federal court PACER for any criminal indictments, pleas, or convictions related to Tricolor Holdings’ lending practices to confirm whether charges resulted in convictions."
+  ],
+  "sources": [
+    {
+      "url": "https://www.hlc.com/en/publications/colorblind-investors-allege-tricolors-lenders-and-underwriters-ignored-persistent-red-flags",
+      "title": "Colorblind?: Investors Allege Tricolor’s Lenders and Underwriters Ignored Persistent Red Flags",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-03"
+    },
+    {
+      "url": "https://www.dallasnews.com/business/article/sec-execs-dallas-subprime-auto-lender-used-bogus-22397814.php",
+      "title": "SEC: Execs at Dallas subprime auto lender used bogus collateral in $1.9B fundraising push",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-13"
+    },
+    {
+      "url": "https://www.carpro.com/blog/tricolor-bankruptcy-now-involves-criminal-charges",
+      "title": "Tricolor Bankruptcy Now Involves Criminal Charges",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-01-05"
+    },
+    {
+      "url": "https://www.klgates.com/thought-leadership/Private-Lending-Unfolding-Litigation-Developments-and-Managing-Risks-3-18-2026",
+      "title": "Private Lending: Unfolding Litigation Developments and Managing Risks | HUB | K&L Gates",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-03-18"
+    },
+    {
+      "url": "https://www.barrons.com/articles/tricolor-ceo-charged-in-bank-fraud-scheme-c1e4c78c",
+      "title": "Tricolor CEO Charged in Alleged Bank Fraud Scheme; JPMorgan and Barclays Are Major Lenders",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-12-17"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/12/17/tricolor-execs-charged-with-systematic-fraud-after-subprime-auto-lender-roiled-banking-sector.html",
+      "title": "Tricolor execs at subprime auto lender charged with 'systematic fraud'",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-12-17"
+    }
+  ]
+}

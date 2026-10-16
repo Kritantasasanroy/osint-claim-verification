@@ -1,0 +1,44 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried was convicted of fraud (and conspiracy) charges by a jury",
+          "supported": true
+        },
+        {
+          "fact": "The jury's verdict convicting Sam Bankman-Fried came in November 2023",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried was sentenced to 25 years in federal prison",
+          "supported": true
+        },
+        {
+          "fact": "The sentencing occurred on March 28, 2024",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "On June 12, 2026, the United States Court of Appeals for the Second Circuit upheld Sam Bankman-Fried's fraud conviction",
+          "supported": true
+        },
+        {
+          "fact": "The Second Circuit refused to vacate/overturn Sam Bankman-Fried's conviction and 25-year sentence",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,209 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Tischlerei Kühne e.U. (Egg (Vorarlberg))",
+    "entity": "Tischlerei Kühne e.U.",
+    "disambiguators": [
+      "Egg (Vorarlberg)"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.775,
+  "estimative": "likely",
+  "summary": "Verdict: NO_ADVERSE at 77% confidence. Key facts: legal name Tischlerei Kühne e.U., FN 395449v, seat Schmarütte 230, 6863 Egg (Vorarlberg), founded 2013-05-03, business purpose Tischler und Holzgestaltende Gewerbe; no adverse records found in consulted sources.",
+  "findings": [
+    {
+      "statement": "The exact legal name is Tischlerei Kühne e.U.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.evi.gv.at/f/395449v",
+        "https://www.kuehne-egg.at/new/kontakt"
+      ]
+    },
+    {
+      "statement": "The company registration number (FN) is FN395449v.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.evi.gv.at/f/395449v",
+        "https://www.kuehne-egg.at/new/kontakt"
+      ]
+    },
+    {
+      "statement": "The registered seat address is Schmarütte 230, 6863 Egg (Vorarlberg).",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.evi.gv.at/f/395449v",
+        "https://www.kuehne-egg.at/new/kontakt"
+      ]
+    },
+    {
+      "statement": "Tischlerei Kühne e.U. was founded on 03.05.2013.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.evi.gv.at/f/395449v"
+      ]
+    },
+    {
+      "statement": "The stated business purpose of Tischlerei Kühne e.U. is Tischler und Holzgestaltende Gewerbe (carpentry and wood shaping trade).",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.evi.gv.at/f/395449v"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Tischlerei Kühne e.U. Egg Vorarlberg insolvenz",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Tischlerei Kühne e.U. Egg Vorarlberg strafverurteilung Bußgeld",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Tischlerei Kühne e.U. Egg Vorarlberg Firmenbuch FN",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Tischlerei Kühne e.U. KSV insolvenz",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "http://www.ksv.at/presse/laufende-insolvenzfaelle",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Tischlerei Kühne e.U. Bußgeld Strafe Österreich",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.evi.gv.at/f/395449v",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Tischlerei Kühne e.U. Strafe",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.akv.at/insolvenzticker",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Tischlerei Kühne e.U. insolvenz site:ksv.at",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Tischlerei Kühne e.U. strafverurteilung site:justiz.gv.at",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Tischlerei Kühne e.U. Bußgeld site:bmf.gv.at",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "No direct consultation of the Austrian insolvency register (KSV, AKV) for Tischlerei Kühne e.U. was evidenced in the provided sources. [withdrawn: no tool checked insolvency_register]",
+    "No direct check of Austrian criminal court records (justiz.gv.at) for convictions was evidenced. [withdrawn: no tool checked court_records]",
+    "No direct check of Austrian regulatory authority sanctions database (bmf.gv.at) for fines > EUR 50,000, operating bans or enforcement actions was evidenced. [withdrawn: no tool checked sanctions]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [],
+  "next_steps": [
+    "Search KSV insolvency register for FN 395449v.",
+    "Search AKV insolvenzticker for FN 395449v.",
+    "Search justiz.gv.at for 'Tischlerei Kühne e.U.' strafverurteilung.",
+    "Search bmf.gv.at for 'Tischlerei Kühne e.U.' Bußgeld."
+  ],
+  "sources": [
+    {
+      "url": "https://www.evi.gv.at/f/395449v",
+      "title": "evi.gv.at | Tischlerei Kühne e.U. 6863 Egg (Vbg.) | Firmenbuch",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.kuehne-egg.at/new/kontakt",
+      "title": "Kontakt",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Alpa Hong Kong Ltd is registered under the name ALPA HONG KONG LIMITED",
+          "supported": true
+        },
+        {
+          "fact": "Its Hong Kong company registration number is 3321489",
+          "supported": true
+        },
+        {
+          "fact": "Its Hong Kong business registration number is 75743885",
+          "supported": true
+        },
+        {
+          "fact": "The company is registered in Hong Kong (Hong Kong Companies Registry)",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Alpa Hong Kong Ltd has been sanctioned/designated by the US Office of Foreign Assets Control (OFAC)",
+          "supported": true
+        },
+        {
+          "fact": "It is listed as a Specially Designated National on OFAC's SDN list",
+          "supported": true
+        },
+        {
+          "fact": "Its designation is under the IFSR program",
+          "supported": true
+        },
+        {
+          "fact": "Its designation is under the SDGT program",
+          "supported": true
+        },
+        {
+          "fact": "It was designated pursuant to Executive Order 13224",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,57 @@
+{
+  "key_facts_established": [
+    false,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Charlie Javice was sentenced to 85 months in prison.",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was to a federal prison.",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was imposed for defrauding JPMorgan Chase.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Charlie Javice founded Frank.",
+          "supported": true
+        },
+        {
+          "fact": "Frank assisted students with financial aid forms.",
+          "supported": true
+        },
+        {
+          "fact": "Frank was acquired by JPMorgan Chase.",
+          "supported": true
+        },
+        {
+          "fact": "The acquisition occurred in September 2021.",
+          "supported": false
+        },
+        {
+          "fact": "The acquisition price was $175 million.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The full legal name of the individual commonly known as Charlie Javice is Charlie Javice.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

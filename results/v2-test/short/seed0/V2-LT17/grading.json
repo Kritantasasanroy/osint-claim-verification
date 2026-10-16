@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The exact legal name of the business is Tischlerei Kühne e.U.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company registration number (Firmenbuchnummer) is 395449v (FN395449v).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's seat is in Egg, Vorarlberg (6863 Egg).",
+          "supported": true
+        },
+        {
+          "fact": "The registered seat address is Schmarütte 230.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tischlerei Kühne e.U. was founded (entered in the Firmenbuch) on 03.05.2013.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The registered business purpose (Geschäftszweig) is 'Tischler und Holzgestaltende Gewerbe' (carpentry and wood shaping trade).",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

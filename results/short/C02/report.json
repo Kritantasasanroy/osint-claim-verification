@@ -1,0 +1,76 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Wirecard's financial statements were audited by EY (Ernst & Young)."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.7,
+  "summary": "The evidence shows that Ernst & Young was Wirecard's auditor for the 2018 fiscal year, signing the audit opinion, and remained the auditor of record for 2019 despite refusing to sign off the financial statements. While there is conflicting information about whether EY issued a qualified audit opinion for 2019, the consensus is that EY did not issue an unqualified opinion and no formal resignation was announced before 2020. Consequently, the claim that Wirecard's financial statements were audited by EY is true with 70% confidence.",
+  "findings": [
+    {
+      "statement": "Ernst & Young signed the audit opinion on Wirecard's consolidated financial statements for the fiscal year 2018.",
+      "confidence": 0.9,
+      "citations": [
+        "https://wirecard.com/wp-content/uploads/2020/12/Annual-Report-2018.pdf",
+        "https://finance.yahoo.com/news/wirecards-auditors-ey-were-victims-093000015.html"
+      ]
+    },
+    {
+      "statement": "Ernst & Young remained the auditor of record for Wirecard in 2019, even though it refused to sign off the 2019 financial statements.",
+      "confidence": 0.8,
+      "citations": [
+        "https://finance.yahoo.com/news/wirecards-auditors-ey-were-victims-093000015.html",
+        "https://news.bloombergtax.com/daily-tax-report-international/how-the-wirecard-case-has-impacted-the-german-audit-market"
+      ]
+    },
+    {
+      "statement": "No statutory audit opinion from an audit firm other than Ernst & Young appears in Wirecard's annual reports for the years 2015‑2020.",
+      "confidence": 0.7,
+      "citations": [
+        "https://finance.yahoo.com/news/wirecard-dangerous-allure-lots-cash-122523555.html"
+      ]
+    }
+  ],
+  "conflicts": [
+    "Did Ernst & Young issue an audit opinion for Wirecard's 2019 financial statements? - supported by businessinsider.com, scribd.com, youtube.com (weight 1.03) vs refuted by finance.yahoo.com, news.bloombergtax.com (weight 1.05)",
+    "Did Ernst & Young issue an audit opinion for Wirecard's 2019 financial statements? - supported by businessinsider.com, scribd.com, youtube.com (weight 1.03) vs refuted by finance.yahoo.com, news.bloombergtax.com (weight 1.05)",
+    "Did Ernst & Young issue an audit opinion (qualified or unqualified) for Wirecard's 2019 financial statements? - supported by scribd.com, youtube.com (weight 0.64) vs refuted by finance.yahoo.com, news.bloombergtax.com (weight 1.05)"
+  ],
+  "conflict_notes": [
+    "Whether Ernst & Young issued an audit opinion (qualified or unqualified) for Wirecard's 2019 financial statements: supporting sources (businessinsider.com, scribd.com, youtube.com) total weight 1.03 vs refuting sources (finance.yahoo.com, news.bloombergtax.com) total weight 1.05; the slightly higher weight of refuting sources leads to the assessment that EY likely did not issue a formal audit opinion for 2019, though it remained the auditor of record.",
+    "Whether Ernst & Young ceased to be Wirecard's auditor before 2020: sources indicate EY refused to sign off the 2019 accounts but remained the auditor of record (finance.yahoo.com, news.bloombergtax.com) with no public announcement or regulatory filing of resignation; thus the claim that EY ceased as auditor before 2020 is not supported."
+  ],
+  "gaps": [
+    "Exact date when Ernst & Young formally resigned or ceased to act as Wirecard's auditor (if ever).",
+    "Whether Ernst & Young issued any formal audit report (qualified or unqualified) for Wirecard's 2019 financial statements.",
+    "Presence of any public announcement, regulatory filing, or press release regarding Ernst & Young's resignation as Wirecard's auditor.",
+    "Details of internal audit work papers or communications that would clarify the scope and outcome of EY's 2019 audit."
+  ],
+  "sources": [
+    {
+      "url": "https://wirecard.com/wp-content/uploads/2020/12/Annual-Report-2018.pdf",
+      "title": "Annual Report 2018 | wirecard",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://finance.yahoo.com/news/wirecards-auditors-ey-were-victims-093000015.html",
+      "title": "Wirecard's auditors EY say they were victims of an 'elaborate' fraud by their client that ended in US$2 billion of missing funds",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://news.bloombergtax.com/daily-tax-report-international/how-the-wirecard-case-has-impacted-the-german-audit-market",
+      "title": "How the Wirecard Case Has Impacted the German Audit Market",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://finance.yahoo.com/news/wirecard-dangerous-allure-lots-cash-122523555.html",
+      "title": "Wirecard and the Dangerous Allure of Lots of Cash",
+      "tier": "news",
+      "reliability": 0.65
+    }
+  ]
+}

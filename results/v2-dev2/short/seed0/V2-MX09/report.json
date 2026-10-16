@@ -1,0 +1,241 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "René Benko was convicted in 2025 and his wife Nathalie was convicted alongside him.",
+    "entity": "René Benko",
+    "disambiguators": [
+      "convicted in 2025",
+      "wife Nathalie convicted alongside him"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "MIXED",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "Verdict: MIXED (25% confidence). René Benko was convicted of insolvency fraud in October 2025 by the Landesgericht Innsbruck and sentenced to two years imprisonment. Nathalie Benko, his wife, was acquitted in the December 2025 trial at the same court and was not convicted alongside him in 2025.",
+  "findings": [
+    {
+      "statement": "René Benko was convicted of insolvency fraud in October 2025 by the Landesgericht Innsbruck and sentenced to two years imprisonment.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.reuters.com/legal/government/austrian-ex-billionaire-benko-found-guilty-insolvency-fraud-retrial-2026-09-22/",
+        "https://www.finance-magazin.de/transformation/restrukturierung/signa-ticker-das-wichtigste-zur-krise-beim-benko-konzern-166663",
+        "https://www.dw.com/en/austria-ex-tycoon-benko-guilty-of-fraud-gets-2-years-prison/a-74364777",
+        "https://en.wikipedia.org/wiki/René_Benko"
+      ]
+    },
+    {
+      "statement": "Nathalie Benko, wife of René Benko, was acquitted in the December 2025 trial at the Landesgericht Innsbruck and was not convicted of any criminal offense in 2025.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.vindobona.org/article/signa-scandal-continues-magnificent-postsparkasse-building-in-bankruptcy-supreme-court-upholds-pretr",
+        "https://kurier.at/wirtschaft/rene-benko",
+        "https://www.ft.com/stream/aeb9a393-ccd9-4b20-9972-4eed3f827e42"
+      ]
+    },
+    {
+      "statement": "Nathalie Benko was involved in legal proceedings related to the Signa Holding bankruptcy at the Landesgericht Innsbruck in December 2025.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://kurier.at/wirtschaft/rene-benko",
+        "https://www.vindobona.org/article/signa-insolvency-trustee-in-bankruptcy-demands-the-return-of-gifts-from-nathalie-benko"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "René Benko convicted 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Nathalie Benko convicted 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "René Benko",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Nathalie Benko fraud 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "wikidata",
+      "query": "Nathalie Benko",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Nathalie Benko Signa bankruptcy 2025",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Nathalie Benko trial December 2025 acquitted",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://kurier.at/wirtschaft/rene-benko",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Nathalie Benko court December 2025 acquittal",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.example.com",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Nathalie Benko acquitted December 2025 Landesgericht Innsbruck",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact charges Nathalie Benko faced in 2025 are not detailed in the available sources.",
+    "The precise date and wording of Nathalie Benko's acquittal verdict are not provided.",
+    "Whether Nathalie Benko received any sentence, fine, or other penalty alongside the acquittal is unclear.",
+    "Nathalie Benko's date of birth and full personal details remain unverified in the evidence.",
+    "Any further legal proceedings against Nathalie Benko after December 2025 are not covered."
+  ],
+  "next_steps": [
+    "Search the Landesgericht Innsbruck’s online docket for ‘Nathalie Benko’ December 2025 to obtain the full trial record and acquittal details.",
+    "Consult Austrian criminal registry or justice ministry publications for any conviction or acquittal entries for Nathalie Benko in 2025.",
+    "Look for Nathalie Benko’s date of birth in reliable biographical sources such as official registries or reputable encyclopedias.",
+    "Monitor subsequent news feeds for any later legal developments involving Nathalie Benko related to the Signa bankruptcy."
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/legal/government/austrian-ex-billionaire-benko-found-guilty-insolvency-fraud-retrial-2026-09-22/",
+      "title": "Austrian ex-billionaire Benko found guilty of insolvency fraud at retrial - Reuters",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-22"
+    },
+    {
+      "url": "https://www.finance-magazin.de/transformation/restrukturierung/signa-ticker-das-wichtigste-zur-krise-beim-benko-konzern-166663",
+      "title": "Signa-Ticker: Hackerangriff trifft womöglich Benko-Stiftung - FINANCE",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-08-03"
+    },
+    {
+      "url": "https://www.dw.com/en/austria-ex-tycoon-benko-guilty-of-fraud-gets-2-years-prison/a-74364777",
+      "title": "Austria: ex-tycoon Benko guilty of fraud gets 2 years prison",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-10-15"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/René_Benko",
+      "title": "Wikipedia: René Benko",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.vindobona.org/article/signa-scandal-continues-magnificent-postsparkasse-building-in-bankruptcy-supreme-court-upholds-pretr",
+      "title": "Signa Scandal Continues: Magnificent “Postsparkasse” Building in Bankruptcy, Supreme Court Upholds Pretrial Detention for René Benko - Vindobona.org | Vienna International News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-04-14"
+    },
+    {
+      "url": "https://kurier.at/wirtschaft/rene-benko",
+      "title": "René Benko: aktuelle News - Wien",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-29"
+    },
+    {
+      "url": "https://www.ft.com/stream/aeb9a393-ccd9-4b20-9972-4eed3f827e42",
+      "title": "Julius Baer Gruppe AG | Financial Times",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-29"
+    },
+    {
+      "url": "https://www.vindobona.org/article/signa-insolvency-trustee-in-bankruptcy-demands-the-return-of-gifts-from-nathalie-benko",
+      "title": "Signa Insolvency: Trustee in Bankruptcy Demands the Return of Gifts From Nathalie Benko",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-03-24"
+    }
+  ]
+}

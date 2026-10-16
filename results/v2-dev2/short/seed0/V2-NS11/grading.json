@@ -1,0 +1,56 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Martin Shkreli was convicted of securities fraud and conspiracy in the Eastern District of New York (a felony).",
+          "supported": true
+        },
+        {
+          "fact": "As of mid-2026 the conviction remains on record: Shkreli is still described as having a criminal history and the conviction has not been vacated.",
+          "supported": true
+        },
+        {
+          "fact": "No pardon had been granted as of the report date; Shkreli had only formally requested one.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Martin Shkreli formally requested a pardon from the White House.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01 the pardon had not been granted (he had not been pardoned).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "A U.S. District Judge ordered Martin Shkreli to return $64.6 million in profits from the Daraprim price hike.",
+          "supported": true
+        },
+        {
+          "fact": "That order constitutes an adverse civil judgment (court-ordered remedy) against Shkreli.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Martin Shkreli is known by the alias/moniker 'Pharma Bro'.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

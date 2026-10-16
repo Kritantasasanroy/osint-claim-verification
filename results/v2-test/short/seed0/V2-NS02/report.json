@@ -1,0 +1,191 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Michael B. Jordan, the actor, played basketball for the Chicago Bulls.",
+    "entity": "Michael B. Jordan",
+    "disambiguators": [
+      "the actor"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.3957,
+  "estimative": "unlikely",
+  "summary": "Verdict: FALSE – Michael B. Jordan never played for the Chicago Bulls; decisive facts: his primary profession is actor (per basketballnetwork.net, 2026-03-16) and his occupational profile lists only actor, director, producer with no sports participation (per Wikipedia, undated).",
+  "findings": [
+    {
+      "statement": "Michael B. Jordan's full name is Michael Bakari Jordan and his primary profession is actor.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.nbcnewyork.com/entertainment/entertainment-news/michael-b-jordan-on-michael-jordan-comparisons-changing-name/6439980",
+        "https://www.basketballnetwork.net/off-the-court/michael-b-jordan-on-why-its-annoying-to-share-a-name-with-michael-jordan"
+      ]
+    },
+    {
+      "statement": "Michael B. Jordan has no recorded participation as a player on any professional sports team, including the Chicago Bulls, according to his occupational listing as actor, director, producer.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Michael_B._Jordan"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Michael B. Jordan Chicago Bulls roster contract game log",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Michael B. Jordan full name actor profession",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Michael B. Jordan professional sports teams player",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Michael B. Jordan Chicago Bulls roster site:nba.com",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Michael B. Jordan never played professional basketball site:espn.com",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Michael B. Jordan basketball-reference site:basketball-reference.com",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Michael B. Jordan professional basketball player",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "site:nba.com/player Michael B. Jordan",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Chicago Bulls roster Michael B. Jordan",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Michael B. Jordan Chicago Bulls roster site:basketball-reference.com",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Michael B. Jordan never played professional basketball",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Michael B. Jordan Chicago Bulls transaction log",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct NBA roster or player transaction record for Michael B. Jordan was located in the performed searches.",
+    "No contemporaneous contract, game log, or official Chicago Bulls media guide entry showing him as a player was found.",
+    "No statement from the Chicago Bulls organization denying his participation was identified."
+  ],
+  "next_steps": [
+    "Query NBA.com player search for \"Michael B. Jordan\".",
+    "Check Basketball-Reference.com for a player profile.",
+    "Review Chicago Bulls historical rosters via the official team media guide.",
+    "Search ESPN or AP archives for any mention of Michael B. Jordan as a player."
+  ],
+  "sources": [
+    {
+      "url": "https://www.nbcnewyork.com/entertainment/entertainment-news/michael-b-jordan-on-michael-jordan-comparisons-changing-name/6439980",
+      "title": "Michael B. Jordan almost changed his name due to NBA’s Michael Jordan – NBC New York",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-01-06"
+    },
+    {
+      "url": "https://www.basketballnetwork.net/off-the-court/michael-b-jordan-on-why-its-annoying-to-share-a-name-with-michael-jordan",
+      "title": "\"I slammed my I.D. on the counter\" - Michael B. Jordan on why it's annoying to share a name with Michael Jordan",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-03-16"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Michael_B._Jordan",
+      "title": "Michael B. Jordan - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    }
+  ]
+}

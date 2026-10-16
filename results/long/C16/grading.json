@@ -1,0 +1,19 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings_supported": [
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "memory_labels_in_order": [
+    "relevant",
+    "irrelevant",
+    "irrelevant",
+    "irrelevant"
+  ]
+}

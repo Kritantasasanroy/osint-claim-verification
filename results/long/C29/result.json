@@ -1,0 +1,56 @@
+{
+  "case_id": "C29",
+  "mode": "long",
+  "kind": "person",
+  "tags": [
+    "fraud"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.92,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.92,
+      "p_correct": 0.92,
+      "reward": {
+        "step": 1,
+        "progress": 0.5866666666666667,
+        "information": 0.9682999733655022,
+        "corroboration": 1.0,
+        "redundancy": 0.23076923076923078,
+        "tool_failure": 0.0,
+        "cost": 0.78125
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 11151,
+  "completion_tokens": 10209,
+  "cost_usd": 0.0062196000000000005,
+  "wall_clock_s": 20.825952999992296,
+  "call_latency_s": 68.274,
+  "key_fact_recall": 0.75,
+  "citation_precision": 0.8,
+  "findings": 5,
+  "conflicts_final": 0,
+  "independent_domains": 7,
+  "evidence_weight": 6.902875515788559,
+  "mean_evidence_reliability": 0.8582443643313208,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.75,
+    "citation_precision": 0.8,
+    "calibration": 0.9936,
+    "cost": 0.1424
+  }
+}

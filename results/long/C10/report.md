@@ -1,0 +1,39 @@
+# Findings report: FTX (cryptocurrency exchange)
+
+**Subject type:** company  
+**Verdict:** ADVERSE  
+**Confidence:** 92%
+
+## Summary
+The weight of high‑confidence evidence shows that FTX Trading Ltd., the entity behind the FTX exchange, was incorporated in Antigua and Barbuda, founded in 2019 by Sam Bankman‑Fried and Gary Wang, headquartered in The Bahamas, filed for Chapter 11 bankruptcy in November 2022, faced a substantial CFTC judgment ($12.7 billion) for Commodity Exchange Act violations, and its former CEO has been convicted of fraud and money laundering. These adverse findings collectively support the ADVERSE verdict at approximately 92% confidence.
+
+## Key findings
+- FTX Trading Ltd. is the legal name of the entity that operated the FTX cryptocurrency exchange; it is incorporated in Antigua and Barbuda with company registration number 17180. [1][2] _(confidence 96%)_
+- FTX was founded in 2019 by Sam Bankman-Fried and Gary Wang. [3][4][5][6][7][8] _(confidence 96%)_
+- FTX Trading Ltd. is headquartered in Nassau, The Bahamas. [9][8][5][10] _(confidence 95%)_
+- FTX Trading Ltd. filed for Chapter 11 bankruptcy in the United States Bankruptcy Court for the District of Delaware on November 11, 2022. [9][10][11] _(confidence 95%)_
+- The CFTC obtained a judgment against FTX for violating the Commodity Exchange Act, imposing a $12.7 billion judgment and injunctions against further violations. [12] _(confidence 95%)_
+- Sam Bankman-Fried, former CEO of FTX, has been convicted of fraud and money laundering-related offenses. [10] _(confidence 40%)_
+
+## Conflicting information
+- No open conflict between independent sources.
+
+## Gaps and limitations
+- Independent verification of the Antigua and Barbuda company registration number (17180) relies primarily on a single Coindesk document; no direct registry extract was cited.
+- Details on asset recovery, creditor distributions, or the final outcome of the bankruptcy plan are not covered in the provided evidence.
+- Evidence of other regulatory actions (e.g., SEC, DOJ, FCA) beyond the CFTC judgment is absent from the source set.
+- The criminal conviction of Sam Bankman-Fried is referenced only via a secondary legal FAQ; no direct court docket or sentencing document is cited.
+
+## Sources
+1. [SEC FORM D](https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml) — official, reliability 0.96
+2. [FTX TERMS OF SERVICE Date: May 13, 2022 The ...](https://downloads.coindesk.com/cd3/FTX_Terms_of_Service.pdf) — unvetted, reliability 0.40
+3. [FTX - Wikipedia](https://en.wikipedia.org/wiki/FTX) — reference, reliability 0.96
+4. [FTX bankruptcy | Law | Research Starters | EBSCOhost](https://www.ebsco.com/research-starters/law/ftx-bankruptcy) — unvetted, reliability 0.52
+5. [FTX - Crypto Exchange | CryptoSlate](https://cryptoslate.com/companies/ftx) — unvetted, reliability 0.40
+6. [FTX Co-Founder Gary Wang Appeals for Leniency Ahead of Sentencing: Report | FTX Sam Bankman-Fried (SBF) | CryptoRank.io](https://cryptorank.io/news/feed/cc411-ftx-co-founder-gary-wang-appeals-for-leniency-ahead-of-sentencing-report) — unvetted, reliability 0.40
+7. [FTX: How a $32 Billion Empire Collapsed in 9 Days | Avark](https://avark.agency/learn/ftx-the-scam-exchange-everything-you-need-to-know) — unvetted, reliability 0.40
+8. [FTX — The Bahamas HQ · $32B — Silicon Valley Investclub](https://siliconvalleyinvestclub.com/companies/ftx) — unvetted, reliability 0.40
+9. [FTX Files Chapter 11 Bankruptcy](https://ofi.la.gov/ftx-files-chapter-11-bankruptcy) — official, reliability 0.95
+10. [Claw-Back Litigation in FTX Bankruptcy FAQs – Morris James LLP](https://www.morrisjames.com/p/102j9xu/claw-back-litigation-in-ftx-bankruptcy-faqs) — unvetted, reliability 0.40
+11. [[PDF] FTX TRADING LTD., et al.,1 Debtors. Chapter 11 Case No - PwC](https://www.pwc.com/bs/en/services/business-restructuring-ftx-digital-markets/assets/order-authorizing-the-debtors-entry-into-and-performance-of-their-obligations-14-august-2024.pdf) — unvetted, reliability 0.40
+12. [CFTC Obtains $12.7 Billion Judgment Against FTX and Alameda | CFTC](https://www.cftc.gov/PressRoom/PressReleases/8938-24) — official, reliability 0.95

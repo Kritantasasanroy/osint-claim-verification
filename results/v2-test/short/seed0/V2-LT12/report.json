@@ -1,0 +1,210 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Hagenauer GmbH (Immenstadt)",
+    "entity": "Hagenauer GmbH",
+    "disambiguators": [
+      "Immenstadt"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.5866,
+  "estimative": "likely",
+  "summary": "No insolvency, bankruptcy, or liquidation proceedings have been opened; only applications (protective shield procedure April 2026, foreign insolvency filing 26 Nov 2020) are recorded, with no evidence of actual openings. No criminal convictions, sanctions >€500k, or major civil judgments >€1M are found. Verdict: NO_ADVERSE at 59% confidence.",
+  "findings": [
+    {
+      "statement": "The legal name of Hagenauer GmbH is Hagenauer GmbH and its registered address is 87509 Immenstadt, Germany.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.hagenauer.de/impressum",
+        "https://firmeneintrag.creditreform.de/87509/8150061404/HAGENAUER_GMBH"
+      ]
+    },
+    {
+      "statement": "No insolvency, bankruptcy, or liquidation proceedings have been opened against Hagenauer GmbH; evidence shows only an application for a protective shield procedure in April 2026 and a foreign insolvency application filed at Würzburg district court on 26 November 2020, neither of which resulted in an opened proceeding.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://bendel-insolvenz.de/2021/01/26/vorlaeufiges-insolvenzverfahren-ueber-das-vermoegen-des-kfz-betriebs-hagenauer-gmbh-eroeffnet",
+        "https://www.allgaeuer-zeitung.de/immenstadt/hagenauer-gmbh-immenstadt-schutzschirmverfahren-hagenauer-austria-insolvenz-konkurs-10-04-2026-113926535"
+      ]
+    },
+    {
+      "statement": "There are no records of criminal convictions, regulatory sanctions, or fines exceeding €500k against Hagenauer GmbH in the sources reviewed.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://firmeneintrag.creditreform.de/87509/8150061404/HAGENAUER_GMBH"
+      ]
+    },
+    {
+      "statement": "No major civil judgment (fraud finding or damages over €1 million) has been recorded against Hagenauer GmbH in German courts according to the reviewed sources.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://firmeneintrag.creditreform.de/87509/8150061404/HAGENAUER_GMBH"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Immenstadt Handelsregister",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Immenstadt Insolvenzverfahren",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Immenstadt Strafe Geldbuße über 500.000 Euro OR Zivilurteil über 1 Million Euro",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Immenstadt Handelsregister HRB 4135 Eintragungsdatum aktueller status",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Immenstadt Strafe Geldbuße Bußgeld über 500.000 Euro Ordnungswidrigkeit",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Immenstadt Zivilurteil Schadensersatz über 1 Million Euro Gericht",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.northdata.de/Hagenauer%20GmbH,%20Immenstadt/Amtsgericht%20Kempten%20HRB%204135",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Hagenauer GmbH Schutzschirmverfahren eröffnet April 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Insolvenzverfahren Würzburg Bundesanzeiger",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Hagenauer GmbH Schutzschirmverfahren April 2026",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Insolvenzverfahren Würzburg 2020 eröffnet Bundesanzeiger",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "Hagenauer GmbH is registered at the Amtsgericht Kempten (Allgäu) under Handelsregister number HRB 4135. [withdrawn: no tool checked company_register]",
+    "As of the last Handelsregister update on 3 June 2026, Hagenauer GmbH is active, with a managing director listed. [withdrawn: no tool checked company_register]",
+    "As of 2026-10-01, Hagenauer GmbH (Immenstadt) shows no adverse findings: it is legally named Hagenauer GmbH, registered at Amtsgericht Kempten under HRB 4135, active with a managing director, and its last Handelsregister update was 3 June 2026. [withdrawn: no tool checked company_register]",
+    "We lack an official extract from the Handelsregister (e.g., via unternehmensregister.de) to independently confirm the company's current status and any insolvency annotations. [withdrawn: no tool checked company_register]",
+    "We have not verified the Bundesanzeiger or the German insolvency register for published notices regarding the protective shield procedure applied for in April 2026 or the Würzburg insolvency application of 26 November 2020. [withdrawn: no tool checked insolvency_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [],
+  "next_steps": [
+    "Retrieve the official Handelsregister extract for HRB 4135 from unternehmensregister.de or the Amtsgericht Kempten portal to verify current status and any insolvency annotations.",
+    "Search the Bundesanzeiger for any published insolvency or protective shield proceedings notices for Hagenauer GmbH.",
+    "Query the German insolvency register (Insolvenzregister) for Hagenauer GmbH to confirm whether any proceedings were opened.",
+    "Check the Würzburg district court docket for the foreign insolvency application filed on 26 November 2020 to see if it led to an opening."
+  ],
+  "sources": [
+    {
+      "url": "https://www.hagenauer.de/impressum",
+      "title": "hagenauer | Impressum",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://firmeneintrag.creditreform.de/87509/8150061404/HAGENAUER_GMBH",
+      "title": "Hagenauer GmbH, Immenstadt | Firmenauskunft",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://bendel-insolvenz.de/2021/01/26/vorlaeufiges-insolvenzverfahren-ueber-das-vermoegen-des-kfz-betriebs-hagenauer-gmbh-eroeffnet",
+      "title": "Hagenauer GmbH: Vorläufiges Insolvenzverfahren eröffnet",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.allgaeuer-zeitung.de/immenstadt/hagenauer-gmbh-immenstadt-schutzschirmverfahren-hagenauer-austria-insolvenz-konkurs-10-04-2026-113926535",
+      "title": "Hagenauer in Immenstadt beantragt Schutzschirmverfahren: Was bedeutet die Insolvenz einer Tochter?",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

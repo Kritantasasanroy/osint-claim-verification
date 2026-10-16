@@ -1,0 +1,183 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Flash Heating and Plumbing Solutions Ltd (Bordon)",
+    "entity": "Flash Heating and Plumbing Solutions Ltd",
+    "disambiguators": [
+      "Bordon"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.944,
+  "estimative": "very likely",
+  "summary": "NO_ADVERSE at 94% confidence: Flash Heating and Plumbing Solutions Ltd (company number 13384455) is active, incorporated 10 May 2021, with no insolvency or adverse records as of 2026-10-01.",
+  "findings": [
+    {
+      "statement": "Flash Heating and Plumbing Solutions Ltd's exact registered name is Flash Heating and Plumbing Solutions Ltd and its company number is 13384455.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/13384455"
+      ]
+    },
+    {
+      "statement": "The company's registered office address is 14 New Road, Whitehill, Bordon, England, GU35 9AY.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/13384455"
+      ]
+    },
+    {
+      "statement": "Flash Heating and Plumbing Solutions Ltd was incorporated on 10 May 2021.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/13384455"
+      ]
+    },
+    {
+      "statement": "No insolvency, liquidation, administration, winding-up, or strike-off filings are present in the company's filing history up to September 2026.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/13384455/filing-history"
+      ]
+    },
+    {
+      "statement": "No criminal conviction, charge, regulatory sanction, enforcement action, or major civil judgment filings are present in the company's filing history up to September 2026.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/13384455/filing-history"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Flash Heating and Plumbing Solutions Ltd company number Bordon",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Flash Heating and Plumbing Solutions Ltd directors persons with significant control",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Flash Heating and Plumbing Solutions Ltd conviction sanction insolvency",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Flash Heating and Plumbing Solutions Ltd conviction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Flash Heating and Plumbing Solutions Ltd sanction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Flash Heating and Plumbing Solutions Ltd court case",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://find-and-update.company-information.service.gov.uk/company/13384455/filing-history",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Flash Heating and Plumbing Solutions Ltd prosecution",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Flash Heating and Plumbing Solutions Ltd Health and Safety Executive",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "As of 2026-10-01, the company's status on Companies House is Active. [withdrawn: no tool checked company_register]",
+    "No check was made for civil judgments or claims outside Companies House filings (e.g., County Court Judgments, tribunal decisions). [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Verified details of the company's current directors and persons with significant control were not found in the performed searches."
+  ],
+  "next_steps": [
+    "Obtain the latest officers and persons with significant control filing from Companies House for Flash Heating and Plumbing Solutions Ltd.",
+    "Check the UK County Court Judgments (CCJ) register for any judgments against the company.",
+    "Review the Health and Safety Executive (HSE) enforcement notices for the company.",
+    "Search recent news archives for any litigation or regulatory actions not yet reflected in Companies House filings."
+  ],
+  "sources": [
+    {
+      "url": "https://find-and-update.company-information.service.gov.uk/company/13384455",
+      "title": "FLASH HEATING AND PLUMBING SOLUTIONS LTD overview - Find and update company information - GOV.UK",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://find-and-update.company-information.service.gov.uk/company/13384455/filing-history",
+      "title": "https://find-and-update.company-information.service.gov.uk/company/13384455/filing-history",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

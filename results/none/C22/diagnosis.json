@@ -1,0 +1,13 @@
+{
+  "case_id": "C22",
+  "mode": "none",
+  "correct": false,
+  "verdict_flips": 1,
+  "steps_to_stable": 4,
+  "misleading_memories_trusted": 0,
+  "failure_modes": [
+    "source_selection",
+    "budget_exhausted",
+    "overconfident"
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Signa Holding GmbH (Immobilienkonzern von René Benko)",
+    "entity": "Signa Holding GmbH",
+    "disambiguators": [
+      "Immobilienkonzern von René Benko"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "Verdict: ADVERSE (99% confidence). Decisive facts: Signa Holding GmbH (legal name SIGNA Holding GmbH, FN 191343m, address Maria-Theresien-Straße 31, 6020 Innsbruck) is controlled by René Benko and operates as Austria's largest privately owned real estate developer. It announced insolvency at end November 2023, converted to bankruptcy liquidation on 11 April 2024, and as of 2026-10-01 the proceedings remain ongoing.",
+  "findings": [
+    {
+      "statement": "Signa Holding GmbH's legal name is SIGNA Holding GmbH, its Firmenbuch registration number is FN 191343m, and its registered office is Maria-Theresien-Straße 31, 6020 Innsbruck, Austria.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.northdata.com/SIGNA%20Holding%20GmbH,%20Innsbruck/191343m",
+        "https://www.firmenbuchgrundbuch.at/en/query-services/business-register/fn/191343m",
+        "https://signa.at/holding"
+      ]
+    },
+    {
+      "statement": "René Benko is the controlling shareholder and chairman of the Advisory Board of Signa Holding GmbH.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Signa_Holding",
+        "https://www.investing.com/news/stock-market-news/austrias-signa-to-launch-selfadministrated-insolvency-proceedings-3245524",
+        "https://www.linkedin.com/company/signa-unternehmensgruppe"
+      ]
+    },
+    {
+      "statement": "Signa Holding GmbH is Austria's largest privately owned real estate company, engaged in real estate development and investment.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Signa_Holding",
+        "https://www.wikidata.org/wiki/Q1422071",
+        "https://www.linkedin.com/company/signa-unternehmensgruppe"
+      ]
+    },
+    {
+      "statement": "Signa Holding GmbH announced insolvency proceedings at the end of November 2023 and applied for self-administration and restructuring in Vienna's Commercial Court.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Signa_Holding",
+        "https://www.dw.com/en/austrian-real-estate-giant-signa-to-file-for-bankruptcy/a-67582944",
+        "https://www.investing.com/news/stock-market-news/austrias-signa-to-launch-selfadministrated-insolvency-proceedings-3245524",
+        "https://www.cerhahempel.com/blog/real-estate-insider/the-decision-of-the-vienna-higher-regional-court-on-the-insolvency-of-signa-prime-selection-ag-an-analysis",
+        "https://www.financierworldwide.com/signa-files-for-insolvency",
+        "https://signa.at/holding"
+      ]
+    },
+    {
+      "statement": "On 11 April 2024 the Handelsgericht Wien changed the proceedings from a Sanierungsverfahren to a Konkursverfahren (bankruptcy liquidation) for Signa Holding GmbH.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://signa.at/holding"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, Signa Holding GmbH's insolvency proceedings remain ongoing, with the insolvency plan requiring a €200 million contribution that has not been fully paid and only a small fraction of claims recognized.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.dw.com/en/how-will-signas-insolvency-affect-germany/a-67600415",
+        "https://ca.finance.yahoo.com/news/signa-holding-faces-claims-9-130857258.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Signa Holding GmbH insolvency bankruptcy Austria 2023 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Signa Holding GmbH fined sanctioned regulator Austria",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Signa Holding GmbH Firmenbuch FN registered office address",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.northdata.com/SIGNA%20Holding%20GmbH,%20Innsbruck/191343m",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Signa Holding GmbH Firmenbuch extract FN 191343m insolvency status 2026 criminal sanctions",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Signa Holding GmbH Firmenbuch extract FN 191343m Maria-Theresien-Straße 31 Innsbruck",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence found regarding criminal convictions or regulator sanctions against Signa Holding GmbH or its subsidiaries.",
+    "No evidence found regarding major civil judgments (fraud, serious misconduct) with material damages.",
+    "Unable to confirm whether the insolvency liquidation has been completed or is still ongoing beyond the statement that it is ongoing as of 2026-10-01 (need liquidation completion status).",
+    "Unable to determine personal liability or sanctions imposed on ultimate beneficial owner René Benko related to the insolvency.",
+    "Lack of detailed information on the total recognized claims and remaining obligations in the insolvency proceedings."
+  ],
+  "next_steps": [
+    "Obtain an official Firmenbuch extract from the Austrian Firmenbuch to confirm legal name, registration number, and address.",
+    "Search Austrian regulator databases (e.g., Financial Market Authority) for any sanctions or enforcement actions against Signa Holding GmbH or its subsidiaries.",
+    "Search court records and news sources for any criminal convictions or major civil judgments involving Signa Holding GmbH or its subsidiaries.",
+    "Monitor insolvency proceedings updates (e.g., Handelsgericht Wien announcements) to determine if liquidation has been completed or a restructuring plan has been fulfilled."
+  ],
+  "sources": [
+    {
+      "url": "https://www.northdata.com/SIGNA%20Holding%20GmbH,%20Innsbruck/191343m",
+      "title": "SIGNA Holding GmbH, Innsbruck, Austria, Firmenbuch 191343m: Network, Financial information",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.firmenbuchgrundbuch.at/en/query-services/business-register/fn/191343m",
+      "title": "SIGNA Holding GmbH - Extract from the Business Register",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://signa.at/holding",
+      "title": "SIGNA HOLDING – SIGNA",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Signa_Holding",
+      "title": "Signa Holding",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/austrias-signa-to-launch-selfadministrated-insolvency-proceedings-3245524",
+      "title": "Europe's Signa toppled in property rout",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.linkedin.com/company/signa-unternehmensgruppe",
+      "title": "SIGNA Group of Companies",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q1422071",
+      "title": "Signa Holding GmbH - Wikidata",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.dw.com/en/austrian-real-estate-giant-signa-to-file-for-bankruptcy/a-67582944",
+      "title": "Austrian real-estate giant Signa to file for bankruptcy",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.cerhahempel.com/blog/real-estate-insider/the-decision-of-the-vienna-higher-regional-court-on-the-insolvency-of-signa-prime-selection-ag-an-analysis",
+      "title": "The Decision of the Vienna Higher Regional Court on the Insolvency of SIGNA Prime Selection AG: An Analysis - CERHA HEMPEL Rechtsanwälte GmbH",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.financierworldwide.com/signa-files-for-insolvency",
+      "title": "Signa files for insolvency — Financier Worldwide",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.dw.com/en/how-will-signas-insolvency-affect-germany/a-67600415",
+      "title": "How will Signa's insolvency affect Germany?",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/signa-holding-faces-claims-9-130857258.html",
+      "title": "Signa Holding faces claims of $9 billion - insolvency manager",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    }
+  ]
+}

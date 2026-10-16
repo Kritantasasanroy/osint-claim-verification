@@ -1,0 +1,203 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Michael I. Jordan, the UC Berkeley machine-learning professor, played professional basketball in the NBA.",
+    "entity": "Michael I. Jordan",
+    "disambiguators": [
+      "the UC Berkeley machine-learning professor"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.8742,
+  "estimative": "very likely",
+  "summary": "The claim that Michael I. Jordan, the UC Berkeley machine‑learning professor, played professional basketball in the NBA is FALSE. The professor’s identity (Michael Irwin Jordan), birth date (25 Feb 1956), current affiliation (Pehong Chen Distinguished Professor at UC Berkeley, EECS & Statistics), and occupation (professor as of 2026‑10‑01) are well‑established, while no credible biographical source or NBA record mentions an NBA career.",
+  "findings": [
+    {
+      "statement": "The full name of the UC Berkeley professor Michael I. Jordan is Michael Irwin Jordan.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Michael_I._Jordan"
+      ]
+    },
+    {
+      "statement": "Michael I. Jordan is a professor at the University of California, Berkeley, holding the Pehong Chen Distinguished Professor appointment split across EECS and Statistics.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+        "https://vcresearch.berkeley.edu/news/michael-i-jordan-receives-frontiers-knowledge-award"
+      ]
+    },
+    {
+      "statement": "Michael I. Jordan was born on February 25, 1956.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+        "https://vcresearch.berkeley.edu/news/michael-i-jordan-receives-frontiers-knowledge-award"
+      ]
+    },
+    {
+      "statement": "No credible biographical source mentions Michael I. Jordan having a professional basketball career in the NBA.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+        "https://vcresearch.berkeley.edu/news/michael-i-jordan-receives-frontiers-knowledge-award",
+        "https://rise.cs.berkeley.edu/Projects/news",
+        "https://people.eecs.berkeley.edu/~emmapierson/images/resume.pdf",
+        "https://rise.cs.berkeley.edu/news",
+        "https://amplab.cs.berkeley.edu/news",
+        "https://statistics.berkeley.edu/people/michael-jordan"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Michael I. Jordan",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Michael I. Jordan NBA",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Michael I. Jordan site:basketball-reference.com",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Michael I. Jordan basketball",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Michael I. Jordan site:berkeley.edu basketball",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "site:berkeley.edu 'Michael I. Jordan' sports",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "'Michael I. Jordan' interview site:berkeley.edu",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Direct NBA roster or game‑log evidence for a player named Michael I. Jordan was not captured in the evidence from the performed basketball‑reference.com and NBA searches."
+  ],
+  "next_steps": [
+    "Check NBA official statistics or basketball-reference.com for any player named Michael I. Jordan.",
+    "Review historical NBA draft lists and team rosters for the name.",
+    "Search UC Berkeley athletics archives for any record of Michael I. Jordan participating in varsity basketball."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+      "title": "Wikipedia: Michael I. Jordan",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://vcresearch.berkeley.edu/news/michael-i-jordan-receives-frontiers-knowledge-award",
+      "title": "Michael I. Jordan Receives Frontiers of Knowledge Award | Research UC Berkeley",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://rise.cs.berkeley.edu/Projects/news",
+      "title": "News Archives - RISE Lab",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://people.eecs.berkeley.edu/~emmapierson/images/resume.pdf",
+      "title": "resume.pdf",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://rise.cs.berkeley.edu/news",
+      "title": "RISELab at UC Berkeley - Blog",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://amplab.cs.berkeley.edu/news",
+      "title": "News | AMPLab – UC Berkeley",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://statistics.berkeley.edu/people/michael-jordan",
+      "title": "Michael Jordan | Department of Statistics",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    }
+  ]
+}

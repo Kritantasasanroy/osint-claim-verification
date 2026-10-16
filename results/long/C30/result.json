@@ -1,0 +1,72 @@
+{
+  "case_id": "C30",
+  "mode": "long",
+  "kind": "claim",
+  "tags": [
+    "cluster:wirecard",
+    "insufficient",
+    "conflicting"
+  ],
+  "expected": "FALSE",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.92,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.92,
+      "p_correct": 0.9700000000000001,
+      "reward": {
+        "step": 1,
+        "progress": 0.4700000000000001,
+        "information": 0.999996194234521,
+        "corroboration": 1.0,
+        "redundancy": 0.2222222222222222,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 20346,
+  "completion_tokens": 19480,
+  "cost_usd": 0.0117746,
+  "wall_clock_s": 142.5116865001619,
+  "call_latency_s": 183.432,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 5,
+  "conflicts_final": 0,
+  "independent_domains": 10,
+  "evidence_weight": 24.957986819535975,
+  "mean_evidence_reliability": 0.6366646335958711,
+  "authoritative_evidence": true,
+  "memories_retrieved": 6,
+  "memory_labels": {
+    "M18": "irrelevant",
+    "M6": "irrelevant",
+    "M17": "irrelevant",
+    "M23": "irrelevant",
+    "M21": "irrelevant",
+    "M22": "irrelevant"
+  },
+  "memories_distrusted": [
+    "M17",
+    "M18",
+    "M21",
+    "M22",
+    "M23",
+    "M6"
+  ],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.9936,
+    "cost": 0.26550666666666667
+  }
+}

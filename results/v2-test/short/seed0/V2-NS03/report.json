@@ -1,0 +1,172 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Paul Allen, the Microsoft co-founder, died in 2018.",
+    "entity": "Paul Allen",
+    "disambiguators": [
+      "the Microsoft co-founder"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "The claim that Paul Allen, the Microsoft co-founder, died in 2018 is TRUE with 99% confidence. He is confirmed as a co-founder of Microsoft (since 1975) and his date of death is established as 15 October 2018.",
+  "findings": [
+    {
+      "statement": "Paul Allen co-founded Microsoft with Bill Gates in 1975.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Paul_Allen",
+        "https://www.theguardian.com/technology/2018/oct/16/paul-allen-obituary",
+        "https://www.usatoday.com/story/sports/nfl/seahawks/2026/02/08/seattle-seahawks-owner-paul-allen-trust-jody-allen-super-bowl-60/88584276007"
+      ]
+    },
+    {
+      "statement": "Paul Allen died on October 15, 2018.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Paul_Allen",
+        "https://www.theguardian.com/technology/2018/oct/16/paul-allen-obituary",
+        "https://spacenews.com/stratolaunch-founder-paul-allen-dies",
+        "https://www.usatoday.com/story/sports/nfl/seahawks/2026/02/08/seattle-seahawks-owner-paul-allen-trust-jody-allen-super-bowl-60/88584276007",
+        "https://theconversation.com/how-the-seattle-seahawks-sale-will-score-a-touchdown-for-charity-8-years-after-paul-allens-death-276577"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Paul Allen",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Paul Allen",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Paul_Allen",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Paul Allen died October 15 2018",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Paul Allen obituary 2018",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "sec_edgar",
+      "query": "Paul G. Allen",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Paul Allen death 2018",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "SEC EDGAR filings",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No primary death certificate or official vital record was examined in the performed searches."
+  ],
+  "next_steps": [
+    "Query Washington State Department of Health for Paul Allen's death certificate.",
+    "Search the Social Security Death Index for confirmation of Paul Allen's death.",
+    "Review filings of the Paul G. Allen Trust for any reference to the date of death.",
+    "Consult authoritative biographical references such as the Oxford Dictionary of National Biography for validation."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Paul_Allen",
+      "title": "Wikipedia: Paul Allen",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.theguardian.com/technology/2018/oct/16/paul-allen-obituary",
+      "title": "Paul Allen obituary | Technology",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.usatoday.com/story/sports/nfl/seahawks/2026/02/08/seattle-seahawks-owner-paul-allen-trust-jody-allen-super-bowl-60/88584276007",
+      "title": "Seattle Seahawks owner: Who is Jody Allen, Paul Allen Trust?",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-02-08"
+    },
+    {
+      "url": "https://spacenews.com/stratolaunch-founder-paul-allen-dies",
+      "title": "Stratolaunch founder Paul Allen dies - SpaceNews",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2018-10-15"
+    },
+    {
+      "url": "https://theconversation.com/how-the-seattle-seahawks-sale-will-score-a-touchdown-for-charity-8-years-after-paul-allens-death-276577",
+      "title": "How the Seattle Seahawks’ sale will score a touchdown for charity 8 years after Paul Allen’s death",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-27"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "case_id": "C22",
+  "mode": "none",
+  "kind": "person",
+  "tags": [
+    "ambiguous_name",
+    "clean_entity",
+    "cluster:zuckerberg"
+  ],
+  "expected": "NO_ADVERSE",
+  "verdict": "UNVERIFIABLE",
+  "correct": false,
+  "confidence": 0.8,
+  "stop_reason": "tool_budget",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "NO_ADVERSE",
+      "confidence": 0.85,
+      "p_correct": 0.85,
+      "reward": {
+        "step": 1,
+        "progress": 0.5166666666666666,
+        "information": 0.96311683259876,
+        "corroboration": 1.0,
+        "redundancy": 0.3333333333333333,
+        "tool_failure": 0.0,
+        "cost": 0.8604
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.8,
+      "p_correct": 0.1,
+      "reward": {
+        "step": 2,
+        "progress": -0.75,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.5,
+        "tool_failure": 0.0,
+        "cost": 0.4172
+      }
+    },
+    {
+      "step": 3,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.7,
+      "p_correct": 0.2,
+      "reward": {
+        "step": 3,
+        "progress": 0.1,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.7333333333333333,
+        "tool_failure": 0.0,
+        "cost": 0.29295
+      }
+    },
+    {
+      "step": 4,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.8,
+      "p_correct": 0.15,
+      "reward": {
+        "step": 4,
+        "progress": -0.05000000000000002,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.7222222222222222,
+        "tool_failure": 0.0,
+        "cost": 0.3684
+      }
+    }
+  ],
+  "tool_calls": 12,
+  "tool_failures": 0,
+  "prompt_tokens": 25878,
+  "completion_tokens": 15963,
+  "cost_usd": 0.010569299999999998,
+  "wall_clock_s": 104.56462140008807,
+  "call_latency_s": 153.417,
+  "key_fact_recall": 0.0,
+  "citation_precision": 0.0,
+  "findings": 0,
+  "conflicts_final": 0,
+  "independent_domains": 9,
+  "evidence_weight": 6.6000000000000005,
+  "mean_evidence_reliability": 0.4,
+  "authoritative_evidence": false,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 0.0,
+    "key_fact_recall": 0.0,
+    "citation_precision": 0.0,
+    "calibration": 0.3599999999999999,
+    "cost": 0.27894
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Trevor Milton was sentenced to four years in prison.",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was imposed in December 2023.",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was for securities and wire fraud.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Trevor Milton received a presidential pardon for his fraud conviction.",
+          "supported": true
+        },
+        {
+          "fact": "The pardon was a full pardon.",
+          "supported": false
+        },
+        {
+          "fact": "The pardon was granted on March 27, 2025.",
+          "supported": true
+        },
+        {
+          "fact": "Sources differ on whether the pardon occurred on March 27 or March 28.",
+          "supported": false
+        },
+        {
+          "fact": "The higher-weight sources support the March 27 date.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Trevor Milton has not served any of his four-year prison sentence.",
+          "supported": true
+        },
+        {
+          "fact": "As of October 1, 2026, Trevor Milton is not incarcerated.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

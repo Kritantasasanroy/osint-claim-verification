@@ -1,0 +1,161 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Jeremy Jordan-Jones (CEO of Amalgam Capital Ventures)",
+    "entity": "Jeremy Jordan-Jones",
+    "disambiguators": [
+      "CEO of Amalgam Capital Ventures"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9663,
+  "estimative": "almost certain",
+  "summary": "VERDICT: ADVERSE (97% confidence). Jeremy Jordan-Jones, CEO and one-third shareholder of Amalgam Capital Ventures, was charged by the SEC on 2025-05-21 and indicted by the DOJ for wire fraud and false statements after mid‑2025, establishing adverse legal findings as of 2026-10-01.",
+  "findings": [
+    {
+      "statement": "Jeremy Jordan-Jones is the CEO and one-third shareholder of Amalgam Capital Ventures.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://www.sec.gov/files/litigation/complaints/2025/comp26309.pdf"
+      ]
+    },
+    {
+      "statement": "As of 2026-09-30, Jeremy Jordan-Jones remained the CEO of Amalgam Capital Ventures.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://www.sec.gov/files/litigation/complaints/2025/comp26309.pdf"
+      ]
+    },
+    {
+      "statement": "On May 21, 2025, the Securities and Exchange Commission charged Jeremy Jordan-Jones with securities violations.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26309"
+      ]
+    },
+    {
+      "statement": "The Department of Justice indicted Jeremy Jordan-Jones for wire fraud and false statements related to defrauding investors in Amalgam Ventures (charges unsealed after mid-2025).",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.justice.gov/usao-sdny/media/1401086/dl?inline="
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "The SEC complaint (weight 0.95) describes Jeremy Jordan-Jones as the current CEO and one‑third shareholder of Amalgam Capital Ventures, whereas a Crunchbase entry (weight 0.40) labels him the \"former\" CEO. The higher‑weight SEC source was given precedence, leading to the conclusion that he remained CEO as of the filing date."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Jeremy Jordan-Jones criminal conviction OR charged OR regulator ban OR enforcement action",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Amalgam Capital Ventures CEO Jeremy Jordan-Jones official website",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Jeremy Jordan-Jones LinkedIn profile",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Jeremy Jordan-Jones securities fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Amalgam Capital Ventures CEO Jeremy Jordan-Jones",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Jeremy Jordan-Jones SEC DOJ 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No information on Jeremy Jordan-Jones’s personal net worth or whether any civil judgments material to his wealth exist beyond the SEC and DOJ actions.",
+    "No evidence located of bankruptcy filings, insolvency proceedings, or regulator bans other than the SEC enforcement action.",
+    "No data on any additional civil lawsuits, settlements, or judgments that may have arisen after the mid‑2025 charges."
+  ],
+  "next_steps": [
+    "Search SEC EDGAR for any later filings or amendments related to Amalgam Capital Ventures or Jeremy Jordan-Jones after May 2025.",
+    "Review DOJ press releases and PACER for updates on the criminal case post‑mid‑2025.",
+    "Query bankruptcy court records (e.g., PACER) for any insolvency filings by Jeremy Jordan-Jones or Amalgam Capital Ventures.",
+    "Examine LinkedIn and Crunchbase for any post‑2025‑09‑30 updates to his current role to confirm ongoing CEO status."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/files/litigation/complaints/2025/comp26309.pdf",
+      "title": "Jeremy Jordan-Jones",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26309",
+      "title": "Jeremy Jordan-Jones",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/media/1401086/dl?inline=",
+      "title": "JEREMY JORDAN-JONES, Defendant. The Grand Jury ...",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

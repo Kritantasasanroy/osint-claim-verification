@@ -1,0 +1,65 @@
+{
+  "subject": {
+    "kind": "company",
+    "statement": "Patagonia (outdoor clothing company)"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.85,
+  "summary": "The ADVERSE verdict (85% confidence) is based on documented enforcement actions against Patagonia, Inc. within the last ten years: an EEOC settlement in 2019, a Seattle Office for Labour Standards fine and employee compensation in 2022 for violating the Secure Scheduling Ordinance, and an NLRB charge of unfair labor practices in 2020. These findings demonstrate a pattern of regulatory and labor‑law adverse conduct, supporting the adverse assessment despite the lack of sanctions listings or bankruptcy events.",
+  "findings": [
+    {
+      "statement": "Patagonia, Inc. settled an EEOC complaint in 2019, paying a settlement (amount unspecified).",
+      "confidence": 0.8,
+      "citations": [
+        "https://s3.amazonaws.com/blab-impact-published-production/FwqEOpz9x13JdhDqn2Lxp35D5iY6Zoht"
+      ]
+    },
+    {
+      "statement": "Patagonia, Inc. was fined by the Seattle Office for Labour Standards in 2022 for violating the Secure Scheduling Ordinance, paying a fine and employee compensation.",
+      "confidence": 0.85,
+      "citations": [
+        "https://s3.amazonaws.com/blab-impact-published-production/FwqEOpz9x13JdhDqn2Lxp35D5iY6Zoht",
+        "https://www.outsideonline.com/business-journal/brands/patagonia-fined-55k-by-the-city-of-seattle"
+      ]
+    },
+    {
+      "statement": "Patagonia, Inc. faced an NLRB charge of unfair labor practices in 2020, which resulted in no financial fine.",
+      "confidence": 0.7,
+      "citations": [
+        "https://s3.amazonaws.com/blab-impact-published-production/FwqEOpz9x13JdhDqn2Lxp35D5iY6Zoht"
+      ]
+    },
+    {
+      "statement": "Patagonia, Inc. agreed to pay nearly $55,000 to employees and a $575.31 fine to the City of Seattle for violating the Secure Scheduling law (2022).",
+      "confidence": 0.75,
+      "citations": [
+        "https://www.outsideonline.com/business-journal/brands/patagonia-fined-55k-by-the-city-of-seattle"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "Exact legal name, state of incorporation, and registration number of Patagonia, Inc. were not established in the provided evidence.",
+    "Whether Patagonia, Inc. appears on any government sanctions or denied parties lists (e.g., OFAC SDN, EU Consolidated List) could not be determined.",
+    "No information was found regarding bankruptcy, receivership, or insolvency proceedings for Patagonia, Inc. in any jurisdiction.",
+    "Precise monetary amount of the 2019 EEOC settlement was not disclosed in the sources.",
+    "Details of the NLRB charge outcome beyond the absence of a financial fine (e.g., any required remedial actions) were not provided.",
+    "Information about any adverse actions involving wholly-owned subsidiaries of Patagonia, Inc. was not present."
+  ],
+  "sources": [
+    {
+      "url": "https://s3.amazonaws.com/blab-impact-published-production/FwqEOpz9x13JdhDqn2Lxp35D5iY6Zoht",
+      "title": "Patagonia Disclosure Report 2024 (SECURED)",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.outsideonline.com/business-journal/brands/patagonia-fined-55k-by-the-city-of-seattle",
+      "title": "Patagonia Fined $55,000 by the City of Seattle",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

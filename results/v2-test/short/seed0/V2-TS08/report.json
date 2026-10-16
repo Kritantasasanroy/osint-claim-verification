@@ -1,0 +1,145 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Warren Buffett is currently the CEO of Berkshire Hathaway.",
+    "entity": "Warren Buffett",
+    "disambiguators": [
+      "currently the CEO of Berkshire Hathaway"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.9569,
+  "estimative": "almost certain",
+  "summary": "As of the cutoff date 2026-10-01, Warren Buffett is no longer the CEO of Berkshire Hathaway; he stepped down in late 2025/early 2026 and became chairman emeritus while remaining a director. Greg Abel assumed the CEO role on or before January 1 2026 and is the current CEO. This conclusion is supported by multiple news outlets and a Wikipedia entry, yielding a FALSE verdict with 96% confidence.",
+  "findings": [
+    {
+      "statement": "Warren Buffett is not the CEO of Berkshire Hathaway as of the cutoff date 2026-10-01.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62083017/copying-warren-buffetts-berkshire-hathaway-success-is-not-sexy-but-bill-ackman-is-trying-anyways",
+        "https://www.aljazeera.com/economy/2026/9/18/warren-buffett-steps-down-as-berkshire-hathaway-chairman"
+      ]
+    },
+    {
+      "statement": "Greg Abel is the CEO of Berkshire Hathaway as of the cutoff date 2026-10-01.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://247wallst.com/investing/2026/07/30/4-dow-jones-industrial-giants-make-up-50-of-warren-buffetts-berkshire-hathaway-portfolio",
+        "https://www.cnbc.com/2026/05/01/berkshire-hathaway-annual-meeting-new-era-warren-buffett-off-center-stage.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Warren Buffett CEO Berkshire Hathaway September 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Warren Buffett position Berkshire Hathaway 2026 annual report",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Warren Buffett",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Berkshire Hathaway Greg Abel principal executive officer",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Berkshire Hathaway CEO",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct SEC filing (10-K, 10-Q, or 8-K) dated on or before 2026-10-01 was examined to confirm the CEO name.",
+    "The exact month and day when Warren Buffett stepped down as CEO is not precisely specified in the evidence.",
+    "No official Berkshire Hathaway investor‑relations leadership page was reviewed to verify the current CEO and chairman emeritus."
+  ],
+  "next_steps": [
+    "Retrieve Berkshire Hathaway’s most recent Form 10‑Q or 10‑K filed prior to 2026-10-01 and extract the CEO name from the signature or executive‑officer section.",
+    "Search SEC EDGR for any Form 8‑K dated in 2025‑2026 that announces a change in the Chief Executive Officer position.",
+    "Review the Berkshire Hathaway investor‑relations \"Leadership\" page for the listed CEO and chairman emeritus as of September 2026.",
+    "Cross‑check the findings with a reputable financial data provider (e.g., Bloomberg or Reuters) for the CEO title effective 2026-10-01."
+  ],
+  "sources": [
+    {
+      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/62083017/copying-warren-buffetts-berkshire-hathaway-success-is-not-sexy-but-bill-ackman-is-trying-anyways",
+      "title": "Copying Warren Buffett’s Berkshire Hathaway Success Is ‘Not Sexy,’ but Bill Ackman Is Trying Anyways",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-30"
+    },
+    {
+      "url": "https://www.aljazeera.com/economy/2026/9/18/warren-buffett-steps-down-as-berkshire-hathaway-chairman",
+      "title": "Warren Buffett steps down as Berkshire Hathaway chairman | Business and Economy News | Al Jazeera",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-18"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/07/30/4-dow-jones-industrial-giants-make-up-50-of-warren-buffetts-berkshire-hathaway-portfolio",
+      "title": "4 Dow Jones Industrial Giants Make Up 50% of Warren Buffett's Berkshire Hathaway Portfolio - 24/7 Wall St.",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-30"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/05/01/berkshire-hathaway-annual-meeting-new-era-warren-buffett-off-center-stage.html",
+      "title": "Berkshire annual meeting with no Buffett: Can Abel rekindle enthusiasm?",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-05-01"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Nima Golsharifi (NDB Inc.)",
+    "entity": "Nima Golsharifi",
+    "disambiguators": [
+      "NDB Inc."
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.3333,
+  "estimative": "unlikely",
+  "summary": "Verdict: ADVERSE (33% confidence) based on the SEC civil lawsuit filed on 2023-09-18 alleging fraud by NDB Inc. and its CEO Nima Golsharifi; no evidence of criminal conviction, personal liability, bankruptcy, or leadership changes as of 2026-09-30.",
+  "findings": [
+    {
+      "statement": "The SEC filed a lawsuit against NDB Inc. and its CEO Nima Golsharifi on 2023-09-18, alleging that they defrauded investors with false statements.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.ans.org/news/article-5359/sec-files-lawsuit-against-nuclear-battery-startup"
+      ]
+    },
+    {
+      "statement": "Nima Golsharifi is the Chief Executive Officer and Founder of NDB Inc.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://rocketreach.co/nima-golsharifi-email_48081646",
+        "https://ndb.technology/newsroom",
+        "https://www.linkedin.com/in/ngolsharifi",
+        "https://www.instagram.com/p/DGxr3_ssOPa"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Nima Golsharifi",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Nima Golsharifi NDB Inc.",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Nima Golsharifi SEC lawsuit 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "site:sec.gov NDB Inc. Golsharifi",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "NDB Inc. bankruptcy",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Nima Golsharifi criminal charge indictment",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Nima Golsharifi personal liability civil judgment",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "NDB Inc. bankruptcy insolvency proceedings",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "Nima Golsharifi NDB Inc. SEC",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Nima Golsharifi criminal indictment 2024 2025 2026",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Nima Golsharifi NDB Inc. bankruptcy OR CEO 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence located of any criminal conviction, formal charge, or indictment against Nima Golsharifi as of 2026-09-30.",
+    "No evidence located of a major civil judgment imposing personal liability on Nima Golsharifi for fraud or serious misconduct.",
+    "No evidence located of personal bankruptcy or insolvency proceedings involving Nima Golsharifi, nor of NDB Inc. undergoing such proceedings while he was a key officer.",
+    "No independent news outlets beyond the ANS.org article were found reporting on the SEC lawsuit; no official SEC press release or litigation docket was retrieved.",
+    "No verifiable updates to Nima Golsharifi's position at NDB Inc. after the 2023 lawsuit filing were identified."
+  ],
+  "next_steps": [
+    "Search SEC EDGAR for 'NDB Inc.' and 'Nima Golsharifi' to obtain the litigation docket and any official press release.",
+    "Search major news outlets (Reuters, Bloomberg, Financial Times) for coverage of the SEC lawsuit and any subsequent developments or settlements.",
+    "Check PACER or other federal court records for any criminal case filings involving Nima Golsharifi.",
+    "Review NDB Inc.'s corporate website, press releases, or regulatory filings for statements regarding the lawsuit or changes in leadership after 2023."
+  ],
+  "sources": [
+    {
+      "url": "https://www.ans.org/news/article-5359/sec-files-lawsuit-against-nuclear-battery-startup",
+      "title": "SEC files lawsuit against nuclear battery startup -- ANS / Nuclear Newswire",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2023-09-18"
+    },
+    {
+      "url": "https://rocketreach.co/nima-golsharifi-email_48081646",
+      "title": "Nima Golsharifi Email & Phone Number | NDB Chief ...",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://ndb.technology/newsroom",
+      "title": "Newsroom",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.linkedin.com/in/ngolsharifi",
+      "title": "Nima Golsharifi - Chief Executive Officer at NDB",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.instagram.com/p/DGxr3_ssOPa",
+      "title": "Dr. Nima Golsharifi, CEO & Founder of NDB, shares how ...",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

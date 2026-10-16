@@ -1,0 +1,143 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Kestrelmoor Agritech Holdings Pte Ltd (Singapore)",
+    "entity": "Kestrelmoor Agritech Holdings Pte Ltd",
+    "disambiguators": [
+      "Singapore"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.3333,
+  "estimative": "unlikely",
+  "summary": "Verdict: UNVERIFIABLE (33% confidence) as of 2026-10-01; no verifiable evidence found regarding the company's UEN, registered address, SSIC code, date of incorporation, or any adverse legal or regulatory actions.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd Singapore UEN ACRA",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd SSIC code incorporation date",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd sanction charge conviction Singapore",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd UEN",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd SSIC",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd MAS penalty",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd MAS sanction conviction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd BizFile UEN ACRA",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://data.gov.sg/datasets/d_c0650f23e94c42e7a20921f4c5b75c24/view",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Kestrelmoor Agritech Holdings Pte Ltd MAS enforcement 2025 Singapore",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "news_search",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "No Singapore court records of criminal convictions, charges, insolvency, or major civil judgments. [withdrawn: no tool checked court_records]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No ACRA BizFile record retrieved for UEN or registered address.",
+    "No SSIC code or incorporation date obtained from ACRA.",
+    "No MAS enforcement notices, sanctions, or penalties found.",
+    "No regulator bans identified."
+  ],
+  "next_steps": [
+    "Search ACRA BizFile (https://www.bizfile.gov.sg) for Kestrelmoor Agritech Holdings Pte Ltd to obtain UEN and registered address.",
+    "Extract SSIC code and date of incorporation from the ACRA company profile.",
+    "Query MAS enforcement actions database (https://www.mas.gov.sg) for any penalties or sanctions against the company.",
+    "Search Singapore Supreme Court eLitigation and State Courts databases for any criminal or civil proceedings."
+  ],
+  "sources": []
+}

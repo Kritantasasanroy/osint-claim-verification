@@ -1,0 +1,125 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Elizabeth Holmes, founder of Theranos"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.96,
+  "summary": "Elizabeth Holmes, founder and former CEO of Theranos, has an adverse record marked by a criminal fraud conviction, SEC civil settlement with financial penalties and industry bans, and a substantial civil judgment ordering her to pay $125 million to Rupert Murdoch. While she appealed her conviction in April 2023, the appeal remains unresolved, and no personal bankruptcy or additional major civil actions are documented in the available evidence.",
+  "findings": [
+    {
+      "statement": "Elizabeth Holmes founded Theranos and served as its Chief Executive Officer and Chairman.",
+      "confidence": 0.99,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+        "https://www.sec.gov/files/litigation/complaints/2018/comp-pr2018-41-theranos-holmes.pdf",
+        "https://www.fdli.org/2023/06/united-states-v-elizabeth-holmes-and-ramesh-balwani",
+        "https://law.justia.com/cases/federal/appellate-courts/ca9/22-10312/22-10312-2025-02-24.html",
+        "https://www.integrityline.com/expertise/blog/elizabeth-holmes-theranos"
+      ]
+    },
+    {
+      "statement": "Elizabeth Holmes was criminally convicted of fraud related to Theranos.",
+      "confidence": 0.98,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+        "https://law.justia.com/cases/federal/appellate-courts/ca9/22-10312/22-10312-2025-02-24.html",
+        "https://www.fdli.org/2023/06/united-states-v-elizabeth-holmes-and-ramesh-balwani",
+        "https://www.integrityline.com/expertise/blog/elizabeth-holmes-theranos",
+        "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes"
+      ]
+    },
+    {
+      "statement": "Elizabeth Holmes settled SEC civil charges, paying a $500,000 fine, returning shares, relinquishing voting control, and being barred from officer/director roles for ten years.",
+      "confidence": 0.97,
+      "citations": [
+        "https://www.sec.gov/files/litigation/complaints/2018/comp-pr2018-41-theranos-holmes.pdf",
+        "https://www.cnbc.com/2018/05/22/stories-from-bad-blood-book-on-theranos-and-elizabeth-holmes.html",
+        "https://www.businessinsider.com/theranos-founder-elizabeth-holmes-new-startup-report-2018-6",
+        "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes",
+        "https://www.fdli.org/2023/06/united-states-v-elizabeth-holmes-and-ramesh-balwani",
+        "https://www.integrityline.com/expertise/blog/elizabeth-holmes-theranos"
+      ]
+    },
+    {
+      "statement": "Elizabeth Holmes was ordered to pay Rupert Murdoch $125 million in a civil judgment.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.bbc.com/news/world-us-canada-65678967",
+        "https://www.cnbc.com/2018/05/22/stories-from-bad-blood-book-on-theranos-and-elizabeth-holmes.html",
+        "https://www.fdli.org/2023/06/united-states-v-elizabeth-holmes-and-ramesh-balwani"
+      ]
+    },
+    {
+      "statement": "As of the latest available information, Elizabeth Holmes appealed her conviction in April 2023 and the appeal remains pending with no final ruling evidenced.",
+      "confidence": 0.8,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No publicly available records indicate personal bankruptcy filings or insolvency proceedings for Elizabeth Holmes.",
+    "The final outcome of Elizabeth Holmes' appeal of her criminal conviction is not established in the evidence; only the filing of the appeal is known.",
+    "There is no evidence in the provided sources of additional civil lawsuits or regulatory actions against Elizabeth Holmes beyond the SEC settlement and the Murdoch judgment."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+      "title": "Wikipedia: Elizabeth Holmes",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.sec.gov/files/litigation/complaints/2018/comp-pr2018-41-theranos-holmes.pdf",
+      "title": "Elizabeth Holmes and Theranos, Inc.",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.fdli.org/2023/06/united-states-v-elizabeth-holmes-and-ramesh-balwani",
+      "title": "United States v. Elizabeth Holmes and Ramesh Balwani - Food and Drug Law Institute (FDLI)",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/22-10312/22-10312-2025-02-24.html",
+      "title": "USA V. HOLMES (9th Cir. 2025)",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.integrityline.com/expertise/blog/elizabeth-holmes-theranos",
+      "title": "Elizabeth Holmes & the Theranos case: History of a fraud scandal",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes",
+      "title": "Trial of Elizabeth Holmes - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.cnbc.com/2018/05/22/stories-from-bad-blood-book-on-theranos-and-elizabeth-holmes.html",
+      "title": "Stories from 'Bad Blood' book on Theranos and Elizabeth Holmes",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.businessinsider.com/theranos-founder-elizabeth-holmes-new-startup-report-2018-6",
+      "title": "Theranos Founder Elizabeth Holmes Seeks Investors for New Startup: Report - Business Insider",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://www.bbc.com/news/world-us-canada-65678967",
+      "title": "Elizabeth Holmes has gone to prison. Will she ever pay victims too?",
+      "tier": "major_news",
+      "reliability": 0.85
+    }
+  ]
+}

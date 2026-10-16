@@ -1,0 +1,81 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Changpeng Zhao pleaded guilty to violating the Bank Secrecy Act.",
+          "supported": true
+        },
+        {
+          "fact": "The charge to which Zhao pleaded guilty is a money laundering charge (failure to maintain an adequate anti-money-laundering program).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Changpeng Zhao was sentenced to four months in prison.",
+          "supported": true
+        },
+        {
+          "fact": "Zhao's prison sentence was not approximately four years.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The length of Changpeng Zhao's prison sentence was four months.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Changpeng Zhao was released from custody on Friday, September 27, 2024 (two days ahead of his scheduled Sunday, Sep. 29 release date).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Changpeng Zhao received a presidential pardon from Donald Trump.",
+          "supported": true
+        },
+        {
+          "fact": "The pardon was granted in October 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nearly 1,700 British investors filed a £150 million UK High Court claim against Binance and Changpeng Zhao.",
+          "supported": true
+        },
+        {
+          "fact": "The claim concerns allegedly unauthorized leveraged crypto derivatives sold in breach of UK financial law.",
+          "supported": true
+        },
+        {
+          "fact": "The claim remained ongoing as of around July 2026 (Reuters reported on 2026-06-30 that the investors 'are suing' Binance and Zhao).",
+          "supported": true
+        },
+        {
+          "fact": "The pardon did not extinguish civil liability, since the High Court claim against Zhao personally was filed/active after his October 2025 pardon.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

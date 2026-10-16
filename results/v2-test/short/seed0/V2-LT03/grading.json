@@ -1,0 +1,93 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Albert Saniger's full legal name is Alberto Saniger Mantinan.",
+          "supported": true
+        },
+        {
+          "fact": "Alberto Saniger Mantinan is also known as (a/k/a) Albert Saniger.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Albert Saniger is the founder of Nate, Inc.",
+          "supported": true
+        },
+        {
+          "fact": "Albert Saniger is the former CEO of Nate, Inc.",
+          "supported": true
+        },
+        {
+          "fact": "He founded Nate, Inc. in 2018.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "In April 2025, the U.S. Attorney's Office for the Southern District of New York initiated a criminal action (indictment) against Albert Saniger.",
+          "supported": true
+        },
+        {
+          "fact": "In April 2025, the SEC filed a parallel civil action against Albert Saniger.",
+          "supported": true
+        },
+        {
+          "fact": "The criminal charges against Saniger included securities fraud.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The SEC filed a civil complaint against Albert Saniger.",
+          "supported": true
+        },
+        {
+          "fact": "The SEC complaint alleges Saniger fraudulently solicited investments in Nate.",
+          "supported": true
+        },
+        {
+          "fact": "The alleged fraudulent solicitation was based on false and misleading statements about Nate's use of AI.",
+          "supported": true
+        },
+        {
+          "fact": "The SEC complaint constitutes a regulatory enforcement action against Albert Saniger.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nate, Inc. ceased operations.",
+          "supported": true
+        },
+        {
+          "fact": "Nate, Inc. formally dissolved in January 2023.",
+          "supported": true
+        },
+        {
+          "fact": "There is no evidence of personal bankruptcy or insolvency by Albert Saniger as of September 2026.",
+          "supported": false
+        },
+        {
+          "fact": "There is no evidence of a civil judgment exceeding $1 million against Albert Saniger as of September 2026.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

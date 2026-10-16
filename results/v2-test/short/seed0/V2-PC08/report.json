@@ -1,0 +1,193 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Sam Bankman-Fried won his appeal and his fraud conviction was overturned in 2026.",
+    "entity": "Sam Bankman-Fried",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "The claim that Sam Bankman-Fried won his appeal and had his fraud conviction overturned in 2026 is false. As of June 12, 2026, the U.S. Court of Appeals for the Second Circuit upheld his conviction, and no appellate court overturned it that year.",
+  "findings": [
+    {
+      "statement": "As of June 12, 2026, the U.S. Court of Appeals for the Second Circuit upheld Sam Bankman-Fried's fraud conviction.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.nytimes.com/2026/09/10/us/politics/sam-bankman-fried-supreme-court.html",
+        "https://www.politico.com/news/2026/06/12/sam-bankman-frieds-conviction-upheld-by-appeals-court-00960434",
+        "https://www.aljazeera.com/economy/2026/6/12/sam-bankman-fried-loses-appeal-to-overturn-fraud-convictions-and-prison",
+        "https://www.bloomberg.com/news/articles/2026-06-12/sam-bankman-fried-loses-appeal-of-fraud-conviction",
+        "https://www.reuters.com/legal/government/sam-bankman-fried-loses-bid-overturn-crypto-fraud-conviction-2026-06-12",
+        "https://www.courthousenews.com/second-circuit-denies-sam-bankman-frieds-bid-to-overturn-ftx-crypto-fraud-conviction"
+      ]
+    },
+    {
+      "statement": "No appellate court overturned Sam Bankman-Fried's fraud conviction in 2026.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.nytimes.com/2026/09/10/us/politics/sam-bankman-fried-supreme-court.html",
+        "https://www.politico.com/news/2026/06/12/sam-bankman-frieds-conviction-upheld-by-appeals-court-00960434",
+        "https://www.aljazeera.com/economy/2026/6/12/sam-bankman-fried-loses-appeal-to-overturn-fraud-convictions-and-prison",
+        "https://www.bloomberg.com/news/articles/2026-06-12/sam-bankman-fried-loses-appeal-of-fraud-conviction",
+        "https://www.reuters.com/legal/government/sam-bankman-fried-loses-bid-overturn-crypto-fraud-conviction-2026-06-12",
+        "https://www.courthousenews.com/second-circuit-denies-sam-bankman-frieds-bid-to-overturn-ftx-crypto-fraud-conviction",
+        "https://www.courtlistener.com/opinion/10875054/us-v/"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried appeal overturned 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Sam Bankman-Fried",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Sam Bankman-Fried",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Sam Bankman-Fried appeal Second Circuit",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.nytimes.com/2026/09/10/us/politics/sam-bankman-fried-supreme-court.html",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried certiorari denied 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.courtlistener.com/opinion/10875054/us-v/",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.courtlistener.com/opinion/10875054/us-v/ could not be read: Failed to fetch url",
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The full text of the Second Circuit opinion is not accessible due to the page being unreadable, limiting verification of the court's reasoning.",
+    "Whether Sam Bankman-Fried filed a petition for certiorari to the Supreme Court and its outcome is not directly evidenced in the collected sources.",
+    "The exact docket number of the appellate decision is only partially verified via a snippet; the complete docket sheet has not been reviewed."
+  ],
+  "next_steps": [
+    "Retrieve the full opinion from CourtListener or PACER for docket 24-961-cr to confirm the appellate court's language.",
+    "Check the Supreme Court docket for any certiorari petition filed by Bankman-Fried in 2026 and its disposition.",
+    "Search DOJ press releases or the Federal Register for any post-appellate actions or statements regarding the case.",
+    "Monitor news outlets for any subsequent appeals, habeas petitions, or other legal developments related to the conviction."
+  ],
+  "sources": [
+    {
+      "url": "https://www.nytimes.com/2026/09/10/us/politics/sam-bankman-fried-supreme-court.html",
+      "title": "Sam Bankman-Fried Asks Supreme Court to Review Fraud Conviction - The New York Times",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-10"
+    },
+    {
+      "url": "https://www.politico.com/news/2026/06/12/sam-bankman-frieds-conviction-upheld-by-appeals-court-00960434",
+      "title": "Sam Bankman-Fried’s conviction upheld by appeals court - POLITICO",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.aljazeera.com/economy/2026/6/12/sam-bankman-fried-loses-appeal-to-overturn-fraud-convictions-and-prison",
+      "title": "Sam Bankman-Fried loses appeal to overturn fraud convictions and prison | Crypto News | Al Jazeera",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-06-12/sam-bankman-fried-loses-appeal-of-fraud-conviction",
+      "title": "Sam Bankman-Fried Loses Appeal of Conviction for FTX Fraud - Bloomberg",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.reuters.com/legal/government/sam-bankman-fried-loses-bid-overturn-crypto-fraud-conviction-2026-06-12",
+      "title": "Sam Bankman-Fried loses bid to overturn crypto fraud conviction",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.courthousenews.com/second-circuit-denies-sam-bankman-frieds-bid-to-overturn-ftx-crypto-fraud-conviction",
+      "title": "Second Circuit denies Sam Bankman-Fried’s bid to overturn FTX crypto fraud conviction | Courthouse News Service",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/10875054/us-v/",
+      "title": "CourtListener: U.S. V.",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2026-06-12"
+    }
+  ]
+}

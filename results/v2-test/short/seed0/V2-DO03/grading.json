@@ -1,0 +1,36 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon's full legal name is Do Hyeong Kwon",
+          "supported": true
+        },
+        {
+          "fact": "Do Kwon was sentenced to a prison term by a U.S. federal court",
+          "supported": true
+        },
+        {
+          "fact": "The sentencing occurred on 11 December 2025",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The prison sentence imposed on Do Kwon is 15 years",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was imposed on 11 December 2025",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,73 @@
+{
+  "case_id": "C27",
+  "mode": "short",
+  "kind": "claim",
+  "tags": [
+    "ambiguous_name",
+    "cluster:jordan",
+    "namesake_trap"
+  ],
+  "expected": "FALSE",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.93,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.85,
+      "p_correct": 0.85,
+      "reward": {
+        "step": 1,
+        "progress": 0.6,
+        "information": 0.31271072120902776,
+        "corroboration": 0.3333333333333333,
+        "redundancy": 0.07692307692307693,
+        "tool_failure": 0.0,
+        "cost": 0.6999
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "FALSE",
+      "confidence": 0.93,
+      "p_correct": 0.93,
+      "reward": {
+        "step": 2,
+        "progress": 0.08000000000000007,
+        "information": 0.38121660819385916,
+        "corroboration": 0.6666666666666666,
+        "redundancy": 0.16666666666666666,
+        "tool_failure": 0.0,
+        "cost": 0.9519
+      }
+    }
+  ],
+  "tool_calls": 6,
+  "tool_failures": 0,
+  "prompt_tokens": 25117,
+  "completion_tokens": 12685,
+  "cost_usd": 0.008854200000000001,
+  "wall_clock_s": 70.81144039984792,
+  "call_latency_s": 127.934,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 3,
+  "conflicts_final": 0,
+  "independent_domains": 3,
+  "evidence_weight": 1.71,
+  "mean_evidence_reliability": 0.47000000000000003,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.9951,
+    "cost": 0.2520133333333333
+  }
+}

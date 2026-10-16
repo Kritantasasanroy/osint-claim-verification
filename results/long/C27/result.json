@@ -1,0 +1,65 @@
+{
+  "case_id": "C27",
+  "mode": "long",
+  "kind": "claim",
+  "tags": [
+    "ambiguous_name",
+    "cluster:jordan",
+    "namesake_trap"
+  ],
+  "expected": "FALSE",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 1,
+        "progress": 0.65,
+        "information": 0.6911810203119801,
+        "corroboration": 1.0,
+        "redundancy": 0.16666666666666666,
+        "tool_failure": 0.0,
+        "cost": 0.88365
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 13759,
+  "completion_tokens": 10044,
+  "cost_usd": 0.0063979,
+  "wall_clock_s": 83.15748449997045,
+  "call_latency_s": 104.761,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 3,
+  "conflicts_final": 0,
+  "independent_domains": 6,
+  "evidence_weight": 2.35,
+  "mean_evidence_reliability": 0.5357142857142857,
+  "authoritative_evidence": true,
+  "memories_retrieved": 6,
+  "memory_labels": {
+    "M193": "relevant",
+    "M191": "relevant",
+    "M194": "relevant",
+    "M192": "relevant",
+    "M196": "relevant",
+    "M195": "relevant"
+  },
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.99,
+    "cost": 0.15868666666666667
+  }
+}

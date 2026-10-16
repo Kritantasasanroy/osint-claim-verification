@@ -1,0 +1,7 @@
+{
+  "case_id": "V2-NE06",
+  "mode": "short",
+  "kind": "person",
+  "error": "MalformedCompletion: The model did not return a valid PersonReflection: 1 validation error for PersonReflection. Got: {\"answered_question_ids\": [\"Q1\"], \"critique\": \"Evidence confirms identity: Nirav Modi, born 27 February 1971, Indian national. No evidence provided on criminal convictions, sanctions, enforcement actions, or civil judgments. Without such evidence, adverse status cannot be confirmed, nor can absence ",
+  "seed": 0
+}

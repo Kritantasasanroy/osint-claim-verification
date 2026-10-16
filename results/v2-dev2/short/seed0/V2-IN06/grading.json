@@ -1,0 +1,76 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The full legal name of the entity, per its GLEIF LEI record, is NorthVolt AB",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "NorthVolt AB's legal address is in Stockholm, Sweden",
+          "supported": true
+        },
+        {
+          "fact": "Northvolt AB's headquarters is located in Stockholm, Sweden",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt AB was founded in 2015",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt AB filed for Chapter 11 bankruptcy in the United States",
+          "supported": true
+        },
+        {
+          "fact": "The Chapter 11 filing occurred on November 21, 2024",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt AB filed for bankruptcy in Sweden",
+          "supported": true
+        },
+        {
+          "fact": "The Swedish bankruptcy filing occurred on March 12, 2025",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt AB filed for Chapter 11 bankruptcy in the United States on November 21, 2024",
+          "supported": true
+        },
+        {
+          "fact": "Northvolt AB filed for bankruptcy in Sweden on March 12, 2025",
+          "supported": true
+        },
+        {
+          "fact": "The claim that Northvolt AB has never entered insolvency or bankruptcy proceedings is false",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

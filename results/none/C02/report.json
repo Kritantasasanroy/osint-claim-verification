@@ -1,0 +1,67 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Wirecard's financial statements were audited by EY (Ernst & Young)."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.88,
+  "summary": "The available evidence indicates that Ernst & Young acted as Wirecard's auditor for the fiscal years 2018 and 2019, with no indication of another audit firm during the 2015‑2020 period, supporting the claim that Wirecard's financial statements were audited by EY.",
+  "findings": [
+    {
+      "statement": "Ernst & Young signed the audit opinion on Wirecard's consolidated financial statements for the fiscal year 2018.",
+      "confidence": 0.85,
+      "citations": [
+        "https://finance.yahoo.com/news/wirecard-fallout-auditor-ey-accused-125416972.html"
+      ]
+    },
+    {
+      "statement": "Ernst & Young issued an audit opinion for Wirecard's 2019 financial statements.",
+      "confidence": 0.6,
+      "citations": [
+        "https://www.linkedin.com/pulse/wirecard-audit-scandal-19-billion-never-existed-harshini-anandaraj-uwgnc"
+      ]
+    },
+    {
+      "statement": "Between 2015 and 2020, no audit reports or financial statements for Wirecard show an audit firm other than Ernst & Young.",
+      "confidence": 0.55,
+      "citations": [
+        "https://www.linkedin.com/pulse/wirecard-audit-scandal-19-billion-never-existed-harshini-anandaraj-uwgnc"
+      ]
+    },
+    {
+      "statement": "Germany's financial regulator BaFin examined Ernst & Young's suitability as Wirecard's auditor following Wirecard's collapse.",
+      "confidence": 0.75,
+      "citations": [
+        "https://ca.finance.yahoo.com/news/germanys-bafin-examines-ey-auditor-134659798.html"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "The exact date when Ernst & Young ceased to be Wirecard's auditor is not established in the provided evidence.",
+    "Whether there was a public announcement, regulatory filing, or press release regarding Ernst & Young's resignation as Wirecard's auditor before 2020 is not shown.",
+    "The nature (qualified/unqualified) of Ernst & Young's audit opinion for Wirecard's 2019 financial statements is not detailed in the sources."
+  ],
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/news/wirecard-fallout-auditor-ey-accused-125416972.html",
+      "title": "Wirecard Fallout: Auditor EY Accused of Not Flagging $2.1B Black Hole Sooner",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/wirecard-audit-scandal-19-billion-never-existed-harshini-anandaraj-uwgnc",
+      "title": "The Wirecard Audit Scandal – The €1.9 Billion That Never Existed",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/germanys-bafin-examines-ey-auditor-134659798.html",
+      "title": "Germany's BaFin examines EY as auditor after Wirecard scandal: Handelsblatt",
+      "tier": "news",
+      "reliability": 0.65
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Bob Iger stepped down as Disney CEO effective March 18, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "Upon stepping down, Iger transitioned into a Senior Advisor role at Disney.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of October 1, 2026, Disney's official leadership page listed Robert A. Iger as Senior Advisor.",
+          "supported": true
+        },
+        {
+          "fact": "The leadership page states Iger also serves as a member of Disney's Board of Directors.",
+          "supported": true
+        },
+        {
+          "fact": "The leadership page identifies Iger as the former Chairman and CEO, not the current CEO.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Walt Disney Co filed a 10-Q exhibit (EX-31.A) on 2026-05-06 with a period of report of 2026-03-28.",
+          "supported": true
+        },
+        {
+          "fact": "Walt Disney Co filed a 10-Q exhibit (EX-31.A) on 2026-08-05 with a period of report of 2026-06-27.",
+          "supported": true
+        },
+        {
+          "fact": "The May and August 2026 filings listed Robert A. Iger as Chief Executive Officer at the time of filing.",
+          "supported": false
+        },
+        {
+          "fact": "The filings demonstrate a reporting lag after Iger's March 2026 departure as CEO.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

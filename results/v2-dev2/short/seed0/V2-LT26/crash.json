@@ -1,0 +1,7 @@
+{
+  "case_id": "V2-LT26",
+  "mode": "short",
+  "kind": "claim",
+  "error": "MalformedCompletion: The model did not return a valid ClaimReflection: 1 validation error for ClaimReflection. Got: {\"answered_question_ids\": [\"Q1\"], \"critique\": \"The evidence for identity (Q1) is weak, relying on the company's own website and LinkedIn, which are untrusted sources. The only evidence on employee count (Q3) is a LinkedIn post claiming 0 employees, which is weak and unverified. No authoritative sour",
+  "seed": 0
+}

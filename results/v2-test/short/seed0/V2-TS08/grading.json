@@ -1,0 +1,41 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Warren Buffett has stepped down from the CEO role of Berkshire Hathaway.",
+          "supported": true
+        },
+        {
+          "fact": "Warren Buffett handed the CEO reins to Greg Abel approximately nine months before September 2026 (i.e., around January 2026).",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Warren Buffett is not the CEO of Berkshire Hathaway.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Greg Abel assumed the CEO position of Berkshire Hathaway on January 1, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "Greg Abel took over as CEO at the start of 2026.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Greg Abel is the CEO of Berkshire Hathaway.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

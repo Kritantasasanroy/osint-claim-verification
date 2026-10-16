@@ -1,0 +1,264 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Disney chose Josh D'Amaro to succeed Bob Iger as CEO.",
+    "entity": "Disney",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.9876,
+  "estimative": "almost certain",
+  "summary": "VERDICT: TRUE (99% confidence). The Walt Disney Company officially appointed Josh D'Amaro as CEO effective March 18, 2026, succeeding Bob Iger; as of 2026-10-01 he holds the title Chief Executive Officer.",
+  "findings": [
+    {
+      "statement": "The Walt Disney Company's full legal name is The Walt Disney Company.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.britannica.com/money/Josh-DAmaro",
+        "https://thewaltdisneycompany.com/news/disney-ceo-announcement",
+        "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000022/fy2026_q2x8kxneoxex991.htm",
+        "https://www.wikidata.org/wiki/Q7414",
+        "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
+      ]
+    },
+    {
+      "statement": "Josh D'Amaro's full name is Josh D'Amaro and as of 2026-10-01 he holds the title Chief Executive Officer of The Walt Disney Company.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.britannica.com/money/Josh-DAmaro",
+        "https://www.cnbc.com/2026/09/29/disney-layoffs-josh-damaro.html",
+        "https://thewaltdisneycompany.com/news/disney-ceo-announcement",
+        "https://www.pbs.org/newshour/nation/disney-names-parks-head-josh-damaro-to-succeed-bob-iger-as-ceo",
+        "https://www.npr.org/2026/02/03/nx-s1-5697839/disney-damaro-ceo",
+        "https://www.wikidata.org/wiki/Q69598904",
+        "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
+      ]
+    },
+    {
+      "statement": "Bob Iger's most recent term as CEO ended on March 18, 2026, and Josh D'Amaro was named his successor.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.britannica.com/money/Josh-DAmaro",
+        "https://thewaltdisneycompany.com/news/disney-ceo-announcement",
+        "https://www.pbs.org/newshour/nation/disney-names-parks-head-josh-damaro-to-succeed-bob-iger-as-ceo",
+        "https://www.npr.org/2026/02/03/nx-s1-5697839/disney-damaro-ceo",
+        "https://variety.com/2026/film/news/josh-damaro-disney-ceo-bob-iger-1236650641",
+        "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
+      ]
+    },
+    {
+      "statement": "On February 3, 2026, The Walt Disney Company's board of directors announced Josh D'Amaro would become CEO effective March 18, 2026, succeeding Bob Iger.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.britannica.com/money/Josh-DAmaro",
+        "https://thewaltdisneycompany.com/news/disney-ceo-announcement",
+        "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000022/fy2026_q2x8kxneoxex991.htm",
+        "https://www.npr.org/2026/02/03/nx-s1-5697839/disney-damaro-ceo",
+        "https://www.pbs.org/newshour/nation/disney-names-parks-head-josh-damaro-to-succeed-bob-iger-as-ceo",
+        "https://variety.com/2026/film/news/josh-damaro-disney-ceo-bob-iger-1236650641",
+        "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, Josh D'Amaro serves as Chief Executive Officer of The Walt Disney Company.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.britannica.com/money/Josh-DAmaro",
+        "https://www.cnbc.com/2026/09/29/disney-layoffs-josh-damaro.html",
+        "https://thewaltdisneycompany.com/news/disney-ceo-announcement",
+        "https://www.pbs.org/newshour/nation/disney-names-parks-head-josh-damaro-to-succeed-bob-iger-as-ceo",
+        "https://www.npr.org/2026/02/03/nx-s1-5697839/disney-damaro-ceo",
+        "https://www.wikidata.org/wiki/Q69598904",
+        "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Josh D'Amaro appointed CEO Disney",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "The Walt Disney Company",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Josh D'Amaro",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://thewaltdisneycompany.com/news/disney-ceo-announcement",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Disney Names Josh D’Amaro as Next C.E.O. February 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.nytimes.com/2026/02/03/business/disney-damaro-ceo.html",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "sec_edgar",
+      "query": "Walt Disney 8-K D'Amaro chief executive officer",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "encyclopedia",
+      "query": "The Walt Disney Company",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "SEC EDGAR filings",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct video or transcript of the February 3, 2026 board meeting was reviewed.",
+    "Independent verification beyond news outlets and the SEC filing (e.g., Disney’s own press release archive) was not accessed."
+  ],
+  "next_steps": [
+    "Retrieve the full SEC 8‑K filing (EX‑99.1) for detailed appointment language.",
+    "Access Disney’s press release archive for the February 3, 2026 announcement.",
+    "Review available board meeting minutes or governance documents if disclosed.",
+    "Consult Disney’s investor‑relations site for the official biography and current officer list."
+  ],
+  "sources": [
+    {
+      "url": "https://www.britannica.com/money/Josh-DAmaro",
+      "title": "Josh D’Amaro| Disney CEO, Theme Parks, Entertainment, & Biography | Britannica Money",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": "2026-10-08"
+    },
+    {
+      "url": "https://thewaltdisneycompany.com/news/disney-ceo-announcement",
+      "title": "Josh D’Amaro Named Next Chief Executive Officer of Disney | The Walt Disney Company",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-03"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1744489/000174448926000022/fy2026_q2x8kxneoxex991.htm",
+      "title": "SEC 8-K: Walt Disney Co  (DIS)  (CIK 0001744489)",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2026-02-03"
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q7414",
+      "title": "Wikidata: The Walt Disney Company",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Walt_Disney_Company",
+      "title": "Wikipedia: The Walt Disney Company",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.cnbc.com/2026/09/29/disney-layoffs-josh-damaro.html",
+      "title": "Disney lays off around 300 employees in latest cuts under Josh D'Amaro",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-29"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/nation/disney-names-parks-head-josh-damaro-to-succeed-bob-iger-as-ceo",
+      "title": "Disney names parks head Josh D'Amaro to succeed Bob Iger as CEO | PBS News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-03"
+    },
+    {
+      "url": "https://www.npr.org/2026/02/03/nx-s1-5697839/disney-damaro-ceo",
+      "title": "Disney names Josh D’Amaro to replace Bob Iger as CEO : NPR",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-02-03"
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q69598904",
+      "title": "Wikidata: Josh D'Amaro",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://variety.com/2026/film/news/josh-damaro-disney-ceo-bob-iger-1236650641",
+      "title": "Disney Names Parks Chief Josh D'Amaro Next CEO, Replacing Bob Iger",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-03"
+    }
+  ]
+}

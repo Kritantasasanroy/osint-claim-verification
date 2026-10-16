@@ -1,0 +1,119 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Velmira Ostrakova was dismissed from her post in Ruse in 2024.",
+    "entity": "Velmira Ostrakova",
+    "disambiguators": [
+      "dismissed from her post",
+      "Ruse",
+      "2024"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "As of 2026-10-01, the claim that Velmira Ostrakova was dismissed from her post in Ruse in 2024 is UNVERIFIABLE with 25% confidence; no evidence was located to support or refute the claim.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova Ruse 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Velmira Ostrakova Ruse",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Velmira Ostrakova",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://conf.uni-ruse.bg/en/index.php?cmd=dPage&pid=proc24-7.2-8",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Velmira Ostrakova Ruse municipality employment 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Велмира Остrakова Русе уволнена 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "site:obshtinaruse.bg Остrakова",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No search results returned any usable evidence about Velmira Ostrakova's employment or dismissal in Ruse in 2024.",
+    "All performed searches (web, news, Wikidata, municipal site) returned zero or irrelevant sources."
+  ],
+  "next_steps": [
+    "Broaden search to include variant spellings of the name (e.g., Velmira Ostrakova, Velmira Ostrakova) and Cyrillic variations.",
+    "Consult Bulgarian national employment registers or professional licensing bodies if applicable.",
+    "Check local government bulletins or gazettes for 2024 personnel changes in Ruse municipality.",
+    "If possible, request directly from Ruse municipality HR department for records concerning Velmira Ostrakova."
+  ],
+  "sources": []
+}

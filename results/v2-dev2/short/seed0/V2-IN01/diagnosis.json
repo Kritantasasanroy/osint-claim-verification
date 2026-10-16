@@ -1,0 +1,15 @@
+{
+  "case_id": "V2-IN01",
+  "mode": "short",
+  "seed": 0,
+  "correct": false,
+  "verdict_flips": 0,
+  "steps_to_stable": 1,
+  "misleading_memories_trusted": 0,
+  "failure_modes": [
+    "scope_error",
+    "no_authoritative_source",
+    "weak_evidence",
+    "tool_failures"
+  ]
+}

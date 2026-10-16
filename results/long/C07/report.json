@@ -1,0 +1,100 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Elizabeth Holmes was acquitted of all charges in her 2022 fraud trial."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.94,
+  "summary": "The claim that Elizabeth Holmes was acquitted of all charges in her 2022 fraud trial is false. She was convicted on multiple investor‑fraud counts, acquitted only of patient‑fraud counts, sentenced to over eleven years in prison, and her conviction has been upheld on appeal.",
+  "findings": [
+    {
+      "statement": "Elizabeth Holmes was not acquitted of all charges; she was convicted on multiple fraud counts in her 2022 federal trial.",
+      "confidence": 0.94,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+        "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes",
+        "https://www.cnbc.com/2022/01/03/jurors-in-holmes-trial-remain-deadlocked-on-three-of-11-fraud-counts.html",
+        "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al"
+      ]
+    },
+    {
+      "statement": "The jury found Holmes guilty on one count of conspiracy to commit wire fraud and three counts of wire fraud related to investors, and not guilty on four patient‑fraud counts.",
+      "confidence": 0.93,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes",
+        "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+        "https://www.cnbc.com/2022/01/03/jurors-in-holmes-trial-remain-deadlocked-on-three-of-11-fraud-counts.html"
+      ]
+    },
+    {
+      "statement": "Holmes was sentenced to 135 months in federal prison, ordered to surrender on April 27, 2023 and to report on May 30, 2023.",
+      "confidence": 0.92,
+      "citations": [
+        "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+        "https://www.latimes.com/business/story/2025-02-24/elizabeth-holmes-fraud-conviction-upheld-by-appeals-court",
+        "https://apnews.com/article/elizabeth-holmes-theranos-fraud-conviction-appeal-193bb0a0bfe306e796acd13c151e705c"
+      ]
+    },
+    {
+      "statement": "Her appeal to overturn the conviction was denied by the Ninth Circuit, leaving the 2022 guilty verdict intact.",
+      "confidence": 0.9,
+      "citations": [
+        "https://apnews.com/article/elizabeth-holmes-theranos-fraud-conviction-appeal-193bb0a0bfe306e796acd13c151e705c",
+        "https://www.latimes.com/business/story/2025-02-24/elizabeth-holmes-fraud-conviction-upheld-by-appeals-court",
+        "https://www.courthousenews.com/ninth-circuit-denies-elizabeth-holmes-request-for-rehearing"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "Exact amount of the criminal fine imposed (beyond the nominal $400 mentioned in some sources) is not consistently reported across evidence.",
+    "Details of any restitution ordered to victims are not clearly specified in the provided sources.",
+    "Post‑sentencing developments such as potential early release, parole considerations, or prison‑conduct reports are absent from the evidence set."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+      "title": "Wikipedia: Elizabeth Holmes",
+      "tier": "reference",
+      "reliability": 0.947
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes",
+      "title": "Trial of Elizabeth Holmes - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.947
+    },
+    {
+      "url": "https://www.cnbc.com/2022/01/03/jurors-in-holmes-trial-remain-deadlocked-on-three-of-11-fraud-counts.html",
+      "title": "Jury finds Elizabeth Holmes guilty on multiple charges in fraud trial",
+      "tier": "major_news",
+      "reliability": 0.914
+    },
+    {
+      "url": "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+      "title": "Northern District of California | U.S. v. Elizabeth Holmes, et al.",
+      "tier": "official",
+      "reliability": 0.971
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2025-02-24/elizabeth-holmes-fraud-conviction-upheld-by-appeals-court",
+      "title": "Elizabeth Holmes’ fraud conviction upheld by appeals court - Los Angeles Times",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://apnews.com/article/elizabeth-holmes-theranos-fraud-conviction-appeal-193bb0a0bfe306e796acd13c151e705c",
+      "title": "Elizabeth Holmes fails to overturn her Theranos fraud conviction | AP News",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.courthousenews.com/ninth-circuit-denies-elizabeth-holmes-request-for-rehearing",
+      "title": "Ninth Circuit denies Elizabeth Holmes’ request for rehearing | Courthouse News Service",
+      "tier": "unvetted",
+      "reliability": 0.52
+    }
+  ]
+}

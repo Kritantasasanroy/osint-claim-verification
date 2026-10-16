@@ -1,0 +1,212 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Drinking red wine in moderation is good for heart health."
+  },
+  "documents": [],
+  "verdict": "MIXED",
+  "confidence": 0.55,
+  "summary": "The body of evidence presents a mixed picture: moderate red wine consumption is linked to lower cardiovascular mortality in numerous observational studies and meta‑analyses, yet major health authorities caution that no causal proof exists and highlight cancer, liver disease, and addiction risks. Consequently, the claim that drinking red wine in moderation is good for heart health is assessed as mixed with approximately 55% confidence.",
+  "findings": [
+    {
+      "statement": "Moderate red wine consumption is associated with a statistically significant reduction in cardiovascular disease mortality and incidence compared with abstinence or other alcoholic beverages, as shown by multiple systematic reviews, meta‑analyses, and large observational studies.",
+      "confidence": 0.88,
+      "citations": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10303697",
+        "https://d-nb.info/1174686677/34",
+        "https://profiles.wustl.edu/en/publications/alcohol-consumption-and-cardiovascular-health",
+        "https://observatoireprevention.org/en/2025/08/06/wine-and-cardiovascular-disease-a-new-marker-confirms-risk-reduction",
+        "https://observatoireprevention.org/en/2026/03/26/the-significant-contribution-of-wine-to-the-positive-health-effects-of-the-mediterranean-diet",
+        "https://www.acc.org/about-acc/press-releases/2026/03/18/20/23/the-health-impacts-of-alcohol-depend-on-what-you-drink-and-how-much",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10146095",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7020057"
+      ]
+    },
+    {
+      "statement": "Major health authorities, exemplified by the American Heart Association, state that no research has proven a direct cause‑and‑effect link between alcohol consumption and improved heart health and do not recommend drinking wine for health benefits.",
+      "confidence": 0.94,
+      "citations": [
+        "https://newsroom.heart.org/facts/alcohol-use-and-cardiovascular-disease",
+        "https://newsroom.heart.org/facts/alcohol-use-and-cardiovascular-disease"
+      ]
+    },
+    {
+      "statement": "Moderate red wine consumption carries documented risks, including increased likelihood of certain cancers, liver disease, and potential for addiction, which may offset any cardiovascular benefits.",
+      "confidence": 0.82,
+      "citations": [
+        "https://observatoireprevention.org/en/2025/08/06/wine-and-cardiovascular-disease-a-new-marker-confirms-risk-reduction",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10146095",
+        "https://www.mdanderson.org/cancerwise/red-wine-and-your-health-facts-and-myths.h00-159781968.html",
+        "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1197745/full",
+        "https://www.phi.org/press/new-study-links-even-moderate-drinking-to-higher-risk-of-cancer-heart-disease-and-early-death",
+        "https://e-epih.org/journal/view.php?doi=10.4178%2Fepih.e2023092"
+      ]
+    },
+    {
+      "statement": "Randomized controlled trials that adequately control for lifestyle and dietary confounders have not demonstrated a causal effect of moderate red wine intake on hard cardiovascular endpoints such as myocardial infarction or cardiovascular death.",
+      "confidence": 0.7,
+      "citations": [
+        "https://www.eurekalert.org/news-releases/1120477",
+        "https://digitalcommons.lindenwood.edu/faculty-research-papers/822",
+        "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1368949/full"
+      ]
+    },
+    {
+      "statement": "Specific polyphenol components of red wine (e.g., resveratrol, quercetin, catechins) can improve cardiovascular biomarkers and endothelial function, and these compounds are obtainable from non‑alcoholic food sources.",
+      "confidence": 0.78,
+      "citations": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9955827",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7020057",
+        "https://pubmed.ncbi.nlm.nih.gov/31333108",
+        "https://onlinelibrary.wiley.com/doi/10.1155/2020/2097096",
+        "https://www.boltpharmacy.co.uk/guide/wine-highest-in-resveratrol",
+        "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.890066/full",
+        "https://www.mdpi.com/2227-9059/11/11/2888"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "While multiple observational studies and meta-analyses associate moderate red wine consumption with reduced cardiovascular mortality, major health authorities such as the American Heart Association state that no research has proven a direct cause‑and‑effect link between alcohol intake and improved heart health, creating a tension between epidemiological associations and causal evidence."
+  ],
+  "gaps": [
+    "Long‑term randomized controlled trials that isolate the effect of moderate red wine consumption from other lifestyle factors are lacking, limiting causal inference.",
+    "Most evidence on benefit comes from observational studies susceptible to residual confounding (e.g., diet, socioeconomic status, exercise).",
+    "Data comparing the magnitude of cancer and other disease risks to cardiovascular benefits in integrated population models are sparse and often rely on assumptions.",
+    "Evidence for the clinical relevance of red wine polyphenols when consumed without alcohol is limited to short‑term biomarker studies; hard outcome data are missing."
+  ],
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10303697",
+      "title": "Association between Wine Consumption with Cardiovascular Disease and Cardiovascular Mortality: A Systematic Review and Meta-Analysis",
+      "tier": "official",
+      "reliability": 0.967
+    },
+    {
+      "url": "https://d-nb.info/1174686677/34",
+      "title": "Moderate Red Wine Consumption and Cardiovascular ...",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://profiles.wustl.edu/en/publications/alcohol-consumption-and-cardiovascular-health",
+      "title": "Alcohol Consumption and Cardiovascular Health\n      -  WashU Research Profiles",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://observatoireprevention.org/en/2025/08/06/wine-and-cardiovascular-disease-a-new-marker-confirms-risk-reduction",
+      "title": "Wine and Cardiovascular Disease: A New Marker Confirms Risk Reduction | Prevention Observatory of the Montreal Heart Institute",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://observatoireprevention.org/en/2026/03/26/the-significant-contribution-of-wine-to-the-positive-health-effects-of-the-mediterranean-diet",
+      "title": "The significant contribution of wine to the positive health effects of the Mediterranean diet | Prevention Observatory of the Montreal Heart Institute",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.acc.org/about-acc/press-releases/2026/03/18/20/23/the-health-impacts-of-alcohol-depend-on-what-you-drink-and-how-much",
+      "title": "The Health Impacts of Alcohol Depend on What You Drink – And How Much - American College of Cardiology",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10146095",
+      "title": "Health Effects of Red Wine Consumption: A Narrative Review of an Issue That Still Deserves Debate",
+      "tier": "official",
+      "reliability": 0.967
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7020057",
+      "title": "Benefits and Risks of Moderate Alcohol Consumption on Cardiovascular Disease: Current Findings and Controversies",
+      "tier": "official",
+      "reliability": 0.967
+    },
+    {
+      "url": "https://newsroom.heart.org/facts/alcohol-use-and-cardiovascular-disease",
+      "title": "Alcohol Use and Cardiovascular Disease | American Heart Association",
+      "tier": "unvetted",
+      "reliability": 0.52
+    },
+    {
+      "url": "https://www.mdanderson.org/cancerwise/red-wine-and-your-health-facts-and-myths.h00-159781968.html",
+      "title": "Red wine and your health: Facts and myths | UT MD Anderson",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1197745/full",
+      "title": "Frontiers | Association between wine consumption and cancer: a systematic review and meta-analysis",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.phi.org/press/new-study-links-even-moderate-drinking-to-higher-risk-of-cancer-heart-disease-and-early-death",
+      "title": "New Study Links Even “Moderate” Drinking to Higher Risk of Cancer, Heart Disease and Early Death - Public Health Institute",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://e-epih.org/journal/view.php?doi=10.4178%2Fepih.e2023092",
+      "title": "Cancer risk based on alcohol consumption levels: a comprehensive systematic review and meta-analysis",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.eurekalert.org/news-releases/1120477",
+      "title": "The health impacts of alcohol depend on what you drink – and how much | EurekAlert!",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://digitalcommons.lindenwood.edu/faculty-research-papers/822",
+      "title": "\"Effects Of Resveratrol Supplementation On Endothelial Function In Resi\" by Estefania Zamarripa, Trevor Dufner et al.",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1368949/full",
+      "title": "Frontiers | Resveratrol and vascular health: evidence from clinical studies and mechanisms of actions related to its metabolites produced by gut microbiota",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9955827",
+      "title": "Beneficial Effects of Red Wine Polyphenols on Human Health: Comprehensive Review",
+      "tier": "official",
+      "reliability": 0.967
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31333108",
+      "title": "Polyphenols Regulate Endothelial Functions and Reduce ...",
+      "tier": "official",
+      "reliability": 0.96
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2020/2097096",
+      "title": "Protective Effects of Polyphenols Present in Mediterranean ...",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.boltpharmacy.co.uk/guide/wine-highest-in-resveratrol",
+      "title": "Wine Highest in Resveratrol: Pinot Noir and Health Facts – Bolt Pharmacy",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.890066/full",
+      "title": "Frontiers | Red Wine and Health: Approaches to Improve the Phenolic Content During Winemaking",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.mdpi.com/2227-9059/11/11/2888",
+      "title": "Resveratrol and beyond: The Effect of Natural Polyphenols ...",
+      "tier": "unvetted",
+      "reliability": 0.6
+    }
+  ]
+}

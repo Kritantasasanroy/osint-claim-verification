@@ -1,0 +1,153 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Vijay Mallya was declared a fugitive economic offender in 2019.",
+    "entity": "Vijay Mallya",
+    "disambiguators": [
+      "declared a fugitive economic offender",
+      "2019"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "Bottom line first: Vijay Mallya was declared a fugitive economic offender in January 2019 (specifically on 5 January 2019) by a special PMLA court on the Enforcement Directorate’s plea under the Fugitive Economic Offenders Act, 2018. This is supported by multiple news sources from 2019 and later, giving the verdict a 99% confidence rating.",
+  "findings": [
+    {
+      "statement": "Verdict: TRUE – Vijay Mallya was formally declared a fugitive economic offender in 2019 under the Fugitive Economic Offenders Act, 2018.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://timesofindia.indiatimes.com/india/mallya-declared-fugitive-economic-offender/articleshow/67395324.cms",
+        "https://www.bhaskarenglish.in/national/news/vijay-mallya-london-statement-banks-repayment-fugitive-controversy-138985602.html",
+        "https://www.thedrinksbusiness.com/2026/02/vijay-mallya-misses-mumbai-court-deadline-in-fugitive-offender-case"
+      ]
+    },
+    {
+      "statement": "The declaration was made on 5 January 2019 by a special PMLA court acting on the Enforcement Directorate's plea.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://timesofindia.indiatimes.com/india/mallya-declared-fugitive-economic-offender/articleshow/67395324.cms",
+        "https://timesofindia.indiatimes.com/business/india-business/sc-dismisses-vijay-mallyas-plea-against-bid-to-declare-him-fugitive-economic-offender/articleshow/98398485.cms"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Vijay Mallya declared fugitive economic offender 2019 date",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Vijay Mallya fugitive economic offender order number Enforcement Directorate notification",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Vijay Mallya",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://images.assettype.com/barandbench/2026-01-19/ggaomsay/Vijay_Mallya_v__UOI___Ors_.pdf",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "'Vijay Mallya' 'fugitive economic offender' order number 2019'",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "gazette notification Vijay Mallya fugitive economic offender 2019",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact official order or notification number (e.g., Enforcement Directorate or Special Court reference) that records the declaration has not been located in the performed searches.",
+    "No gazette notification or official published record detailing the order number was found in the evidence."
+  ],
+  "next_steps": [
+    "Search the Enforcement Directorate website (ed.gov.in) for press releases or orders dated January 2019 referencing Vijay Mallya.",
+    "Search the Gazette of India (egazette.nic.in) for any notification publishing the declaration order.",
+    "Query the Bombay High Court’s case management system or the Special PMLA court’s records for the order number and date.",
+    "Look for the official judgment or order PDF on legal databases such as Indian Kanoon or SCC Online."
+  ],
+  "sources": [
+    {
+      "url": "https://timesofindia.indiatimes.com/india/mallya-declared-fugitive-economic-offender/articleshow/67395324.cms",
+      "title": "Vijay Mallya a fugitive economic offender: Court | India News - Times of India",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2019-01-06"
+    },
+    {
+      "url": "https://www.bhaskarenglish.in/national/news/vijay-mallya-london-statement-banks-repayment-fugitive-controversy-138985602.html",
+      "title": "Vijay Mallya London Statement: Repaid Banks Yet Called Fugitive | Controversy",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-10"
+    },
+    {
+      "url": "https://www.thedrinksbusiness.com/2026/02/vijay-mallya-misses-mumbai-court-deadline-in-fugitive-offender-case",
+      "title": "Vijay Mallya misses Mumbai court deadline in fugitive offender case",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-20"
+    },
+    {
+      "url": "https://timesofindia.indiatimes.com/business/india-business/sc-dismisses-vijay-mallyas-plea-against-bid-to-declare-him-fugitive-economic-offender/articleshow/98398485.cms",
+      "title": "SC dismisses Vijay Mallya's plea against bid to declare him fugitive economic offender - Times of India",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

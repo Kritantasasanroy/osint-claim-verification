@@ -1,0 +1,176 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "First Brands Group (auto parts supplier)",
+    "entity": "First Brands Group",
+    "disambiguators": [
+      "auto parts supplier"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9507,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-01, First Brands Group is adjudged ADVERSE (95% confidence) because it entered Chapter 7 bankruptcy liquidation on 2026-09-01, as shown by its Wikipedia entry and corroborated by press releases and news reports.",
+  "findings": [
+    {
+      "statement": "First Brands Group entered Chapter 7 bankruptcy liquidation as of September 1, 2026.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/First_Brands_Group"
+      ]
+    },
+    {
+      "statement": "First Brands Group initiated voluntary U.S. Chapter 11 bankruptcy cases in a press release dated September 28, 2025.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.businesswire.com/news/home/20250928297847/en/First-Brands-Group-Initiates-Voluntary-U.S.-Chapter-11-Cases-to-Stabilize-Financial-Position-and-Facilitate-Value-Maximizing-Transaction"
+      ]
+    },
+    {
+      "statement": "First Brands Group is a global supplier of automotive aftermarket parts.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://finance.yahoo.com/news/auto-parts-maker-first-brands-194700756.html"
+      ]
+    },
+    {
+      "statement": "First Brands Group was founded in 2013 in Ohio under the legal name Crowne Group.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://talk.dallasmakerspace.org/t/first-brands-declares-bankruptcy-faces-federal-criminal-investigation/122037"
+      ]
+    },
+    {
+      "statement": "First Brands Group's headquarters is located in Cleveland, Ohio, United States.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/First_Brands_Group"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "First Brands Group auto parts supplier headquarters founded",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "sec_edgar",
+      "query": "First Brands Group bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "First Brands Group criminal charge regulatory enforcement fine",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "First Brands Group bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "First Brands Group headquarters Cleveland Ohio press release 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "First Brands Group founded 2013 Crowne Group legal name incorporation",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact founding date (day/month) in 2013 is not specified in the evidence.",
+    "Exact legal name at incorporation (whether Crowne Group LLC or another variant) lacks a definitive source.",
+    "Definitive headquarters location per the latest SEC filing is unclear due to conflicting reports (Cleveland, Ohio vs. Rochester Hills, Michigan).",
+    "Precise date of the Chapter 11 filing (beyond the September 28, 2025 press release) is not confirmed by a court docket."
+  ],
+  "next_steps": [
+    "Check SEC EDGAR for First Brands Group’s most recent 8‑K or 10‑K to obtain the official headquarters address.",
+    "Search the bankruptcy court docket (PACER) for the First Brands Group case number to confirm the chapter and filing date.",
+    "Verify the legal name at incorporation via the Ohio Secretary of State business search.",
+    "Cross‑reference headquarters information with ZoomInfo and PitchBook to resolve the Cleveland vs. Rochester discrepancy."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/First_Brands_Group",
+      "title": "First Brands Group - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20250928297847/en/First-Brands-Group-Initiates-Voluntary-U.S.-Chapter-11-Cases-to-Stabilize-Financial-Position-and-Facilitate-Value-Maximizing-Transaction",
+      "title": "First Brands Group Initiates Voluntary U.S. Chapter 11 Cases to Stabilize Financial Position and Facilitate Value-Maximizing Transaction",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://finance.yahoo.com/news/auto-parts-maker-first-brands-194700756.html",
+      "title": "Auto parts maker First Brands expands layoffs across U.S.",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://talk.dallasmakerspace.org/t/first-brands-declares-bankruptcy-faces-federal-criminal-investigation/122037",
+      "title": "First Brands Declares Bankruptcy/Faces Federal Criminal Investigation - Automotive - Dallas Makerspace Talk",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

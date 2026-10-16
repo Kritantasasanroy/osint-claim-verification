@@ -1,0 +1,213 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Do Kwon was acquitted of all US fraud charges in 2025.",
+    "entity": "Do Kwon",
+    "disambiguators": [
+      "US",
+      "2025"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.9586,
+  "estimative": "almost certain",
+  "summary": "The claim that Do Kwon was acquitted of all US fraud charges in 2025 is FALSE; as of August 2025 he pleaded guilty to two fraud counts in the Southern District of New York, seven other counts were dropped, and a civil jury had already found him liable for securities fraud in April 2024.",
+  "findings": [
+    {
+      "statement": "Do Kwon’s full legal name is Do Kwon (Korean name 권도형), a South Korean cryptocurrency executive.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.jpost.com/business-and-innovation/article-880141",
+        "https://www.aljazeera.com/economy/2025/8/13/south-korean-crypto-mogul-do-kwon-pleads-guilty-to-fraud",
+        "https://www.bbc.com/news/articles/c2kznpdvwwlo",
+        "https://www.wsj.com/finance/currencies/crypto-entrepreneur-do-kwon-pleads-guilty-to-fraud-charges-stemming-from-crypto-crash-50c032fe",
+        "https://apnews.com/article/do-kwon-terraform-court-montenegro-crypto-mogul-46d924b4d34e90b850889d711c93c802",
+        "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses"
+      ]
+    },
+    {
+      "statement": "Do Kwon is the cofounder of Singapore-based Terraform Labs and a South Korean national.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.aljazeera.com/economy/2025/8/13/south-korean-crypto-mogul-do-kwon-pleads-guilty-to-fraud",
+        "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses"
+      ]
+    },
+    {
+      "statement": "Do Kwon was indicted on nine counts covering securities fraud, wire fraud, commodities fraud and money‑laundering conspiracy.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.bbc.com/news/articles/c2kznpdvwwlo",
+        "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses",
+        "https://www.cnbc.com/2025/08/12/do-kwon-pleads-guilty-to-us-fraud-charges-in-40-billion-crypto-collapse.html"
+      ]
+    },
+    {
+      "statement": "In August 2025 Do Kwon pleaded guilty to two fraud counts (conspiracy to commit commodities/securities/wire fraud and wire fraud); seven other counts were dropped, and he was not acquitted of any US fraud charge; a civil jury had already found him liable for securities fraud in April 2024.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.wsj.com/finance/currencies/crypto-entrepreneur-do-kwon-pleads-guilty-to-fraud-charges-stemming-from-crypto-crash-50c032fe",
+        "https://apnews.com/article/do-kwon-terraform-court-montenegro-crypto-mogul-46d924b4d34e90b850889d711c93c802",
+        "https://www.aljazeera.com/economy/2025/8/13/south-korean-crypto-mogul-do-kwon-pleads-guilty-to-fraud",
+        "https://www.bbc.com/news/articles/c2kznpdvwwlo",
+        "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses",
+        "https://www.sec.gov/newsroom/press-releases/2024-73"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Do Kwon US fraud charges indictment 2024 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon acquitted fraud charges 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Do Kwon",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "United States v. Kwon plea agreement Southern District of New York 2025",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/newsroom/press-releases/2024-73",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact date of sentencing and any imposed prison term are not detailed in the available sources.",
+    "The full text of the plea agreement (including any forfeiture amounts beyond the $19 million mentioned) is not provided in the evidence.",
+    "No source confirms whether any of the dismissed counts could later be refiled or whether any appeal is pending."
+  ],
+  "next_steps": [
+    "Retrieve the PACER docket for United States v. Kwon, Southern District of New York, to obtain the plea agreement and sentencing documents.",
+    "Request the Department of Justice press release announcing the plea deal and any associated forfeiture details.",
+    "Review the SEC civil case documents (case number and docket) for the jury verdict and any subsequent remedies.",
+    "Monitor news outlets and court filings for any post‑plea appeals or motions to vacate the plea."
+  ],
+  "sources": [
+    {
+      "url": "https://www.jpost.com/business-and-innovation/article-880141",
+      "title": "Cryptocurrency creator sentenced after fraud case | The Jerusalem Post",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-12-12"
+    },
+    {
+      "url": "https://www.aljazeera.com/economy/2025/8/13/south-korean-crypto-mogul-do-kwon-pleads-guilty-to-fraud",
+      "title": "South Korean crypto mogul Do Kwon pleads guilty to fraud | Crypto | Al Jazeera",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-08-13"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/c2kznpdvwwlo",
+      "title": "TerraUSD: 'Cryptocrash king' Do Kwon pleads guilty to fraud",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-08-13"
+    },
+    {
+      "url": "https://www.wsj.com/finance/currencies/crypto-entrepreneur-do-kwon-pleads-guilty-to-fraud-charges-stemming-from-crypto-crash-50c032fe",
+      "title": "Crypto Entrepreneur Do Kwon Pleads Guilty to Fraud Charges Stemming From Crypto Crash - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-08-12"
+    },
+    {
+      "url": "https://apnews.com/article/do-kwon-terraform-court-montenegro-crypto-mogul-46d924b4d34e90b850889d711c93c802",
+      "title": "South Korean cryptocurrency mogul pleads guilty to fraud charges in $40B cryptocurrency collapse | AP News",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-08-12"
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses",
+      "title": "Do Kwon Extradited to the United States from Montenegro to Face Charges Relating to Fraud Resulting in $40B in Losses",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.cnbc.com/2025/08/12/do-kwon-pleads-guilty-to-us-fraud-charges-in-40-billion-crypto-collapse.html",
+      "title": "Do Kwon pleads guilty to U.S. fraud charges in $40 billion crypto collapse",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2024-73",
+      "title": "SEC.gov | Terraform and Kwon to Pay $4.5 Billion Following Fraud Verdict",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

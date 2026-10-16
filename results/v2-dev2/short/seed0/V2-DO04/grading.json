@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Costco Wholesale Corporation's exact legal name is Costco Wholesale Corporation.",
+          "supported": true
+        },
+        {
+          "fact": "Costco Wholesale Corporation's stock ticker is COST.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Costco Wholesale Corporation's worldwide headquarters are in Issaquah, Washington.",
+          "supported": true
+        },
+        {
+          "fact": "Costco Wholesale Corporation operates a chain of membership-only big-box warehouse club retail stores.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Costco filed a 10-Q with the SEC on 2026-03-11 (period of report 2026-02-15).",
+          "supported": true
+        },
+        {
+          "fact": "Costco filed a 10-Q with the SEC on 2026-06-03 (period of report 2026-05-10).",
+          "supported": true
+        },
+        {
+          "fact": "Costco filed a 10-K with the SEC on 2026-10-07 (period of report 2026-08-30).",
+          "supported": true
+        },
+        {
+          "fact": "These 2026 SEC filings disclose no items related to a wire fraud conviction or any fine.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

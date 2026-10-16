@@ -1,0 +1,85 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The exact legal name of Tricolor Holdings is Tricolor Holdings LLC",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tricolor Holdings' principal place of business is Dallas, Texas",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tricolor Holdings' primary products/services include subprime auto lending",
+          "supported": true
+        },
+        {
+          "fact": "Tricolor Holdings' primary products/services include used-vehicle retail",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tricolor Holdings filed for Chapter 7 bankruptcy",
+          "supported": true
+        },
+        {
+          "fact": "The Chapter 7 bankruptcy filing occurred on September 10, 2025",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tricolor Holdings executives have been charged with fraud",
+          "supported": true
+        },
+        {
+          "fact": "The charged executives include CEO Daniel Chu",
+          "supported": true
+        },
+        {
+          "fact": "Prosecutors described the scheme as a yearslong 'systematic fraud'",
+          "supported": true
+        },
+        {
+          "fact": "The charged fraud relates to Tricolor's lending practices (auto loan collateral and double-pledging)",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The U.S. Securities and Exchange Commission filed a lawsuit against Tricolor Holdings",
+          "supported": true
+        },
+        {
+          "fact": "The SEC lawsuit was filed in September 2026",
+          "supported": false
+        },
+        {
+          "fact": "The SEC lawsuit alleges fraud",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,56 @@
+{
+  "subject": {
+    "kind": "company",
+    "statement": "Patagonia (outdoor clothing company)"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.82,
+  "summary": "Based on verified civil and regulatory actions against Patagonia, Inc. within the last decade—including an EEOC settlement, a Seattle labor‑standards fine, and an NLRB unfair‑labor‑practice charge—the subject exhibits adverse conduct, supporting an ADVERSE verdict with approximately 82% confidence.",
+  "findings": [
+    {
+      "statement": "Patagonia, Inc. settled an EEOC complaint in 2019, paying a settlement.",
+      "confidence": 0.75,
+      "citations": [
+        "https://s3.amazonaws.com/blab-impact-published-production/FwqEOpz9x13JdhDqn2Lxp35D5iY6Zoht"
+      ]
+    },
+    {
+      "statement": "Patagonia, Inc. was fined by the Seattle Office of Labor Standards in 2022 for violating the Secure Scheduling Ordinance, paying a $575.31 fine and agreeing to pay nearly $55,000 to employees.",
+      "confidence": 0.75,
+      "citations": [
+        "https://s3.amazonaws.com/blab-impact-published-production/FwqEOpz9x13JdhDqn2Lxp35D5iY6Zoht",
+        "https://www.outsideonline.com/business-journal/brands/patagonia-fined-55k-by-the-city-of-seattle"
+      ]
+    },
+    {
+      "statement": "Patagonia, Inc. faced an NLRB charge of unfair labor practices in 2020, which resulted in no financial fine.",
+      "confidence": 0.4,
+      "citations": [
+        "https://s3.amazonaws.com/blab-impact-published-production/FwqEOpz9x13JdhDqn2Lxp35D5iY6Zoht"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "Exact monetary amount of the 2019 EEOC settlement is not disclosed in the available sources.",
+    "Primary source documentation (EEOC notice of violation, Seattle Office of Labor Standards order, NLRB charge documents) has not been located.",
+    "Information regarding any civil, criminal, or regulatory actions involving Patagonia’s wholly‑owned subsidiaries in the last ten years is absent.",
+    "Definitive confirmation of the company’s exact legal name, state of incorporation, and registration number from an authoritative source (e.g., California Secretary of State filing) is lacking; only lower‑weight third‑party references exist."
+  ],
+  "sources": [
+    {
+      "url": "https://s3.amazonaws.com/blab-impact-published-production/FwqEOpz9x13JdhDqn2Lxp35D5iY6Zoht",
+      "title": "Patagonia Disclosure Report 2024 (SECURED)",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.outsideonline.com/business-journal/brands/patagonia-fined-55k-by-the-city-of-seattle",
+      "title": "Patagonia Fined $55,000 by the City of Seattle",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

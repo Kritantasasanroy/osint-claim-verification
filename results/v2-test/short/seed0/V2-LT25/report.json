@@ -1,0 +1,179 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Hagenauer GmbH in Immenstadt lost a court case against a supplier in 2024.",
+    "entity": "Hagenauer GmbH",
+    "disambiguators": [
+      "in Immenstadt",
+      "in 2024"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "Verdict: UNVERIFIABLE (≈25% confidence).",
+  "findings": [
+    {
+      "statement": "Hagenauer GmbH is registered as a Gesellschaft mit beschränkter Haftung (GmbH) with its seat in Immenstadt.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://firmeneintrag.creditreform.de/87509/8150061404/HAGENAUER_GMBH",
+        "https://www.northdata.de/Hagenauer%20GmbH,%20Immenstadt/Amtsgericht%20Kempten%20HRB%204135"
+      ]
+    },
+    {
+      "statement": "The stated business purpose of Hagenauer GmbH is to act as a general contractor, planning and constructing objects of any kind, particularly for upscale hotels, healthcare facilities, office buildings, and the complete outfitting of cruise liners, along with related activities.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://firmeneintrag.creditreform.de/87509/8150061404/HAGENAUER_GMBH",
+        "https://www.northdata.de/Hagenauer%20GmbH,%20Immenstadt/Amtsgericht%20Kempten%20HRB%204135"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Hagenauer GmbH",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Immenstadt Zweck Handelsregister",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Lieferant Gericht 2024 Urteil",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Immenstadt Landgericht Urteil 2024 Lieferant",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Hagenauer GmbH Klage Lieferant 2024 Immenstadt",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Amtsgericht Urteil 2024 Lieferant",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Lieferant Klage 2024 Urteil site:justiz.de",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH 2024 Urteil Lieferant Justizportal",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH 2024 Lieferant Urteil site:bundesanzeiger.de",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Hagenauer GmbH Lieferant Klage 2024 Amtsgericht Kempten",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.bundesanzeiger.de/pub/search",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "GLEIF legal-entity (LEI) records"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "While Hagenauer GmbH’s identity and business purpose are verified via Handelsregister entries, no evidence of a 2024 court loss to a supplier was found in the performed searches, leaving the claim unverified. [withdrawn: no tool checked company_register]",
+    "The searches performed did not provide access to full court dockets; therefore, a definitive answer about a 2024 losing verdict cannot be confirmed or refuted. [withdrawn: no tool checked court_records]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No court judgment, settlement, or alternative dispute resolution involving Hagenauer GmbH as defendant in a 2024 supplier dispute was located in the searched sources (Justizportal, Bundesanzeiger, Amtsgericht Kempten, news searches)."
+  ],
+  "next_steps": [
+    "Request access to Justizportal and Bundesanzeiger for any 2024 civil cases where Hagenauer GmbH appears as defendant.",
+    "Check the Amtsgericht Kempten civil case docket for 2024 using the company name and keyword 'Lieferant'.",
+    "Search regional press and legal news services for any settlement announcements involving Hagenauer GmbH and suppliers in 2024.",
+    "If access remains limited, consider submitting a formal information request to the relevant court clerk's office."
+  ],
+  "sources": [
+    {
+      "url": "https://firmeneintrag.creditreform.de/87509/8150061404/HAGENAUER_GMBH",
+      "title": "Hagenauer GmbH, Immenstadt | Firmenauskunft",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.northdata.de/Hagenauer%20GmbH,%20Immenstadt/Amtsgericht%20Kempten%20HRB%204135",
+      "title": "Hagenauer GmbH, Immenstadt, Amtsgericht Kempten HRB 4135: Netzwerk, Wirtschaftsinfos",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

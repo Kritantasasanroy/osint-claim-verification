@@ -1,0 +1,75 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Patagonia's CEO ate breakfast at a cafe in Ventura on 3 March 2021."
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.8,
+  "summary": "The claim that Patagonia's CEO ate breakfast at a cafe in Ventura on 3 March 2021 cannot be verified. While it is established that Ryan Gellert was CEO of Patagonia on that date and that the Aloha Café in Ventura serves breakfast at the company's headquarters, no verifiable evidence (social media, receipt, CCTV, eyewitness, or internal schedule) confirms his presence at the cafe for breakfast on the specified day.",
+  "findings": [
+    {
+      "statement": "Ryan Gellert held the position of CEO of Patagonia, Inc. on 3 March 2021.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.businessinsider.com/patagonia-ceo-ryan-gellert-vision-strategy-sustainability-and-leadership-2021-9",
+        "https://en.wikipedia.org/wiki/Ryan_Gellert",
+        "https://www.patagonia.com/ownership",
+        "https://www.linkedin.com/in/ryan-gellert-2a36086"
+      ]
+    },
+    {
+      "statement": "The Aloha Café in Ventura serves breakfast and is located at Patagonia's Ventura headquarters.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.facebook.com/PATAGONIA/photos/lunch-is-served-at-the-aloha-caf%C3%A9-breakfast-too/259678330456"
+      ]
+    },
+    {
+      "statement": "No verifiable evidence (e.g., timestamped social media post, news article, receipt, CCTV footage, eyewitness testimony) was found in the provided sources showing Ryan Gellert present at the Aloha Café in Ventura eating breakfast on 3 March 2021.",
+      "confidence": 0.8,
+      "citations": [
+        "https://www.businessinsider.com/patagonia-ceo-ryan-gellert-vision-strategy-sustainability-and-leadership-2021-9"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No direct evidence of Ryan Gellert's whereabouts on 3 March 2021 (e.g., schedule, travel itinerary, CCTV, receipt).",
+    "No eyewitness or social media posts referencing his presence at Aloha Café on that date.",
+    "No official Patagonia internal logs or executive travel records disclosed for that day."
+  ],
+  "sources": [
+    {
+      "url": "https://www.businessinsider.com/patagonia-ceo-ryan-gellert-vision-strategy-sustainability-and-leadership-2021-9",
+      "title": "Patagonia CEO Ryan Gellert on Vision, Sustainability, Leadership, More - Business Insider",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ryan_Gellert",
+      "title": "Ryan Gellert - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.patagonia.com/ownership",
+      "title": "Yvon Chouinard Donates Patagonia to Fight Climate Crisis",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.linkedin.com/in/ryan-gellert-2a36086",
+      "title": "Ryan Gellert - Chief Executive Officer at Patagonia",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.facebook.com/PATAGONIA/photos/lunch-is-served-at-the-aloha-caf%C3%A9-breakfast-too/259678330456",
+      "title": "Patagonia - Lunch is served at the Aloha Café, breakfast, too.",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "EY was appointed external auditor of Wirecard for the fiscal year ending 2019",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "EY refused to sign off Wirecard's 2019 accounts",
+          "supported": true
+        },
+        {
+          "fact": "The refusal occurred on 18 June 2020",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "EY did not issue an unqualified audit opinion on Wirecard's 2019 financial statements",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "EY refused to sign off Wirecard's 2019 accounts",
+          "supported": true
+        },
+        {
+          "fact": "After the refusal, EY did not issue any audit opinion (including a qualified opinion) for Wirecard's 2019 accounts",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "After the refusal, EY did not issue a revised opinion or a withdrawal",
+          "supported": false
+        },
+        {
+          "fact": "EY stated it was seeking clarification",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Do Kwon is currently in custody in Montenegro.",
+    "entity": "Do Kwon",
+    "disambiguators": [
+      "Montenegro"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-01, Do Kwon is not in custody in Montenegro; he was extradited to the United States, pleaded guilty to fraud, and sentenced to 15 years in federal prison on December 11, 2025, and remains incarcerated there.",
+  "findings": [
+    {
+      "statement": "Do Kwon's full legal name is Kwon Do-hyung.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Do_Kwon",
+        "https://www.bbc.com/news/articles/ckgmm92d213o"
+      ]
+    },
+    {
+      "statement": "Do Kwon is the co-founder and former CEO of Terraform Labs.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Do_Kwon",
+        "https://www.bbc.com/news/articles/ckgmm92d213o",
+        "https://www.tradingview.com/news/cointelegraph:65fd4a979094b:0-terraform-administrator-accuses-jane-street-of-insider-trading-in-collapse-lawsuit"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, Do Kwon is serving a 15-year sentence in a US federal prison and is not detained by Montenegrin authorities.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.bloomberg.com/news/articles/2025-12-11/do-kwon-gets-15-years-in-prison-for-40-billion-terraform-fraud",
+        "https://www.bbc.com/news/articles/ckgmm92d213o",
+        "https://www.dlnews.com/articles/regulation/inside-do-kwons-sentencing",
+        "https://www.gibsondunn.com/digital-assets-recent-updates-november-december-2025",
+        "https://www.wsj.com/finance/currencies/crypto-entrepreneur-do-kwon-gets-15-year-prison-sentence-14dfc220",
+        "https://www.tradingview.com/news/cointelegraph:65fd4a979094b:0-terraform-administrator-accuses-jane-street-of-insider-trading-in-collapse-lawsuit"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon Montenegro custody 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Do Kwon full legal name",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Do Kwon co-founder Terraform Labs",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Do Kwon 2026 US federal prison",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.justice.gov/usao-sdny/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Do_Kwon",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Do Kwon Crna Gora 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Do Kwon Federal Bureau of Prisons inmate number 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The specific US federal prison facility where Do Kwon is incarcerated has not been identified in the available sources.",
+    "Exact release date or parole eligibility details for his 15-year sentence are not provided in the evidence."
+  ],
+  "next_steps": [
+    "Search the Federal Bureau of Prisons inmate locator for Do Kwon's register number to confirm his current facility.",
+    "Review Montenegrin prison release records for March 2024 to verify his release after serving time for document forgery.",
+    "Consult DOJ press release archive (justice.gov) for the sentencing announcement of December 11, 2025.",
+    "Check PACER or court docket for any pending appeals or additional charges related to the Terraform Labs case."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Do_Kwon",
+      "title": "Do Kwon - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/ckgmm92d213o",
+      "title": "Do Kwon: TerraUSD creator sentenced to 15 years in prison over $40bn crash",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://www.tradingview.com/news/cointelegraph:65fd4a979094b:0-terraform-administrator-accuses-jane-street-of-insider-trading-in-collapse-lawsuit",
+      "title": "Terraform administrator accuses Jane Street of insider trading in collapse lawsuit — TradingView News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-24"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2025-12-11/do-kwon-gets-15-years-in-prison-for-40-billion-terraform-fraud",
+      "title": "Do Kwon Gets 15 Years in Prison for $40 Billion Terraform Fraud - Bloomberg",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-12-12"
+    },
+    {
+      "url": "https://www.dlnews.com/articles/regulation/inside-do-kwons-sentencing",
+      "title": "Inside Do Kwon’s sentencing: ‘an extraordinary rise and fall’ - DL News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-12-20"
+    },
+    {
+      "url": "https://www.gibsondunn.com/digital-assets-recent-updates-november-december-2025",
+      "title": "Digital Assets Recent Updates – November/December 2025 - Gibson Dunn",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-01-07"
+    },
+    {
+      "url": "https://www.wsj.com/finance/currencies/crypto-entrepreneur-do-kwon-gets-15-year-prison-sentence-14dfc220",
+      "title": "Crypto Entrepreneur Do Kwon Gets 15-Year Prison Sentence - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-12-11"
+    }
+  ]
+}

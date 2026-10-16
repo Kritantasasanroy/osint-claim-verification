@@ -1,0 +1,57 @@
+{
+  "case_id": "C07",
+  "mode": "short",
+  "kind": "claim",
+  "tags": [
+    "cluster:theranos",
+    "partially_true_premise"
+  ],
+  "expected": "FALSE",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.92,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.92,
+      "p_correct": 0.92,
+      "reward": {
+        "step": 1,
+        "progress": 0.67,
+        "information": 0.9999374784962252,
+        "corroboration": 1.0,
+        "redundancy": 0.3076923076923077,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 14594,
+  "completion_tokens": 14467,
+  "cost_usd": 0.0086929,
+  "wall_clock_s": 0.03413110016845167,
+  "call_latency_s": 101.007,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 5,
+  "conflicts_final": 0,
+  "independent_domains": 7,
+  "evidence_weight": 19.36,
+  "mean_evidence_reliability": 0.6866666666666668,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.9936,
+    "cost": 0.19374
+  }
+}

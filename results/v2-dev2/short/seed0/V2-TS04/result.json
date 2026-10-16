@@ -1,0 +1,100 @@
+{
+  "case_id": "V2-TS04",
+  "mode": "short",
+  "seed": 0,
+  "split": "dev",
+  "slices": [
+    "temporal_state"
+  ],
+  "kind": "claim",
+  "tags": [
+    "temporal_state"
+  ],
+  "expected": "TRUE",
+  "verdict": "TRUE",
+  "correct": true,
+  "confidence": 0.99,
+  "llm_confidence": 0.99,
+  "posterior_confidence": 0.994990453304257,
+  "confidence_inputs": {
+    "llm_probability": 0.99,
+    "posterior_probability": 0.994990453304257,
+    "independent_supporters": 6.0,
+    "authoritative_support": 1.0
+  },
+  "scope": {
+    "kind_correct": true,
+    "assertion_preserved": true,
+    "disambiguators_preserved": true
+  },
+  "stop_reason": "concluded",
+  "max_steps": 4,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "TRUE",
+      "confidence": 0.99,
+      "p_correct": 0.99,
+      "llm_p_correct": 0.99,
+      "posterior_p_correct": 0.994990453304257,
+      "reward": {
+        "step": 1,
+        "progress": 0.74,
+        "information": 0.9927734967186236,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "TRUE",
+      "confidence": 0.99,
+      "p_correct": 0.99,
+      "llm_p_correct": 0.99,
+      "posterior_p_correct": 0.994990453304257,
+      "reward": {
+        "step": 2,
+        "progress": 0.0,
+        "information": 0.9666267300396739,
+        "corroboration": 1.0,
+        "redundancy": 0.2857142857142857,
+        "tool_failure": 0.0,
+        "cost": 0.82455
+      }
+    }
+  ],
+  "tool_calls": 5,
+  "tool_failures": 0,
+  "rejected_repeats": 0,
+  "critic_checks": 1,
+  "prompt_tokens": 30643,
+  "completion_tokens": 21100,
+  "cost_usd": 0.0136143,
+  "wall_clock_s": 510.9002952000592,
+  "call_latency_s": 410.906,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 3,
+  "conflicts_final": 0,
+  "independent_domains": 9,
+  "evidence_weight": 16.66,
+  "supporting_weight": 4.26,
+  "mean_evidence_reliability": 0.7333333333333334,
+  "authoritative_evidence": true,
+  "primary_record_cited": false,
+  "withdrawn_statements": 0,
+  "manipulation_flags": 0,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "judge_model": "z-ai/glm-5.3-flash",
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.9999,
+    "cost": 0.34495333333333333
+  }
+}

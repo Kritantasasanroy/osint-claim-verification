@@ -1,0 +1,56 @@
+{
+  "case_id": "C18",
+  "mode": "short",
+  "kind": "claim",
+  "tags": [
+    "cluster:nikola"
+  ],
+  "expected": "TRUE",
+  "verdict": "TRUE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "TRUE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 1,
+        "progress": 0.65,
+        "information": 0.9604425012116012,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 15947,
+  "completion_tokens": 14545,
+  "cost_usd": 0.0088672,
+  "wall_clock_s": 0.03563700011000037,
+  "call_latency_s": 115.414,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 5,
+  "conflicts_final": 0,
+  "independent_domains": 11,
+  "evidence_weight": 6.46,
+  "mean_evidence_reliability": 0.45333333333333337,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.99,
+    "cost": 0.20328
+  }
+}

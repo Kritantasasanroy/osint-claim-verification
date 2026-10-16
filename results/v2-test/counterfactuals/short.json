@@ -1,0 +1,188 @@
+{
+  "diagnosed": 3,
+  "counts": [
+    {
+      "cause": "continue",
+      "episodes": 1,
+      "share": 0.3333333333333333,
+      "low": 0.0614903152761605,
+      "high": 0.7923450448735121
+    },
+    {
+      "cause": "no_memory",
+      "episodes": 1,
+      "share": 0.3333333333333333,
+      "low": 0.0614903152761605,
+      "high": 0.7923450448735121
+    },
+    {
+      "cause": "gold_source",
+      "episodes": 1,
+      "share": 0.3333333333333333,
+      "low": 0.0614903152761605,
+      "high": 0.7923450448735121
+    },
+    {
+      "cause": "pre_scoped",
+      "episodes": 2,
+      "share": 0.6666666666666666,
+      "low": 0.2076549551264879,
+      "high": 0.9385096847238394
+    },
+    {
+      "cause": "strong_reasoner",
+      "episodes": 2,
+      "share": 0.6666666666666666,
+      "low": 0.2076549551264879,
+      "high": 0.9385096847238394
+    },
+    {
+      "cause": "unresolved",
+      "episodes": 1,
+      "share": 0.3333333333333333,
+      "low": 0.0614903152761605,
+      "high": 0.7923450448735121
+    },
+    {
+      "cause": "fixed by a plain re-run (sampling noise)",
+      "episodes": 1,
+      "share": 0.3333333333333333,
+      "low": 0.0614903152761605,
+      "high": 0.7923450448735121
+    }
+  ],
+  "diagnoses": [
+    {
+      "case_id": "V2-DO12",
+      "seed": 0,
+      "original": "UNVERIFIABLE",
+      "expected": "FALSE",
+      "replays": [
+        {
+          "intervention": "continue",
+          "verdict": "TRUE",
+          "correct": false,
+          "error": ""
+        },
+        {
+          "intervention": "no_memory",
+          "verdict": "UNVERIFIABLE",
+          "correct": false,
+          "error": ""
+        },
+        {
+          "intervention": "gold_source",
+          "verdict": "UNVERIFIABLE",
+          "correct": false,
+          "error": ""
+        },
+        {
+          "intervention": "pre_scoped",
+          "verdict": "FALSE",
+          "correct": true,
+          "error": ""
+        },
+        {
+          "intervention": "strong_reasoner",
+          "verdict": "FALSE",
+          "correct": true,
+          "error": ""
+        },
+        {
+          "intervention": "repeat",
+          "verdict": null,
+          "correct": false,
+          "error": "MalformedCompletion"
+        }
+      ]
+    },
+    {
+      "case_id": "V2-LT20",
+      "seed": 0,
+      "original": "NO_ADVERSE",
+      "expected": "UNVERIFIABLE",
+      "replays": [
+        {
+          "intervention": "continue",
+          "verdict": "NO_ADVERSE",
+          "correct": false,
+          "error": ""
+        },
+        {
+          "intervention": "no_memory",
+          "verdict": "NO_ADVERSE",
+          "correct": false,
+          "error": ""
+        },
+        {
+          "intervention": "gold_source",
+          "verdict": "NO_ADVERSE",
+          "correct": false,
+          "error": ""
+        },
+        {
+          "intervention": "pre_scoped",
+          "verdict": "NO_ADVERSE",
+          "correct": false,
+          "error": ""
+        },
+        {
+          "intervention": "strong_reasoner",
+          "verdict": "ADVERSE",
+          "correct": false,
+          "error": ""
+        },
+        {
+          "intervention": "repeat",
+          "verdict": "NO_ADVERSE",
+          "correct": false,
+          "error": ""
+        }
+      ]
+    },
+    {
+      "case_id": "V2-PC05",
+      "seed": 0,
+      "original": "MIXED",
+      "expected": "TRUE",
+      "replays": [
+        {
+          "intervention": "continue",
+          "verdict": "TRUE",
+          "correct": true,
+          "error": ""
+        },
+        {
+          "intervention": "no_memory",
+          "verdict": "TRUE",
+          "correct": true,
+          "error": ""
+        },
+        {
+          "intervention": "gold_source",
+          "verdict": "TRUE",
+          "correct": true,
+          "error": ""
+        },
+        {
+          "intervention": "pre_scoped",
+          "verdict": "TRUE",
+          "correct": true,
+          "error": ""
+        },
+        {
+          "intervention": "strong_reasoner",
+          "verdict": "TRUE",
+          "correct": true,
+          "error": ""
+        },
+        {
+          "intervention": "repeat",
+          "verdict": "TRUE",
+          "correct": true,
+          "error": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Coffee consumption is associated with a lower risk of type 2 diabetes."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.85,
+  "summary": "The available evidence indicates that regular coffee consumption is associated with a reduced risk of type 2 diabetes, supporting a TRUE verdict with approximately 85% confidence.",
+  "findings": [
+    {
+      "statement": "The most recent meta-analysis of prospective cohort studies reports a pooled relative risk of 0.71 (95% CI 0.67-0.76) for high versus low coffee consumption.",
+      "confidence": 0.92,
+      "citations": [
+        "https://pubmed.ncbi.nlm.nih.gov/29590460",
+        "https://www.coffeeandhealth.org/health/media-content/news-alerts/review-of-30-studies-suggests-coffee-consumption-associated-with-reduced-risk-of-type-2-diabetes",
+        "https://www.mdpi.com/2072-6643/13/4/1144",
+        "https://www.uece.br/nutrindowp/wp-content/uploads/sites/82/2021/07/Caf%C3%A9-diabetes-revis%C3%A3o-sistem%C3%A1tica.pdf",
+        "https://dagensdiabetes.se/coffee-even-decaf-linked-to-lower-type-2-diabetes-risk-meta-analysis-6-cupsday-of-coffee-was-associated-with-a-33-lower-risk-of-type-2-diabetes-1-109-272-participants-diab-care-february"
+      ]
+    },
+    {
+      "statement": "After adjusting for age, BMI, smoking, and physical activity, coffee consumption remains significantly associated with lower type 2 diabetes risk (confidence intervals exclude 1).",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.natap.org/2009/HCV/120709_06.htm",
+        "https://www.mdpi.com/2072-6643/13/4/1144"
+      ]
+    },
+    {
+      "statement": "No high-quality prospective cohort studies or randomized controlled trials in the reviewed literature reported a null or positive association between coffee consumption and type 2 diabetes risk.",
+      "confidence": 0.78,
+      "citations": [
+        "https://www.natap.org/2009/HCV/120709_06.htm",
+        "https://www.coffeeandhealth.org/health/media-content/news-alerts/review-of-30-studies-suggests-coffee-consumption-associated-with-reduced-risk-of-type-2-diabetes",
+        "https://dagensdiabetes.se/coffee-even-decaf-linked-to-lower-type-2-diabetes-risk-meta-analysis-6-cupsday-of-coffee-was-associated-with-a-33-lower-risk-of-type-2-diabetes-1-109-272-participants-diab-care-february",
+        "https://www.uece.br/nutrindowp/wp-content/uploads/sites/82/2021/07/Caf%C3%A9-diabetes-revis%C3%A3o-sistem%C3%A1tica.pdf"
+      ]
+    },
+    {
+      "statement": "Major health authorities such as the American Heart Association and the Mayo Clinic state that coffee consumption is linked to a lower risk of developing type 2 diabetes.",
+      "confidence": 0.8,
+      "citations": [
+        "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+        "https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/expert-answers/blood-sugar/faq-20057941"
+      ]
+    },
+    {
+      "statement": "The reviewed sources do not provide a GRADE or similar certainty rating for the evidence linking coffee consumption to type 2 diabetes risk.",
+      "confidence": 0.6,
+      "citations": [
+        "https://pubmed.ncbi.nlm.nih.gov/29590460",
+        "https://www.coffeeandhealth.org/health/media-content/news-alerts/review-of-30-studies-suggests-coffee-consumption-associated-with-reduced-risk-of-type-2-diabetes",
+        "https://www.natap.org/2009/HCV/120709_06.htm",
+        "https://dagensdiabetes.se/coffee-even-decaf-linked-to-lower-type-2-diabetes-risk-meta-analysis-6-cupsday-of-coffee-was-associated-with-a-33-lower-risk-of-type-2-diabetes-1-109-272-participants-diab-care-february",
+        "https://www.uece.br/nutrindowp/wp-content/uploads/sites/82/2021/07/Caf%C3%A9-diabetes-revis%C3%A3o-sistem%C3%A1tica.pdf",
+        "https://www.mdpi.com/2072-6643/13/4/1144"
+      ]
+    },
+    {
+      "statement": "No randomized controlled trials examining coffee intake and incident type 2 diabetes were identified in the available sources.",
+      "confidence": 0.55,
+      "citations": [
+        "https://pubmed.ncbi.nlm.nih.gov/29590460",
+        "https://www.coffeeandhealth.org/health/media-content/news-alerts/review-of-30-studies-suggests-coffee-consumption-associated-with-reduced-risk-of-type-2-diabetes",
+        "https://www.natap.org/2009/HCV/120709_06.htm",
+        "https://dagensdiabetes.se/coffee-even-decaf-linked-to-lower-type-2-diabetes-risk-meta-analysis-6-cupsday-of-coffee-was-associated-with-a-33-lower-risk-of-type-2-diabetes-1-109-272-participants-diab-care-february",
+        "https://www.uece.br/nutrindowp/wp-content/uploads/sites/82/2021/07/Caf%C3%A9-diabetes-revis%C3%A3o-sistem%C3%A1tica.pdf",
+        "https://www.mdpi.com/2072-6643/13/4/1144"
+      ]
+    },
+    {
+      "statement": "Subgroup analyses by sex, ethnicity, or baseline BMI were not reported in the reviewed sources, so heterogeneity of effect across subgroups remains unknown.",
+      "confidence": 0.5,
+      "citations": [
+        "https://pubmed.ncbi.nlm.nih.gov/29590460",
+        "https://www.coffeeandhealth.org/health/media-content/news-alerts/review-of-30-studies-suggests-coffee-consumption-associated-with-reduced-risk-of-type-2-diabetes",
+        "https://www.natap.org/2009/HCV/120709_06.htm",
+        "https://dagensdiabetes.se/coffee-even-decaf-linked-to-lower-type-2-diabetes-risk-meta-analysis-6-cupsday-of-coffee-was-associated-with-a-33-lower-risk-of-type-2-diabetes-1-109-272-participants-diab-care-february",
+        "https://www.uece.br/nutrindowp/wp-content/uploads/sites/82/2021/07/Caf%C3%A9-diabetes-revis%C3%A3o-sistem%C3%A1tica.pdf",
+        "https://www.mdpi.com/2072-6643/13/4/1144"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No explicit GRADE assessment of certainty was found in the surveyed literature.",
+    "The evidence base lacks randomized controlled trials specifically designed to test coffee's effect on incident type 2 diabetes.",
+    "Subgroup analyses (sex, ethnicity, baseline BMI) are absent, limiting understanding of effect modification.",
+    "Potential publication bias or small-study effects were not evaluated in the provided sources.",
+    "Details on dosage‑response shape beyond broad categories (e.g., exact cups per day) are limited in some sources."
+  ],
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29590460",
+      "title": "Coffee consumption and reduced risk of developing type 2 diabetes: a systematic review with meta-analysis.",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.coffeeandhealth.org/health/media-content/news-alerts/review-of-30-studies-suggests-coffee-consumption-associated-with-reduced-risk-of-type-2-diabetes",
+      "title": "Coffee Intake Linked to 30% Lower Type 2 Diabetes Risk",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.mdpi.com/2072-6643/13/4/1144",
+      "title": "Coffee and Lower Risk of Type 2 Diabetes: Arguments for a Causal Relationship",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.uece.br/nutrindowp/wp-content/uploads/sites/82/2021/07/Caf%C3%A9-diabetes-revis%C3%A3o-sistem%C3%A1tica.pdf",
+      "title": "[PDF] Coffee Consumption and Risk of Type 2 Diabetes - UECE",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://dagensdiabetes.se/coffee-even-decaf-linked-to-lower-type-2-diabetes-risk-meta-analysis-6-cupsday-of-coffee-was-associated-with-a-33-lower-risk-of-type-2-diabetes-1-109-272-participants-diab-care-february",
+      "title": "Coffee, Even Decaf, Linked to Lower Type 2 Diabetes Risk. Meta-analysis. 6 cups/day of coffee was associated with a 33% lower risk of type 2 diabetes. 1 109 272 participants. Diab Care February - Dagensdiabetes",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.natap.org/2009/HCV/120709_06.htm",
+      "title": "Coffee, Caffeine, and Risk of Type 2 Diabetes A prospective cohort study in younger and middle-aged U.S. women",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://newsroom.heart.org/news/coffee-and-heart-health-how-many-cups-of-caffeinated-coffee-are-safe-to-drink-each-day",
+      "title": "Coffee and heart health: How many cups of caffeinated coffee are safe to drink each day? | American Heart Association",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/expert-answers/blood-sugar/faq-20057941",
+      "title": "Caffeine: Does it affect blood sugar? - Mayo Clinic",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

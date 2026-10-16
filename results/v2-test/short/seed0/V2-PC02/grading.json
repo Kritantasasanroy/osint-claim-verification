@@ -1,0 +1,69 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon's full legal name is Do Kwon (Korean name 권도형)",
+          "supported": false
+        },
+        {
+          "fact": "Do Kwon is a South Korean cryptocurrency executive",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon is the cofounder of Singapore-based Terraform Labs",
+          "supported": true
+        },
+        {
+          "fact": "Do Kwon is a South Korean national",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon was indicted on nine counts",
+          "supported": true
+        },
+        {
+          "fact": "The nine-count indictment covered securities fraud, wire fraud, commodities fraud and money-laundering conspiracy",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "In August 2025 Do Kwon pleaded guilty to two fraud counts",
+          "supported": true
+        },
+        {
+          "fact": "The two counts were conspiracy to commit commodities fraud, securities fraud and wire fraud, and wire fraud",
+          "supported": true
+        },
+        {
+          "fact": "Seven other counts were dropped as part of the plea deal",
+          "supported": true
+        },
+        {
+          "fact": "He was not acquitted of any US fraud charge",
+          "supported": true
+        },
+        {
+          "fact": "A civil jury had already found him liable for securities fraud in April 2024",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

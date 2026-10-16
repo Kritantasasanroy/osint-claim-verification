@@ -1,0 +1,230 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "The LEGO Group (toy manufacturer, Billund)",
+    "entity": "The LEGO Group",
+    "disambiguators": [
+      "toy manufacturer",
+      "Billund"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.775,
+  "estimative": "likely",
+  "summary": "As of 2026-10-01, The LEGO Group is assessed as NO_ADVERSE (77% confidence). The company's registered headquarters is Aastvej 1, 7190 Billund, Denmark, its CVR number is 47458714, it was founded on 10 August 1932, and its CEO is Niels B. Christiansen. No adverse findings (criminal convictions, regulatory sanctions, insolvency, bankruptcy, or major civil judgments) were identified in the performed searches.",
+  "findings": [
+    {
+      "statement": "The LEGO Group's registered headquarters address is Aastvej 1, 7190 Billund, Denmark.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.lego.com/cdn/cs/legal/assets/bltc8bdc1b8e66a88cb/45001.PDF",
+        "https://exa.ai/websets/directory/lego-offices",
+        "https://www.lego.com/en-us/aboutus/lego-group/contact/locations"
+      ]
+    },
+    {
+      "statement": "The LEGO Group's CVR number is 47458714.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.lego.com/cdn/cs/legal/assets/bltc8bdc1b8e66a88cb/45001.PDF"
+      ]
+    },
+    {
+      "statement": "The LEGO Group was founded on 10 August 1932.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/The_Lego_Group"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, the CEO of The LEGO Group is Niels B. Christiansen.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html",
+        "https://manufacturingdigital.com/articles/circularity-emissions-legos-sustainable-manufacturing",
+        "https://en.wikipedia.org/wiki/The_Lego_Group"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "LEGO Group fine sanction lawsuit 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "LEGO Group CVR number headquarters address Billund",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "LEGO Group",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "LEGO Group fined 2023 2024 2025 regulator",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "LEGO Group pending lawsuit 2026 civil judgment",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "LEGO Group bankruptcy 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "LEGO Group regulator fine 2021 2022 2023 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "LEGO Group",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "LEGO Group litigation 2026 pending",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "LEGO Group bankruptcy filing 2026 court",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "LEGO Group fined by EU 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "No direct search of regulator sanction databases (e.g., European Commission competition fines, Danish Competition Authority) was performed; reliance was on news searches only. [withdrawn: no tool checked sanctions]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The CVR number and address were taken from the company's website and a PDF; they were not cross‑checked against the official Danish Business Authority CVR register.",
+    "Court records were queried only via a general news‑style search; a systematic review of Danish civil and bankruptcy court filings was not conducted.",
+    "The evidence does not include any source that explicitly states the absence of fines or sanctions, so the negative finding is inferred from lack of positive evidence."
+  ],
+  "next_steps": [
+    "Query the Danish CVR register (virksomhed.dk) for LEGO Group's CVR 47458714 to confirm the registered address and status.",
+    "Check the European Commission's antitrust fines database and the Danish Competition Authority's press releases for any fines against LEGO Group in the last five years.",
+    "Search Danish civil court records (e.g., Skifteretten) for any pending major civil judgments or bankruptcy filings involving LEGO Group as of 2026-10-01.",
+    "Review the Danish Business Authority's insolvency register for any bankruptcy or restructuring proceedings."
+  ],
+  "sources": [
+    {
+      "url": "https://www.lego.com/cdn/cs/legal/assets/bltc8bdc1b8e66a88cb/45001.PDF",
+      "title": "Certificate of Approval",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://exa.ai/websets/directory/lego-offices",
+      "title": "LEGO Office Locations and Global Headquarters | Explore LEGO's Worldwide Presence",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.lego.com/en-us/aboutus/lego-group/contact/locations",
+      "title": "Locations - About Us - LEGO.com",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Lego_Group",
+      "title": "The Lego Group - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html",
+      "title": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing - CNBC",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-08-25"
+    },
+    {
+      "url": "https://manufacturingdigital.com/articles/circularity-emissions-legos-sustainable-manufacturing",
+      "title": "Circularity & Emissions: LEGO's Sustainable Manufacturing - Manufacturing Digital",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-03-15"
+    }
+  ]
+}

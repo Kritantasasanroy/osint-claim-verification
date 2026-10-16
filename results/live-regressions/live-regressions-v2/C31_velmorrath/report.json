@@ -1,0 +1,133 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Velmorrath Bioassay Logistics GmbH (Leipzig)",
+    "entity": "Velmorrath Bioassay Logistics GmbH",
+    "disambiguators": [
+      "Leipzig"
+    ],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.3333,
+  "estimative": "unlikely",
+  "summary": "As of 2026-10-13, the verdict for Velmorrath Bioassay Logistics GmbH (Leipzig) is UNVERIFIABLE with 33% confidence, because no verifiable evidence was found regarding its legal status, founding, insolvency, criminal, or regulatory actions.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Velmorrath Bioassay Logistics GmbH Insolvenzverfahren Leipzig HRB",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Velmorrath Bioassay Logistics GmbH strafrechtlich verurteilt Bußgeld",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Velmorrath Bioassay Logistics GmbH Bußgeld BfArM EMA",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Velmorrath Bioassay Logistics GmbH Handelsregister Leipzig HRB",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Velmorrath Bioassay Logistics GmbH Insolvenzverfahren OR Konkurs OR liquidation",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Velmorrath Bioassay Logistics GmbH gegründet Geschäftsgegenstand Handelsregister",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Velmorrath Bioassay Logistics GmbH HRB Leipzig site:unternehmensregister.de",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.unternehmensregister.de/ur/search/all?k=Velmorrath+Bioassay+Logistics+GmbH",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Velmorrath Bioassay Logistics GmbH Insolvenz OR strafrechtlich OR Bußgeld OR BfArM OR EMA OR Sanktionen",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Velmorrath Bioassay Logistics GmbH insolvenz OR bankruptcy OR liquidation OR Konkurs",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "No Handelsregister entry for Velmorrath Bioassay Logistics GmbH (Leipzig) was located in the performed web searches. [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No insolvency or bankruptcy proceedings were identified for the company in the searched sources.",
+    "No criminal convictions, formal charges, or regulatory enforcement actions were found for the company in the searched sources."
+  ],
+  "next_steps": [
+    "Query the German Handelsregister directly via https://www.unternehmensregister.de/ur/search/all with the exact name 'Velmorrath Bioassay Logistics GmbH' to obtain HRB number and registered office.",
+    "Search the German insolvency register (Insolvenzregister) for any proceedings involving Velmorrath Bioassay Logistics GmbH up to 2026-10-13.",
+    "Check the Bundeszentralregister or press releases for any criminal convictions or formal charges against the company.",
+    "Search regulator databases such as BfArM and EMA for sanctions, fines, or enforcement actions concerning Velmorrath Bioassay Logistics GmbH."
+  ],
+  "sources": []
+}

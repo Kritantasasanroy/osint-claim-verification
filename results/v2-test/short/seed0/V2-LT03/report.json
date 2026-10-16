@@ -1,0 +1,264 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Albert Saniger (founder of the shopping app Nate)",
+    "entity": "Albert Saniger",
+    "disambiguators": [
+      "founder of the shopping app Nate"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9891,
+  "estimative": "almost certain",
+  "summary": "ADVERSE at 99% confidence. As of April 2025, Albert Saniger (full legal name Alberto Saniger Mantinan, aka Albert Saniger) was charged by the DOJ with securities fraud and faced a parallel SEC civil complaint for fraudulent AI‑washing claims at Nate, Inc., the shopping app he founded in 2018 and which dissolved in January 2023. No personal bankruptcy or major civil judgment against him is evident as of September 2026.",
+  "findings": [
+    {
+      "statement": "Albert Saniger's full legal name is Alberto Saniger Mantinan, also known as Albert Saniger.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26282",
+        "https://www.vitallaw.com/news/enforcement-s-d-n-y-former-nate-ceo-charged-with-misleading-about-app-s-ai-tech/sld011dfa2701acee4af89af067a2992debd7",
+        "https://www.sec.gov/files/litigation/complaints/2025/comp26282.pdf"
+      ]
+    },
+    {
+      "statement": "Albert Saniger is the founder and former CEO of Nate, Inc., which he founded in 2018.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26282",
+        "https://www.linkedin.com/pulse/ai-washing-nate-startup-fraud-exposed-kayne-mcgladrey-65bfc",
+        "https://www.vitallaw.com/news/enforcement-s-d-n-y-former-nate-ceo-charged-with-misleading-about-app-s-ai-tech/sld011dfa2701acee4af89af067a2992debd7",
+        "https://regulations.ai/regulations/RAI-US-NA-SUMMARY-2026"
+      ]
+    },
+    {
+      "statement": "In April 2025, the U.S. Attorney's Office for the Southern District of New York and the SEC filed parallel civil and criminal actions against Albert Saniger, charging him with securities fraud (criminal indictment).",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://btlj.org/2026/04/was-the-ai-in-the-code-or-just-in-the-valuation-ai-washing-in-venture-fundraising",
+        "https://www.dandodiary.com/2025/04/articles/securities-enforcement/tech-exec-charged-with-ai-washing-related-securities-fraud",
+        "https://www.vitallaw.com/news/enforcement-s-d-n-y-former-nate-ceo-charged-with-misleading-about-app-s-ai-tech/sld011dfa2701acee4af89af067a2992debd7",
+        "https://www.mayflowerspecialty.com/guides/board-ai-oversight-ai-washing",
+        "https://cresta.com/news/nate-founder-charged-in-human-powered-ai-scheme"
+      ]
+    },
+    {
+      "statement": "The SEC's civil complaint alleges fraudulent solicitation of investments based on false AI claims, constituting a regulatory enforcement action against Albert Saniger.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26282",
+        "https://www.sec.gov/files/litigation/complaints/2025/comp26282.pdf",
+        "https://regulations.ai/regulations/RAI-US-NA-SUMMARY-2026",
+        "https://www.hklaw.com/en/insights/publications/2025/07/sec-and-doj-warm-up-to-enforcement-over-ai-washing",
+        "https://www.dandodiary.com/2025/04/articles/securities-enforcement/tech-exec-charged-with-ai-washing-related-securities-fraud"
+      ]
+    },
+    {
+      "statement": "Nate, Inc. ceased operations and formally dissolved in January 2023; there is no evidence of personal bankruptcy, insolvency, or a civil judgment exceeding $1 million against Albert Saniger as of September 2026.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.vitallaw.com/news/enforcement-s-d-n-y-former-nate-ceo-charged-with-misleading-about-app-s-ai-tech/sld011dfa2701acee4af89af067a2992debd7",
+        "https://www.sec.gov/files/litigation/complaints/2025/comp26282.pdf",
+        "https://www.hklaw.com/en/insights/publications/2025/07/sec-and-doj-warm-up-to-enforcement-over-ai-washing",
+        "https://www.dandodiary.com/2025/04/articles/securities-enforcement/tech-exec-charged-with-ai-washing-related-securities-fraud"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Albert Saniger indictment convicted charged",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Albert Saniger SEC FTC CFPB sanction",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Albert Saniger Nate founder Nate app",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.justice.gov/usao-sdny/pr/tech-ceo-charged-artificial-intelligence-investment-fraud-scheme",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26282",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Albert Saniger bankruptcy insolvency",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Alberto Saniger Mantinan",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Albert Saniger",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Albert Saniger civil judgment",
+      "results": 2,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No information on whether Albert Saniger has been convicted or sentenced in the criminal case.",
+    "No details on any civil judgments or monetary penalties imposed on him personally by the SEC or other regulators.",
+    "No public record of personal bankruptcy filings or asset seizures for Albert Saniger.",
+    "No information on any state-level enforcement actions or civil suits brought by investors or creditors against him."
+  ],
+  "next_steps": [
+    "Search PACER for the criminal case docket (Southern District of New York) to see plea, trial date, and any sentencing.",
+    "Review SEC's EDGAR system for any settlement, disgorgement, or penalties ordered in the civil complaint.",
+    "Search California and New York state bankruptcy court records for any personal bankruptcy filings by Albert Saniger.",
+    "Look for civil lawsuits filed by investors or creditors against Albert Saniger in state or federal courts."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26282",
+      "title": "SEC.gov | Alberto Saniger Mantinan, a/k/a Albert Saniger",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.vitallaw.com/news/enforcement-s-d-n-y-former-nate-ceo-charged-with-misleading-about-app-s-ai-tech/sld011dfa2701acee4af89af067a2992debd7",
+      "title": "ENFORCEMENT—S.D.N.Y.: Former Nate... | VitalLaw.com",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/files/litigation/complaints/2025/comp26282.pdf",
+      "title": "Alberto Saniger Mantinan, a/k/a Albert ...",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/ai-washing-nate-startup-fraud-exposed-kayne-mcgladrey-65bfc",
+      "title": "AI Washing Fraud: Nate Startup Case Exposed",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://regulations.ai/regulations/RAI-US-NA-SUMMARY-2026",
+      "title": "United States AI Regulation Overview | Regulations.AI",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-17"
+    },
+    {
+      "url": "https://btlj.org/2026/04/was-the-ai-in-the-code-or-just-in-the-valuation-ai-washing-in-venture-fundraising",
+      "title": "Was the AI in the Code, or Just in the Valuation? AI-Washing in Venture Fundraising - Berkeley Technology Law Journal",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.dandodiary.com/2025/04/articles/securities-enforcement/tech-exec-charged-with-ai-washing-related-securities-fraud",
+      "title": "Tech Exec Charged with AI Washing-Related Securities Fraud",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.mayflowerspecialty.com/guides/board-ai-oversight-ai-washing",
+      "title": "AI-Washing and Board AI Oversight | Mayflower Specialty",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-05"
+    },
+    {
+      "url": "https://cresta.com/news/nate-founder-charged-in-human-powered-ai-scheme",
+      "title": "Shopping app Nate's CEO indicted for fraud, disguising human workers as AI",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.hklaw.com/en/insights/publications/2025/07/sec-and-doj-warm-up-to-enforcement-over-ai-washing",
+      "title": "SEC and DOJ Warm Up to Enforcement over AI Washing | Insights | Holland & Knight",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

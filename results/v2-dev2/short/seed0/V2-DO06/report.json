@@ -1,0 +1,211 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Northvolt AB filed for bankruptcy in Sweden in March 2025 after failing to secure new financing for its battery operations.",
+    "entity": "Northvolt AB",
+    "disambiguators": [
+      "filed for bankruptcy",
+      "in Sweden",
+      "in March 2025",
+      "after failing to secure new financing for its battery operations"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "northvolt_bankruptcy.png"
+  ],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "Verdict: UNVERIFIABLE (25% confidence). The legal name is Northvolt AB; its LEI was ACTIVE as of 22 Aug 2025, contradicting the claim from its own website that it filed for bankruptcy on 12 Mar 2025 after failing to secure new financing.",
+  "findings": [
+    {
+      "statement": "The legal name of the entity is Northvolt AB.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://northvolt.com",
+        "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden"
+      ]
+    },
+    {
+      "statement": "As of 2025-08-22, Northvolt AB's LEI status is ACTIVE.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://search.gleif.org/#/record/549300517DEJS8P07539"
+      ]
+    },
+    {
+      "statement": "According to Northvolt AB's own website, the company filed for bankruptcy in Sweden on 2025-03-12 after failing to secure new financing for its battery operations.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden"
+      ]
+    },
+    {
+      "statement": "The corporate registration number (organisationsnummer) for Northvolt AB was not found in the consulted sources.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://northvolt.com"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "The claim from Northvolt AB's website that the company filed for bankruptcy in Sweden on 2025-03-12 conflicts with the LEI record showing the entity status as ACTIVE as of 2025-08-22. The LEI source is given greater weight due to its official, regulator‑maintained nature, rendering the bankruptcy claim unverified."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Northvolt AB bankruptcy March 2025 Sweden",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/search rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Northvolt AB organisationsnummer",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Northvolt AB bankruptcy filing date",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/search rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "encyclopedia",
+      "query": "Northvolt",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "wikidata",
+      "query": "Northvolt AB",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/extract rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Northvolt",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/extract rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "gleif",
+      "query": "Northvolt AB",
+      "results": 2,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Northvolt AB konkurs mars 2025 Sverige",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/search rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Northvolt AB LEI 549300517DEJS8P07539 status March 2025",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/search rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Northvolt AB bankruptcy filing March 2025 Reuters",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/search rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "GLEIF legal-entity (LEI) records",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [
+    "The uploaded image northvolt_bankruptcy.png contains a single sentence claim but is undated and lacks any corroborating details; it is internally consistent but does not address an AI reader and provides no independent verification."
+  ],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No independent court or Bolagsverket record was consulted to confirm a bankruptcy filing.",
+    "The LEI status history around March 2025 was not examined; only a snapshot from August 2025 is available.",
+    "No major news outlet or regulator press release was located to corroborate the bankruptcy claim.",
+    "The exact corporate registration number (organisationsnummer) for Northvolt AB remains unverified."
+  ],
+  "next_steps": [
+    "Query the Swedish Bolagsverket (Swedish Companies Registration Office) for any insolvency or bankruptcy proceedings involving Northvolt AB around March 2025.",
+    "Retrieve the LEI status change history for Northvolt AB (LEI 549300517DEJS8P07539) to see if status changed from ACTIVE to INACTIVE or similar around March 2025.",
+    "Search major news wires (Reuters, Bloomberg, FT) and Swedish business press for any coverage of a Northvolt bankruptcy filing in March 2025.",
+    "Consult creditor announcements or bond market filings that might reference a bankruptcy or restructuring event."
+  ],
+  "sources": [
+    {
+      "url": "https://northvolt.com",
+      "title": "Northvolt | Northvolt",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://northvolt.com/articles/northvolt-files-for-bankruptcy-in-sweden",
+      "title": "Northvolt files for bankruptcy in Sweden | Northvolt",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://search.gleif.org/#/record/549300517DEJS8P07539",
+      "title": "GLEIF: NorthVolt AB",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

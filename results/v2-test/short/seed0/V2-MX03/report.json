@@ -1,0 +1,220 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Do Kwon was arrested in Montenegro and extradited to South Korea.",
+    "entity": "Do Kwon",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.8023,
+  "estimative": "very likely",
+  "summary": "VERDICT: FALSE (80% confidence). Do Kwon was arrested in Montenegro on March 23, 2023, but was extradited to the United States on December 31, 2024, not to South Korea. Multiple authoritative sources (BBC, AP News, Reuters, Justice.gov, France24) confirm the arrest date and the U.S. extradition destination, while no credible evidence supports extradition to South Korea.",
+  "findings": [
+    {
+      "statement": "Do Kwon was arrested in Montenegro on March 23, 2023 by Montenegrin authorities.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.bbc.com/news/technology-65058533",
+        "https://apnews.com/article/montenegro-cryptocurrency-kwon-extradition-terraform-south-korea-ea966ff4132b84759c0dd7d4e1d19d17"
+      ]
+    },
+    {
+      "statement": "Do Kwon was extradited from Montenegro to the United States on December 31, 2024, not to South Korea.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.reuters.com/world/montenegro-says-it-extradites-terraform-lab-co-founder-us-2024-12-31",
+        "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses",
+        "https://apnews.com/article/montenegro-cryptocurrency-kwon-extradition-terraform-south-korea-ea966ff4132b84759c0dd7d4e1d19d17"
+      ]
+    },
+    {
+      "statement": "Multiple credible sources confirm that Do Kwon's extradition was to the United States and that there is no evidence of extradition to South Korea.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.france24.com/en/technology/20251212-crypto-mogul-do-kwon-15-years-40-billion-fraud",
+        "https://www.bbc.com/news/articles/cn7r8xr3v76o",
+        "https://www.reuters.com/world/montenegro-says-it-extradites-terraform-lab-co-founder-us-2024-12-31"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Do Kwon",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon arrested Montenegro",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon extradited Montenegro South Korea",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Do Kwon extradited to United States December 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.bbc.com/news/articles/cwy30n29qx5o",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Do Kwon extradition United States",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Do Kwon extradited United States Montenegro 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Montenegro Ministry of Justice extradition Do Kwon United States 2024 press release",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://apnews.com/article/montenegro-cryptocurrency-kwon-extradition-terraform-south-korea-ea966ff4132b84759c0dd7d4e1d19d17",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Do Kwon extradited United States December 31 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "encyclopedia",
+      "query": "Do Kwon",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "While the extradition was facilitated by Montenegro's National Central Bureau of Interpol and the FBI, the precise procedural steps and any contemporaneous legal filings are not detailed in the evidence. [withdrawn: no tool checked interpol]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact time of day of the arrest on March 23, 2023 is not specified in the available sources.",
+    "Whether any residual legal challenges or appeals remained in Montenegro after the December 31, 2024 extradition is not clarified by the sources."
+  ],
+  "next_steps": [
+    "Request the Montenegro Ministry of Justice press release or official decision dated December 2024 approving the extradition to the United States.",
+    "Obtain the U.S. Department of Justice indictment or press release confirming Do Kwon's arrival in the United States on December 31, 2024.",
+    "Review any Interpol notice or FBI affidavit documenting the transfer of Do Kwon from Montenegro to U.S. authorities.",
+    "Examine South Korean extradition request documentation and Montenegro's rejection to confirm the absence of a South Korea extradition."
+  ],
+  "sources": [
+    {
+      "url": "https://www.bbc.com/news/technology-65058533",
+      "title": "Do Kwon: Fugitive 'cryptocrash' boss arrested in Montenegro",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2023-03-23"
+    },
+    {
+      "url": "https://apnews.com/article/montenegro-cryptocurrency-kwon-extradition-terraform-south-korea-ea966ff4132b84759c0dd7d4e1d19d17",
+      "title": "A cryptocurrency mogul arrested in Montenegro faces extradition to South Korea after a court ruling | AP News",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2024-03-07"
+    },
+    {
+      "url": "https://www.reuters.com/world/montenegro-says-it-extradites-terraform-lab-co-founder-us-2024-12-31",
+      "title": "Montenegro says it extradites Terraform Lab co-founder Do Kwon to US",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2024-12-31"
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses",
+      "title": "Do Kwon Extradited to the United States from Montenegro to Face Charges Relating to Fraud Resulting in $40B in Losses",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.france24.com/en/technology/20251212-crypto-mogul-do-kwon-15-years-40-billion-fraud",
+      "title": "Crypto mogul Do Kwon sentenced to 15 years over $40 billion stablecoin crash - France 24",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-12-12"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/cn7r8xr3v76o",
+      "title": "South Korean 'cryptocrash' boss Do Kwon extradited to US",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2024-12-27"
+    }
+  ]
+}

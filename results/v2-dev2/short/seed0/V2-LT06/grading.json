@@ -1,0 +1,40 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The entity's exact legal name is POWELL RAW MATERIALS TRADING L.L.C",
+          "supported": true
+        },
+        {
+          "fact": "The entity's Arabic name is باول لتجارة المواد الاولية ذ.م.م",
+          "supported": true
+        },
+        {
+          "fact": "The entity's registration number is 930153",
+          "supported": true
+        },
+        {
+          "fact": "The entity's jurisdiction is Dubai, United Arab Emirates",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Powell Raw Materials Trading L.L.C's organization established date is 01 Feb 2021",
+          "supported": true
+        },
+        {
+          "fact": "The 01 Feb 2021 established date is recorded in the listing alongside the entity's UAE registration (Registration Number 930153, United Arab Emirates)",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

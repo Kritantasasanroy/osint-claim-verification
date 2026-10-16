@@ -1,0 +1,65 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "First Brands Group, LLC is a Delaware limited liability company.",
+          "supported": true
+        },
+        {
+          "fact": "First Brands Group, LLC is the legal name of the entity.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "First Brands Group is a global automotive parts company.",
+          "supported": true
+        },
+        {
+          "fact": "First Brands manufactures filters, brakes, and lighting systems.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "First Brands Group filed its Chapter 11 case in the United States Bankruptcy Court for the Southern District of Texas.",
+          "supported": true
+        },
+        {
+          "fact": "The Chapter 11 case was filed on September 28, 2025.",
+          "supported": true
+        },
+        {
+          "fact": "The case docket number is 4:25-bk-90399.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The cited excerpts contain no evidence of a Chapter 11 filing in Delaware.",
+          "supported": true
+        },
+        {
+          "fact": "The cited excerpts contain no evidence of an amended venue moving the case to Delaware.",
+          "supported": true
+        },
+        {
+          "fact": "All cited sources indicate the Texas Southern Bankruptcy Court (S.D. Tex.) as the filing venue.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,96 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "The Great Wall of China is visible to the naked eye from the Moon."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.92,
+  "summary": "The claim that the Great Wall of China is visible to the naked eye from the Moon is false. The Wall is only 4–5 m wide, which at the average Earth‑Moon distance of ~384,400 km subtends an angle of about 0.002 arcseconds—far below the human eye's resolution limit of roughly 60 arcseconds under ideal conditions. Consequently, the Wall cannot be discerned without aid, as confirmed by authoritative sources.",
+  "findings": [
+    {
+      "statement": "The Great Wall of China has a typical width of about 4–5 meters at its top.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.travelchinaguide.com/how-wide-is-great-wall-of-china.htm",
+        "https://study.com/academy/lesson/great-wall-of-china-structure-materials-dimensions.html",
+        "https://www.chinadiscovery.com/great-wall/facts/how-big-is-the-great-wall-of-china.html",
+        "https://www.britannica.com/video/Overview-Great-Wall-of-China/-191743"
+      ]
+    },
+    {
+      "statement": "The average distance from Earth to the Moon is approximately 384,400 kilometers.",
+      "confidence": 0.96,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Lunar_distance",
+        "https://spaceplace.nasa.gov/moon-distance"
+      ]
+    },
+    {
+      "statement": "At the Moon's distance, the Great Wall's width subtends an angle of roughly 0.002 arcseconds.",
+      "confidence": 0.9,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+      ]
+    },
+    {
+      "statement": "Because the Wall's angular size (~0.002 arcsec) is far below the eye's resolution limit (~60 arcsec), it cannot be seen with the naked eye from the Moon.",
+      "confidence": 0.92,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+        "https://www.travelchinaguide.com/how-wide-is-great-wall-of-china.htm",
+        "https://en.wikipedia.org/wiki/Lunar_distance"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No direct source was found for the human eye's angular resolution limit under optimal conditions; this value is taken from general knowledge.",
+    "The Wall's angular size from the Moon was derived indirectly via analogy (human hair at 3 km) rather than a direct measurement."
+  ],
+  "sources": [
+    {
+      "url": "https://www.travelchinaguide.com/how-wide-is-great-wall-of-china.htm",
+      "title": "How Wide Is the Great Wall of China? - Averagely 4-5 Meters",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://study.com/academy/lesson/great-wall-of-china-structure-materials-dimensions.html",
+      "title": "Great Wall of China | Size, Structure & Building Techniques - Lesson | Study.com",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.chinadiscovery.com/great-wall/facts/how-big-is-the-great-wall-of-china.html",
+      "title": "How Big is the Great Wall of China | Great Wall of China Size",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.britannica.com/video/Overview-Great-Wall-of-China/-191743",
+      "title": "The Great Wall of China | An Architectural Marvel | Britannica",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lunar_distance",
+      "title": "Lunar distance - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.957
+    },
+    {
+      "url": "https://spaceplace.nasa.gov/moon-distance",
+      "title": "How Far Away Is the Moon? | NASA Space Place – NASA Science for Kids",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+      "title": "Great Wall of China - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.957
+    }
+  ]
+}

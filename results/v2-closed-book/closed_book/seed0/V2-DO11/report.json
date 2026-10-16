@@ -1,0 +1,47 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Theranos Inc. announced its dissolution in September 2018, telling shareholders it will dissolve the company and distribute its remaining cash to creditors.",
+    "entity": "Theranos",
+    "disambiguators": [
+      "Inc.",
+      "September 2018"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "theranos_dissolution.png"
+  ],
+  "verdict": "TRUE",
+  "confidence": 0.95,
+  "estimative": "almost certain",
+  "summary": "Theranos announced its dissolution and liquidation plan in a September 5, 2018 press release, stating that the board approved dissolution and that remaining cash would be distributed to creditors.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

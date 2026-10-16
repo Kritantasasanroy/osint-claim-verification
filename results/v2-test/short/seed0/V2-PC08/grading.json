@@ -1,0 +1,37 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "A panel of the U.S. Court of Appeals for the Second Circuit upheld Sam Bankman-Fried's fraud conviction.",
+          "supported": true
+        },
+        {
+          "fact": "The Second Circuit issued its ruling upholding the conviction on June 12, 2026.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Second Circuit rejected Bankman-Fried's appeal and upheld his fraud conviction in June 2026.",
+          "supported": true
+        },
+        {
+          "fact": "As of September 10, 2026, Bankman-Fried remained convicted, was serving his 25-year prison sentence, and had asked the Supreme Court to overturn the conviction.",
+          "supported": true
+        },
+        {
+          "fact": "No appellate court overturned Sam Bankman-Fried's fraud conviction in 2026.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

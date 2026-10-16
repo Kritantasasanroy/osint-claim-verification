@@ -1,0 +1,72 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The full legal name of Volkswagen AG is Volkswagen Aktiengesellschaft.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Volkswagen AG's headquarters is located in Wolfsburg, Germany.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of 2026-10-01, Oliver Blume is the Chief Executive Officer of Volkswagen AG.",
+          "supported": true
+        },
+        {
+          "fact": "Oliver Blume's new five-year agreement/term as CEO is effective 1 January 2026 (running to the end of 2030).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Volkswagen AG agreed to plead guilty to three criminal felony counts related to the diesel emissions cheating scheme.",
+          "supported": true
+        },
+        {
+          "fact": "The guilty plea and penalties were announced on 11 January 2017.",
+          "supported": true
+        },
+        {
+          "fact": "Volkswagen AG agreed to pay $4.3 billion in criminal and civil fines/penalties.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "U.S. authorities extracted $25 billion in fines, penalties, civil damages and restitution from Volkswagen for the diesel emissions scandal.",
+          "supported": true
+        },
+        {
+          "fact": "This $25 billion figure was reported on 6 February 2018.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Volkswagen AG has been fined over US$30 billion for using defeat devices to evade/deceive emissions regulations.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

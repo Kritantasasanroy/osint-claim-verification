@@ -1,0 +1,32 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The address of Ari Bäckerei GmbH is Bergmannring 1, 22119 Hamburg.",
+          "supported": true
+        },
+        {
+          "fact": "Bergmannring 1, 22119 Hamburg is the registered office address of Ari Bäckerei GmbH.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The objects clause (Gegenstand) of Ari Bäckerei GmbH is 'Produktion von Backwaren aller Art'.",
+          "supported": true
+        },
+        {
+          "fact": "The company's primary business activity is the production of baked goods of all kinds.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,111 @@
+{
+  "subject": {
+    "kind": "company",
+    "statement": "Nikola Corporation (electric truck maker)"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.92,
+  "summary": "The preponderance of evidence shows that Nikola Corporation has faced significant adverse actions: a $125 million SEC settlement for fraud, criminal conviction and imprisonment of its founder Trevor Milton, and a Chapter 11 bankruptcy filing that became effective in late 2025. These factors support an ADVERSE verdict with high confidence.",
+  "findings": [
+    {
+      "statement": "Nikola Corporation agreed in December 2021 to pay the U.S. Securities and Exchange Commission $125 million to settle charges that it defrauded investors by making misleading statements about its electric‑ and hydrogen‑powered truck technology and business prospects.",
+      "confidence": 0.92,
+      "citations": [
+        "https://www.cnbc.com/2023/10/24/nikola-nkla-trevor-milton-damages.html"
+      ]
+    },
+    {
+      "statement": "Trevor Milton, Nikola’s founder and former CEO, was criminally charged by the U.S. Department of Justice, found guilty in October 2022 on two counts of wire fraud and one count of securities fraud, and sentenced in December 2023 to four years in prison for defrauding investors.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.reuters.com/business/autos-transportation/us-charges-nikola-founder-trevor-milton-with-lying-investors-2021-07-29",
+        "https://www.cnbc.com/2023/10/24/nikola-nkla-trevor-milton-damages.html",
+        "https://www.cnbc.com/2023/12/18/nikola-founder-trevor-milton-sentencing-fraud-charges.html"
+      ]
+    },
+    {
+      "statement": "Nikola Corporation filed for Chapter 11 bankruptcy in the U.S. Bankruptcy Court for the District of Delaware on February 19, 2025; the bankruptcy plan later became effective and the SEC received a $4 million distribution on or about December 15, 2025.",
+      "confidence": 0.93,
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/distributions-harmed-investors/matter-nikola-corporation-admin-proc-file-no-3-20687",
+        "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy"
+      ]
+    },
+    {
+      "statement": "As of the latest available information (December 2025), Nikola’s Chapter 11 plan remains effective and there is no public indication of a modification or dismissal as of mid‑2026.",
+      "confidence": 0.6,
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/distributions-harmed-investors/matter-nikola-corporation-admin-proc-file-no-3-20687",
+        "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy"
+      ]
+    },
+    {
+      "statement": "No ongoing SEC or DOJ investigations beyond the settled charges were identified in the reviewed sources; the December 2021 SEC settlement appears to have resolved the regulator’s claims.",
+      "confidence": 0.5,
+      "citations": [
+        "https://www.cnbc.com/2023/10/24/nikola-nkla-trevor-milton-damages.html"
+      ]
+    },
+    {
+      "statement": "Nikola Corporation is incorporated in Delaware (through its merger with the SPAC VectoIQ) and its common stock trades on the NASDAQ under the ticker NKLA.",
+      "confidence": 0.9,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Nikola_Corporation",
+        "https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "Exact day of the December 2021 SEC settlement (the sources only give the month and year).",
+    "Detailed terms of the $125 million settlement beyond the payment amount (e.g., any injunctive relief, undertakings, or admission of wrongdoing).",
+    "Any developments to Nikola’s Chapter 11 plan after December 2025 that would affect its status in mid‑2026 (no public filings or news were located).",
+    "Evidence of any parallel or follow‑on SEC/DOJ investigations after the 2021 settlement (the sources do not mention any)."
+  ],
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/2023/10/24/nikola-nkla-trevor-milton-damages.html",
+      "title": "Nikola NKLA Trevor Milton damages",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.reuters.com/business/autos-transportation/us-charges-nikola-founder-trevor-milton-with-lying-investors-2021-07-29",
+      "title": "U.S. charges Nikola founder Trevor Milton with lying to investors | Reuters",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.cnbc.com/2023/12/18/nikola-founder-trevor-milton-sentencing-fraud-charges.html",
+      "title": "Nikola founder Trevor Milton sentenced to 4 years in prison",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/distributions-harmed-investors/matter-nikola-corporation-admin-proc-file-no-3-20687",
+      "title": "In the Matter of Nikola Corporation. Admin. Proc. File No. 3-20687",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://elevenflo.com/blog/nikola-chapter-11-bankruptcy",
+      "title": "Nikola: Lucid Acquires Assets; Liquidating Plan Dec. 2025",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nikola_Corporation",
+      "title": "Nikola Corporation - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1731289/000104746920003604/a2241863zs-1.htm",
+      "title": "Nikola Corporation",
+      "tier": "official",
+      "reliability": 0.95
+    }
+  ]
+}

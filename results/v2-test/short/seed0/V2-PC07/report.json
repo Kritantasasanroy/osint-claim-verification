@@ -1,0 +1,170 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Builder.ai entered insolvency proceedings in 2025.",
+    "entity": "Builder.ai",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.8215,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, the claim that Builder.ai entered insolvency proceedings in 2025 is TRUE with 82% confidence. The company, legally known as Builder.ai (formerly Engineer.ai Corporation), is a smartphone application development firm founded in 2016 and based mainly in the UK and US. Multiple sources confirm that in May 2025 Builder.ai announced insolvency after creditors seized significant borrowed funds.",
+  "findings": [
+    {
+      "statement": "Builder.ai's full legal name is Builder.ai, formerly Engineer.ai Corporation.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Builder.ai"
+      ]
+    },
+    {
+      "statement": "Builder.ai was based mostly in the United Kingdom and the United States, with smaller subsidiaries in Singapore and India.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Builder.ai"
+      ]
+    },
+    {
+      "statement": "Builder.ai is a smartphone application development company.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Builder.ai"
+      ]
+    },
+    {
+      "statement": "Builder.ai was founded in 2016.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.wikidata.org/wiki/Q134984536"
+      ]
+    },
+    {
+      "statement": "Builder.ai entered insolvency proceedings in May 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Builder.ai",
+        "https://26gambitchambers.com/insights/2026-10-06-ai-washing-when-the-ai-turns-out-to-be-a-wrapper",
+        "https://www.instagram.com/p/Dd4dgeXF9ct",
+        "https://www.facebook.com/groups/337354698750575/posts/1186041253881911"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Builder.ai",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Builder.ai insolvency 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Builder.ai bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Builder.ai",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The evidence does not specify the exact jurisdiction of incorporation (e.g., whether Builder.ai is a UK Ltd, US Inc, or another entity type).",
+    "Precise legal entity name at incorporation (e.g., Engineer.ai Corporation Ltd) is not provided.",
+    "The exact amount of debt seized and the specific court or insolvency regime (UK administration, US Chapter 11, etc.) are not detailed in the sources.",
+    "Whether the insolvency proceedings were initiated voluntarily or forced by creditors is not clarified."
+  ],
+  "next_steps": [
+    "Query UK Companies House for Builder.ai (or Engineer.ai Corporation) to obtain incorporation date, company type, and registered office.",
+    "Search US SEC EDGAR for any filings by Builder.ai or Engineer.ai Corporation to see if a US entity exists.",
+    "Look up the insolvency case in the UK Insolvency Service database using the company name and May 2025 timeframe.",
+    "Review PACER or equivalent US bankruptcy court records for any filing matching Builder.ai in May 2025."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Builder.ai",
+      "title": "Builder.ai - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": "2026-07-18"
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q134984536",
+      "title": "Wikidata: Builder.ai",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://26gambitchambers.com/insights/2026-10-06-ai-washing-when-the-ai-turns-out-to-be-a-wrapper",
+      "title": "AI-Washing: When the “AI” Turns Out to Be a Wrapper — 26 Gambit Chambers",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-06"
+    },
+    {
+      "url": "https://www.instagram.com/p/Dd4dgeXF9ct",
+      "title": "Instagram",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.facebook.com/groups/337354698750575/posts/1186041253881911",
+      "title": "Can businesses using AI file for bankruptcy?",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

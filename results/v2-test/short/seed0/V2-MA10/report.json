@@ -1,0 +1,236 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Volkswagen AG",
+    "entity": "Volkswagen AG",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "Volkswagen AG is ADVERSE due to a criminal guilty plea on 2017-01-11 (felony conspiracy, $4.3 billion in fines) and major civil judgments/sanctions, including $25 billion extracted by U.S. authorities on 2018-02-06 and total emissions‑related fines exceeding US$30 billion.",
+  "findings": [
+    {
+      "statement": "The full legal name of Volkswagen AG is Volkswagen Aktiengesellschaft.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Group"
+      ]
+    },
+    {
+      "statement": "Volkswagen AG's headquarters is located in Wolfsburg, Germany.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.nbcnews.com/business/autos/judge-approves-largest-fine-u-s-history-volkswagen-n749406",
+        "https://en.wikipedia.org/wiki/Volkswagen_Group"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, the Chief Executive Officer of Volkswagen AG is Oliver Blume, appointed effective 1 January 2026.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.linkedin.com/posts/volkswagen-group_%E2%84%B9-volkswagen-ags-supervisory-board-appoints-activity-7384984862060978176--QpD",
+        "https://www.just-auto.com/news/vw-group-solves-ceo-dual-role-problem"
+      ]
+    },
+    {
+      "statement": "Volkswagen AG pleaded guilty to criminal felonies related to the diesel emissions scandal on 11 January 2017 and agreed to pay $4.3 billion in criminal and civil fines.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.fbi.gov/news/stories/volkswagen-to-pay-total-of-43-billion-to-resolve-criminal-and-civil-actions",
+        "https://abcnews.com/US/volkswagen-pleads-guilty-pays-43-billion-fines-settle/story?id=44715043"
+      ]
+    },
+    {
+      "statement": "U.S. authorities extracted $25 billion in fines, penalties, civil damages and restitution from Volkswagen for the diesel emissions scandal, as reported on 6 February 2018.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.propublica.org/article/how-vw-paid-25-billion-for-dieselgate-and-got-off-easy"
+      ]
+    },
+    {
+      "statement": "Volkswagen AG has been fined over US$30 billion for using defeat devices to evade emissions regulations.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Volkswagen_Group",
+        "https://www.epa.gov/vw/learn-about-volkswagen-violations"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Volkswagen AG criminal conviction major regulatory sanction insolvency bankruptcy major civil judgment",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Volkswagen AG",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Volkswagen AG",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Volkswagen AG Dieselgate settlement fine major regulatory sanction",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "encyclopedia",
+      "query": "Volkswagen AG",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Volkswagen AG CEO 2026 Oliver Blume",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Volkswagen AG",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Volkswagen AG guilty plea diesel emissions felony 2017 DOJ",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "GLEIF legal-entity (LEI) records",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "The German commercial register (Handelsregister) entry showing the exact registration number of Volkswagen AG was not located in the performed searches. [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The precise date when the aggregate sanctions exceeded US$30 billion is not specified in the evidence; only that the total is over that amount.",
+    "Details of any ongoing or additional civil litigation beyond the cited routine cases are not provided.",
+    "Official confirmation of Oliver Blume’s CEO appointment via a corporate filing or press release dated 2026‑01‑01 was not found; reliance is on secondary sources."
+  ],
+  "next_steps": [
+    "Check the German Handelsregister (e.g., via the Bundesanzeiger or Unternehmensregister) for Volkswagen AG’s registration number and current legal form.",
+    "Consult Volkswagen AG’s 2025 annual report or corporate governance documents for the exact date and official announcement of Oliver Blume’s CEO appointment.",
+    "Search the EPA enforcement docket and DOJ press release archives for the precise settlement amounts and dates related to the Dieselgate sanctions.",
+    "Review recent Volkswagen AG SEC filings (Form 20‑F) for any updates on ongoing litigation or contingent liabilities."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Volkswagen_Group",
+      "title": "Wikipedia: Volkswagen Group",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.nbcnews.com/business/autos/judge-approves-largest-fine-u-s-history-volkswagen-n749406",
+      "title": "Volkswagen Slapped With Largest Ever Fine for Automakers",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2017-04-21"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/volkswagen-group_%E2%84%B9-volkswagen-ags-supervisory-board-appoints-activity-7384984862060978176--QpD",
+      "title": "ℹ️ Volkswagen AG’s Supervisory Board appoints Oliver Blume as CEO until the end of 2030   The Supervisory Board of Volkswagen AG resolved on Friday to conclude a new agreement with Mr. Blume for a… | Volkswagen Group | 15 comments",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.just-auto.com/news/vw-group-solves-ceo-dual-role-problem",
+      "title": "VW Group resolves CEO dual-role issue",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.fbi.gov/news/stories/volkswagen-to-pay-total-of-43-billion-to-resolve-criminal-and-civil-actions",
+      "title": "Volkswagen to Pay Total of $4.3 Billion to Resolve Criminal and Civil Actions — FBI",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://abcnews.com/US/volkswagen-pleads-guilty-pays-43-billion-fines-settle/story?id=44715043",
+      "title": "Volkswagen Pleads Guilty, Pays $4.3 Billion in Fines to Settle Diesel Emissions Scandal - ABC News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2017-01-11"
+    },
+    {
+      "url": "https://www.propublica.org/article/how-vw-paid-25-billion-for-dieselgate-and-got-off-easy",
+      "title": "How VW Paid $25 Billion for Dieselgate — And Got Off Easy — ProPublica",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2018-02-06"
+    },
+    {
+      "url": "https://www.epa.gov/vw/learn-about-volkswagen-violations",
+      "title": "Learn About Volkswagen Violations | US EPA",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

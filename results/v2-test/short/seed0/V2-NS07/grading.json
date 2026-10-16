@@ -1,0 +1,57 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Adam Neumann is Israeli and American (Israeli-American).",
+          "supported": true
+        },
+        {
+          "fact": "Adam Neumann is a billionaire.",
+          "supported": true
+        },
+        {
+          "fact": "Adam Neumann co-founded WeWork in 2010 (with Miguel McKelvey).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Adam Neumann was born on April 25, 1979.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Adam Neumann was not charged with fraud.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Adam Neumann has not been criminally convicted of fraud.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The New York State Attorney-General conducted an investigation in connection with Adam Neumann / WeWork's rise and fall.",
+          "supported": true
+        },
+        {
+          "fact": "No criminal charges were filed against Adam Neumann (as an outcome related to that investigation).",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

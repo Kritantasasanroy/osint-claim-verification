@@ -1,0 +1,160 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Satya Nadella is currently the CEO of Microsoft.",
+    "entity": "Satya Nadella",
+    "disambiguators": [
+      "currently the CEO of Microsoft"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.8298,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, Satya Nadella is the CEO of Microsoft (TRUE) with 83% confidence. This is based on Microsoft's 2026 Form 10‑K and official communications (Build 2026 press release and FY 2026 Q3 earnings call) that list him as Chairman and Chief Executive Officer, complemented by Wikipedia confirming his identity.",
+  "findings": [
+    {
+      "statement": "Satya Nadella's full name is Satya Narayana Nadella, he was born on 19 August 1967, and his place of birth is Hyderabad, India.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Satya_Nadella"
+      ]
+    },
+    {
+      "statement": "Satya Nadella is identified as Chairman and Chief Executive Officer of Microsoft in a Microsoft Build 2026 press release and the FY 2026 Q3 earnings call transcript.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://news.microsoft.com/build-2026",
+        "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3"
+      ]
+    },
+    {
+      "statement": "Microsoft's 2026 Form 10-K lists Satya Nadella as Chief Executive Officer and Chairman.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.unifygtm.com/insights/executives/microsoft-ceo"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Microsoft press release September 2026 Satya Nadella CEO",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Microsoft press release August 2026 Satya Nadella position",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Satya Nadella",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Microsoft Nadella chief executive officer",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Microsoft Form 10-K 2026 Satya Nadella",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Microsoft Form 10-K 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "SEC EDGAR filings",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The evidence does not include a direct link to the actual SEC Form 10-K filing; reliance is on a third‑party summary (UnifyGTM).",
+    "No exact date of Satya Nadella’s appointment or re‑appointment as CEO is provided in the cited sources."
+  ],
+  "next_steps": [
+    "Retrieve Microsoft's Form 10‑K for fiscal year 2026 from SEC EDGAR to confirm the CEO listing directly.",
+    "Review Microsoft's latest proxy statement (DEF 14A) for 2026 to see officer compensation disclosures that reference the CEO role.",
+    "Examine Microsoft's investor relations executive bios page for a dated entry showing Satya Nadella as Chairman and CEO.",
+    "Search for Microsoft press releases or SEC filings dated after September 2026 that might indicate any change in the CEO position."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Satya_Nadella",
+      "title": "Satya Nadella - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://news.microsoft.com/build-2026",
+      "title": "Microsoft Build 2026",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q3",
+      "title": "Microsoft Fiscal Year 2026 Third Quarter Earnings Conference Call",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.unifygtm.com/insights/executives/microsoft-ceo",
+      "title": "Who is the CEO of Microsoft in 2026? Satya Nadella | Unify",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

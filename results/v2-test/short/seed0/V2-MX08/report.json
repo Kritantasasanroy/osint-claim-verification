@@ -1,0 +1,239 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Northvolt went bankrupt in 2025 and its Swedish plants were bought by Tesla.",
+    "entity": "Northvolt",
+    "disambiguators": [
+      "went bankrupt in 2025",
+      "its Swedish plants were bought by Tesla"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "MIXED",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "Verdict: MIXED at 25% confidence. Northvolt did file for bankruptcy in March 2025 (true), but Tesla did not acquire its Swedish plants; instead, Lyten acquired Northvolt Ett, Ett Expansion, and Northvolt Labs in February 2026 (false for the Tesla claim).",
+  "findings": [
+    {
+      "statement": "Northvolt AB filed for bankruptcy under Swedish law in Stockholm on March 12, 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://finance.yahoo.com/news/statement-northvolt-north-america-bankruptcy-071700969.html",
+        "https://apps.eurofound.europa.eu/restructuring-events/detail/202524",
+        "https://en.wikipedia.org/wiki/Northvolt"
+      ]
+    },
+    {
+      "statement": "Tesla did not acquire any of Northvolt's Swedish manufacturing plants; Lyten acquired Northvolt Ett, Ett Expansion, and Northvolt Labs, completing the acquisition in February 2026.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://lyten.com/2025/08/07/lyten-to-acquire-all-remaining-northvolt-assets-in-sweden-and-germany",
+        "https://www.just-auto.com/news/lyten-northvolts-swedish-battery-assets",
+        "https://elevenflo.com/blog/northvolt-bankruptcy"
+      ]
+    },
+    {
+      "statement": "After Lyten's acquisition, Northvolt Ett and Northvolt Labs are set to resume operations with commercial cell production expected in the second half of 2026.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.electrive.com/2026/02/27/lyten-completes-acquisition-of-swedish-northvolt-units",
+        "https://elevenflo.com/blog/northvolt-bankruptcy"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Northvolt",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Northvolt bankruptcy 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Tesla Northvolt Swedish plant acquisition 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Tesla Northvolt asset acquisition bankruptcy 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Lyten Northvolt Swedish plants operational status 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Northvolt bankruptcy appeal court challenge 2026",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://finance.yahoo.com/news/statement-northvolt-north-america-bankruptcy-071700969.html",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://lyten.com/2025/08/07/lyten-to-acquire-all-remaining-northvolt-assets-in-sweden-and-germany",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Northvolt bankruptcy appeal 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://example.com",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Northvolt bankruptcy appeal 2026 Stockholm court",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "Northvolt AB bankruptcy appeal",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct evidence of Tesla's interest or negotiations for Northvolt assets.",
+    "No confirmation of any appeals or challenges to the bankruptcy proceedings beyond a single news source.",
+    "No detailed breakdown of the bankruptcy estate assets or creditor claims.",
+    "No verification of the exact date of Lyten's acquisition completion beyond month-level statements."
+  ],
+  "next_steps": [
+    "Search the Swedish Companies Registry (Bolagsverket) for Northvolt AB's bankruptcy filing details and any subsequent asset sale records.",
+    "Review Tesla's press releases and SEC filings for any mention of Northvolt or battery asset acquisitions in 2024-2026.",
+    "Consult court records from Stockholm District Court for any appeals or challenges to Northvolt's bankruptcy.",
+    "Examine Lyten's acquisition agreement filings (e.g., press release, regulatory filings) to confirm exact date and scope of asset transfer."
+  ],
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/news/statement-northvolt-north-america-bankruptcy-071700969.html",
+      "title": "Statement from Northvolt North America on the Bankruptcy of Northvolt AB",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://apps.eurofound.europa.eu/restructuring-events/detail/202524",
+      "title": "Northvolt | Bankruptcy | Factsheet 202524",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Northvolt",
+      "title": "Northvolt - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://lyten.com/2025/08/07/lyten-to-acquire-all-remaining-northvolt-assets-in-sweden-and-germany",
+      "title": "PRESS RELEASE: Lyten to Acquire All Remaining Northvolt Assets in Sweden and Germany",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.just-auto.com/news/lyten-northvolts-swedish-battery-assets",
+      "title": "Lyten acquires Northvolt’s Swedish battery assets",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-27"
+    },
+    {
+      "url": "https://elevenflo.com/blog/northvolt-bankruptcy",
+      "title": "Northvolt Files Chapter 11 With $100M Scania Financing",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.electrive.com/2026/02/27/lyten-completes-acquisition-of-swedish-northvolt-units",
+      "title": "Lyten completes acquisition of Swedish Northvolt units - electrive.com",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-27"
+    }
+  ]
+}

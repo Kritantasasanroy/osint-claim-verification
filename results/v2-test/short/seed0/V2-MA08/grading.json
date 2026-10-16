@@ -1,0 +1,85 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The exact legal name of FTX is FTX Trading Ltd.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "FTX Trading Ltd was incorporated in Antigua and Barbuda.",
+          "supported": true
+        },
+        {
+          "fact": "FTX Trading Ltd is headquartered in The Bahamas.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried co-founded FTX.",
+          "supported": true
+        },
+        {
+          "fact": "Gary Wang co-founded FTX.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "FTX filed a Chapter 11 petition on November 11, 2022.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, FTX is still undergoing bankruptcy proceedings.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The CFTC filed an enforcement complaint against FTX (with Bankman-Fried and Alameda) charging fraud.",
+          "supported": true
+        },
+        {
+          "fact": "The SEC brought an enforcement action charging FTX with wrongdoing.",
+          "supported": true
+        },
+        {
+          "fact": "These CFTC and SEC enforcement actions against FTX had been brought before 2026-10-01.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of 2026-10-01, FTX has not been convicted of a criminal offense.",
+          "supported": false
+        },
+        {
+          "fact": "Only regulatory charges have been filed against FTX (i.e., no criminal charges exist against the company).",
+          "supported": false
+        },
+        {
+          "fact": "The CFTC and SEC have charged FTX and its founders for wrongdoing.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

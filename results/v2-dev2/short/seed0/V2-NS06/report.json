@@ -1,0 +1,189 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Mike Lynch, the Autonomy founder, died when his yacht sank off Sicily in 2024.",
+    "entity": "Mike Lynch",
+    "disambiguators": [
+      "the Autonomy founder",
+      "off Sicily",
+      "2024"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.9677,
+  "estimative": "almost certain",
+  "summary": "VERDICT: TRUE (97% confidence). Mike Lynch, full legal name Michael Richard Lynch, co‑founder of Autonomy Corporation, died on 19 August 2024 when his superyacht Bayesian sank off the coast of Sicily.",
+  "findings": [
+    {
+      "statement": "The full legal name of Mike Lynch is Michael Richard Lynch.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Mike_Lynch_(businessman)"
+      ]
+    },
+    {
+      "statement": "Mike Lynch is recognized as a co‑founder of the software company Autonomy Corporation.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Autonomy_Corporation",
+        "https://en.wikipedia.org/wiki/Mike_Lynch_(businessman)"
+      ]
+    },
+    {
+      "statement": "Mike Lynch died on 19 August 2024 when his superyacht Bayesian sank off the coast of Sicily.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.thetimes.com/business/companies-markets/article/bayesian-mike-lynch-superyacht-perini-navi-xdb6wtt0t",
+        "https://nypost.com/2026/05/03/world-news/bayesian-superyacht-sinking-wasnt-caused-by-catastrophic-storm",
+        "https://www.independent.co.uk/news/world/europe/bayesian-superyacht-sinking-mike-lynch-italy-b2969327.html",
+        "https://www.irishtimes.com/world/europe/2026/05/01/sinking-of-irish-born-billionaires-superyacht-was-not-due-to-storm-reports",
+        "https://news.sky.com/story/bayesian-superyacht-sinking-did-not-happen-due-to-storm-investigators-find-13538648",
+        "https://en.wikipedia.org/wiki/Mike_Lynch_(businessman)"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Mike Lynch yacht sank Sicily 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Mike Lynch entrepreneur",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Autonomy corporation",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "encyclopedia",
+      "query": "Mike Lynch",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.independent.co.uk/news/world/europe/bayesian-superyacht-sinking-mike-lynch-italy-b2969327.html",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Autonomy_Corporation",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No access to the official death certificate or maritime accident investigation report to independently confirm the cause and exact circumstances of the sinking.",
+    "No verified legal documents (e.g., probate filings) consulted to confirm the date of death beyond media reports."
+  ],
+  "next_steps": [
+    "Obtain and review the official Italian maritime accident report for the Bayesian sinking.",
+    "Request the UK death certificate or probate record for Michael Richard Lynch to confirm date and place of death."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Mike_Lynch_(businessman)",
+      "title": "Wikipedia: Mike Lynch (businessman)",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Autonomy_Corporation",
+      "title": "Wikipedia: Autonomy Corporation",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.thetimes.com/business/companies-markets/article/bayesian-mike-lynch-superyacht-perini-navi-xdb6wtt0t",
+      "title": "Boat builder behind Mike Lynch’s superyacht put up for sale",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-08-17"
+    },
+    {
+      "url": "https://nypost.com/2026/05/03/world-news/bayesian-superyacht-sinking-wasnt-caused-by-catastrophic-storm",
+      "title": "Bayesian superyacht sinking wasn't caused by catastrophic storm",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-05-03"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/world/europe/bayesian-superyacht-sinking-mike-lynch-italy-b2969327.html",
+      "title": "New report gives verdict on why Bayesian superyacht sank",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-05-02"
+    },
+    {
+      "url": "https://www.irishtimes.com/world/europe/2026/05/01/sinking-of-irish-born-billionaires-superyacht-was-not-due-to-storm-reports",
+      "title": "Sinking of Irish-born billionaire’s superyacht was not due to storm – reports – The Irish Times",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-05-01"
+    },
+    {
+      "url": "https://news.sky.com/story/bayesian-superyacht-sinking-did-not-happen-due-to-storm-investigators-find-13538648",
+      "title": "Bayesian superyacht sinking did not happen due to storm, investigators find",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-04-30"
+    }
+  ]
+}

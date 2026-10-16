@@ -1,0 +1,154 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Apple named John Ternus to succeed Tim Cook as chief executive in 2026.",
+    "entity": "John Ternus",
+    "disambiguators": [
+      "to succeed Tim Cook as chief executive",
+      "Apple",
+      "2026"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.9673,
+  "estimative": "almost certain",
+  "summary": "Verdict: TRUE at 97% confidence. Decisive facts: Apple's press release dated April 20, 2026 (captured August 19, 2026) states John Ternus will become CEO effective September 1, 2026; NBC News (April 20, 2026) confirms the announcement; Wikipedia indicates John Patrick Ternus has been CEO since September 1, 2026.",
+  "findings": [
+    {
+      "statement": "John Ternus's full name is John Patrick Ternus.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://en.wikipedia.org/wiki/John_Ternus"
+      ]
+    },
+    {
+      "statement": "As of September 30, 2026, John Ternus holds the title Chief Executive Officer of Apple.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo"
+      ]
+    },
+    {
+      "statement": "John Ternus's position prior to becoming CEO was Senior Vice President, Hardware Engineering.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
+        "https://www.nbcnews.com/business/business-news/apple-ceo-john-ternus-tim-cook-rcna341096"
+      ]
+    },
+    {
+      "statement": "Apple issued an official press release on April 20, 2026 announcing John Ternus as successor CEO effective September 1, 2026.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Apple John Ternus named successor CEO press release 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Apple leadership John Ternus senior vice president",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "read_page",
+      "query": "https://www.apple.com/apple-leadership/",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.apple.com/apple-leadership/ could not be read: 404 page not found",
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Apple Ternus chief executive officer",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No SEC filing (e.g., Form 8-K) was located in the evidence to independently verify the leadership change.",
+    "The exact effective date of the CEO transition relies solely on Apple's press release; no independent governmental or regulatory confirmation is present.",
+    "John Ternus's middle name 'Patrick' appears only in Wikipedia, not in primary Apple or SEC sources."
+  ],
+  "next_steps": [
+    "Search SEC EDGAR for Apple Form 8-K filed in April 2026 regarding executive officer change.",
+    "Review Apple's 2026 Annual Report (Form 10-K) for leadership section confirming John Ternus as CEO.",
+    "Retrieve Apple's leadership page snapshot via web archive for September 30, 2026 to verify title displayed.",
+    "Search major financial news wires (Reuters, Bloomberg) for April 20, 2026 coverage of Apple CEO succession."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Ternus",
+      "title": "John Ternus - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo",
+      "title": "Tim Cook to become Apple Executive Chairman John Ternus to become Apple CEO - Apple",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-08-19"
+    },
+    {
+      "url": "https://www.nbcnews.com/business/business-news/apple-ceo-john-ternus-tim-cook-rcna341096",
+      "title": "Apple says John Ternus will be new CEO, Tim Cook to step aside",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-04-20"
+    }
+  ]
+}

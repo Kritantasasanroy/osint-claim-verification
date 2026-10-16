@@ -1,0 +1,56 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The legal name of the entity is Northvolt AB",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt AB's LEI is 549300517DEJS8P07539",
+          "supported": true
+        },
+        {
+          "fact": "The GLEIF record shows entity status ACTIVE",
+          "supported": true
+        },
+        {
+          "fact": "The GLEIF record was last updated 2025-08-22, so the ACTIVE status holds as of that date",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The statement comes from Northvolt AB's own website (northvolt.com)",
+          "supported": true
+        },
+        {
+          "fact": "The website states Northvolt AB filed for bankruptcy in Sweden on 12 March 2025",
+          "supported": true
+        },
+        {
+          "fact": "The filing followed exhaustive efforts to secure a viable financial future that did not succeed, i.e., failure to secure new financing",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "No corporate registration number (organisationsnummer) for Northvolt AB appears in the consulted sources",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

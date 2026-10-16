@@ -1,0 +1,32 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The registered office (Sitz) of Tischlerei Bellmann GmbH entered in the commercial register is Reinhardtstraße 37, 09130 Chemnitz.",
+          "supported": true
+        },
+        {
+          "fact": "Reinhardtstraße 37, 09130 Chemnitz is also the company's business/contact address.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The primary business activity of Tischlerei Bellmann GmbH is carpentry/joinery (Tischlerei).",
+          "supported": true
+        },
+        {
+          "fact": "The specific activity/industry classification of the company is manufacture of furniture (Herstellung von Möbeln).",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

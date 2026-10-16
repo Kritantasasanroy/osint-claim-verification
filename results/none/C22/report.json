@@ -1,0 +1,18 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Mark S. Zuckerberg, bankruptcy attorney in Indianapolis"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.8,
+  "summary": "Based on the currently available evidence, it is not possible to verify whether Mark S. Zuckerberg is a licensed bankruptcy attorney in Indianapolis; the verdict is UNVERIFIABLE with 80% confidence.",
+  "findings": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No source URLs were provided in the evidence list, so no bar records, firm websites, disciplinary databases, or court records could be examined.",
+    "Without any evidence, it is impossible to confirm whether Mark S. Zuckerberg is a licensed attorney in Indiana, his practice focus, business address, or any disciplinary or bankruptcy history."
+  ],
+  "sources": []
+}

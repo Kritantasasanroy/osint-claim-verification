@@ -1,0 +1,78 @@
+{
+  "case_id": "C25",
+  "mode": "long",
+  "kind": "claim",
+  "tags": [
+    "cluster:northvolt"
+  ],
+  "expected": "TRUE",
+  "verdict": "TRUE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "TRUE",
+      "confidence": 0.85,
+      "p_correct": 0.85,
+      "reward": {
+        "step": 1,
+        "progress": 0.6,
+        "information": 0.9943393158885057,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "TRUE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 2,
+        "progress": 0.050000000000000044,
+        "information": 0.9709298521452294,
+        "corroboration": 1.0,
+        "redundancy": 0.5,
+        "tool_failure": 0.0,
+        "cost": 0.78765
+      }
+    }
+  ],
+  "tool_calls": 4,
+  "tool_failures": 0,
+  "prompt_tokens": 28716,
+  "completion_tokens": 20416,
+  "cost_usd": 0.0130796,
+  "wall_clock_s": 257.6368706000503,
+  "call_latency_s": 296.526,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 4,
+  "conflicts_final": 0,
+  "independent_domains": 10,
+  "evidence_weight": 17.424508009153318,
+  "mean_evidence_reliability": 0.6557225188575303,
+  "authoritative_evidence": true,
+  "memories_retrieved": 6,
+  "memory_labels": {
+    "M178": "relevant",
+    "M181": "irrelevant",
+    "M176": "relevant",
+    "M177": "relevant",
+    "M179": "relevant",
+    "M129": "irrelevant"
+  },
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.99,
+    "cost": 0.32754666666666665
+  }
+}

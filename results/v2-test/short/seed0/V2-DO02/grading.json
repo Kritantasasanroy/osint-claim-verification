@@ -1,0 +1,49 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Wirecard AG was dissolved on 2020-09-03.",
+          "supported": true
+        },
+        {
+          "fact": "Because it was dissolved on 2020-09-03, Wirecard AG could not have existed to report fiscal year 2023 revenue.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of December 21, 2023, Wirecard AG was listed as participating in insolvency proceedings.",
+          "supported": true
+        },
+        {
+          "fact": "Those insolvency proceedings were ongoing in Germany.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Wirecard AG filed for insolvency proceedings.",
+          "supported": true
+        },
+        {
+          "fact": "Wirecard AG did not publish or file financial statements for fiscal year 2023.",
+          "supported": false
+        },
+        {
+          "fact": "Wirecard AG's insolvency status was the reason it did not publish or file financial statements for fiscal year 2023.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

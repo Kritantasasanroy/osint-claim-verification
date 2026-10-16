@@ -1,0 +1,115 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Wirecard's former COO Jan Marsalek has been arrested and is in German custody."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.92,
+  "summary": "The claim that Wirecard's former COO Jan Marsalek has been arrested and is in German custody is false; extensive evidence shows he remains a fugitive wanted by German authorities, believed to be residing in Russia, with no credible record of arrest or detention in Germany.",
+  "findings": [
+    {
+      "statement": "Jan Marsalek was born on 15 March 1980 in Vienna, Austria.",
+      "confidence": 0.96,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Jan_Marsalek"
+      ]
+    },
+    {
+      "statement": "Jan Marsalek served as chief operating officer of Wirecard AG from 2010 to 2020.",
+      "confidence": 0.95,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Jan_Marsalek",
+        "https://www.wsj.com/world/europe/hes-wanted-for-wirecards-missing-2-billion-hes-now-suspected-of-being-a-russian-spy-61d79ee2"
+      ]
+    },
+    {
+      "statement": "Jan Marsalek has not been arrested; he is a fugitive wanted by German authorities and subject to an international arrest warrant and Interpol notice.",
+      "confidence": 0.93,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Jan_Marsalek",
+        "https://www.wsj.com/world/europe/hes-wanted-for-wirecards-missing-2-billion-hes-now-suspected-of-being-a-russian-spy-61d79ee2",
+        "https://www.afr.com/companies/financial-services/the-double-life-of-wirecard-s-missing-coo-20200714-p55bvu",
+        "https://www.pbs.org/wgbh/frontline/article/jan-marsalek-wirecard-moscow"
+      ]
+    },
+    {
+      "statement": "Jan Marsalek is not detained in Germany; credible sources indicate he is believed to be residing in Russia, possibly Moscow, under a false identity.",
+      "confidence": 0.88,
+      "citations": [
+        "https://www.reuters.com/world/europe/three-bulgarians-convicted-spying-russia-after-uk-trial-2025-03-07",
+        "https://www.themoscowtimes.com/2025/09/17/fugitive-wirecard-executive-living-in-moscow-under-false-identity-investigation-reveals-a90543",
+        "https://www.wsj.com/articles/germany-asks-russia-to-help-find-former-wirecard-executive-11596056696"
+      ]
+    },
+    {
+      "statement": "Contemporaneous evidence, including wanted notices and statements from authorities, shows Jan Marsalek is not in German custody.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.wsj.com/articles/germany-asks-russia-to-help-find-former-wirecard-executive-11596056696",
+        "https://www.afr.com/companies/financial-services/the-double-life-of-wirecard-s-missing-coo-20200714-p55bvu",
+        "https://www.pbs.org/wgbh/frontline/article/jan-marsalek-wirecard-moscow",
+        "https://theins.press/en/inv/284980"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "Exact current whereabouts of Jan Marsalek (specific address or facility) have not been publicly verified.",
+    "No official German court or police record confirms a recent arrest or detention after 2020.",
+    "Statements from Jan Marsalek’s legal counsel regarding his custody status are absent from the evidence.",
+    "Recent, independently verified sightings of Marsalek after September 2025 are not documented in the sources.",
+    "Confirmation of any Russian passport or identity documents held by Marsalek is not provided."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Jan_Marsalek",
+      "title": "Jan Marsalek - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.962
+    },
+    {
+      "url": "https://www.wsj.com/world/europe/hes-wanted-for-wirecards-missing-2-billion-hes-now-suspected-of-being-a-russian-spy-61d79ee2",
+      "title": "Exclusive | He’s Wanted for Wirecard’s Missing $2 Billion. He’s Now Suspected of Being a Russian Spy. - WSJ",
+      "tier": "major_news",
+      "reliability": 0.9
+    },
+    {
+      "url": "https://www.afr.com/companies/financial-services/the-double-life-of-wirecard-s-missing-coo-20200714-p55bvu",
+      "title": "The double life of Wirecard’s Jan Marsalek",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/frontline/article/jan-marsalek-wirecard-moscow",
+      "title": "A Window Into the Moscow Life of Wirecard’s Jan Marsalek | FRONTLINE | PBS | Official Site | Documentary Series",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.reuters.com/world/europe/three-bulgarians-convicted-spying-russia-after-uk-trial-2025-03-07",
+      "title": "Bulgarians convicted in UK of being Russian spies working for Wirecard fugitive",
+      "tier": "major_news",
+      "reliability": 0.973
+    },
+    {
+      "url": "https://www.themoscowtimes.com/2025/09/17/fugitive-wirecard-executive-living-in-moscow-under-false-identity-investigation-reveals-a90543",
+      "title": "Fugitive Wirecard Executive Living in Moscow Under False Identity, Investigation Reveals - The Moscow Times",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.wsj.com/articles/germany-asks-russia-to-help-find-former-wirecard-executive-11596056696",
+      "title": "Germany Asks Russia to Help Find Former Wirecard Executive - WSJ",
+      "tier": "major_news",
+      "reliability": 0.9
+    },
+    {
+      "url": "https://theins.press/en/inv/284980",
+      "title": "Our Jan in Moscow: The secret Russian life of Europe's most notorious fugitive-turned-spy — The Insider",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

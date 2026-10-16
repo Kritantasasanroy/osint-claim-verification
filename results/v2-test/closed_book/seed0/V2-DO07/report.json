@@ -1,0 +1,50 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "FTX Trading Ltd relaunched its exchange in 2025 worldwide, fully licensed in the United States, under founder Sam Bankman-Fried.",
+    "entity": "FTX",
+    "disambiguators": [
+      "FTX Trading Ltd",
+      "relaunched its exchange in 2025",
+      "worldwide",
+      "fully licensed in the United States",
+      "under founder Sam Bankman-Fried"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "ftx_relaunch_2025.png"
+  ],
+  "verdict": "FALSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "FTX Trading Ltd filed for bankruptcy in November 2022 and its founder Sam Bankman-Fried was convicted and sentenced in 2023‑2024; there is no credible evidence of a worldwide relaunch in 2025 or of obtaining a full U.S. license under his leadership.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

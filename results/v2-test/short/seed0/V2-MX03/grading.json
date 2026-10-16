@@ -1,0 +1,61 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon was arrested in Montenegro.",
+          "supported": true
+        },
+        {
+          "fact": "The arrest occurred on March 23, 2023.",
+          "supported": false
+        },
+        {
+          "fact": "The arrest was carried out by Montenegrin authorities.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon was extradited from Montenegro to the United States.",
+          "supported": true
+        },
+        {
+          "fact": "The extradition occurred on December 31, 2024.",
+          "supported": true
+        },
+        {
+          "fact": "Do Kwon was not extradited to South Korea.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "France24 reports Do Kwon was extradited from Montenegro to the United States.",
+          "supported": true
+        },
+        {
+          "fact": "BBC reports Do Kwon was to be extradited from Montenegro to the United States.",
+          "supported": true
+        },
+        {
+          "fact": "Reuters reports Montenegro extradited Do Kwon to the United States.",
+          "supported": true
+        },
+        {
+          "fact": "The cited excerpts contain no report of an extradition to South Korea; all identify the United States as the destination.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

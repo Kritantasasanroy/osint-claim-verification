@@ -1,0 +1,134 @@
+{
+  "case_id": "V2-LT15",
+  "mode": "short",
+  "seed": 0,
+  "split": "test",
+  "slices": [
+    "long_tail"
+  ],
+  "kind": "company",
+  "tags": [
+    "long_tail"
+  ],
+  "expected": "NO_ADVERSE",
+  "verdict": "UNVERIFIABLE",
+  "correct": true,
+  "confidence": 0.3333333333333333,
+  "llm_confidence": 0.7,
+  "posterior_confidence": 0.05833687050436911,
+  "confidence_inputs": {
+    "llm_probability": 0.7,
+    "posterior_probability": 0.05833687050436911,
+    "independent_supporters": 0.0,
+    "authoritative_support": 0.0
+  },
+  "scope": {
+    "kind_correct": true,
+    "assertion_preserved": true,
+    "disambiguators_preserved": true
+  },
+  "stop_reason": "concluded",
+  "max_steps": 4,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.3333333333333333,
+      "p_correct": 0.6666666666666667,
+      "llm_p_correct": 0.67,
+      "posterior_p_correct": 0.6666666666666666,
+      "reward": {
+        "step": 1,
+        "progress": 1.1102230246251565e-16,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.874
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.3333333333333333,
+      "p_correct": 0.6666666666666667,
+      "llm_p_correct": 0.95,
+      "posterior_p_correct": 0.8301705061138438,
+      "reward": {
+        "step": 2,
+        "progress": 0.0,
+        "information": 0.2917796465322,
+        "corroboration": 0.6666666666666666,
+        "redundancy": 0.15384615384615385,
+        "tool_failure": 0.0,
+        "cost": 0.8399
+      }
+    },
+    {
+      "step": 3,
+      "verdict": "NO_ADVERSE",
+      "confidence": 0.7698797398482576,
+      "p_correct": 0.8849398699241289,
+      "llm_p_correct": 0.8300000000000001,
+      "posterior_p_correct": 0.8282166103526267,
+      "reward": {
+        "step": 3,
+        "progress": 0.21827320325746213,
+        "information": 0.44010163343459796,
+        "corroboration": 0.3333333333333333,
+        "redundancy": 0.5555555555555556,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 4,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.3333333333333333,
+      "p_correct": 0.6666666666666667,
+      "llm_p_correct": 0.8999999999999999,
+      "posterior_p_correct": 0.8282166103526267,
+      "reward": {
+        "step": 4,
+        "progress": -0.21827320325746213,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.15384615384615385,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 12,
+  "tool_failures": 0,
+  "rejected_repeats": 1,
+  "critic_checks": 0,
+  "prompt_tokens": 63468,
+  "completion_tokens": 27746,
+  "cost_usd": 0.0202198,
+  "wall_clock_s": 775.7201347999508,
+  "call_latency_s": 384.168,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 2,
+  "conflicts_final": 0,
+  "independent_domains": 3,
+  "evidence_weight": 1.85,
+  "supporting_weight": 0.0,
+  "mean_evidence_reliability": 0.3625,
+  "authoritative_evidence": false,
+  "primary_record_cited": false,
+  "withdrawn_statements": 2,
+  "manipulation_flags": 0,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "judge_model": "z-ai/glm-5.3-flash",
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.5555555555555555,
+    "cost": 0.6080933333333334
+  }
+}

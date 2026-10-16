@@ -1,0 +1,53 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of 2026-10-01, Costco Wholesale Corporation is not under criminal investigation.",
+          "supported": false
+        },
+        {
+          "fact": "The claim is assigned a verdict of FALSE with 77% confidence.",
+          "supported": false
+        },
+        {
+          "fact": "There is no DOJ press release indicating an active investigation of Costco.",
+          "supported": false
+        },
+        {
+          "fact": "There is no SEC Form 8-K indicating an active investigation of Costco.",
+          "supported": false
+        },
+        {
+          "fact": "There is no major news report indicating an active investigation of Costco.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Costco Wholesale Corporation's exact legal name, as specified in its charter, is Costco Wholesale Corporation.",
+          "supported": true
+        },
+        {
+          "fact": "Costco's worldwide headquarters are in Issaquah, Washington.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Costco Wholesale Corporation operates a chain of membership-only big-box warehouse club retail stores.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,64 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Wirecard AG's exact legal name is Wirecard AG.",
+          "supported": true
+        },
+        {
+          "fact": "Wirecard AG's registered headquarters/legal address is Aschheim, Germany.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Wirecard AG is subject to insolvency/bankruptcy proceedings in Germany.",
+          "supported": true
+        },
+        {
+          "fact": "The insolvency/bankruptcy proceedings were ongoing as of 2026-10-01.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Markus Braun was the CEO of Wirecard AG (a senior executive of the company).",
+          "supported": true
+        },
+        {
+          "fact": "Markus Braun has been charged with fraud and related offenses.",
+          "supported": true
+        },
+        {
+          "fact": "Criminal proceedings against Markus Braun are ongoing as of 2026-10-01.",
+          "supported": true
+        },
+        {
+          "fact": "No final judgment has been recorded against Markus Braun.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "No material financial regulator sanction (e.g., license revocation) against Wirecard AG remained in effect as of 2026-10-01.",
+          "supported": false
+        },
+        {
+          "fact": "No major fine imposed by a financial regulator against Wirecard AG remained in effect as of 2026-10-01.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

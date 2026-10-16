@@ -1,0 +1,102 @@
+{
+  "case_id": "C19",
+  "mode": "none",
+  "kind": "claim",
+  "tags": [
+    "science",
+    "conflicting"
+  ],
+  "expected": "MIXED",
+  "verdict": "UNVERIFIABLE",
+  "correct": true,
+  "confidence": 0.85,
+  "stop_reason": "tool_budget",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "MIXED",
+      "confidence": 0.6,
+      "p_correct": 0.8,
+      "reward": {
+        "step": 1,
+        "progress": 0.050000000000000044,
+        "information": 0.9967202890976564,
+        "corroboration": 1.0,
+        "redundancy": 0.16666666666666666,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "MIXED",
+      "confidence": 0.6,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 2,
+        "progress": 0.09999999999999998,
+        "information": 0.950212931632136,
+        "corroboration": 1.0,
+        "redundancy": 0.6111111111111112,
+        "tool_failure": 0.0,
+        "cost": 0.77355
+      }
+    },
+    {
+      "step": 3,
+      "verdict": "MIXED",
+      "confidence": 0.45,
+      "p_correct": 0.85,
+      "reward": {
+        "step": 3,
+        "progress": -0.050000000000000044,
+        "information": 0.9802578631285073,
+        "corroboration": 1.0,
+        "redundancy": 0.7222222222222222,
+        "tool_failure": 0.0,
+        "cost": 0.65115
+      }
+    },
+    {
+      "step": 4,
+      "verdict": "UNVERIFIABLE",
+      "confidence": 0.85,
+      "p_correct": 0.95,
+      "reward": {
+        "step": 4,
+        "progress": 0.09999999999999998,
+        "information": 0.18126924692201818,
+        "corroboration": 0.3333333333333333,
+        "redundancy": 0.7777777777777778,
+        "tool_failure": 0.0,
+        "cost": 0.5189
+      }
+    }
+  ],
+  "tool_calls": 12,
+  "tool_failures": 0,
+  "prompt_tokens": 33171,
+  "completion_tokens": 34369,
+  "cost_usd": 0.0205016,
+  "wall_clock_s": 197.1707846999634,
+  "call_latency_s": 279.879,
+  "key_fact_recall": 0.0,
+  "citation_precision": 0.0,
+  "findings": 5,
+  "conflicts_final": 1,
+  "independent_domains": 18,
+  "evidence_weight": 25.69,
+  "mean_evidence_reliability": 0.6144444444444445,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.0,
+    "citation_precision": 0.0,
+    "calibration": 0.9775,
+    "cost": 0.45026666666666665
+  }
+}

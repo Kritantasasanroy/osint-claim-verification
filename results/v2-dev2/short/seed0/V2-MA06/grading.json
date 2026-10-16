@@ -1,0 +1,68 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's full legal name is Bose Corporation.",
+          "supported": true
+        },
+        {
+          "fact": "The company is incorporated in the United States.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Bose Corporation's headquarters is located in Framingham, Massachusetts.",
+          "supported": true
+        },
+        {
+          "fact": "The former Bose headquarters was in Stow, Massachusetts as of July 2026.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Bose Corporation was founded in 1964.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The reviewed sources contain no criminal convictions of Bose Corporation.",
+          "supported": true
+        },
+        {
+          "fact": "The reviewed sources contain no criminal charges against Bose Corporation.",
+          "supported": true
+        },
+        {
+          "fact": "The reviewed sources contain no indictments against Bose Corporation.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The reviewed sources contain no enforcement actions by regulators such as the FTC, SEC, or CPSC against Bose Corporation.",
+          "supported": true
+        },
+        {
+          "fact": "The reviewed sources contain no sanctions or bans imposed on Bose Corporation by regulators.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

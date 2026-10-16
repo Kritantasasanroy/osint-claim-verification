@@ -1,0 +1,245 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Patagonia (outdoor clothing company)",
+    "entity": "Patagonia",
+    "disambiguators": [
+      "outdoor clothing company"
+    ],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.7918,
+  "estimative": "likely",
+  "summary": "As of 2026-10-13, Patagonia, Inc. shows no adverse legal findings; the only publicly known legal matter is a routine trademark lawsuit filed in January 2026 seeking $1 in damages. Consequently, the verdict is NO_ADVERSE with 79% confidence.",
+  "findings": [
+    {
+      "statement": "Patagonia, Inc.'s full legal name is Patagonia, Inc. and it is incorporated in the United States.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc."
+      ]
+    },
+    {
+      "statement": "Patagonia, Inc.'s headquarters is located in Ventura, California, United States.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc.",
+        "https://www.desertsun.com/story/news/nation/california/2026/01/22/patagonia-sues-pattie-gonia-trademark-california/88307449007"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-13, Patagonia, Inc. and its subsidiaries have not been subject to any criminal conviction, indictment, or formal charges.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://fortune.com/2026/06/15/patagonia-lawsuit-pattie-gonia-drag-queen-brand",
+        "https://www.nytimes.com/2026/06/02/us/pattie-gonia-patagonia-trademark-lawsuit.html"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-13, Patagonia, Inc. and its subsidiaries have not faced any material civil judgment, major regulatory enforcement action, sanctions, or bankruptcy proceedings.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://fortune.com/2026/06/15/patagonia-lawsuit-pattie-gonia-drag-queen-brand",
+        "https://www.nytimes.com/2026/06/02/us/pattie-gonia-patagonia-trademark-lawsuit.html"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-13, there are no recent regulatory filings, court records, or reputable news reports indicating criminal or civil actions against Patagonia, Inc. or its subsidiaries beyond a routine trademark lawsuit seeking $1 in damages.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://time.com/article/2026/06/01/patagonia-pattie-gonia-trademark-lawsuit-what-to-know",
+        "https://www.euronews.com/2026/06/05/patagonia-vs-pattie-gonia-why-is-the-clothing-giant-suing-the-famous-drag-queen"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Patagonia Inc incorporated state",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Patagonia Inc headquarters",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Patagonia Inc lawsuit criminal conviction indictment regulatory enforcement bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Patagonia Inc",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Patagonia Inc",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Patagonia Inc lawsuit 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Patagonia Inc criminal",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "sanctions",
+      "query": "Patagonia Inc",
+      "results": 0,
+      "failure": "UnusableArgument: sanctions needs a tool this toolbox offers, got: Patagonia Inc",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Patagonia Inc bankruptcy 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Patagonia Inc criminal conviction 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Patagonia Inc regulatory enforcement 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "gleif",
+      "query": "Patagonia, Inc.",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "GLEIF legal-entity (LEI) records",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "Exact date and state of incorporation not verified via authoritative corporate registry. [withdrawn: no tool checked company_register]",
+    "Sanctions list screening could not be performed due to tool failure. [withdrawn: no tool checked sanctions]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No review of private settlements, sealed court records, or minor administrative fines.",
+    "Limited visibility into potential non-public regulatory inquiries."
+  ],
+  "next_steps": [
+    "Perform sanctions screening using an appropriate tool (e.g., OFAC sanctions list) for Patagonia, Inc.",
+    "Query the California Secretary of State for incorporation date, state, and any recent filings.",
+    "Review SEC EDGAR filings (10-K, 10-Q) for any disclosed legal proceedings or contingencies.",
+    "Monitor news and legal databases for any upcoming litigation or regulatory actions involving Patagonia, Inc."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Patagonia,_Inc.",
+      "title": "Patagonia, Inc. - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.desertsun.com/story/news/nation/california/2026/01/22/patagonia-sues-pattie-gonia-trademark-california/88307449007",
+      "title": "Patagonia sues drag queen activist Pattie Gonia in trademark case tied",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-01-22"
+    },
+    {
+      "url": "https://fortune.com/2026/06/15/patagonia-lawsuit-pattie-gonia-drag-queen-brand",
+      "title": "Why Patagonia is risking its progressive brand image with a lawsuit against a drag queen | Fortune",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-15"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/06/02/us/pattie-gonia-patagonia-trademark-lawsuit.html",
+      "title": "Patagonia Is Suing Pattie Gonia Over Trademark Infringement: What to Know",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-02"
+    },
+    {
+      "url": "https://time.com/article/2026/06/01/patagonia-pattie-gonia-trademark-lawsuit-what-to-know",
+      "title": "What You Need to Know About Patagonia's Lawsuit Against Drag Queen Pattie Gonia",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-02"
+    },
+    {
+      "url": "https://www.euronews.com/2026/06/05/patagonia-vs-pattie-gonia-why-is-the-clothing-giant-suing-the-famous-drag-queen",
+      "title": "Patagonia vs Pattie Gonia: Why is the clothing giant suing the famous drag queen? | Euronews",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-05"
+    }
+  ]
+}

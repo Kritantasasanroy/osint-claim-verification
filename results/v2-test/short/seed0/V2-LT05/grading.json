@@ -1,0 +1,36 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "On July 18, 2025, the SEC charged Ameri Metro, Inc.",
+          "supported": true
+        },
+        {
+          "fact": "The SEC's charge against Ameri Metro, Inc. was for defrauding investors.",
+          "supported": true
+        },
+        {
+          "fact": "The conduct was characterized as a multi-million dollar offering fraud.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Ameri Metro, Inc. is a Delaware corporation.",
+          "supported": true
+        },
+        {
+          "fact": "Ameri Metro, Inc. has CIK 0001534155.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

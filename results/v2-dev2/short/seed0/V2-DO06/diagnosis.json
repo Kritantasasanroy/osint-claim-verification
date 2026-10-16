@@ -1,0 +1,14 @@
+{
+  "case_id": "V2-DO06",
+  "mode": "short",
+  "seed": 0,
+  "correct": false,
+  "verdict_flips": 2,
+  "steps_to_stable": 4,
+  "misleading_memories_trusted": 0,
+  "failure_modes": [
+    "weak_evidence",
+    "budget_exhausted",
+    "tool_failures"
+  ]
+}

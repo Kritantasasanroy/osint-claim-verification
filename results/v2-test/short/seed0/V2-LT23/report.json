@@ -1,0 +1,207 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Satya Nadella had coffee with the Microsoft board the morning before Build 2025.",
+    "entity": "Satya Nadella",
+    "disambiguators": [
+      "the morning before Build 2025",
+      "Microsoft board"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "Verdict: UNVERIFIABLE (25% confidence). Decisive facts: Satya Nadella was Chairman and CEO of Microsoft as of May 2025 (per sources dated 2025-07-23 and 2026-09-22); Microsoft Build 2025 occurred May 19-22, 2025 (per multiple sources). No credible evidence was located showing a coffee meeting with the board on the morning before Build 2025 (May 18, 2025).",
+  "findings": [
+    {
+      "statement": "Satya Nadella was the Chairman and CEO of Microsoft as of May 2025.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://blockchainaiforum.com",
+        "https://www.newsweek.com/2025/08/08/indian-ceos-america-are-more-common-everwhat-sets-them-apart-2101964.html"
+      ]
+    },
+    {
+      "statement": "Microsoft Build 2025 developer conference was held from May 19 to May 22, 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://sustainabletechpartner.com/event/microsoft-build-2025-developer-conference-dates-city-location",
+        "https://multishoring.com/blog/microsoft-build-2025-ultimate-guide",
+        "https://mashable.com/article/microsoft-build-2025-dates-announced",
+        "https://devblogs.microsoft.com/visualstudio/how-to-watch-microsoft-build-2025-online"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "sec_edgar",
+      "query": "Microsoft Corporation DEF 14A",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Microsoft Build 2025 conference start date end date",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Satya Nadella coffee with Microsoft board morning before Build 2025",
+      "results": 5,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Microsoft DEF 14A 2025 proxy statement",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/Archives/edgar/data/789019/000095017025000012/msft-20250318.htm",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.sec.gov/Archives/edgar/data/789019/000095017025000012/msft-20250318.htm could not be read: 404 page not found",
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Satya Nadella coffee board May 18 2025 statement denial confirmation",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Satya Nadella coffee with Microsoft board May 18 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Satya Nadella denies coffee meeting with board May 18 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Microsoft statement on Nadella coffee board meeting May 18 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [
+    "Microsoft’s CEO Just Joined Starbucks Board; Big Deal or Little Deal?<!-- --> - Barron's: \"erved. [...] ## Barron's Barron's ### You are now leaving Barron's website\""
+  ],
+  "gaps": [
+    "Whether Satya Nadella had coffee with the Microsoft Board on May 18, 2025.",
+    "The exact membership of the Microsoft Board of Directors on May 18, 2025.",
+    "Any public statement or denial from Satya Nadella or Microsoft regarding such a coffee meeting.",
+    "Any photographic, calendar, or internal communication evidence of the meeting."
+  ],
+  "next_steps": [
+    "Request Microsoft's internal calendar or meeting logs for May 18, 2025 via FOIA or internal leak.",
+    "Review Microsoft's DEF 14A proxy statements and 8-K filings for board meeting minutes around May 2025.",
+    "Search news archives and press releases from May 15-20, 2025 for any mention of a Nadella-board coffee meeting.",
+    "Check social media platforms (LinkedIn, Twitter) of board members and Satya Nadella for posts around May 18, 2025."
+  ],
+  "sources": [
+    {
+      "url": "https://blockchainaiforum.com",
+      "title": "Governance and Tokenization in the Junior Mining Space – Exploring the intersection of metals, tokenization and governance with Yogi Nelson",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-22"
+    },
+    {
+      "url": "https://www.newsweek.com/2025/08/08/indian-ceos-america-are-more-common-everwhat-sets-them-apart-2101964.html",
+      "title": "Indian CEOs in America Are More Common Than Ever—What Sets Them Apart? - Newsweek",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2025-07-23"
+    },
+    {
+      "url": "https://sustainabletechpartner.com/event/microsoft-build-2025-developer-conference-dates-city-location",
+      "title": "Microsoft Build 2025 Developer Conference Dates, City Location - Sustainable Tech Partner for IT Service Providers",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://multishoring.com/blog/microsoft-build-2025-ultimate-guide",
+      "title": "Microsoft Build 2025: Ultimate Conference Guide | Multishoring",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://mashable.com/article/microsoft-build-2025-dates-announced",
+      "title": "Microsoft Build 2025 dates are officially confirmed | Mashable",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://devblogs.microsoft.com/visualstudio/how-to-watch-microsoft-build-2025-online",
+      "title": "How to Watch Microsoft Build 2025 Online - Visual Studio Blog",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

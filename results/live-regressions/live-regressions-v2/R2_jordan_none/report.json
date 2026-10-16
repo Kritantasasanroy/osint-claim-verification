@@ -1,0 +1,142 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Michael I. Jordan, the UC Berkeley machine-learning professor, played professional basketball in the NBA.",
+    "entity": "Michael I. Jordan",
+    "disambiguators": [
+      "UC Berkeley machine-learning professor"
+    ],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "As of 2026-10-13, the claim that Michael I. Jordan, the UC Berkeley machine‑learning professor, played professional basketball in the NBA is UNVERIFIABLE (≈25% confidence). The only verified information is that his full name is Michael Jordan and he is a Professor of the Graduate School in the UC Berkeley Department of Statistics.",
+  "findings": [
+    {
+      "statement": "Michael I. Jordan's full name is Michael Jordan and his current institutional affiliation is the UC Berkeley Department of Statistics.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://statistics.berkeley.edu/people/michael-jordan"
+      ]
+    },
+    {
+      "statement": "Michael I. Jordan's primary title or position at UC Berkeley as of 2026-10-13 is Professor of the Graduate School.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://statistics.berkeley.edu/people/michael-jordan"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "'Michael I. Jordan' NBA",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "'Michael I. Jordan' site:basketball-reference.com",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Michael I. Jordan",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Michael I. Jordan UC Berkeley professor NBA",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Michael_I._Jordan",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Michael I. Jordan NBA site:nba.com",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Michael I. Jordan Basketball-Reference",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Michael I. Jordan UC Berkeley faculty basketball",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No authoritative NBA roster or game‑participation records were examined for Michael I. Jordan.",
+    "The performed search did not query Basketball‑Reference or NBA.com, so absence of NBA evidence cannot be confirmed.",
+    "No UC Berkeley faculty profile or public interview was checked for basketball involvement beyond the general faculty page."
+  ],
+  "next_steps": [
+    "Query Basketball‑Reference for \"Michael I. Jordan\" and review any player entry.",
+    "Search the NBA.com official player database for \"Michael I. Jordan\".",
+    "Examine UC Berkeley faculty profiles, press releases, or interview transcripts for any mention of basketball participation.",
+    "Search news archives and sports databases for any reference to Michael I. Jordan playing in the NBA."
+  ],
+  "sources": [
+    {
+      "url": "https://statistics.berkeley.edu/people/michael-jordan",
+      "title": "Michael Jordan | Department of Statistics",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    }
+  ]
+}

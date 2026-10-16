@@ -1,0 +1,64 @@
+{
+  "case_id": "C23",
+  "mode": "long",
+  "kind": "claim",
+  "tags": [
+    "ambiguous_name",
+    "cluster:zuckerberg"
+  ],
+  "expected": "TRUE",
+  "verdict": "TRUE",
+  "correct": true,
+  "confidence": 0.86,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "TRUE",
+      "confidence": 0.86,
+      "p_correct": 0.86,
+      "reward": {
+        "step": 1,
+        "progress": 0.61,
+        "information": 0.9719845742257782,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 16917,
+  "completion_tokens": 12542,
+  "cost_usd": 0.0079627,
+  "wall_clock_s": 115.6852663999889,
+  "call_latency_s": 178.668,
+  "key_fact_recall": 0.5,
+  "citation_precision": 1.0,
+  "findings": 4,
+  "conflicts_final": 0,
+  "independent_domains": 5,
+  "evidence_weight": 7.1499999999999995,
+  "mean_evidence_reliability": 0.6824074074074074,
+  "authoritative_evidence": false,
+  "memories_retrieved": 6,
+  "memory_labels": {
+    "M163": "relevant",
+    "M161": "relevant",
+    "M165": "relevant",
+    "M160": "relevant",
+    "M162": "relevant",
+    "M164": "relevant"
+  },
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.5,
+    "citation_precision": 1.0,
+    "calibration": 0.9804,
+    "cost": 0.19639333333333334
+  }
+}

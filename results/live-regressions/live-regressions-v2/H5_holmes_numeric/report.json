@@ -1,0 +1,209 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Elizabeth Holmes was sentenced to 11 years and 3 months in prison.",
+    "entity": "Elizabeth Holmes",
+    "disambiguators": [],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.9953,
+  "estimative": "almost certain",
+  "summary": "The claim is TRUE: Elizabeth Holmes was sentenced to 11 years and 3 months in prison. This is supported by multiple contemporaneous news sources (NBC, CNBC, WSJ, ABC, US Magazine) and Wikipedia, all reporting the 2022 sentencing of 11 years and 3 months (135 months).",
+  "findings": [
+    {
+      "statement": "Elizabeth Holmes is the founder of Theranos.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://abc7news.com/post/former-theranos-founder-elizabeth-holmes-posts-prison-says-shes-fighting-prove-innocence/19884569",
+        "https://www.usmagazine.com/celebrity-news/news/elizabeth-holmes-praises-trump-after-securing-early-release",
+        "https://www.nbcnews.com/business/business-news/elizabeth-holmes-sentenced-theranos-trial-rcna57344",
+        "https://www.cnbc.com/2022/11/18/former-theranos-ceo-elizabeth-holmes-sentenced-to-more-than-11-years-in-prison.html",
+        "https://www.wsj.com/articles/elizabeth-holmes-is-sentenced-to-11-25-years-in-prison-for-defrauding-theranos-investors-11668809805",
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+      ]
+    },
+    {
+      "statement": "Elizabeth Holmes's role at Theranos was founder and CEO.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.nbcnews.com/business/business-news/elizabeth-holmes-sentenced-theranos-trial-rcna57344",
+        "https://www.wsj.com/articles/elizabeth-holmes-is-sentenced-to-11-25-years-in-prison-for-defrauding-theranos-investors-11668809805"
+      ]
+    },
+    {
+      "statement": "Elizabeth Holmes was sentenced to 11 years and 3 months in prison.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://abcnews.com/US/elizabeth-holmes-scheduled-move-halfway-house-august-2027/story?id=136698221",
+        "https://abc7news.com/post/former-theranos-founder-elizabeth-holmes-posts-prison-says-shes-fighting-prove-innocence/19884569",
+        "https://www.usmagazine.com/celebrity-news/news/elizabeth-holmes-praises-trump-after-securing-early-release",
+        "https://www.nbcnews.com/business/business-news/elizabeth-holmes-sentenced-theranos-trial-rcna57344",
+        "https://www.cnbc.com/2022/11/18/former-theranos-ceo-elizabeth-holmes-sentenced-to-more-than-11-years-in-prison.html",
+        "https://www.wsj.com/articles/elizabeth-holmes-is-sentenced-to-11-25-years-in-prison-for-defrauding-theranos-investors-11668809805",
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Elizabeth Holmes sentencing",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Elizabeth Holmes",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Elizabeth Holmes",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.courtlistener.com/opinion/10338137/united-states-v-elizabeth-holmes/",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.courtlistener.com/opinion/10338137/united-states-v-elizabeth-holmes/ could not be read: Failed to fetch url",
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "wayback",
+      "query": "https://www.courtlistener.com/opinion/10338137/united-states-v-elizabeth-holmes/ 20230601",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Elizabeth Holmes sentenced 11 years 3 months",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Elizabeth Holmes sentence commuted vacated Ninth Circuit appeal ruling 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.nbcnews.com/business/business-news/elizabeth-holmes-sentenced-theranos-trial-rcna57344",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Archived (Wayback) copies of pages",
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct access to the original sentencing court document due to the unreadable CourtListener page.",
+    "No verification from the Bureau of Prisons or Department of Justice regarding any subsequent sentence modifications, commutations, or appeal rulings after 2022."
+  ],
+  "next_steps": [
+    "Check the Bureau of Prisons inmate locator for Elizabeth Holmes’s current custody status and projected release date.",
+    "Retrieve the sentencing document from PACER (Northern District of California) to confirm the exact term and any conditions.",
+    "Search for any 2023‑2026 appellate rulings or compassionate‑release decisions concerning Holmes in the Ninth Circuit or District Court.",
+    "Look for official Department of Justice press releases or announcements regarding restitution payment status."
+  ],
+  "sources": [
+    {
+      "url": "https://abc7news.com/post/former-theranos-founder-elizabeth-holmes-posts-prison-says-shes-fighting-prove-innocence/19884569",
+      "title": "Former Theranos founder Elizabeth Holmes posts from prison, says she's fighting to prove her innocence - ABC7 San Francisco",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-28"
+    },
+    {
+      "url": "https://www.usmagazine.com/celebrity-news/news/elizabeth-holmes-praises-trump-after-securing-early-release",
+      "title": "Elizabeth Holmes Praises Trump After Securing Early Release",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-26"
+    },
+    {
+      "url": "https://www.nbcnews.com/business/business-news/elizabeth-holmes-sentenced-theranos-trial-rcna57344",
+      "title": "Elizabeth Holmes sentenced to 11 years in Theranos fraud case",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2022-11-18"
+    },
+    {
+      "url": "https://www.cnbc.com/2022/11/18/former-theranos-ceo-elizabeth-holmes-sentenced-to-more-than-11-years-in-prison.html",
+      "title": "Theranos founder Elizabeth Holmes sentenced to over 11 years in prison",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2022-11-18"
+    },
+    {
+      "url": "https://www.wsj.com/articles/elizabeth-holmes-is-sentenced-to-11-25-years-in-prison-for-defrauding-theranos-investors-11668809805",
+      "title": "Elizabeth Holmes Is Sentenced to More Than 11 Years in Prison for Defrauding Theranos Investors - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2022-11-18"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+      "title": "Wikipedia: Elizabeth Holmes",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://abcnews.com/US/elizabeth-holmes-scheduled-move-halfway-house-august-2027/story?id=136698221",
+      "title": "Elizabeth Holmes scheduled to move to halfway house in August 2027 - ABC News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-06"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "key_facts_established": [
+    true,
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Elizabeth Holmes's full name is Elizabeth Anne Holmes.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Holmes founded Theranos (in 2003).",
+          "supported": true
+        },
+        {
+          "fact": "Holmes served as the chief executive of Theranos (she jointly ran the company, with Balwani identified as COO), making her a former CEO.",
+          "supported": true
+        },
+        {
+          "fact": "Holmes is primarily known as the founder and former CEO of Theranos.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Holmes was sentenced to 11¼ years at Federal Prison Camp, Bryan, beginning May 30, 2023.",
+          "supported": true
+        },
+        {
+          "fact": "She is housed at a minimum-security federal prison camp in Bryan, Texas.",
+          "supported": true
+        },
+        {
+          "fact": "She is eligible for release in December 2031.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-02-01, Holmes remains incarcerated in federal prison (January 2026 Reuters reporting states in the present tense that she is housed at the camp and is asking for release with nearly six years left, with her commutation request still pending).",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

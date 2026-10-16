@@ -1,0 +1,308 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Adam Neumann went to prison for fraud.",
+    "entity": "Adam Neumann",
+    "disambiguators": [],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.7832,
+  "estimative": "likely",
+  "summary": "Verdict: FALSE (78% confidence). As of 2026-10-13, Adam Neumann has not been criminally convicted of fraud, has not served a prison sentence, has no court records showing such a conviction, has not been reported by major outlets as imprisoned for fraud, and SEC filings contain no fraud‑related charges. The only source asserting a conviction (business.com, 2026-09-13) is unsupported by credible evidence and was outweighed by multiple reliable refutations.",
+  "findings": [
+    {
+      "statement": "Adam Neumann's full name is Adam Neumann and he is publicly known as the co-founder and former CEO of WeWork.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.business.com/articles/broken-pedestals-the-dark-sides-of-popular-ceos",
+        "https://therealdeal.com/national/2026/03/08/jury-deliberates-in-alexanders-trial",
+        "https://www.skadden.com/insights/publications/2024/06/beyond-traditional-financing",
+        "https://www.theguardian.com/business/article/2024/may/28/adam-neumann-wework",
+        "https://thereveal.substack.com/p/founder-fever-breaking-down-the-dropout",
+        "https://www.sec.gov/Archives/edgar/data/1813756/000095014222000631/eh220224401_13ga1-we.htm",
+        "https://www.kqed.org/arts/13907776/elizabeth-holmes-convicted-of-fraud-is-more-fascinating-than-ever",
+        "https://en.wikipedia.org/wiki/Adam_Neumann"
+      ]
+    },
+    {
+      "statement": "Adam Neumann served as co-founder and former CEO of WeWork, scaling the company with over $12 billion in venture capital and debt financing.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.business.com/articles/broken-pedestals-the-dark-sides-of-popular-ceos",
+        "https://www.skadden.com/insights/publications/2024/06/beyond-traditional-financing",
+        "https://www.theguardian.com/business/article/2024/may/28/adam-neumann-wework",
+        "https://thereveal.substack.com/p/founder-fever-breaking-down-the-dropout",
+        "https://www.sec.gov/Archives/edgar/data/1813756/000095014222000631/eh220224401_13ga1-we.htm",
+        "https://www.kqed.org/arts/13907776/elizabeth-holmes-convicted-of-fraud-is-more-fascinating-than-ever",
+        "https://en.wikipedia.org/wiki/Adam_Neumann"
+      ]
+    },
+    {
+      "statement": "Adam Neumann has not been criminally convicted of fraud.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.theglobeandmail.com/business/commentary/article-weworks-adam-neumann-ftxs-sam-bankman-fried-startup-worlds-perpetual",
+        "https://www.reddit.com/r/Theranos/comments/wcbl6m/why_elizabeth_holmes_could_go_to_prison_for_20",
+        "https://robertreich.substack.com/p/the-6-secrets-to-becoming-a-fabulously",
+        "https://en.wikipedia.org/wiki/Adam_Neumann"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-13, there are no records showing Adam Neumann served a prison sentence for fraud.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.theglobeandmail.com/business/commentary/article-weworks-adam-neumann-ftxs-sam-bankman-fried-startup-worlds-perpetual",
+        "https://www.reddit.com/r/Theranos/comments/wcbl6m/why_elizabeth_holmes_could_go_to_prison_for_20",
+        "https://robertreich.substack.com/p/the-6-secrets-to-becoming-a-fabulously",
+        "https://en.wikipedia.org/wiki/Adam_Neumann"
+      ]
+    },
+    {
+      "statement": "No official court records or docket entries show a criminal fraud conviction for Adam Neumann.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.theglobeandmail.com/business/commentary/article-weworks-adam-neumann-ftxs-sam-bankman-fried-startup-worlds-perpetual",
+        "https://www.reddit.com/r/Theranos/comments/wcbl6m/why_elizabeth_holmes_could_go_to_prison_for_20",
+        "https://en.wikipedia.org/wiki/Adam_Neumann"
+      ]
+    },
+    {
+      "statement": "Major news outlets (Reuters, AP, NYT) have not reported on a criminal trial or imprisonment of Adam Neumann for fraud.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.theglobeandmail.com/business/commentary/article-weworks-adam-neumann-ftxs-sam-bankman-fried-startup-worlds-perpetual"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "The business.com article (published 2026-09-13) claims Adam Neumann was convicted of fraud in November 2023 and sentenced to 25 years imprisonment in March 2024, directly contradicting multiple reputable sources. This claim was weighed against the preponderance of evidence from the Globe and Mail (2023-11-07), Wikipedia, Reddit, Robertreich.substack, and SEC filings, which all state that Neumann has not faced criminal charges. The business.com source lacks corroboration, appears in a listicle with sensational tone, and is not supported by any official record, so it was given low weight; the refuting sources were given higher weight due to their editorial standards and independent verification."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Adam Neumann fraud conviction prison",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Adam Neumann sentenced prison fraud 2024",
+      "results": 4,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Adam Neumann",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Adam Neumann criminal fraud trial",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Adam Neumann fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Adam Neumann fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Adam Neumann",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Adam Neumann fraud trial 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "sec_edgar",
+      "query": "Adam Neumann",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "Adam Neumann criminal fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "sec_edgar",
+      "query": "Adam Neumann WeWork",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Adam Neumann prison fraud Reuters AP NYT",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The analysis relied on secondary reports and did not retrieve actual docket documents or sealed court filings; direct inspection of PACER, state court databases, or foreign jurisdiction records was not performed.",
+    "While SEC filings show no fraud charges, they do not comprehensively capture all possible civil or criminal proceedings that might not be disclosed in 13G/A filings.",
+    "The inability to access non-public or expunged records means a remote possibility of a sealed conviction cannot be entirely ruled out, though no credible source indicates such."
+  ],
+  "next_steps": [
+    "Search PACER for any federal criminal case filings under the name Adam Neumann.",
+    "Check the New York State Unified Court System (e.g., NYSCEF) for any criminal filings involving Adam Neumann.",
+    "Review recent SEC EDGAR submissions (10-K, 8-K, 20-F) for any mention of legal proceedings or contingencies related to Adam Neumann or WeWork.",
+    "Consult fact‑checking sites such as Snopes, FactCheck.org, or PolitiFact to see if the conviction claim has been debunked."
+  ],
+  "sources": [
+    {
+      "url": "https://www.business.com/articles/broken-pedestals-the-dark-sides-of-popular-ceos",
+      "title": "Who Are the Worst CEOs of All Time?",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-13"
+    },
+    {
+      "url": "https://therealdeal.com/national/2026/03/08/jury-deliberates-in-alexanders-trial",
+      "title": "Jury Deliberates in Alexanders Trial",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-03-08"
+    },
+    {
+      "url": "https://www.skadden.com/insights/publications/2024/06/beyond-traditional-financing",
+      "title": "Beyond Traditional Financing: Exploring Equity-Linked DIP Strategies in WeWork and Enviva | Insights | Skadden, Arps, Slate, Meagher & Flom LLP",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2024-06-11"
+    },
+    {
+      "url": "https://www.theguardian.com/business/article/2024/may/28/adam-neumann-wework",
+      "title": "Adam Neumann drops bid to acquire bankrupt WeWork",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2024-05-28"
+    },
+    {
+      "url": "https://thereveal.substack.com/p/founder-fever-breaking-down-the-dropout",
+      "title": "Founder Fever: Breaking Down 'The Dropout,' 'Super Pumped' and 'WeCrashed'",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": "2022-08-26"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1813756/000095014222000631/eh220224401_13ga1-we.htm",
+      "title": "SEC SC 13G/A: WeWork Inc.  (CIK 0001813756); Neumann Adam  (CIK 0001787908)",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2022-02-11"
+    },
+    {
+      "url": "https://www.kqed.org/arts/13907776/elizabeth-holmes-convicted-of-fraud-is-more-fascinating-than-ever",
+      "title": "Elizabeth Holmes, Convicted of Fraud, is More Fascinating Than Ever | KQED",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2022-01-06"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Adam_Neumann",
+      "title": "Adam Neumann - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.theglobeandmail.com/business/commentary/article-weworks-adam-neumann-ftxs-sam-bankman-fried-startup-worlds-perpetual",
+      "title": "WeWork’s Adam Neumann, FTX’s Sam Bankman-Fried: startup world’s perpetual rot - The Globe and Mail",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2023-11-07"
+    },
+    {
+      "url": "https://www.reddit.com/r/Theranos/comments/wcbl6m/why_elizabeth_holmes_could_go_to_prison_for_20",
+      "title": "Why Elizabeth Holmes Could Go to Prison for 20 Years While Adam Neumann is Still a Billionaire : r/Theranos",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://robertreich.substack.com/p/the-6-secrets-to-becoming-a-fabulously",
+      "title": "The 6 secrets to becoming a fabulously rich con artist",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "case_id": "V2-MX05",
+  "mode": "short",
+  "seed": 0,
+  "split": "test",
+  "slices": [
+    "mixed"
+  ],
+  "kind": "claim",
+  "tags": [
+    "mixed"
+  ],
+  "expected": "MIXED",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.25,
+  "llm_confidence": 0.8,
+  "posterior_confidence": 0.002128912285188282,
+  "confidence_inputs": {
+    "llm_probability": 0.8,
+    "posterior_probability": 0.002128912285188282,
+    "independent_supporters": 7.0,
+    "authoritative_support": 1.0
+  },
+  "scope": {
+    "kind_correct": true,
+    "assertion_preserved": true,
+    "disambiguators_preserved": true
+  },
+  "stop_reason": "tool_budget",
+  "max_steps": 4,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "MIXED",
+      "confidence": 0.25,
+      "p_correct": 0.5,
+      "llm_p_correct": 0.75,
+      "posterior_p_correct": 0.3261486565016699,
+      "reward": {
+        "step": 1,
+        "progress": 0.0,
+        "information": 0.7534030360583935,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.9413
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "MIXED",
+      "confidence": 0.25,
+      "p_correct": 0.5,
+      "llm_p_correct": 0.8400000000000001,
+      "posterior_p_correct": 0.15160152828596046,
+      "reward": {
+        "step": 2,
+        "progress": 0.0,
+        "information": 0.9571478731329598,
+        "corroboration": 1.0,
+        "redundancy": 0.3076923076923077,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 3,
+      "verdict": "MIXED",
+      "confidence": 0.25,
+      "p_correct": 0.5,
+      "llm_p_correct": 0.9,
+      "posterior_p_correct": 0.04765956605591794,
+      "reward": {
+        "step": 3,
+        "progress": 0.0,
+        "information": 0.9999862572617413,
+        "corroboration": 1.0,
+        "redundancy": 0.23076923076923078,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 4,
+      "verdict": "FALSE",
+      "confidence": 0.25,
+      "p_correct": 0.5,
+      "llm_p_correct": 0.9500000000000001,
+      "posterior_p_correct": 0.002140083791575051,
+      "reward": {
+        "step": 4,
+        "progress": 0.0,
+        "information": 0.9718441463197,
+        "corroboration": 1.0,
+        "redundancy": 0.07692307692307693,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 12,
+  "tool_failures": 0,
+  "rejected_repeats": 0,
+  "critic_checks": 0,
+  "prompt_tokens": 97880,
+  "completion_tokens": 43730,
+  "cost_usd": 0.031653,
+  "wall_clock_s": 1197.4863681000425,
+  "call_latency_s": 625.784,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 6,
+  "conflicts_final": 1,
+  "independent_domains": 19,
+  "evidence_weight": 38.63,
+  "supporting_weight": 4.75,
+  "mean_evidence_reliability": 0.6645161290322581,
+  "authoritative_evidence": true,
+  "primary_record_cited": true,
+  "withdrawn_statements": 0,
+  "manipulation_flags": 0,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "judge_model": "z-ai/glm-5.3-flash",
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.4375,
+    "cost": 0.9440666666666667
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "subject": {
+    "kind": "company",
+    "statement": "FTX (cryptocurrency exchange)"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.95,
+  "summary": "The evidence shows that FTX Trading Ltd., incorporated in Antigua and Barbuda and headquartered in the Bahamas, operated the FTX cryptocurrency exchange, filed for Chapter 11 bankruptcy in November 2022, was sanctioned by the CFTC for violations of the Commodity Exchange Act, and its principal founder Sam Bankman‑Fried has been convicted of fraud and money‑laundering offenses. These elements support an adverse verdict with high confidence, although some details (registration number, exact founding date, full founder list) remain less certain due to limited or conflicting sources.",
+  "findings": [
+    {
+      "statement": "The exact legal name of the entity that operated the FTX cryptocurrency exchange is FTX Trading Ltd.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml",
+        "https://siliconvalleyinvestclub.com/companies/ftx",
+        "https://www.pwc.com/bs/en/services/business-restructuring-ftx-digital-markets/assets/order-authorizing-the-debtors-entry-into-and-performance-of-their-obligations-14-august-2024.pdf"
+      ]
+    },
+    {
+      "statement": "FTX Trading Ltd. was incorporated in Antigua and Barbuda.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml",
+        "https://siliconvalleyinvestclub.com/companies/ftx",
+        "https://cryptoslate.com/companies/ftx"
+      ]
+    },
+    {
+      "statement": "The registration number (company number) of FTX Trading Ltd. is 17180.",
+      "confidence": 0.4,
+      "citations": [
+        "https://downloads.coindesk.com/cd3/FTX_Terms_of_Service.pdf"
+      ]
+    },
+    {
+      "statement": "FTX was founded in 2019 (with some sources citing May 2019).",
+      "confidence": 0.7,
+      "citations": [
+        "https://en.wikipedia.org/wiki/FTX",
+        "https://siliconvalleyinvestclub.com/companies/ftx",
+        "https://cryptoslate.com/companies/ftx",
+        "https://www.ebsco.com/research-starters/law/ftx-bankruptcy",
+        "https://cryptorank.io/news/feed/cc411-ftx-co-founder-gary-wang-appeals-for-leniency-ahead-of-sentencing-report",
+        "https://avark.agency/learn/ftx-the-scam-exchange-everything-you-need-to-know"
+      ]
+    },
+    {
+      "statement": "The listed founders of FTX are Sam Bankman‑Fried and Gary Wang.",
+      "confidence": 0.8,
+      "citations": [
+        "https://en.wikipedia.org/wiki/FTX",
+        "https://siliconvalleyinvestclub.com/companies/ftx",
+        "https://www.ebsco.com/research-starters/law/ftx-bankruptcy",
+        "https://cryptoslate.com/companies/ftx",
+        "https://cryptorank.io/news/feed/cc411-ftx-co-founder-gary-wang-appeals-for-leniency-ahead-of-sentencing-report",
+        "https://avark.agency/learn/ftx-the-scam-exchange-everything-you-need-to-know"
+      ]
+    },
+    {
+      "statement": "FTX Trading Ltd. is headquartered in The Bahamas.",
+      "confidence": 0.95,
+      "citations": [
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://siliconvalleyinvestclub.com/companies/ftx",
+        "https://cryptoslate.com/companies/ftx"
+      ]
+    },
+    {
+      "statement": "FTX Trading Ltd. filed for Chapter 11 bankruptcy on November 11, 2022.",
+      "confidence": 0.95,
+      "citations": [
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://www.morrisjames.com/p/102j9xu/claw-back-litigation-in-ftx-bankruptcy-faqs",
+        "https://www.pwc.com/bs/en/services/business-restructuring-ftx-digital-markets/assets/order-authorizing-the-debtors-entry-into-and-performance-of-their-obligations-14-august-2024.pdf",
+        "https://cryptoslate.com/companies/ftx"
+      ]
+    },
+    {
+      "statement": "The CFTC obtained a judgment against FTX for violating the Commodity Exchange Act and making material misrepresentations to customers.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.cftc.gov/PressRoom/PressReleases/8938-24"
+      ]
+    },
+    {
+      "statement": "Sam Bankman‑Fried has been convicted of fraud and money‑laundering‑related offenses.",
+      "confidence": 0.4,
+      "citations": [
+        "https://www.morrisjames.com/p/102j9xu/claw-back-litigation-in-ftx-bankruptcy-faqs"
+      ]
+    },
+    {
+      "statement": "FTX faced a major litigation with the CFTC that resulted in a $12.7 billion judgment against it.",
+      "confidence": 0.28,
+      "citations": [
+        "https://www.cftc.gov/PressRoom/PressReleases/8938-24"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "Founding year: some sources (morrisjames.com) state FTX was established in 2018, while the majority (Wikipedia, Coindesk, EBSCO, CryptoSlate, etc.) indicate 2019. The 2019 date was given greater weight due to multiple independent sources.",
+    "Founders: siliconvalleyinvestclub.com lists Nishad Singh as a founder alongside Sam Bankman‑Fried and Gary Wang, whereas most other sources (Wikipedia, EBSCO, CryptoSlate, etc.) name only Sam Bankman‑Fried and Gary Wang. The core duo was treated as the primary founders; Singh’s role is noted but not considered a founding equity holder in the weighted assessment."
+  ],
+  "gaps": [
+    "The registration number of FTX Trading Ltd. relies on a single source (Coindesk terms of service) with low weight; independent corporate registry confirmation would increase confidence.",
+    "The exact month and day of FTX’s founding are not uniformly reported; while many sources cite May 2019, a few suggest 2018, leaving the precise date uncertain.",
+    "The complete list of founding equity holders is not fully resolved; Nishad Singh appears as a founder in one source but is absent from most others, leaving his role ambiguous.",
+    "Details of criminal convictions against the FTX entity itself (as opposed to its executives) are absent from the evidence; only individual convictions are documented.",
+    "Beyond the CFTC judgment, the scope and outcomes of other major litigations (e.g., class‑action suits, investor claims) are not captured in the provided evidence, leaving the full liability picture incomplete."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml",
+      "title": "SEC FORM D",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://siliconvalleyinvestclub.com/companies/ftx",
+      "title": "FTX — The Bahamas HQ · $32B — Silicon Valley Investclub",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.pwc.com/bs/en/services/business-restructuring-ftx-digital-markets/assets/order-authorizing-the-debtors-entry-into-and-performance-of-their-obligations-14-august-2024.pdf",
+      "title": "[PDF] FTX TRADING LTD., et al.,1 Debtors. Chapter 11 Case No - PwC",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://cryptoslate.com/companies/ftx",
+      "title": "FTX - Crypto Exchange | CryptoSlate",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://downloads.coindesk.com/cd3/FTX_Terms_of_Service.pdf",
+      "title": "FTX TERMS OF SERVICE Date: May 13, 2022 The ...",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FTX",
+      "title": "FTX - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/law/ftx-bankruptcy",
+      "title": "FTX bankruptcy | Law | Research Starters | EBSCOhost",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://cryptorank.io/news/feed/cc411-ftx-co-founder-gary-wang-appeals-for-leniency-ahead-of-sentencing-report",
+      "title": "FTX Co-Founder Gary Wang Appeals for Leniency Ahead of Sentencing: Report | FTX Sam Bankman-Fried (SBF) | CryptoRank.io",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://avark.agency/learn/ftx-the-scam-exchange-everything-you-need-to-know",
+      "title": "FTX: How a $32 Billion Empire Collapsed in 9 Days | Avark",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+      "title": "FTX Files Chapter 11 Bankruptcy",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.morrisjames.com/p/102j9xu/claw-back-litigation-in-ftx-bankruptcy-faqs",
+      "title": "Claw-Back Litigation in FTX Bankruptcy FAQs – Morris James LLP",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/8938-24",
+      "title": "CFTC Obtains $12.7 Billion Judgment Against FTX and Alameda | CFTC",
+      "tier": "official",
+      "reliability": 0.95
+    }
+  ]
+}

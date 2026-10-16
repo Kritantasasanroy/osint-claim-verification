@@ -1,0 +1,197 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "FTX was headquartered in the Bahamas when it collapsed."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.82,
+  "summary": "FTX Trading Ltd., the entity behind the FTX exchange, was headquartered in the Bahamas at the time of its Chapter 11 bankruptcy filing on November 11, 2022. This conclusion is supported by official Bahamian regulator statements, news reports, and property records indicating an operational base in Nassau, despite the company's legal registration remaining in Antigua and Barbuda.",
+  "findings": [
+    {
+      "statement": "The legal name of the entity that operated the FTX cryptocurrency exchange at the time of its bankruptcy filing is FTX Trading Ltd.",
+      "confidence": 0.97,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml",
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://en.wikipedia.org/wiki/FTX",
+        "https://www.afslaw.com/sites/default/files/2022-12/Dkt1-FTX-Petition.pdf",
+        "https://siliconvalleyinvestclub.com/companies/ftx"
+      ]
+    },
+    {
+      "statement": "FTX Trading Ltd. was incorporated in Antigua and Barbuda.",
+      "confidence": 0.97,
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml",
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://en.wikipedia.org/wiki/FTX",
+        "https://www.pwc.com/bs/en/services/business-restructuring-ftx-digital-markets.html",
+        "https://siliconvalleyinvestclub.com/companies/ftx"
+      ]
+    },
+    {
+      "statement": "FTX Trading Ltd. was headquartered in the Bahamas at the time of its collapse (November 11, 2022).",
+      "confidence": 0.82,
+      "citations": [
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://en.wikipedia.org/wiki/FTX",
+        "https://siliconvalleyinvestclub.com/companies/ftx",
+        "https://www.youtube.com/watch?v=6i18EBpcfR8",
+        "https://www.cnbc.com/2022/11/12/ftx-users-may-be-cashing-of-bankrupt-crypto-exchange-through-a-bahamas-loophole.html",
+        "https://www.facebook.com/opmbs/posts/icymi-on-sunday-evening-ag-ryan-pinder-gave-a-national-address-on-the-global-fal/448615944128495",
+        "https://www.reuters.com/technology/exclusive-bankman-frieds-ftx-parents-bought-bahamas-property-worth-121-mln-2022-11-22",
+        "https://finance.yahoo.com/news/ftx-crypto-exchange-hq-moves-223832205.html",
+        "https://refreshmiami.com/news/another-victory-for-the-capital-of-capital-as-ftx-relocates-its-u-s-headquarters-to-miami",
+        "https://markets.businessinsider.com/news/currencies/sam-bankman-fried-ftx-crypto-hong-kong-bahamas-relocates-headquarters-2021-9",
+        "https://opm.gov.bs/wp-content/uploads/2022/11/National-Address-on-Behalf-of-The-Government-of-The-Bahamas-on-the-Developments-of-FTX-in-The-Bahamas.pdf",
+        "https://www.caribbean-council.org/ftx-collapse-puts-antigua-and-the-bahamas-in-the-spotlight",
+        "https://www.acams.org/en/legs-regs/bahamas-securities-commission-assumes-control-of-ftc-assets",
+        "https://www.cnbc.com/2022/12/30/bahamas-regulator-seized-3point5-billion-of-ftx-crypto-assets.html"
+      ]
+    },
+    {
+      "statement": "An official source (OFI press release) states that FTX Trading Ltd., incorporated in Antigua and Barbuda and headquartered in The Bahamas, filed for Chapter 11 relief on November 11, 2022.",
+      "confidence": 0.97,
+      "citations": [
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy"
+      ]
+    },
+    {
+      "statement": "FTX moved its headquarters from Hong Kong to the Bahamas in September 2021, establishing its operational base there prior to the November 2022 collapse.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.reuters.com/technology/exclusive-bankman-frieds-ftx-parents-bought-bahamas-property-worth-121-mln-2022-11-22",
+        "https://finance.yahoo.com/news/ftx-crypto-exchange-hq-moves-223832205.html",
+        "https://refreshmiami.com/news/another-victory-for-the-capital-of-capital-as-ftx-relocates-its-u-s-headquarters-to-miami",
+        "https://markets.businessinsider.com/news/currencies/sam-bankman-fried-ftx-crypto-hong-kong-bahamas-relocates-headquarters-2021-9",
+        "https://opm.gov.bs/wp-content/uploads/2022/11/National-Address-on-Behalf-of-The-Government-of-The-Bahamas-on-the-Developments-of-FTX-in-The-Bahamas.pdf",
+        "https://www.caribbean-council.org/ftx-collapse-puts-antigua-and-the-bahamas-in-the-spotlight"
+      ]
+    },
+    {
+      "statement": "The Bahamian Attorney General characterized FTX as headquartered in the Bahamas, and the Bahamas Securities Commission asserted regulatory control over FTX's assets after the bankruptcy filing.",
+      "confidence": 0.52,
+      "citations": [
+        "https://www.facebook.com/opmbs/posts/icymi-on-sunday-evening-ag-ryan-pinder-gave-a-national-address-on-the-global-fal/448615944128495",
+        "https://www.acams.org/en/legs-regs/bahamas-securities-commission-assumes-control-of-ftc-assets"
+      ]
+    }
+  ],
+  "conflicts": [
+    "What was the registered headquarters address of FTX Trading Ltd. as recorded in the relevant corporate registry (e.g., Bahamas, Antigua and Barbuda) on or immediately prior to November 11, 2022? - supported by afslaw.com, cnbc.com, sec.gov, siliconvalleyinvestclub.com, youtube.com (weight 3.11) vs refuted by en.wikipedia.org, ofi.la.gov (weight 1.93)"
+  ],
+  "conflict_notes": [
+    "Conflict regarding FTX Trading Ltd.'s registered headquarters address: Antigua and Barbuda vs. Bahamas. Supporting Antigua sources (afslaw.com, sec.gov) show a legal registered address in Antigua per bankruptcy petition and SEC filing. Supporting Bahamas sources (ofi.la.gov, en.wikipedia.org, siliconvalleyinvestclub.com, youtube.com, cnbc.com) state the company was headquartered in the Bahamas. The conflict was resolved by distinguishing legal registration (which remained in Antigua) from operational headquarters (which moved to the Bahamas). The preponderance of reliable operational evidence (regulator statements, news reports, property records) indicates the Bahamas served as FTX's headquarters at the time of collapse."
+  ],
+  "gaps": [
+    "No explicit Bahamian corporate registry filing showing FTX Trading Ltd.'s registered office in the Bahamas was located in the evidence.",
+    "Absence of internal FTX documents (board resolutions, memos) from Q3/Q4 2022 that explicitly designate the Bahamas location as the headquarters.",
+    "Unclear precise street address of the Bahamian headquarters beyond general references to Nassau and an $8.55 million cluster of houses.",
+    "Limited direct evidence on whether FTX retained operational offices or employees in Antigua and Barbuda after moving its headquarters to the Bahamas."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml",
+      "title": "SEC FORM D",
+      "tier": "official",
+      "reliability": 0.967
+    },
+    {
+      "url": "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+      "title": "FTX Files Chapter 11 Bankruptcy",
+      "tier": "official",
+      "reliability": 0.967
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FTX",
+      "title": "FTX - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.968
+    },
+    {
+      "url": "https://www.afslaw.com/sites/default/files/2022-12/Dkt1-FTX-Petition.pdf",
+      "title": "Voluntary Petition for Non-Individuals Filing for Bankruptcy",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://siliconvalleyinvestclub.com/companies/ftx",
+      "title": "FTX — The Bahamas HQ · $32B — Silicon Valley Investclub",
+      "tier": "unvetted",
+      "reliability": 0.657
+    },
+    {
+      "url": "https://www.pwc.com/bs/en/services/business-restructuring-ftx-digital-markets.html",
+      "title": "FTX Digital Markets Ltd. (In Official Liquidation) (“FTX Digital”)",
+      "tier": "unvetted",
+      "reliability": 0.6
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6i18EBpcfR8",
+      "title": "Why FTX Chose the Bahamas for Its Headquarters | WSJ",
+      "tier": "unvetted",
+      "reliability": 0.815
+    },
+    {
+      "url": "https://www.cnbc.com/2022/11/12/ftx-users-may-be-cashing-of-bankrupt-crypto-exchange-through-a-bahamas-loophole.html",
+      "title": "FTX users may be cashing of bankrupt crypto exchange through a Bahamas loophole",
+      "tier": "major_news",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.facebook.com/opmbs/posts/icymi-on-sunday-evening-ag-ryan-pinder-gave-a-national-address-on-the-global-fal/448615944128495",
+      "title": "#ICYMI On Sunday evening, AG Ryan Pinder gave a National ...",
+      "tier": "unvetted",
+      "reliability": 0.52
+    },
+    {
+      "url": "https://www.reuters.com/technology/exclusive-bankman-frieds-ftx-parents-bought-bahamas-property-worth-121-mln-2022-11-22",
+      "title": "EXCLUSIVE: Bankman-Fried's FTX, senior staff, parents bought Bahamas property worth $300 mln | Reuters",
+      "tier": "major_news",
+      "reliability": 0.94
+    },
+    {
+      "url": "https://finance.yahoo.com/news/ftx-crypto-exchange-hq-moves-223832205.html",
+      "title": "FTX Crypto Exchange HQ Moves to Bahamas",
+      "tier": "news",
+      "reliability": 0.8
+    },
+    {
+      "url": "https://refreshmiami.com/news/another-victory-for-the-capital-of-capital-as-ftx-relocates-its-u-s-headquarters-to-miami",
+      "title": "FTX relocates its U.S. headquarters to Miami - Refresh Miami",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/currencies/sam-bankman-fried-ftx-crypto-hong-kong-bahamas-relocates-headquarters-2021-9",
+      "title": "Bankman-Fried Says FTX Moved From Hong Kong to Crypto-Friendly Bahamas - Markets Insider",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://opm.gov.bs/wp-content/uploads/2022/11/National-Address-on-Behalf-of-The-Government-of-The-Bahamas-on-the-Developments-of-FTX-in-The-Bahamas.pdf",
+      "title": "National Address on Behalf of The Government of The ...",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.caribbean-council.org/ftx-collapse-puts-antigua-and-the-bahamas-in-the-spotlight",
+      "title": "FTX collapse puts Antigua and The Bahamas in the spotlight - The Caribbean Council",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.acams.org/en/legs-regs/bahamas-securities-commission-assumes-control-of-ftc-assets",
+      "title": "Bahamas Securities Commission Assumes Control of FTX ...",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.cnbc.com/2022/12/30/bahamas-regulator-seized-3point5-billion-of-ftx-crypto-assets.html",
+      "title": "Bahamas regulator seized $3.5 billion of FTX crypto assets",
+      "tier": "major_news",
+      "reliability": 0.95
+    }
+  ]
+}

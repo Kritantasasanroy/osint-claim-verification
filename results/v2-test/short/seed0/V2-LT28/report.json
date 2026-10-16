@@ -1,0 +1,140 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Dorian Vashenko advised the Estonian government on port logistics in 2023.",
+    "entity": "Dorian Vashenko",
+    "disambiguators": [
+      "advised the Estonian government on port logistics",
+      "Estonian government",
+      "2023"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "UNVERIFIABLE at 25% confidence: no verifiable evidence found that Dorian Vashenko advised the Estonian government on port logistics in 2023.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Dorian Vashenko Estonia port logistics 2023 advisory",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Dorian Vashenko biography full name date of birth nationality",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Dorian Vashenko port logistics expertise employment",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Dorian Vashenko Estonia 2023 port advisor",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Dorian Vashenko Estonian government 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Dorian Vashchenko LinkedIn",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Dorian Vashenko site:riigihanked.ee 2023",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Dorian Vashenko site:mkministeerium.ee 2023",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Dorian Vashenko LinkedIn port logistics",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Dorian Vashchenko Estonia 2023 port logistics",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Dorian Vashchenko LinkedIn port logistics",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No sources were returned for searches of Estonian government procurement portals, ministry press releases, or professional profiles for Dorian Vashenko in 2023."
+  ],
+  "next_steps": [
+    "Broaden name variants (e.g., Dorian Vashchenko) in Estonian government databases.",
+    "Check regional port authority records (e.g., Port of Tallinn) for consultant listings.",
+    "Search news archives in Estonian language for any mention.",
+    "Consult LinkedIn with advanced filters for Estonia and port logistics."
+  ],
+  "sources": []
+}

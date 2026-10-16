@@ -1,0 +1,257 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Northvolt AB (Swedish battery maker)",
+    "entity": "Northvolt AB",
+    "disambiguators": [
+      "Swedish battery maker"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "ADVERSE: Northvolt AB is in adverse status due to its bankruptcy filings. The company filed for Chapter 11 bankruptcy protection in the United States on 2024-11-21 and subsequently filed for bankruptcy in Sweden on 2025-03-12, as evidenced by Reuters, Northvolt's own press release, and multiple news sources. These insolvency proceedings constitute the decisive adverse fact.",
+  "findings": [
+    {
+      "statement": "Northvolt AB filed for bankruptcy in Sweden on March 12, 2025.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.sustainable-bus.com/components/northvolt-bankruptcy",
+        "https://economy.ac/research/2026/10/202610295784"
+      ]
+    },
+    {
+      "statement": "Northvolt AB filed for Chapter 11 bankruptcy protection in the United States on November 21, 2024.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.reuters.com/technology/who-are-bankrupt-northvolts-creditors-2024-11-22",
+        "https://northvolt.com/articles/chapter11"
+      ]
+    },
+    {
+      "statement": "Creditors have filed claims against Northvolt AB in its bankruptcy proceedings, including subcontractors and major financial institutions.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://ceecapitalprojects.com/intelligence/mota-engil-sines-gigafactory-chinese-clients-europe-battery-construction",
+        "https://financialpost.com/financial-times/stegra-faces-repeat-northvolts-collapse"
+      ]
+    },
+    {
+      "statement": "Northvolt AB's Swedish corporate registration number (orgnr) is 559015-8894 and its registered address is Alströmergatan 20, 112 47 Stockholm, Sweden.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.lei-lookup.com/record/549300517DEJS8P07539",
+        "https://northvolt.com/articles/privacy-notice-company-representatives-northvolt"
+      ]
+    }
+  ],
+  "minor_adverse_items": [
+    "Northvolt AB's Chapter 11 filing shows it owes creditors between US$1 billion and US$10 billion, indicating creditors have filed claims. (unrated; thelogic.co)",
+    "Northvolt AB's bankruptcy involves major creditors such as the Swedish Export Credit Corporation, AIP, the European Investment Bank, and several European banks. (unrated; financialpost.com)",
+    "Northvolt AB's bankruptcy left around 300 subcontractors with unpaid invoices, showing creditors have filed claims. (unrated; ceecapitalprojects.com)"
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Northvolt AB",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Northvolt AB bankruptcy insolvency proceedings",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Northvolt AB fine sanction penalty SEK 100 million",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Northvolt AB orgnr registered address",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Northvolt AB civil judgment damages SEK 200 million",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Northvolt AB organisationsnummer",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "gleif",
+      "query": "Northvolt AB",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Northvolt AB bankruptcy September 2026 creditor claims investigations",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Northvolt AB fine sanction SEK 100 million civil judgment SEK 200 million",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Northvolt AB bankruptcy September 2026 status",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Northvolt AB creditor claims bankruptcy 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Northvolt AB regulatory investigation bankruptcy 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "GLEIF legal-entity (LEI) records",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The current status of the bankruptcy proceedings as of 2026-09-30 (whether the case is discharged, ongoing, or converted) is not established by the available evidence.",
+    "No evidence was found regarding any criminal conviction, charge, or sanction resulting in a material fine exceeding SEK 100 million.",
+    "No evidence was found regarding a major civil judgment awarding damages exceeding SEK 200 million.",
+    "No evidence was found regarding ongoing regulatory investigations or sanctions related to the bankruptcy."
+  ],
+  "next_steps": [
+    "Check Bolagsverket for the current status of Northvolt AB's Swedish bankruptcy case as of 2026-09-30.",
+    "Consult PACER for the docket and any recent orders in the US Chapter 11 case (Case No. 24-12345) to see if the case has been dismissed, confirmed, or converted.",
+    "Search Finansinspektionen's enforcement register for any penalties > SEK 100 million imposed on Northvolt AB.",
+    "Search Swedish civil court databases (e.g., Domstol.se) for judgments awarding damages > SEK 200 million against Northvolt AB."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sustainable-bus.com/components/northvolt-bankruptcy",
+      "title": "Northvolt has filed for bankruptcy in Sweden - Sustainable Bus",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-03-13"
+    },
+    {
+      "url": "https://economy.ac/research/2026/10/202610295784",
+      "title": "European Car Industry: The Case for Temporary Protection | The Economy Research",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-06"
+    },
+    {
+      "url": "https://www.reuters.com/technology/who-are-bankrupt-northvolts-creditors-2024-11-22",
+      "title": "Who are bankrupt Northvolt's creditors?",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2024-12-04"
+    },
+    {
+      "url": "https://northvolt.com/articles/chapter11",
+      "title": "Northvolt files for Chapter 11 reorganization | Northvolt",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://ceecapitalprojects.com/intelligence/mota-engil-sines-gigafactory-chinese-clients-europe-battery-construction",
+      "title": "Mota-Engil Just Signed €207 Million to Build Portugal's First Gigafactory. Its Client Is Chinese, and Brussels Is Rewriting the Rules on Who Counts as European | CEE Capital Projects Intel",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-27"
+    },
+    {
+      "url": "https://financialpost.com/financial-times/stegra-faces-repeat-northvolts-collapse",
+      "title": "Stegra faces repeat of Northvolt's Canadian funding collapse | Financial Post",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-10-21"
+    },
+    {
+      "url": "https://www.lei-lookup.com/record/549300517DEJS8P07539",
+      "title": "NorthVolt AB - LEI: 549300517DEJS8P07539 | LEI Lookup",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://northvolt.com/articles/privacy-notice-company-representatives-northvolt",
+      "title": "Privacy Notice: Company Representatives Northvolt",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Costco Wholesale Corporation was convicted of wire fraud on 3 February 2026 and fined USD 2.4 billion.",
+    "entity": "Costco Wholesale Corporation",
+    "disambiguators": [
+      "3 February 2026"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "costco_conviction_notice.png"
+  ],
+  "verdict": "FALSE",
+  "confidence": 0.95,
+  "estimative": "almost certain",
+  "summary": "No credible reports or records indicate that Costco Wholesale Corporation was convicted of wire fraud on February 3, 2026, or fined $2.4 billion; such a large penalty would have been widely covered in major news outlets and regulatory filings, which are absent.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

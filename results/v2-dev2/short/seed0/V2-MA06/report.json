@@ -1,0 +1,221 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Bose Corporation (audio equipment)",
+    "entity": "Bose Corporation",
+    "disambiguators": [
+      "audio equipment"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.7719,
+  "estimative": "likely",
+  "summary": "Verdict: NO_ADVERSE (77% confidence). As of 2026-10-01, Bose Corporation (full legal name Bose Corporation, incorporated in the United States) is headquartered in Framingham, Massachusetts, was founded in 1964, and no criminal convictions, regulator enforcement actions, or material civil judgments were found in the reviewed sources.",
+  "findings": [
+    {
+      "statement": "The full legal name of the company is Bose Corporation and it is incorporated in the United States.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bose_(brand)"
+      ]
+    },
+    {
+      "statement": "Bose Corporation's headquarters is located in Framingham, Massachusetts (the former headquarters was in Stow, Massachusetts as of July 2026).",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bose_(brand)",
+        "https://www.bizjournals.com/boston/news/2026/07/09/private-school-former-bose-hq-incorporate-ai.html"
+      ]
+    },
+    {
+      "statement": "Bose Corporation was founded in 1964.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bose_(brand)"
+      ]
+    },
+    {
+      "statement": "Review of available news, court, and regulatory sources up to 2026-10-01 revealed no criminal convictions, charges, or indictments against Bose Corporation.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bose_(brand)",
+        "https://www.courtlistener.com/opinion/8715904/ting-ji-v-bose-corp/",
+        "https://www.bizjournals.com/boston/news/2026/07/09/private-school-former-bose-hq-incorporate-ai.html"
+      ]
+    },
+    {
+      "statement": "Review of available news, court, and regulatory sources up to 2026-10-01 revealed no major enforcement actions, sanctions, or bans from regulators such as the FTC, SEC, or CPSC against Bose Corporation.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bose_(brand)",
+        "https://www.bizjournals.com/boston/news/2026/07/09/private-school-former-bose-hq-incorporate-ai.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "Headquarters information conflicts: Wikipedia states the headquarters is in Framingham, Massachusetts, while a 2026-07-09 Boston Business Journal article refers to the 'former Bose headquarters in Stow', indicating a possible move. The Wikipedia entry was weighted as more reliable for the current headquarters, and the Boston Business Journal source was treated as evidence of a former location, leading to the conclusion that the current headquarters remains in Framingham."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Bose Corporation criminal charge indictment regulator enforcement civil judgment 2022 2023 2024 2025",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "sec_edgar",
+      "query": "Bose Corporation bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Bose Corporation",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Bose Corporation criminal charge indictment 2023 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Bose Corporation FTC enforcement action 2023 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Bose Corporation lawsuit judgment damages 2023 2024 2025 2026",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Bose Corporation criminal",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Bose Corporation FTC enforcement action penalty fine 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Bose Corporation judgment damages",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Bose Corporation criminal 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Bose Corporation regulator fine 2026",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Bose Corporation settlement 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The review relied on publicly available news articles, court records, and encyclopedia entries; private settlements, sealed regulatory actions, or non-public investigations were not accessible.",
+    "Direct access to regulator enforcement databases (e.g., FTC case management system, SEC enforcement actions) was not performed; only news searches were used to infer the absence of regulator actions.",
+    "The analysis did not include a comprehensive search of state-level court records or attorney general press releases, which could contain relevant civil or enforcement matters."
+  ],
+  "next_steps": [
+    "Review Bose Corporation's most recent SEC Form 10-K for any disclosed litigation or regulatory matters.",
+    "Search PACER using the party name 'Bose Corporation' to identify federal civil or criminal cases not reported in news outlets.",
+    "Consult the FTC's website and enforcement action database for any proceedings involving Bose Corporation.",
+    "Examine press releases from the Massachusetts Attorney General's office for state-level consumer protection or safety actions."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Bose_(brand)",
+      "title": "Wikipedia: Bose (brand)",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.bizjournals.com/boston/news/2026/07/09/private-school-former-bose-hq-incorporate-ai.html",
+      "title": "Private school in former Bose HQ to open this fall, incorporate AI",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-09"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/8715904/ting-ji-v-bose-corp/",
+      "title": "CourtListener: Ting Ji v. Bose Corp.",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2009-08-12"
+    }
+  ]
+}

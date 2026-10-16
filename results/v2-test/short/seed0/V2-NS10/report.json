@@ -1,0 +1,189 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Michael Jordan (the Chicago Bulls basketball player)",
+    "entity": "Michael Jordan",
+    "disambiguators": [
+      "the Chicago Bulls basketball player"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.9355,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, Michael Jordan (the Chicago Bulls basketball player) has NO_ADVERSE status with 94% confidence. He is Michael Jeffrey Jordan, born 1963-02-17, known as a former professional basketball player and businessman, played for the Chicago Bulls in 1984–1993 and 1995–1998, and retired in 2003. No criminal conviction, indictment, bankruptcy, insolvency, major civil judgment, or regulatory sanction appears in the consulted sources.",
+  "findings": [
+    {
+      "statement": "Michael Jordan's full name is Michael Jeffrey Jordan, he was born on 1963-02-17, and he is known as a former professional basketball player and businessman.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Michael_Jordan",
+        "https://www.wikidata.org/wiki/Q41421"
+      ]
+    },
+    {
+      "statement": "Michael Jordan played for the Chicago Bulls in two stints: 1984–1993 and 1995–1998, and retired from professional basketball in 2003.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Michael_Jordan"
+      ]
+    },
+    {
+      "statement": "No criminal conviction, indictment, or charge against Michael Jordan appears in the consulted news, encyclopedia, or structured data sources as of 2026-10-01.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.aljazeera.com/sports/2026/10/13/man-city-charges-any-political-interference-and-ill-quit-says-regulator",
+        "https://en.wikipedia.org/wiki/Michael_Jordan",
+        "https://www.wikidata.org/wiki/Q41421"
+      ]
+    },
+    {
+      "statement": "No bankruptcy, insolvency proceeding, major civil judgment, or regulatory sanction against Michael Jordan is reported in the consulted sources as of 2026-10-01.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.aljazeera.com/sports/2026/10/13/man-city-charges-any-political-interference-and-ill-quit-says-regulator",
+        "https://en.wikipedia.org/wiki/Michael_Jordan",
+        "https://www.wikidata.org/wiki/Q41421"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Michael Jordan",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "sec_edgar",
+      "query": "Michael Jordan",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Michael Jordan criminal charge bankruptcy civil judgment",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "encyclopedia",
+      "query": "Michael Jordan",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Michael Jordan indicted OR arrested OR criminal charge",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Michael Jordan SEC OR FTC OR regulatory sanction",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Michael Jeffrey Jordan",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Michael Jordan indictment",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "sec_edgar",
+      "query": "Michael Jordan enforcement",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "SEC EDGAR filings",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The search did not examine granular civil litigation records (e.g., state small‑claims suits) that may not surface in broad news or court‑record queries.",
+    "Personal financial disclosures or private settlements that are not filed with the SEC or reported in public filings were not reviewed.",
+    "International sanctions lists (e.g., EU, UN) were not queried for the subject."
+  ],
+  "next_steps": [
+    "Query PACER for any federal civil or criminal cases filed under 'Michael Jeffrey Jordan' or 'Michael Jordan'.",
+    "Check the Illinois state court online docket for any local civil suits involving the subject.",
+    "Search the SEC EDGAR system for any insider‑filing or enforcement actions linked to Michael Jordan as an individual.",
+    "Review OFAC’s SDN list and the EU Consolidated List for any sanctions entries matching the name."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Michael_Jordan",
+      "title": "Wikipedia: Michael Jordan",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q41421",
+      "title": "Wikidata: Michael Jordan",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.aljazeera.com/sports/2026/10/13/man-city-charges-any-political-interference-and-ill-quit-says-regulator",
+      "title": "Man City charges: Any political interference and I’ll quit, says regulator | Football | Al Jazeera",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-10-13"
+    }
+  ]
+}

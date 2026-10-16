@@ -1,0 +1,159 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Do Kwon was sentenced to 15 years in prison on 11 December 2025.",
+    "entity": "Do Kwon",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "dokwon_sentencing_memo.png"
+  ],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-01, the claim that Do Kwon was sentenced to 15 years in prison on 11 December 2025 is TRUE with high confidence. Multiple reputable outlets (WSJ, Coindesk, Le Monde) and the official U.S. Department of Justice press release confirm the sentence length and date. A separate, older Montenegro ruling concerning a four‑month sentence does not contradict this finding.",
+  "findings": [
+    {
+      "statement": "Do Kwon (full legal name Do Hyeong Kwon) was sentenced to a prison term by a U.S. federal court on 11 December 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.justice.gov/usao-sdny/united-states-v-kwon-23-cr-151-pae-terraform-labs-fraud",
+        "https://www.wsj.com/finance/currencies/crypto-entrepreneur-do-kwon-gets-15-year-prison-sentence-14dfc220",
+        "https://www.coindesk.com/policy/2025/12/10/terraform-s-do-kwon-sentenced-to-15-years-in-prison-for-fraud"
+      ]
+    },
+    {
+      "statement": "The exact length of the prison sentence imposed on Do Kwon is 15 years, and it was imposed on 11 December 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.justice.gov/usao-sdny/united-states-v-kwon-23-cr-151-pae-terraform-labs-fraud",
+        "https://www.wsj.com/finance/currencies/crypto-entrepreneur-do-kwon-gets-15-year-prison-sentence-14dfc220",
+        "https://www.lemonde.fr/en/pixels/article/2025/12/12/crypto-mogul-sentenced-to-15-years-for-fraud_6748405_13.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "A 2023 Montenegro court ruling noted a four‑month prison sentence for Do Kwon (protos.com). This concerns a separate, earlier case in Montenegro and does not contradict the 2025 U.S. 15‑year sentence."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Do Hyeong Kwon",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon sentenced 15 years December 11 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Do Kwon",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Do Hyeong Kwon sentenced 15 years December 11 2025 site:gov",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.justice.gov/usao-sdny/united-states-v-kwon-23-cr-151-pae-terraform-labs-fraud",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Do Kwon appeal sentence 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [
+    "The analyst‑provided memo (dokwon_sentencing_memo.png) is internally consistent with the DOJ press release and news reports, showing the same name, date and sentence length. It contains no anachronistic dates and is not addressed to an AI reader, but as an image it cannot be machine‑read directly."
+  ],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct court transcript or sentencing hearing video has been located in the performed searches.",
+    "The docket or PACER entry for case 23‑cr‑151 was not examined, so the official sentencing order has not been independently verified."
+  ],
+  "next_steps": [
+    "Retrieve the PACER docket for United States v. Do Hyeong Kwon, 23‑cr‑151 (SDNY) to view the sentencing order.",
+    "Request or locate the sentencing transcript or audio recording from the court reporter.",
+    "Verify the Montenegro four‑month sentence by consulting Montenegro court records to ensure it is a distinct, earlier case.",
+    "Confirm the DOJ press release timestamp and any subsequent updates on the justice.gov page."
+  ],
+  "sources": [
+    {
+      "url": "https://www.justice.gov/usao-sdny/united-states-v-kwon-23-cr-151-pae-terraform-labs-fraud",
+      "title": "Southern District of New York |  United States v. Kwon, 23 Cr. 151 (PAE) (Terraform Labs Fraud)",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.wsj.com/finance/currencies/crypto-entrepreneur-do-kwon-gets-15-year-prison-sentence-14dfc220",
+      "title": "Crypto Entrepreneur Do Kwon Gets 15-Year Prison Sentence - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-12-11"
+    },
+    {
+      "url": "https://www.coindesk.com/policy/2025/12/10/terraform-s-do-kwon-sentenced-to-15-years-in-prison-for-fraud",
+      "title": "Terra Creator Do Kwon Sentenced to 15 Years in Prison",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2025-12-11"
+    },
+    {
+      "url": "https://www.lemonde.fr/en/pixels/article/2025/12/12/crypto-mogul-sentenced-to-15-years-for-fraud_6748405_13.html",
+      "title": "Crypto mogul sentenced to 15 years for fraud",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    }
+  ]
+}

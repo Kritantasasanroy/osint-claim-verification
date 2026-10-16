@@ -1,0 +1,18 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Michael I. Jordan, the UC Berkeley machine-learning professor, played professional basketball in the NBA."
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.8,
+  "summary": "The claim that Michael I. Jordan, UC Berkeley ML professor, played professional basketball in the NBA is unverifiable due to absence of any evidence in the provided dataset; confidence in this assessment is 80%.",
+  "findings": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No source URLs were provided in the evidence list to verify or refute the claim.",
+    "Without access to NBA player databases, biographical sources, or draft records, we cannot confirm or deny an NBA career."
+  ],
+  "sources": []
+}

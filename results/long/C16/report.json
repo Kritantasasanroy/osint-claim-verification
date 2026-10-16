@@ -1,0 +1,124 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Trevor Milton is currently serving a prison sentence for fraud."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.86,
+  "summary": "The claim that Trevor Milton is currently serving a prison sentence for fraud is false. He was convicted of securities and wire fraud in 2022, sentenced to four years imprisonment in 2023, but received a full and unconditional pardon from President Trump on March 28, 2025, which erased his conviction and sentence. He remained free on bail pending appeal and, as of August 2025, appears nowhere in the Federal Bureau of Prisons inmate population, indicating he is not incarcerated.",
+  "findings": [
+    {
+      "statement": "Trevor Milton was convicted in October 2022 of one count of securities fraud and two counts of wire fraud in the Southern District of New York.",
+      "confidence": 0.96,
+      "citations": [
+        "https://www.reuters.com/world/us/nikola-founder-trevor-milton-says-granted-full-pardon-by-trump-2025-03-28",
+        "https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present"
+      ]
+    },
+    {
+      "statement": "He was sentenced on December 18, 2023 to 48 months' imprisonment and three years of supervised release.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present",
+        "https://www.reuters.com/legal/nikola-founder-trevor-milton-be-sentenced-over-fraud-conviction-2023-12-18",
+        "https://www.gov.ca.gov/2026/06/16/trumpcriminals4"
+      ]
+    },
+    {
+      "statement": "President Donald Trump granted Trevor Milton a full and unconditional pardon on March 28, 2025, officially recorded by the Department of Justice.",
+      "confidence": 0.92,
+      "citations": [
+        "https://www.justice.gov/pardon/media/1395001/dl?inline=",
+        "https://tanktransport.com/2025/07/trevor-milton-pardon",
+        "https://www.gov.ca.gov/2026/06/16/trumpcriminals4"
+      ]
+    },
+    {
+      "statement": "Following the pardon, Trevor Milton remained free on bail and was not incarcerated; his conviction and sentence were erased, so he is not currently serving a prison sentence.",
+      "confidence": 0.86,
+      "citations": [
+        "https://www.newsweek.com/full-list-of-donald-trump-pardons-for-2025-11151896",
+        "https://www.freightwaves.com/news/former-nikola-motor-founder-trevor-milton-pardoned-by-president-trump",
+        "https://tanktransport.com/2025/07/trevor-milton-pardon",
+        "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html"
+      ]
+    },
+    {
+      "statement": "As of August 2025, the Federal Bureau of Prisons shows no inmate record for Trevor Milton, confirming he is not incarcerated.",
+      "confidence": 0.84,
+      "citations": [
+        "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html",
+        "https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present",
+        "https://www.freightwaves.com/news/former-nikola-motor-founder-trevor-milton-pardoned-by-president-trump"
+      ]
+    }
+  ],
+  "conflicts": [
+    "According to the Federal Bureau of Prisons (or relevant state corrections agency), what is Trevor Milton's current custody status (incarcerated, released, on supervised release, etc.) as of today? - supported by newsweek.com (weight 0.65) vs refuted by reuters.com (weight 0.57)"
+  ],
+  "conflict_notes": [
+    "Q4: newsweek.com (weight 0.65) states Trevor Milton remained free pending appeal at the time of his pardon, while reuters.com (weight 0.57) notes the pardon indicating he is not currently incarcerated. Both sources actually agree he is not incarcerated; the conflict is superficial and was resolved by giving greater weight to the pardon documentation (justice.gov, tanktransport.com) which confirms the pardon erased his conviction and sentence."
+  ],
+  "gaps": [
+    "Exact date of any potential release from incarceration cannot be pinpointed because Trevor Milton never entered federal prison after sentencing; he remained on bail.",
+    "Details of any state-level supervision or probation that might persist after the federal pardon are not documented in the available sources.",
+    "Whether any civil judgments or restitution orders related to the fraud survive the pardon is not clarified by the evidence."
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/world/us/nikola-founder-trevor-milton-says-granted-full-pardon-by-trump-2025-03-28",
+      "title": "Nikola founder Trevor Milton says he was granted a full pardon by Trump",
+      "tier": "major_news",
+      "reliability": 0.954
+    },
+    {
+      "url": "https://www.justice.gov/pardon/clemency-grants-president-donald-j-trump-2025-present",
+      "title": "Office of the Pardon Attorney | Clemency Grants by President Donald J. Trump (2025-Present)",
+      "tier": "official",
+      "reliability": 0.986
+    },
+    {
+      "url": "https://www.reuters.com/legal/nikola-founder-trevor-milton-be-sentenced-over-fraud-conviction-2023-12-18",
+      "title": "Nikola founder Trevor Milton sentenced to four years for fraud conviction | Reuters",
+      "tier": "major_news",
+      "reliability": 0.954
+    },
+    {
+      "url": "https://www.gov.ca.gov/2026/06/16/trumpcriminals4",
+      "title": "Governor Newsom calls out Trump’s weaponized DOJ as President rewards his criminal cronies with pardons | Governor of California",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.justice.gov/pardon/media/1395001/dl?inline=",
+      "title": "2025-03-27 Pardon TREVOR MILTON",
+      "tier": "official",
+      "reliability": 0.986
+    },
+    {
+      "url": "https://tanktransport.com/2025/07/trevor-milton-pardon",
+      "title": "Trevor Milton Pardon Triggers 10 Critical Shifts in Nikola’s Collapse",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.newsweek.com/full-list-of-donald-trump-pardons-for-2025-11151896",
+      "title": "Full List of Donald Trump Pardons for 2025  - Newsweek",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://www.freightwaves.com/news/former-nikola-motor-founder-trevor-milton-pardoned-by-president-trump",
+      "title": "Former Nikola CEO Trevor Milton receives Trump pardon after securities fraud conviction - FreightWaves",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html",
+      "title": "Trump pardons Nikola founder Trevor Milton",
+      "tier": "major_news",
+      "reliability": 0.957
+    }
+  ]
+}

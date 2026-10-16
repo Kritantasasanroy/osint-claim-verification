@@ -1,0 +1,61 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Christopher James Evans was born on 1 April 1966.",
+          "supported": true
+        },
+        {
+          "fact": "Christopher James Evans is an English television presenter, radio DJ, and producer.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "He presented The One Show on Fridays between 2010 and 2015.",
+          "supported": true
+        },
+        {
+          "fact": "He co-hosted Radio 2 Live in Hyde Park between 2011 and 2018.",
+          "supported": true
+        },
+        {
+          "fact": "In 2015, he signed a three-year deal to lead a new Top Gear line-up.",
+          "supported": true
+        },
+        {
+          "fact": "He presented a revival series of TFI Friday in 2015.",
+          "supported": true
+        },
+        {
+          "fact": "He stepped down as presenter of Top Gear in July 2016 (announced 4 July 2016).",
+          "supported": true
+        },
+        {
+          "fact": "He moved to Virgin Radio UK to present its breakfast show, announced in September 2018.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Chris Evans the British TV presenter is a different person from the Chris Evans who plays Captain America.",
+          "supported": true
+        },
+        {
+          "fact": "Chris Evans the British TV presenter has never been credited as playing Captain America in any Marvel Studios film.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

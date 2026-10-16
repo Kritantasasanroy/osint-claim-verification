@@ -1,0 +1,269 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "FTX Trading Ltd relaunched its exchange worldwide in 2025, fully licensed in the United States, under founder Sam Bankman-Fried, as announced on 2 June 2025.",
+    "entity": "FTX",
+    "disambiguators": [
+      "relaunched its exchange",
+      "in 2025",
+      "under Sam Bankman-Fried",
+      "worldwide",
+      "fully licensed in the United States",
+      "founder Sam Bankman-Fried",
+      "announced on 2 June 2025",
+      "FTX Trading Ltd"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "ftx_relaunch_2025.png"
+  ],
+  "verdict": "FALSE",
+  "confidence": 0.9799,
+  "estimative": "almost certain",
+  "summary": "VERDICT: FALSE (98% confidence). As of 2026-10-01, FTX Trading Ltd remains bankrupt (Chapter 11 filed Nov 11 2022) and did not relaunch worldwide in 2025; Sam Bankman‑Fried is imprisoned serving a 25‑year sentence (since 2024) and cannot lead a company; the exchange was not fully licensed in the United States after bankruptcy.",
+  "findings": [
+    {
+      "statement": "FTX Trading Ltd is incorporated in Antigua and Barbuda.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml"
+      ]
+    },
+    {
+      "statement": "As of June 2 2025, FTX Trading Ltd was not fully licensed to operate in the United States because it had filed for Chapter 11 bankruptcy on November 11 2022 and its US‑regulated subsidiary LedgerX was sold out of bankruptcy in 2023.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+        "https://insights4vc.substack.com/p/coinbase-to-buy-deribit-for-29-billion"
+      ]
+    },
+    {
+      "statement": "Sam Bankman‑Fried is a co‑founder of FTX Trading Ltd but, as of 2026‑10‑01, he is serving a 25‑year federal prison sentence (imposed in 2024) and therefore could not have led the exchange in 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/FTX",
+        "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml",
+        "https://www.courthousenews.com/second-circuit-denies-sam-bankman-frieds-bid-to-overturn-ftx-crypto-fraud-conviction",
+        "https://newscord.org/article/netflix-releases-trailer-for-the-altruists-starring-sam-bankman-fried-and-caroli--Story_20261008_WatchthetrailerforTh6ada9c9b",
+        "https://bitcoinfoundation.org/news/people-in-crypto/netflixs-the-altruists-puts-ftx-back-in-focus-what-really-happened-to-sam-bankman-frieds-crypto-empire"
+      ]
+    },
+    {
+      "statement": "FTX Trading Ltd did not relaunch its exchange worldwide in 2025; it remained a Chapter 11 debtor as of December 3 2025 and its exchange had been inactive since the 2022 bankruptcy.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.jonesday.com/en/insights/2026/02/the-year-in-bankruptcy-2025",
+        "https://en.wikipedia.org/wiki/FTX"
+      ]
+    },
+    {
+      "statement": "After its bankruptcy, FTX Trading Ltd did not obtain any new United States regulatory licenses; its US‑regulated subsidiary LedgerX was sold out of bankruptcy in 2023.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://insights4vc.substack.com/p/coinbase-to-buy-deribit-for-29-billion"
+      ]
+    },
+    {
+      "statement": "As of 2026‑10‑01, Sam Bankman‑Fried is incarcerated serving a 25‑year sentence and is unable to lead any company.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.courthousenews.com/second-circuit-denies-sam-bankman-frieds-bid-to-overturn-ftx-crypto-fraud-conviction",
+        "https://newscord.org/article/netflix-releases-trailer-for-the-altruists-starring-sam-bankman-fried-and-caroli--Story_20261008_WatchthetrailerforTh6ada9c9b",
+        "https://bitcoinfoundation.org/news/people-in-crypto/netflixs-the-altruists-puts-ftx-back-in-focus-what-really-happened-to-sam-bankman-frieds-crypto-empire",
+        "https://www.mercurynews.com/2026/06/09/ftx-co-founder-sam-bankman-fried-applies-for-trump-pardon"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "SEC filing shows FTX Trading Ltd incorporated in Antigua and Barbuda, while a Jonesday blog post suggests incorporation in Delaware, USA; the SEC source is given greater weight as a primary regulatory filing."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried FTX relaunch 2025 leadership",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "FTX Trading Ltd relaunch worldwide 2025 announcement June 2",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "FTX Trading Ltd legal name jurisdiction incorporation",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "FTX Trading Ltd June 2 2025 announcement press release",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "FTX Trading Ltd obtains United States license after bankruptcy 2025",
+      "results": 3,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried federal prison status October 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "wayback",
+      "query": "https://www.ftx.com 20250602",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "FTX Trading Ltd June 2 2025 announcement",
+      "results": 4,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "FTX Trading Ltd US regulatory license after bankruptcy 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Archived (Wayback) copies of pages"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [
+    "The analyst‑provided image (ftx_relaunch_2025.png) contains the announcement text but lacks independent corroboration; its claims about a June 2 2025 relaunch, US licensing, and leadership by Sam Bankman‑Fried are not supported by any external source and appear inconsistent with the established bankruptcy and imprisonment facts."
+  ],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No independent news or regulatory source confirms the alleged June 2 2025 announcement; the claim relies solely on the analyst‑provided image.",
+    "No verifiable evidence shows FTX Trading Ltd obtained any United States regulatory licenses after its 2022 bankruptcy.",
+    "The exact date of the purported announcement (if any) remains unconfirmed by independent sources."
+  ],
+  "next_steps": [
+    "Search SEC EDGAR for any post‑bankruptcy registration statements or license applications filed by FTX Trading Ltd or its successors.",
+    "Query the USPTO and FINRA BrokerCheck for any newly issued securities or money‑transmitter licenses to FTX entities after 2022.",
+    "Consult the Federal Bureau of Prisons inmate locator for Sam Bankman‑Fried’s current status and projected release date.",
+    "Search major news wires (Reuters, Bloomberg, AP) for press releases dated around June 2 2025 from FTX Trading Ltd."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1876386/000187638621000002/xslFormDX01/primary_doc.xml",
+      "title": "SEC FORM D",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://ofi.la.gov/ftx-files-chapter-11-bankruptcy",
+      "title": "FTX Files Chapter 11 Bankruptcy",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://insights4vc.substack.com/p/coinbase-to-buy-deribit-for-29-billion",
+      "title": "Coinbase to buy Deribit for $2.9 billion - insights4vc",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": "2025-05-15"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FTX",
+      "title": "FTX - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.courthousenews.com/second-circuit-denies-sam-bankman-frieds-bid-to-overturn-ftx-crypto-fraud-conviction",
+      "title": "Second Circuit denies Sam Bankman-Fried’s bid to overturn FTX crypto fraud conviction | Courthouse News Service",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://newscord.org/article/netflix-releases-trailer-for-the-altruists-starring-sam-bankman-fried-and-caroli--Story_20261008_WatchthetrailerforTh6ada9c9b",
+      "title": "Netflix Releases Trailer For The Altruists, Starring Sam Bankman-Fried And Caroline Ellison: how 17 outlets framed it | NewsCord",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-09"
+    },
+    {
+      "url": "https://bitcoinfoundation.org/news/people-in-crypto/netflixs-the-altruists-puts-ftx-back-in-focus-what-really-happened-to-sam-bankman-frieds-crypto-empire",
+      "title": "Netflix’s The Altruists Puts FTX Back in Focus: What Really Happened to Sam Bankman-Fried’s Crypto Empire? - Bitcoin Foundation",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-09"
+    },
+    {
+      "url": "https://www.jonesday.com/en/insights/2026/02/the-year-in-bankruptcy-2025",
+      "title": "The Year in Bankruptcy: 2025",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-04"
+    },
+    {
+      "url": "https://www.mercurynews.com/2026/06/09/ftx-co-founder-sam-bankman-fried-applies-for-trump-pardon",
+      "title": "FTX co-founder Sam Bankman-Fried applies for Trump pardon – The Mercury News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-09"
+    }
+  ]
+}

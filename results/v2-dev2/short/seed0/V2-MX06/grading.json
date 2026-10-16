@@ -1,0 +1,57 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Ternus became Apple's CEO",
+          "supported": true
+        },
+        {
+          "fact": "The CEO transition was effective September 1, 2026",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tim Cook did not leave Apple",
+          "supported": true
+        },
+        {
+          "fact": "Tim Cook became executive chairman of Apple's board",
+          "supported": true
+        },
+        {
+          "fact": "Tim Cook remained employed at Apple after September 1, 2026",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Apple publicly announced the leadership change in April 2026",
+          "supported": true
+        },
+        {
+          "fact": "The announcement was dated April 20 or 21, 2026",
+          "supported": true
+        },
+        {
+          "fact": "The announcement stated John Ternus would succeed Tim Cook as CEO",
+          "supported": true
+        },
+        {
+          "fact": "The announcement stated Tim Cook would become executive chairman",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

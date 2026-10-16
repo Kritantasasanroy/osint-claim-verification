@@ -1,0 +1,49 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon's full legal name is Kwon Do-hyung.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon is the co-founder of Terraform Labs.",
+          "supported": true
+        },
+        {
+          "fact": "Do Kwon is the former CEO of Terraform Labs.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Do Kwon was sentenced to 15 years in prison in December 2025.",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was imposed by US District Judge Paul Engelmayer at a hearing in New York.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Do Kwon is serving a 15-year sentence in a US federal prison.",
+          "supported": true
+        },
+        {
+          "fact": "Do Kwon is not detained by Montenegrin authorities; he was extradited from Montenegro to the US.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

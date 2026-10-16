@@ -1,0 +1,13 @@
+{
+  "case_id": "C20",
+  "mode": "short",
+  "correct": false,
+  "verdict_flips": 0,
+  "steps_to_stable": 1,
+  "misleading_memories_trusted": 0,
+  "failure_modes": [
+    "source_selection",
+    "premature_stop",
+    "overconfident"
+  ]
+}

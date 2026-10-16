@@ -1,0 +1,69 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Greg Abel became Chief Executive Officer of Berkshire Hathaway on January 1, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "The appointment resulted from a unanimous Board of Directors vote on May 4, 2025 to make Abel President and CEO effective January 1, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "Warren Buffett stepped down as CEO in connection with the transition while remaining Chairman of the Board.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Warren Buffett ceased as CEO of Berkshire Hathaway on January 1, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "Warren Buffett remained Chairman of the Board after stepping down as CEO, until September 18, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "On September 18, 2026, Warren Buffett was named Chairman Emeritus, effective immediately, while remaining a director.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Howard G. Buffett was elected Chairman of the Board of Berkshire Hathaway.",
+          "supported": true
+        },
+        {
+          "fact": "Howard G. Buffett's election as Chairman was effective September 18, 2026, announced as effective immediately in the press release dated that day.",
+          "supported": true
+        },
+        {
+          "fact": "Greg Abel did not become chairman of Berkshire Hathaway.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The September 18, 2026 press release identifies Greg Abel as Chief Executive Officer.",
+          "supported": true
+        },
+        {
+          "fact": "No evidence indicates a change in Abel's CEO title between September 18 and October 1, 2026.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

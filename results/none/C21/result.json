@@ -1,0 +1,56 @@
+{
+  "case_id": "C21",
+  "mode": "none",
+  "kind": "claim",
+  "tags": [
+    "cluster:patagonia"
+  ],
+  "expected": "TRUE",
+  "verdict": "TRUE",
+  "correct": true,
+  "confidence": 0.94,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "TRUE",
+      "confidence": 0.94,
+      "p_correct": 0.94,
+      "reward": {
+        "step": 1,
+        "progress": 0.69,
+        "information": 0.9999935083901035,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 18269,
+  "completion_tokens": 17301,
+  "cost_usd": 0.0104774,
+  "wall_clock_s": 25.0026257999707,
+  "call_latency_s": 91.21300000000001,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 5,
+  "conflicts_final": 0,
+  "independent_domains": 11,
+  "evidence_weight": 23.89,
+  "mean_evidence_reliability": 0.635,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.9964,
+    "cost": 0.23713333333333333
+  }
+}

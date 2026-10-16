@@ -1,0 +1,44 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Builder.ai was listed on Nasdaq in an IPO in February 2026, raising USD 1.2 billion.",
+    "entity": "Builder.ai",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "builderai_ipo_2026.png"
+  ],
+  "verdict": "FALSE",
+  "confidence": 0.85,
+  "estimative": "very likely",
+  "summary": "Builder.ai remained a private company through at least mid-2024 with no public filing or news of an IPO; there is no credible record of a Nasdaq listing in February 2026 or a $1.2 bn raise.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

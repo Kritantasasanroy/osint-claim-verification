@@ -1,0 +1,232 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Wirecard was audited by EY, which signed off its 2019 accounts.",
+    "entity": "Wirecard",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "MIXED",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "The claim is mixed: EY was Wirecard's appointed external auditor for 2019, but it refused to sign off the 2019 accounts on 18 June 2020 and therefore did not issue an audit opinion. Thus the subject was audited by EY, but EY did not sign off the accounts.",
+  "findings": [
+    {
+      "statement": "EY was appointed external auditor of Wirecard for the fiscal year ending 2019.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+        "https://sg.finance.yahoo.com/news/rise-fall-wirecard-085534538.html"
+      ]
+    },
+    {
+      "statement": "On 18 June 2020, EY formally refused to sign off Wirecard's 2019 accounts.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+        "https://www.cnbc.com/2020/06/18/wirecard-shares-plummet-as-payments-firm-postpones-annual-report.html"
+      ]
+    },
+    {
+      "statement": "EY did not issue an unqualified audit opinion on Wirecard's 2019 financial statements.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+        "https://finance.yahoo.com/news/wirecards-auditors-ey-were-victims-093000015.html"
+      ]
+    },
+    {
+      "statement": "EY did not issue any audit opinion (including qualified) for Wirecard's 2019 accounts after the refusal.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+        "https://www.cnbc.com/2020/06/18/wirecard-shares-plummet-as-payments-firm-postpones-annual-report.html"
+      ]
+    },
+    {
+      "statement": "After the refusal, EY did not issue a revised opinion or withdrawal; it stated it was seeking clarification.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.cnbc.com/2020/06/18/wirecard-shares-plummet-as-payments-firm-postpones-annual-report.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [
+    "What is the full legal name and jurisdiction of the audit firm referred to as EY? - supported by finance.yahoo.com, wirecard.com (weight 1.05) vs refuted by europarl.europa.eu (weight 0.95)",
+    "Did EY later issue any revised opinion or withdrawal after the refusal? - supported by cnbc.com (weight 0.85) vs refuted by europarl.europa.eu (weight 0.95)"
+  ],
+  "conflict_notes": [
+    "Q2: The full legal name and jurisdiction of EY. Supporting sources (finance.yahoo.com, wirecard.com) indicate EY is Ernst & Young GmbH Wirtschaftsprüfungsgesellschaft, Germany. Refuting source (europarl.europa.eu) focuses on EY's refusal to sign the audit report and does not directly dispute the name/jurisdiction. Weighted more heavily toward the supporting sources, so we accept the German GmbH description.",
+    "Q7: Whether EY issued a revised opinion or withdrawal after refusing to sign Wirecard's 2019 accounts. Supporting source (cnbc.com) states EY did not issue a revised opinion and was seeking clarification. Refuting source (europarl.europa.eu) states EY declared fraud and false confirmations, which could be read as a statement but not an audit opinion. Weigh the cnbc.com source as more specific to audit opinion, thus lean toward no revised opinion, but acknowledge residual uncertainty."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Wirecard",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Ernst & Young",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Wirecard 2019 audit report Ernst & Young opinion",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "EY disclaimer of opinion Wirecard 2019 financial statements",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "EY refused to sign off Wirecard 2019 accounts April 2020 date",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "EY withdrew audit opinion Wirecard 2019 revised opinion after refusal",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Wirecard 2019 annual report auditor's report Ernst & Young",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "sec_edgar",
+      "query": "Wirecard 2019",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "EY disclaimer of opinion Wirecard 2019",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Wirecard June 18 2020 EY refuses to sign 2019 accounts",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.europarl.europa.eu/RegData/etudes/STUD/2020/651383/IPOL_STU(2020)651383_EN.pdf",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.cnbc.com/2020/06/18/wirecard-shares-plummet-as-payments-firm-postpones-annual-report.html",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "GLEIF legal-entity (LEI) records",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "The exact legal name and jurisdiction of EY (Ernst & Young GmbH Wirtschaftsprüfungsgesellschaft) rests on mixed source weight; a definitive corporate registry check would remove uncertainty. [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The precise date of EY's appointment as Wirecard's auditor for 2019 is not specified in the evidence; confirming the engagement letter would clarify the auditor-of-record period.",
+    "Whether EY ever issued an internal draft opinion (e.g., the June 2 2020 draft mentioned in Bloomberg Tax) that was later withdrawn is not fully resolved."
+  ],
+  "next_steps": [
+    "Consult EY's official press release archive for a June 18 2020 statement on the Wirecard audit refusal.",
+    "Review BaFin enforcement documents and Wirecard insolvency filing for the auditor's role and any subsequent opinions.",
+    "Search for the alleged June 2 2020 draft unqualified audit opinion referenced in Bloomberg Tax to determine its status.",
+    "Check the German Federal Gazette (Bundesanzeiger) for any published auditor resignation or withdrawal notices related to Wirecard 2019."
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+      "title": "The rise and fall of Wirecard | Reuters",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2022-12-06"
+    },
+    {
+      "url": "https://sg.finance.yahoo.com/news/rise-fall-wirecard-085534538.html",
+      "title": "The rise and fall of Wirecard",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2020-07-30"
+    },
+    {
+      "url": "https://www.cnbc.com/2020/06/18/wirecard-shares-plummet-as-payments-firm-postpones-annual-report.html",
+      "title": "Wirecard shares plummet as payments firm postpones annual report",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://finance.yahoo.com/news/wirecards-auditors-ey-were-victims-093000015.html",
+      "title": "Wirecard's auditors EY say they were victims of an 'elaborate' fraud by their client that ended in US$2 billion of missing funds",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    }
+  ]
+}

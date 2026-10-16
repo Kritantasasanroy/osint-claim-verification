@@ -1,0 +1,44 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The LEGO Group's legal name is LEGO System A/S.",
+          "supported": true
+        },
+        {
+          "fact": "The LEGO Group is registered in Denmark.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The LEGO Group is a Danish toy manufacturing company.",
+          "supported": true
+        },
+        {
+          "fact": "The LEGO Group is headquartered in Billund, Denmark.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of December 2024, the Danish Supreme Court had not issued a conviction for price fixing against the LEGO Group.",
+          "supported": false
+        },
+        {
+          "fact": "The case was expected to continue into 2025.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

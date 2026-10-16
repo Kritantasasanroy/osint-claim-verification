@@ -1,0 +1,73 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Patagonia, Inc. is headquartered in Ventura, California",
+          "supported": true
+        },
+        {
+          "fact": "Patagonia operates in the outdoor recreation clothing, equipment, and food retail industry",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Patagonia was founded in 1973 by Yvon Chouinard",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Patagonia's voting stock is held by the Patagonia Purpose Trust",
+          "supported": true
+        },
+        {
+          "fact": "Patagonia's nonvoting stock is held by the Holdfast Collective",
+          "supported": true
+        },
+        {
+          "fact": "The Holdfast Collective holds the majority of Patagonia's economic interest",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "In December 2021, the European Center for Constitutional and Human Rights filed a criminal complaint against Patagonia in a Dutch court",
+          "supported": true
+        },
+        {
+          "fact": "The criminal complaint alleged Patagonia may have been complicit in the forced labor of Uyghur Muslims in Xinjiang",
+          "supported": true
+        },
+        {
+          "fact": "No subsequent criminal charges, indictment, or conviction against Patagonia have been reported as of 2026-10-01",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of 2026-10-01, Patagonia has not been subject to any material civil judgment exceeding $10 million",
+          "supported": false
+        },
+        {
+          "fact": "Patagonia has not been subject to any major regulatory sanction and has not been barred or sanctioned by a regulator such as the FTC, EPA, or CPSC",
+          "supported": false
+        },
+        {
+          "fact": "Patagonia has not been subject to any bankruptcy or insolvency proceeding",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

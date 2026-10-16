@@ -1,0 +1,235 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Do Kwon is currently in custody in Montenegro.",
+    "entity": "Do Kwon",
+    "disambiguators": [
+      "currently in custody",
+      "in Montenegro"
+    ],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-13, the claim that Do Kwon is currently in custody in Montenegro is FALSE. He was arrested in Montenegro on 23 March 2023, extradited to the United States and handed over to the FBI on 31 December 2024, and has been serving a 15‑year federal prison sentence in the US since early 2026, meaning he is not detained or imprisoned in Montenegro at the present date.",
+  "findings": [
+    {
+      "statement": "Do Kwon's full legal name is Kwon Do Hyeong (also rendered Kwon Do-hyung) and he was born on 6 September 1991.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Do_Kwon",
+        "https://www.rferl.org/a/montenegro-do-kwon-extradition/32893059.html"
+      ]
+    },
+    {
+      "statement": "Do Kwon was arrested on March 23, 2023 at Podgorica airport while attempting to fly to Dubai using a fake passport.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.rferl.org/a/montenegro-do-kwon-extradition/32893059.html"
+      ]
+    },
+    {
+      "statement": "Do Kwon was extradited to the United States and handed over to FBI agents at Podgorica Airport on December 31, 2024.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://thehill.com/homenews/ap/ap-international/ap-montenegro-extradites-cryptocurrency-mogul-do-kwon-to-the-united-states",
+        "https://fortune.com/2024/12/31/fugitive-crypto-king-do-kwon-extradited-fbi-terra-coin-collapse-south-korea-montenegro"
+      ]
+    },
+    {
+      "statement": "As of early 2026, Do Kwon is serving a 15-year federal prison sentence in the United States, and therefore is not detained or imprisoned in Montenegro as of 2026-10-13.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.datawallet.com/crypto/do-kwon-net-worth",
+        "https://www.nbcnews.com/world/asia/crypto-founder-kwon-sentenced-15-years-prison-40-billion-collapse-rcna248790"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon Montenegro custody status October 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Do Kwon full legal name date of birth",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon arrested Montenegro March 2023 extradition proceedings",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Do Kwon sentenced 15 years NBC News",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Montenegro confirms extradition Do Kwon transferred to US 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Do Kwon Montenegro prison 2025 detention",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.nbcnews.com/world/asia/crypto-founder-kwon-sentenced-15-years-prison-40-billion-collapse-rcna248790",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Montenegro confirms extradition Do Kwon transferred to United States December 2024 official statement",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Montenegro prison inmate register Do Kwon 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Kwon Do Hyeong pritvor Crna Gora 2026",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "web_search",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "news_search",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "No recent (2025‑2026) Montenegrin prison or court records directly addressing Do Kwon’s detention status were identified in the searched sources. [withdrawn: no tool checked court_records]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact publication date of the NBC News article announcing Do Kwon’s 15‑year sentence has not been located in the performed searches.",
+    "No explicit official Montenegrin government press release or statement confirming the extradition and transfer to US custody after the December 2024 approval was found in the evidence."
+  ],
+  "next_steps": [
+    "Search the Montenegrin Ministry of Justice website for a December 2024 or early 2025 press release confirming Do Kwon’s handover to US authorities.",
+    "Query the US Federal Bureau of Prisons inmate locator for Do Kwon’s registration number and custody status as of 2026-10-13.",
+    "Review Montenegrin court docket systems (e.g., e‑sudski portal) for any 2025‑2026 rulings or prison register entries mentioning Do Kwon.",
+    "Locate the NBC News article via its URL or archive to confirm its exact publication date."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Do_Kwon",
+      "title": "Do Kwon - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.rferl.org/a/montenegro-do-kwon-extradition/32893059.html",
+      "title": "Montenegrin Supreme Court Sends 'Crypto King' Case Back To Lower Court",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2024-04-05"
+    },
+    {
+      "url": "https://thehill.com/homenews/ap/ap-international/ap-montenegro-extradites-cryptocurrency-mogul-do-kwon-to-the-united-states",
+      "title": "Montenegro extradites cryptocurrency mogul Do Kwon to the United States | The Hill",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2024-12-31"
+    },
+    {
+      "url": "https://fortune.com/2024/12/31/fugitive-crypto-king-do-kwon-extradited-fbi-terra-coin-collapse-south-korea-montenegro",
+      "title": "Fugitive crypto king Do Kwon handed over to the FBI after $40 billion Terra collapse | Fortune",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2024-12-31"
+    },
+    {
+      "url": "https://www.datawallet.com/crypto/do-kwon-net-worth",
+      "title": "Who is Do Kwon? Biography, Terra Collapse & Net Worth in 2026",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-18"
+    },
+    {
+      "url": "https://www.nbcnews.com/world/asia/crypto-founder-kwon-sentenced-15-years-prison-40-billion-collapse-rcna248790",
+      "title": "Crypto founder Do Kwon sentenced to 15 years in prison over $40 billion collapse",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    }
+  ]
+}

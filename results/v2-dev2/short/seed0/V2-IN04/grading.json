@@ -1,0 +1,48 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Binance's legal name is Binance Holdings Ltd.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Binance was founded in 2017.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Binance has no official company headquarters.",
+          "supported": true
+        },
+        {
+          "fact": "This status holds as of 2026-10-01 (the cited article's content extends into 2026).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "On 21 November 2023, Binance pleaded guilty to violating U.S. anti-money laundering rules.",
+          "supported": true
+        },
+        {
+          "fact": "Binance paid a $4.3 billion fine.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

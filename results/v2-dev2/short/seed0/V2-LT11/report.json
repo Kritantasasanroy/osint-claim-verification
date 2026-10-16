@@ -1,0 +1,199 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Option Energy Solutions Ltd (Steyning)",
+    "entity": "Option Energy Solutions Ltd",
+    "disambiguators": [
+      "Steyning"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.9427,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, Option Energy Solutions Ltd (Steyning) shows no adverse indicators: it is an active UK company incorporated on 2014-02-13, with legal name Option Energy Solutions Ltd, registration number 08893883, and registered office at 9 Penlands Way, Steyning, England, BN44 3PN. No evidence of criminal convictions, regulator sanctions, or major civil judgments was located in the performed searches, supporting a NO_ADVERSE verdict at 94% confidence.",
+  "findings": [
+    {
+      "statement": "Option Energy Solutions Ltd's exact legal name is Option Energy Solutions Ltd.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/08893883"
+      ]
+    },
+    {
+      "statement": "Option Energy Solutions Ltd's registration number is 08893883.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/08893883"
+      ]
+    },
+    {
+      "statement": "Option Energy Solutions Ltd's registered office address is 9 Penlands Way, Steyning, England, BN44 3PN.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/08893883"
+      ]
+    },
+    {
+      "statement": "Option Energy Solutions Ltd was incorporated on 13 February 2014.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/08893883"
+      ]
+    },
+    {
+      "statement": "Option Energy Solutions Ltd's company status is Active, indicating it is not insolvent, in liquidation, administration, or bankruptcy.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://find-and-update.company-information.service.gov.uk/company/08893883"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Option Energy Solutions Ltd",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Option Energy Solutions Ltd",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Option Energy Solutions Ltd Steyning Companies House",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Option Energy Solutions Ltd criminal conviction",
+      "results": 4,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Option Energy Solutions Ltd FCA sanction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Option Energy Solutions Ltd civil judgment",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "site:hse.gov.uk OR site:thegazette.co.uk OR site:fca.org.uk OR site:gov.uk — search: 'Option Energy Solutions' Steyning OR 08893883 HSE OR 'Trading Standards' OR 'Environment Agency' OR FCA OR prosecution OR 'enforcement notice'",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Option Energy Solutions Ltd sanction OR conviction OR penalty OR fine",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Option Energy Solutions Ltd Steyning",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Option Energy Solutions Ltd FCA warning notice",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Option Energy Solutions Ltd Environment Agency enforcement",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Option Energy Solutions Ltd HSE prosecution",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence was found regarding any criminal conviction, charge, or indictment against Option Energy Solutions Ltd in the UK or any other jurisdiction.",
+    "No evidence was found of any UK regulator (FCA, Environment Agency, HSE, etc.) issuing a sanction, enforcement notice, or banning order against the company.",
+    "No evidence was found of a major civil judgment (e.g., fraud finding or damages exceeding £500,000) against the company in any court."
+  ],
+  "next_steps": [
+    "Query the UK Ministry of Justice court records (e.g., via the Find a Court Service) for any criminal or civil proceedings involving Option Energy Solutions Ltd.",
+    "Consult the Financial Conduct Authority's Warning Notices and Enforcement Notices list for the company name or registration number.",
+    "Check The Gazette for any insolvency notices, winding-up petitions, or official announcements related to Option Energy Solutions Ltd.",
+    "Review the Health and Safety Executive's enforcement database for any improvement or prohibition notices issued against the company."
+  ],
+  "sources": [
+    {
+      "url": "https://find-and-update.company-information.service.gov.uk/company/08893883",
+      "title": "OPTION ENERGY SOLUTIONS LTD overview - Find and update company information - GOV.UK",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

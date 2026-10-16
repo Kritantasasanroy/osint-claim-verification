@@ -1,0 +1,13 @@
+{
+  "case_id": "C27",
+  "mode": "none",
+  "correct": false,
+  "verdict_flips": 1,
+  "steps_to_stable": 2,
+  "misleading_memories_trusted": 0,
+  "failure_modes": [
+    "weak_evidence",
+    "budget_exhausted",
+    "overconfident"
+  ]
+}

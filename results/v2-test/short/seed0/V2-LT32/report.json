@@ -1,0 +1,237 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Greg Abel (Berkshire Hathaway CEO)",
+    "entity": "Greg Abel",
+    "disambiguators": [
+      "Berkshire Hathaway CEO"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.8022,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, Greg Abel holds the position of Chief Executive Officer of Berkshire Hathaway and first joined the company in 2008; no adverse findings (criminal, regulatory, or major civil) were uncovered in the available searches, supporting a NO_ADVERSE verdict with 80% confidence.",
+  "findings": [
+    {
+      "statement": "Greg Abel's official position title at Berkshire Hathaway as of 2026-10-01 is Chief Executive Officer (CEO).",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.cnbc.com/2026/09/02/berkshire-ceo-says-japanese-bond-yields-not-a-challenge-for-trading-houses.html",
+        "https://www.reuters.com/sustainability/boards-policy-regulation/berkshire-ceo-abel-seeks-reassure-shareholders-after-taking-baton-buffett-2026-02-28",
+        "https://www.cnbc.com/video/2026/05/02/watch-greg-abel-preside-over-the-full-2026-berkshire-hathaway-annual-shareholder-meeting.html",
+        "https://www.cnbc.com/2026/01/06/berkshire-hathaway-greg-abel-berkshire-hathaway-ceo-warren-buffet-pay-raise-25-million.html"
+      ]
+    },
+    {
+      "statement": "Greg Abel first joined Berkshire Hathaway in 2008 as Chief Executive Officer of its subsidiary Berkshire Hathaway Energy Company.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1067983/000119312520072952/d856491ddef14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1067983/000119312519076915/d684203ddef14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1067983/000119312523073948/d362436ddef14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1067983/000119312521080418/d938053ddef14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1067983/000119312522073447/d208624ddef14a.htm"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Greg Abel",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Greg Abel criminal indictment SEC sanction civil judgment",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Greg Abel",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Greg Abel",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Greg Abel civil judgment $10 million",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Greg Abel SEC enforcement action",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Greg Abel criminal indictment",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.courtlistener.com/opinion/9452555/pilot-corporation-v-greg-abel/",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.courtlistener.com/opinion/9452555/pilot-corporation-v-greg-abel/ could not be read: Failed to fetch url",
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Greg Abel SEC enforcement action site:sec.gov",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Greg Abel criminal indictment federal court",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "wayback",
+      "query": "https://www.courtlistener.com/opinion/9452555/pilot-corporation-v-greg-abel/",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Archived (Wayback) copies of pages",
+    "Court dockets and judgments",
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No explicit evidence was located regarding criminal indictments, SEC enforcement actions, or civil judgments exceeding $10 million involving Greg Abel; the absence of such findings in the searched sources does not constitute definitive proof of their non-existence.",
+    "The search of federal court records and news outlets did not yield readable docket sheets or detailed case information for the specific URLs attempted (e.g., the CourtListener page was inaccessible), leaving a potential gap in verifying civil litigation."
+  ],
+  "next_steps": [
+    "Access PACER or comparable federal court docket services to search for any civil or criminal cases filed against Greg Abel.",
+    "Review SEC Litigation Releases and the Investment Adviser Public Disclosure (IAPD) database for any enforcement actions involving Greg Abel.",
+    "Search major legal news services (e.g., Bloomberg Law, Law360) for settlements or judgments exceeding $10 million naming Greg Abel as a party.",
+    "Consult corporate governance filings (e.g., DEF 14A) for any disclosed legal proceedings involving Greg Abel."
+  ],
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/2026/09/02/berkshire-ceo-says-japanese-bond-yields-not-a-challenge-for-trading-houses.html",
+      "title": "Berkshire CEO Greg Abel says Japanese bond yields not a challenge for trading houses right now - CNBC",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-02"
+    },
+    {
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/berkshire-ceo-abel-seeks-reassure-shareholders-after-taking-baton-buffett-2026-02-28",
+      "title": "Berkshire CEO Abel seeks to reassure shareholders after taking baton from Buffett",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-03-02"
+    },
+    {
+      "url": "https://www.cnbc.com/video/2026/05/02/watch-greg-abel-preside-over-the-full-2026-berkshire-hathaway-annual-shareholder-meeting.html",
+      "title": "Watch Greg Abel preside over the full 2026 Berkshire Hathaway annual shareholder meeting - CNBC",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-05-02"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/01/06/berkshire-hathaway-greg-abel-berkshire-hathaway-ceo-warren-buffet-pay-raise-25-million.html",
+      "title": "Berkshire Hathaway lifts new CEO Greg Abel’s salary to $25 million - CNBC",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-01-07"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312520072952/d856491ddef14a.htm",
+      "title": "DEF 14A",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312519076915/d684203ddef14a.htm",
+      "title": "DEF 14A",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312523073948/d362436ddef14a.htm",
+      "title": "DEF 14A",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312521080418/d938053ddef14a.htm",
+      "title": "DEF 14A",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312522073447/d208624ddef14a.htm",
+      "title": "DEF 14A",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

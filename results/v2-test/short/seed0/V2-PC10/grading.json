@@ -1,0 +1,69 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Walt Disney Company's full legal name is 'The Walt Disney Company'.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Josh D'Amaro's full name is Josh D'Amaro.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Josh D'Amaro holds the title Chief Executive Officer of The Walt Disney Company.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Bob Iger's most recent term as CEO ended on March 18, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "Josh D'Amaro was named Bob Iger's successor as CEO.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Walt Disney Company's board of directors announced Josh D'Amaro would become CEO.",
+          "supported": true
+        },
+        {
+          "fact": "The announcement was made on February 3, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "D'Amaro would become CEO effective March 18, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "D'Amaro was to succeed Bob Iger as CEO.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of 2026-10-01, Josh D'Amaro serves as Chief Executive Officer of The Walt Disney Company.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

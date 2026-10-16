@@ -1,0 +1,112 @@
+{
+  "case_id": "C17",
+  "mode": "long",
+  "kind": "person",
+  "tags": [
+    "fraud",
+    "cluster:nikola",
+    "temporal"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.88,
+  "stop_reason": "tool_budget",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.86,
+      "p_correct": 0.86,
+      "reward": {
+        "step": 1,
+        "progress": 0.5266666666666666,
+        "information": 0.999831800055915,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "ADVERSE",
+      "confidence": 0.86,
+      "p_correct": 0.86,
+      "reward": {
+        "step": 2,
+        "progress": 0.0,
+        "information": 0.9996150896084548,
+        "corroboration": 1.0,
+        "redundancy": 0.2222222222222222,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 3,
+      "verdict": "ADVERSE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 3,
+        "progress": 0.040000000000000036,
+        "information": 0.9398633835144038,
+        "corroboration": 1.0,
+        "redundancy": 0.4444444444444444,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 4,
+      "verdict": "ADVERSE",
+      "confidence": 0.88,
+      "p_correct": 0.88,
+      "reward": {
+        "step": 4,
+        "progress": -0.020000000000000018,
+        "information": 0.9998470981408294,
+        "corroboration": 1.0,
+        "redundancy": 0.5555555555555556,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 12,
+  "tool_failures": 0,
+  "prompt_tokens": 97734,
+  "completion_tokens": 53469,
+  "cost_usd": 0.0365079,
+  "wall_clock_s": 421.5997019999195,
+  "call_latency_s": 600.323,
+  "key_fact_recall": 0.0,
+  "citation_precision": 0.6,
+  "findings": 5,
+  "conflicts_final": 1,
+  "independent_domains": 25,
+  "evidence_weight": 56.299415584415584,
+  "mean_evidence_reliability": 0.7231955691367457,
+  "authoritative_evidence": true,
+  "memories_retrieved": 6,
+  "memory_labels": {
+    "M113": "relevant",
+    "M107": "relevant",
+    "M109": "misleading",
+    "M118": "relevant",
+    "M115": "relevant",
+    "M117": "misleading"
+  },
+  "memories_distrusted": [
+    "M117"
+  ],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.0,
+    "citation_precision": 0.6,
+    "calibration": 0.9856,
+    "cost": 1.0
+  }
+}

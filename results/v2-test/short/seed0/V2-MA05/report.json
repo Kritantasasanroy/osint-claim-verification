@@ -1,0 +1,207 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Trader Joe's (grocery chain)",
+    "entity": "Trader Joe's",
+    "disambiguators": [
+      "grocery chain"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.8022,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-01, Trader Joe's shows no adverse findings: it is legally Trader Joe's Company, headquartered in Monrovia, California, ultimately owned by Aldi Nord. The only notable legal issue since 2020 is a $7.4 million civil settlement in April 2026 over receipt‑data privacy, with no criminal convictions, major regulatory enforcement actions over $5 million, or bankruptcy filings identified. Verdict: NO_ADVERSE at 80% confidence.",
+  "findings": [
+    {
+      "statement": "Trader Joe's Company is the full legal name of the grocery chain, operating under United States jurisdiction with headquarters in Monrovia, California.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://news.bloomberglaw.com/daily-labor-report/trader-joes-loses-fifth-circuit-appeal-to-nlrb-ruling-on-firing",
+        "https://en.wikipedia.org/wiki/Trader_Joe%27s"
+      ]
+    },
+    {
+      "statement": "Aldi Nord (Aldi North), under the Albrecht family, remains the ultimate parent company of Trader Joe's as of 2026-10-01.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://finance.yahoo.com/news/meet-billionaire-family-owns-trader-191000164.html"
+      ]
+    },
+    {
+      "statement": "In April 2026, Trader Joe's agreed to a $7.4 million civil settlement over allegations that its receipts displayed excessive credit/debit card information.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://abc7.com/post/trader-joes-settlement-shoppers-could-get-payout-claims-receipts-showed-card-information/18898229/"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Trader Joe's legal name jurisdiction",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Trader Joe's parent company owner",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Trader Joe's criminal conviction indictment fraud food safety enforcement bankruptcy 2020 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Trader Joe's criminal indictment 2021 2022 2023 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Trader Joe's FDA warning letter fine over $5 million 2021 2022 2023 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Trader Joe's bankruptcy filing 2021 2022 2023 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Trader Joe's criminal indictment 2022",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Trader Joe's FDA enforcement action fine over 5 million 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Trader Joe's bankruptcy filing 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Trader Joe's NLRB administrative law judge ruling union-busting 2024 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Trader Joe's criminal conviction 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Trader Joe's FDA warning letter consent decree fine over 5 million 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact date when Aldi Nord acquired full control of Trader Joe's is not specified in the evidence.",
+    "Potential state-level enforcement actions (e.g., California Attorney General) that may not appear in national news searches are not verified.",
+    "Any ongoing or sealed federal investigations that have not resulted in public filings are not captured by the news searches performed."
+  ],
+  "next_steps": [
+    "Search PACER and federal district court dockets for any sealed or recent criminal or civil cases involving Trader Joe's since 2020.",
+    "Review FDA warning letter database and USDA enforcement notices for any Trader Joe's actions not covered in general news searches.",
+    "Check state attorney general press releases (especially California) for consumer‑protection or privacy settlements exceeding $5 million.",
+    "Examine Trader Joe's SEC filings (if any) or private‑placement memoranda for undisclosed liabilities or ownership changes."
+  ],
+  "sources": [
+    {
+      "url": "https://news.bloomberglaw.com/daily-labor-report/trader-joes-loses-fifth-circuit-appeal-to-nlrb-ruling-on-firing",
+      "title": "Trader Joe’s Loses Fifth Circuit Appeal to NLRB Ruling on Firing - Bloomberg Law News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-19"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trader_Joe%27s",
+      "title": "Trader Joe's - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://finance.yahoo.com/news/meet-billionaire-family-owns-trader-191000164.html",
+      "title": "Meet the billionaire family that owns Trader Joe’s and Aldi",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://abc7.com/post/trader-joes-settlement-shoppers-could-get-payout-claims-receipts-showed-card-information/18898229/",
+      "title": "Trader Joe's settlement: Shoppers could get a payout over claims receipts that showed too much card information - ABC7 Los Angeles",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-04-16"
+    }
+  ]
+}

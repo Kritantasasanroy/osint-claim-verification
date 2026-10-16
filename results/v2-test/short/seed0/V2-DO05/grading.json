@@ -1,0 +1,68 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nikola Corporation's full legal name is Nikola Corporation.",
+          "supported": true
+        },
+        {
+          "fact": "Nikola Corporation is incorporated in the State of Delaware.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nikola Corporation's headquarters is located in Phoenix, Arizona, USA.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nikola Corporation filed voluntary petitions for relief under Chapter 11 of the U.S. Bankruptcy Code.",
+          "supported": true
+        },
+        {
+          "fact": "The Chapter 11 petition was filed in the United States Bankruptcy Court for the District of Delaware.",
+          "supported": true
+        },
+        {
+          "fact": "The Chapter 11 filing occurred on February 19, 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nikola Corporation's bankruptcy case is identified by case number 25-10258 (lead case).",
+          "supported": true
+        },
+        {
+          "fact": "The case number 25-10258 confirms the filing was made in 2025 (month not specified in this source).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "A liquidation plan in Nikola's Chapter 11 case was confirmed on September 12, 2025.",
+          "supported": true
+        },
+        {
+          "fact": "A Chapter 11 appeal related to Nikola Corporation was reviewed on September 10, 2026.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,247 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Carlos Ghosn (ancien PDG de Renault-Nissan)",
+    "entity": "Carlos Ghosn",
+    "disambiguators": [
+      "ancien PDG de Renault-Nissan"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9684,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-01, Carlos Ghosn is assessed as ADVERSE (97% confidence). The decisive facts are: French prosecutors issued an arrest warrant for him on 2026-09-29; he is being tried in absentia in the Paris corruption trial (Sept 2026) with prosecutors seeking a four‑year sentence and a €375,000 fine; he served as CEO of Nissan (June 2001‑April 2017) and Renault (from May 2005) and held chairmanship roles in the Alliance and Mitsubishi Motors.",
+  "findings": [
+    {
+      "statement": "France issued an arrest warrant for Carlos Ghosn on 2026-09-29.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.rfi.fr/en/france/20260929-french-prosecutors-seek-severe-punishment-for-ex-minister-dati-in-graft-case"
+      ]
+    },
+    {
+      "statement": "Carlos Ghosn is being tried in absentia in the Paris corruption trial as of September 2026.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.lemonde.fr/en/france/article/2026/09/28/french-prosecutors-seek-prison-time-for-ex-minister-dati-in-corruption-case_6758038_7.html",
+        "https://www.bloomberg.com/news/articles/2026-09-16/car-tycoon-ghosn-french-lawmaker-on-trial-over-1-million-fees",
+        "https://www.moroccoworldnews.com/2026/09/340077/french-prosecutors-seek-four-year-sentence-for-rachida-dati-in-corruption-trial"
+      ]
+    },
+    {
+      "statement": "French prosecutors have sought a four-year prison sentence and a 375,000-euro fine for Carlos Ghosn in the Paris trial.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.moroccoworldnews.com/2026/09/340077/french-prosecutors-seek-four-year-sentence-for-rachida-dati-in-corruption-trial",
+        "https://www.lemonde.fr/en/france/article/2026/09/28/french-prosecutors-seek-prison-time-for-ex-minister-dati-in-corruption-case_6758038_7.html"
+      ]
+    },
+    {
+      "statement": "Carlos Ghosn served as CEO of Nissan (June 2001‑April 2017), CEO of Renault (from May 2005), and Chairman of the Renault‑Nissan Alliance BV (Jan 2002‑Oct 2018).",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.nissan.com.jo/experience-nissan/news-and-events/latestnews/Carlos_Ghosn_Chairman_of_the_Board.html",
+        "https://en.wikipedia.org/wiki/Carlos_Ghosn",
+        "https://fr.linkedin.com/in/carlosghosn"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Carlos Ghosn",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Carlos Ghosn conviction indictment 2024 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Carlos Ghosn",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Carlos Ghosn sentenced 2024 2025 financial misconduct",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Carlos Ghosn Renault CEO Nissan CEO positions years",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Carlos Ghosn civil judgment SEC fine",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Carlos Ghosn Paris corruption trial 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Carlos Ghosn civil judgment regulator enforcement 2026",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Interpol notice Carlos Ghosn 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Carlos Ghosn acquitted OR 'non-lieu' OR 'warrant lifted' Paris corruption verdict 2026",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/search rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Carlos Ghosn Paris corruption trial October 2026 verdict",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/search rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Interpol red notice Carlos Ghosn active October 2026",
+      "results": 0,
+      "failure": "ServiceRejected: https://api.tavily.com/search rejected the request with HTTP 432: {\"detail\":{\"error\":\"This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com\"}}",
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "No final trial verdict, updated Interpol notice, or post‑2025 civil/regulatory penalties have been confirmed. [withdrawn: no tool checked interpol]",
+    "No updated Interpol red‑notice status after the 2020 notice has been found, so the current activity of that notice cannot be confirmed. [withdrawn: no tool checked interpol]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No final verdict or sentencing of the Paris corruption trial has been located for the period up to 2026-10-01; only prosecutorial requests are reported.",
+    "No civil judgments, damages awards, or regulator enforcement actions (e.g., SEC, FCA) against Carlos Ghosn since 2025 have been identified in the performed searches."
+  ],
+  "next_steps": [
+    "Search French judicial databases (e.g., Legifrance, Cour de cassation) for the final judgment or sentencing in the Paris corruption trial as of late 2026.",
+    "Query the Interpol wanted‑persons portal or national central bureau for any update on the red notice for Carlos Ghosn after 2020.",
+    "Consult securities regulator enforcement databases (SEC EDGAR, FCA Register) for any civil penalties or bans issued against Carlos Ghosn since 2025.",
+    "Review major civil court records in Lebanon, France, and Japan for any damages awards or judgments related to financial misconduct."
+  ],
+  "sources": [
+    {
+      "url": "https://www.rfi.fr/en/france/20260929-french-prosecutors-seek-severe-punishment-for-ex-minister-dati-in-graft-case",
+      "title": "French prosecutors seek 'severe' punishment for ex-minister Dati in graft case - RFI",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-29"
+    },
+    {
+      "url": "https://www.lemonde.fr/en/france/article/2026/09/28/french-prosecutors-seek-prison-time-for-ex-minister-dati-in-corruption-case_6758038_7.html",
+      "title": "French prosecutors seek prison time for ex-minister Dati in corruption case",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-28"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-09-16/car-tycoon-ghosn-french-lawmaker-on-trial-over-1-million-fees",
+      "title": "Ghosn, Dati Face Paris Trial Over $1 Million Renault-Nissan Payments - Bloomberg",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-09-16"
+    },
+    {
+      "url": "https://www.moroccoworldnews.com/2026/09/340077/french-prosecutors-seek-four-year-sentence-for-rachida-dati-in-corruption-trial",
+      "title": "French Prosecutors Seek Four-Year Sentence for Rachida Dati in Corruption Trial",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-28"
+    },
+    {
+      "url": "https://www.nissan.com.jo/experience-nissan/news-and-events/latestnews/Carlos_Ghosn_Chairman_of_the_Board.html",
+      "title": "Carlos Ghosn Chairman of the Board | Nissan Middle East",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Carlos_Ghosn",
+      "title": "Carlos Ghosn - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://fr.linkedin.com/in/carlosghosn",
+      "title": "Carlos Ghosn - Former Chairman and CEO of Renault ...",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    }
+  ]
+}

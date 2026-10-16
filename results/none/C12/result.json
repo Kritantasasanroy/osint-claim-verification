@@ -1,0 +1,57 @@
+{
+  "case_id": "C12",
+  "mode": "none",
+  "kind": "person",
+  "tags": [
+    "fraud",
+    "cluster:ftx"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.95,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.95,
+      "p_correct": 0.95,
+      "reward": {
+        "step": 1,
+        "progress": 0.6166666666666667,
+        "information": 0.9776292281438345,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.97
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 13777,
+  "completion_tokens": 12311,
+  "cost_usd": 0.0075331999999999994,
+  "wall_clock_s": 32.201756899943575,
+  "call_latency_s": 95.515,
+  "key_fact_recall": 0.3333333333333333,
+  "citation_precision": 1.0,
+  "findings": 3,
+  "conflicts_final": 0,
+  "independent_domains": 9,
+  "evidence_weight": 7.6000000000000005,
+  "mean_evidence_reliability": 0.5428571428571429,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.3333333333333333,
+    "citation_precision": 1.0,
+    "calibration": 0.9974999999999999,
+    "cost": 0.17392
+  }
+}

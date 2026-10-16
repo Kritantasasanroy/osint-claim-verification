@@ -1,0 +1,65 @@
+{
+  "key_facts_established": [
+    false,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "France issued an arrest warrant for Carlos Ghosn.",
+          "supported": true
+        },
+        {
+          "fact": "The arrest warrant was issued on 2026-09-29.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Carlos Ghosn is being tried in absentia in the Paris corruption trial.",
+          "supported": true
+        },
+        {
+          "fact": "The trial was ongoing as of September 2026.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "French prosecutors sought a four-year prison sentence for Carlos Ghosn.",
+          "supported": true
+        },
+        {
+          "fact": "French prosecutors sought a 375,000-euro fine for Carlos Ghosn.",
+          "supported": true
+        },
+        {
+          "fact": "These sentencing requests were made in the Paris trial.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Ghosn served as CEO of Nissan from June 2001 until April 2017.",
+          "supported": true
+        },
+        {
+          "fact": "Ghosn served as CEO of Renault from May 2005.",
+          "supported": true
+        },
+        {
+          "fact": "Ghosn served as Chairman of the Renault-Nissan Alliance BV from Jan 2002 to Oct 2018.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

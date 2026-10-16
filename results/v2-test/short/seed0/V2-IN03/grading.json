@@ -1,0 +1,60 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Elizabeth Holmes was convicted on four counts of wire fraud and conspiracy in the United States v. Holmes trial.",
+          "supported": true
+        },
+        {
+          "fact": "The jury delivered its verdict on January 3, 2022.",
+          "supported": true
+        },
+        {
+          "fact": "The case was captioned United States v. Elizabeth A. Holmes.",
+          "supported": true
+        },
+        {
+          "fact": "The convictions consisted of one count of conspiracy to commit wire fraud against investors and three counts of wire fraud involving investments totaling more than $140 million.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The jury acquitted Holmes on one count of patient-related conspiracy to commit wire fraud.",
+          "supported": true
+        },
+        {
+          "fact": "The jury acquitted Holmes on three other wire fraud counts.",
+          "supported": true
+        },
+        {
+          "fact": "The jury deadlocked (was unable to reach a verdict) on three investor fraud counts.",
+          "supported": true
+        },
+        {
+          "fact": "One additional charge of wire fraud related to a Theranos patient was dismissed during trial.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The claim that Elizabeth Holmes was acquitted of all charges in January 2022 is false.",
+          "supported": true
+        },
+        {
+          "fact": "Holmes was found guilty on multiple counts in January 2022.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

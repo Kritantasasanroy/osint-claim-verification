@@ -1,0 +1,286 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Charlie Javice was convicted of defrauding JPMorgan and sentenced to 12 years in prison.",
+    "entity": "Charlie Javice",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "MIXED",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "Verdict: MIXED (25% confidence). Charlie Javice is confirmed as the founder of Frank and was convicted in March 2025 of defrauding JPMorgan Chase. She was sentenced to 85 months (7 years 1 month) in prison per the DOJ press release, though some outlets describe the term as seven years or more than seven years. Her date of birth remains uncertain, cited as 1992 or 1993 by Wikipedia.",
+  "findings": [
+    {
+      "statement": "Charlie Javice is the founder of the fintech startup Frank.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://finance.yahoo.com/markets/stocks/articles/charlie-javice-scammed-jpmorgan-175m-163000042.html",
+        "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
+        "https://nypost.com/2026/06/15/business/charlie-javice-seeks-trump-pardon-after-defrauding-jpmorgan-out-of-175-million-report",
+        "https://fortune.com/2023/06/12/frank-founder-lawsuit-jpmorgan"
+      ]
+    },
+    {
+      "statement": "Charlie Javice was convicted by a jury in March 2025 of defrauding JPMorgan Chase.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://finance.yahoo.com/markets/stocks/articles/charlie-javice-scammed-jpmorgan-175m-163000042.html",
+        "https://www.businessinsider.com/jpmorgan-must-pay-charlie-javice-legal-fees-judge-rules-2026-7",
+        "https://nypost.com/2026/06/15/business/charlie-javice-seeks-trump-pardon-after-defrauding-jpmorgan-out-of-175-million-report",
+        "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
+        "https://www.wsj.com/finance/charlie-javice-has-been-seeking-a-pardon-from-trump-after-defrauding-jpmorgan-0b4e61db",
+        "https://en.wikipedia.org/wiki/Charlie_Javice",
+        "https://www.justice.gov/usao-sdny/pr/startup-ceo-charlie-javice-sentenced-85-months-prison-175-million-fraud"
+      ]
+    },
+    {
+      "statement": "Charlie Javice was sentenced to 85 months (7 years 1 month) in prison for the fraud.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://finance.yahoo.com/markets/stocks/articles/charlie-javice-scammed-jpmorgan-175m-163000042.html",
+        "https://www.justice.gov/usao-sdny/pr/startup-ceo-charlie-javice-sentenced-85-months-prison-175-million-fraud"
+      ]
+    },
+    {
+      "statement": "Charlie Javice was born in 1992 or 1993.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Charlie_Javice"
+      ]
+    },
+    {
+      "statement": "The Department of Justice press release serves as an official confirmation of Charlie Javice's conviction and sentencing.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.justice.gov/usao-sdny/pr/startup-ceo-charlie-javice-sentenced-85-months-prison-175-million-fraud"
+      ]
+    },
+    {
+      "statement": "Some sources report the sentence as seven years or more than seven years, creating uncertainty about the exact length.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.businessinsider.com/jpmorgan-must-pay-charlie-javice-legal-fees-judge-rules-2026-7",
+        "https://nypost.com/2026/06/15/business/charlie-javice-seeks-trump-pardon-after-defrauding-jpmorgan-out-of-175-million-report",
+        "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
+        "https://www.bbc.com/news/articles/c4gwj15djdxo",
+        "https://6abc.com/post/university-pennsylvania-grad-charlie-javice-sentenced-fraudulent-sale-financial-aid-startup-frank/17909786"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "Sentence length discrepancy: finance.yahoo.com and justice.gov state 85 months (7 years 1 month), while businessinsider.com, nypost.com, cnbc.com, bbc.com, and 6abc.com state seven years or more than seven years. The 85‑month figure is treated as the most precise and is consistent with the “more than seven years” descriptions.",
+    "Date of birth uncertainty: Wikipedia lists birth year as 1992 or 1993; a Fortune article (June 2023) implies a birth year around 1990, and a YouTube video (Sept 2025) states she was 33, suggesting 1992. The Wikipedia and YouTube sources align, leaving the exact year unresolved."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Charlie Javice convicted JPMorgan fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Charlie Javice sentenced prison JPMorgan",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Charlie Javice",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Charlie Javice date of birth",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Charlie Javice",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Charlie_Javice",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "United States v. Javice",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.justice.gov/usao-sdny/pr/startup-ceo-charlie-javice-sentenced-85-months-prison-175-million-fraud",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "Charlie Javice criminal",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "wikidata",
+      "query": "Charlie Javice",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Charlie Javice biography",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact day and month of Charlie Javice's birth are not established; only a birth‑year range (1992‑1993) is available.",
+    "The precise sentencing date (month and day) is not confirmed by the sources; only a September 2025 timeframe is mentioned.",
+    "Direct access to the full sentencing order or docket in United States v. Javice has not been retrieved."
+  ],
+  "next_steps": [
+    "Access PACER to obtain the sentencing order and docket for United States v. Javice.",
+    "Consult state vital records or reputable biographical databases to pinpoint Charlie Javice's exact date of birth.",
+    "Cross‑reference the DOJ press release with the court’s published judgment to confirm the 85‑month term."
+  ],
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/charlie-javice-scammed-jpmorgan-175m-163000042.html",
+      "title": "Charlie Javice scammed JPMorgan out of $175M — now the bank must keep paying for her first-class tickets and gummy bears",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-07-03"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/06/14/charlie-javice-reportedly-seeking-a-pardon-from-trump-.html",
+      "title": "Charlie Javice reportedly seeking a pardon from Trump",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-14"
+    },
+    {
+      "url": "https://nypost.com/2026/06/15/business/charlie-javice-seeks-trump-pardon-after-defrauding-jpmorgan-out-of-175-million-report",
+      "title": "Charlie Javice seeks Trump pardon after defrauding JPMorgan out of $175 million: report",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-15"
+    },
+    {
+      "url": "https://fortune.com/2023/06/12/frank-founder-lawsuit-jpmorgan",
+      "title": "The unauthorized profile of Charlie Javice, the millennial founder convicted of swindling JPMorgan to the tune of $175 million. | Fortune",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": null
+    },
+    {
+      "url": "https://www.businessinsider.com/jpmorgan-must-pay-charlie-javice-legal-fees-judge-rules-2026-7",
+      "title": "JPMorgan Must Keep Paying Charlie Javice's Legal Fees, Judge Rules - Business Insider",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-07-02"
+    },
+    {
+      "url": "https://www.wsj.com/finance/charlie-javice-has-been-seeking-a-pardon-from-trump-after-defrauding-jpmorgan-0b4e61db",
+      "title": "Exclusive | Charlie Javice Has Been Seeking a Pardon From Trump After Defrauding JPMorgan - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-14"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Charlie_Javice",
+      "title": "Charlie Javice - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdny/pr/startup-ceo-charlie-javice-sentenced-85-months-prison-175-million-fraud",
+      "title": "Department of Justice | Homepage | United States Department of Justice",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/c4gwj15djdxo",
+      "title": "Frank founder Charlie Javice sentenced for JPMorgan fraud",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    },
+    {
+      "url": "https://6abc.com/post/university-pennsylvania-grad-charlie-javice-sentenced-fraudulent-sale-financial-aid-startup-frank/17909786",
+      "title": "University of Pennsylvania grad Charlie Javice sentenced for fraudulent sale of financial aid startup Frank - 6abc Philadelphia",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

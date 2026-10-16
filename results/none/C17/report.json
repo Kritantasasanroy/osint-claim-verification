@@ -1,0 +1,148 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Trevor Milton, founder of Nikola"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.96,
+  "summary": "The evidence shows that Trevor Milton founded Nikola in 2015, was criminally charged and convicted of fraud, faced SEC civil charges leading to a $125 million settlement, and remains a defendant in ongoing shareholder derivative litigation. These adverse findings support a verdict of ADVERSE with high confidence.",
+  "findings": [
+    {
+      "statement": "Trevor Milton, born April 6, 1982, founded Nikola Corporation in 2015.",
+      "confidence": 0.9,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Trevor_Milton",
+        "https://www.sec.gov/newsroom/press-releases/2021-141",
+        "https://www.bbc.com/news/business-67752125",
+        "https://www.reuters.com/business/autos-transportation/us-charges-nikola-founder-trevor-milton-with-lying-investors-2021-07-29"
+      ]
+    },
+    {
+      "statement": "Trevor Milton was criminally charged by a federal grand jury with three counts of fraud related to Nikola in July 2021.",
+      "confidence": 0.88,
+      "citations": [
+        "https://www.autoweek.com/news/green-cars/a37170624/nikola-founder-trevor-milton-charged-with-fraud",
+        "https://www.cnbc.com/2021/07/29/nikola-founder-trevor-milton-pleads-not-guilty-to-fraud-charges.html",
+        "https://www.wsj.com/business/autos/nikola-founder-trevor-milton-charged-with-lying-to-investors-11627563648",
+        "https://abc7ny.com/post/nikola-trevor-milton-fraud-electric-trucks/10916676"
+      ]
+    },
+    {
+      "statement": "A federal jury found Trevor Milton guilty of fraud related to Nikola, leading to a conviction.",
+      "confidence": 0.86,
+      "citations": [
+        "https://landline.media/nikola-founder-guilty-of-fraud",
+        "https://www.courthousenews.com/nikola-founder-trevor-milton-sentenced-to-four-years-in-prison-on-federal-fraud-charges",
+        "https://www.securitiesdocket.com/tag/nikola",
+        "https://www.cohenmilstein.com/case-study/nikola-corp-derivative-litigation"
+      ]
+    },
+    {
+      "statement": "The SEC filed civil charges against Trevor Milton for fraud related to Nikola, resulting in a settlement of $125 million.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.sec.gov/newsroom/press-releases/2021-141",
+        "https://www.wsj.com/business/autos/nikola-founder-trevor-milton-charged-with-lying-to-investors-11627563648",
+        "https://www.dandodiary.com/2021/12/articles/regulatory-enforcement-2/nikola-settles-sec-proceedings-for-125-million"
+      ]
+    },
+    {
+      "statement": "Trevor Milton is currently a defendant in an ongoing shareholder derivative action (major litigation) concerning Nikola.",
+      "confidence": 0.7,
+      "citations": [
+        "https://www.cohenmilstein.com/case-study/nikola-corp-derivative-litigation"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "No conflicts detected in the provided evidence."
+  ],
+  "gaps": [
+    "Whether Trevor Milton has filed for personal bankruptcy or been declared insolvent (Q6/Q8) is not addressed in the evidence.",
+    "Any pending appeals or post‑conviction relief motions in his criminal case (Q7) are not covered by the provided sources.",
+    "Details on whether Milton has paid fines or restitution as part of the SEC settlement or criminal sentence (Q8) are absent.",
+    "Current status of his incarceration, parole, or any subsequent civil penalties beyond the SEC settlement is not specified."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Trevor_Milton",
+      "title": "Trevor Milton - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2021-141",
+      "title": "SEC.gov | SEC Charges Founder of Nikola Corp. With Fraud",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.bbc.com/news/business-67752125",
+      "title": "Nikola: Trevor Milton sentenced to prison after fraud conviction",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.reuters.com/business/autos-transportation/us-charges-nikola-founder-trevor-milton-with-lying-investors-2021-07-29",
+      "title": "U.S. charges Nikola founder Trevor Milton with lying to investors | Reuters",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.autoweek.com/news/green-cars/a37170624/nikola-founder-trevor-milton-charged-with-fraud",
+      "title": "Nikola Founder Trevor Milton Charged with Fraud",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.cnbc.com/2021/07/29/nikola-founder-trevor-milton-pleads-not-guilty-to-fraud-charges.html",
+      "title": "Nikola founder Trevor Milton pleads not guilty to fraud charges",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.wsj.com/business/autos/nikola-founder-trevor-milton-charged-with-lying-to-investors-11627563648",
+      "title": "Nikola Founder Trevor Milton Charged With Securities Fraud - WSJ",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://abc7ny.com/post/nikola-trevor-milton-fraud-electric-trucks/10916676",
+      "title": "Nikola founder Trevor Milton charged with securities, wire fraud - ABC7 New York",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://landline.media/nikola-founder-guilty-of-fraud",
+      "title": "Nikola founder guilty of fraud » Land Line Media",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.courthousenews.com/nikola-founder-trevor-milton-sentenced-to-four-years-in-prison-on-federal-fraud-charges",
+      "title": "Nikola founder Trevor Milton sentenced to four years in prison on federal fraud charges | Courthouse News Service",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.securitiesdocket.com/tag/nikola",
+      "title": "Nikola Archives",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.cohenmilstein.com/case-study/nikola-corp-derivative-litigation",
+      "title": "Nikola Corp. Derivative Litigation - Cohen Milstein",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.dandodiary.com/2021/12/articles/regulatory-enforcement-2/nikola-settles-sec-proceedings-for-125-million",
+      "title": "Nikola Settles SEC Proceedings for $125 Million | The D&O Diary",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "case_id": "C30",
+  "mode": "none",
+  "kind": "claim",
+  "tags": [
+    "cluster:wirecard",
+    "insufficient",
+    "conflicting"
+  ],
+  "expected": "FALSE",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.92,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.92,
+      "p_correct": 0.9500000000000001,
+      "reward": {
+        "step": 1,
+        "progress": 0.45000000000000007,
+        "information": 0.999981074493586,
+        "corroboration": 1.0,
+        "redundancy": 0.1111111111111111,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 19513,
+  "completion_tokens": 16200,
+  "cost_usd": 0.010051299999999999,
+  "wall_clock_s": 27.37182809994556,
+  "call_latency_s": 151.78,
+  "key_fact_recall": 0.5,
+  "citation_precision": 1.0,
+  "findings": 4,
+  "conflicts_final": 0,
+  "independent_domains": 12,
+  "evidence_weight": 21.75,
+  "mean_evidence_reliability": 0.5576923076923077,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.5,
+    "citation_precision": 1.0,
+    "calibration": 0.9936,
+    "cost": 0.23808666666666667
+  }
+}

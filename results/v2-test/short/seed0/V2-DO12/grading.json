@@ -1,0 +1,28 @@
+{
+  "key_facts_established": [
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Patagonia, Inc.'s legal name is Patagonia, Inc.",
+          "supported": true
+        },
+        {
+          "fact": "Patagonia, Inc.'s headquarters is located in Ventura, California",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Patagonia, Inc. was founded in 1973",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

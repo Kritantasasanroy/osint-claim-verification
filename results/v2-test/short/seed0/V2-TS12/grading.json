@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Greg Abel's full name is Gregory Edward Abel.",
+          "supported": true
+        },
+        {
+          "fact": "Greg Abel was born on June 1, 1962.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The cited document is a Berkshire Hathaway filing with the SEC (EDGAR) covering fiscal year 2025, i.e., the 2025 Form 10-K.",
+          "supported": true
+        },
+        {
+          "fact": "The filing states that in May 2025, Berkshire's Board of Directors appointed Mr. Gregory E. Abel to succeed Mr. Warren E. Buffett as Chief Executive Officer effective January 1, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "The filing states that effective January 1, 2026, Mr. Abel became Berkshire's Chief Executive Officer.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Warren Buffett wrote a letter to shareholders dated September 18, 2026.",
+          "supported": true
+        },
+        {
+          "fact": "In that letter, Buffett described Greg Abel as running the company ('Greg runs the company').",
+          "supported": true
+        },
+        {
+          "fact": "The letter and surrounding coverage confirm Abel was serving as CEO as of September 2026, described as his first nine months as CEO.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,40 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The SEC filed a lawsuit against NDB Inc.",
+          "supported": true
+        },
+        {
+          "fact": "The lawsuit names NDB's CEO Nima Golsharifi as a defendant alongside the company",
+          "supported": true
+        },
+        {
+          "fact": "The lawsuit was filed on 2023-09-18",
+          "supported": false
+        },
+        {
+          "fact": "The SEC alleges NDB and Golsharifi defrauded investors by making materially false and misleading statements",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nima Golsharifi is the Chief Executive Officer of NDB Inc.",
+          "supported": true
+        },
+        {
+          "fact": "Nima Golsharifi is a Founder of NDB Inc.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

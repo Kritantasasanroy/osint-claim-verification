@@ -1,0 +1,61 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company is named Builder.ai",
+          "supported": true
+        },
+        {
+          "fact": "Builder.ai was formerly known as Engineer.ai Corporation",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai was based mostly in the United Kingdom and the United States",
+          "supported": true
+        },
+        {
+          "fact": "Builder.ai had smaller subsidiaries in Singapore and India",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai is (was) a smartphone application development company",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai was founded in 2016 (Wikidata inception: 2016)",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Builder.ai entered insolvency proceedings",
+          "supported": true
+        },
+        {
+          "fact": "Builder.ai entered/announced insolvency proceedings in May 2025",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

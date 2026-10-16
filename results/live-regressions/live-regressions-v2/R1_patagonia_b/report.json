@@ -1,0 +1,286 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Patagonia (outdoor clothing company)",
+    "entity": "Patagonia",
+    "disambiguators": [
+      "outdoor clothing company"
+    ],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.8884,
+  "estimative": "very likely",
+  "summary": "As of 2026-10-13, Patagonia, Inc. (legal name) headquartered at 259 West Santa Clara Street, Ventura, CA 93001, founded in 1973, and owned by the Patagonia Purpose Trust (voting 2%) and Holdfast Collective (non‑voting 98%). No adverse findings: no criminal convictions, regulatory sanctions, bankruptcies, or major civil judgments involving fraud or serious misconduct have been identified; only civil trademark lawsuits are public. Verdict: NO_ADVERSE with 89% confidence.",
+  "findings": [
+    {
+      "statement": "Patagonia, Inc. is the legal name and the company is headquartered in Ventura, California.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc.",
+        "https://corporate-executives.com/companies/patagonia",
+        "https://www.mapquest.com/us/california/patagonia-430968644"
+      ]
+    },
+    {
+      "statement": "Patagonia's headquarters is located at 259 West Santa Clara Street, Ventura, CA 93001.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://corporate-executives.com/companies/patagonia",
+        "https://www.mapquest.com/us/california/patagonia-430968644"
+      ]
+    },
+    {
+      "statement": "Patagonia was founded in 1973.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc.",
+        "https://corporate-executives.com/companies/patagonia",
+        "https://www.linkedin.com/company/patagonia_2"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-13, Patagonia’s voting stock (2%) is held by the Patagonia Purpose Trust and its non‑voting stock (98%) is held by the Holdfast Collective.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.causeartist.com/case-studies/patagonia",
+        "https://fourweekmba.com/who-owns-patagonia",
+        "https://nationswell.com/patagonia-ceo-ryan-gellert-our-biggest-impact-has-been-modeling-a-different-way-of-doing-business",
+        "https://verfassungsblog.de/the-transfer-of-ownership-in-the-patagonia-case",
+        "https://www.mbr.co.uk/news/earth-is-now-our-only-shareholder-patagonia-owner-steps-away-from-the-brand-he-created-420363",
+        "https://www.cbc.ca/news/business/patagonia-founder-trust-climate-crisis-1.6583492",
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc."
+      ]
+    },
+    {
+      "statement": "As of 2026-10-13, Patagonia has incurred no criminal conviction, regulatory sanction, bankruptcy, or major civil judgment involving fraud or serious misconduct; the only public legal actions are civil trademark lawsuits.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Patagonia,_Inc.",
+        "https://fortune.com/2026/06/12/patagonia-sues-drag-queen-pattie-gonia-seeking-1-for-trademark-infringement",
+        "https://www.nytimes.com/2026/06/02/us/pattie-gonia-patagonia-trademark-lawsuit.html",
+        "https://www.latimes.com/business/story/2026-05-29/patagonia-trademark-lawsuit-triggers-backlash-by-drag-queen-pattie-gonia",
+        "https://www.oregonlive.com/business/2026/05/oregon-drag-queen-pattie-gonia-fights-patagonia-trademark-lawsuit.html"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Patagonia outdoor clothing company criminal conviction sanction bankruptcy fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Patagonia, Inc.",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Patagonia, Inc.",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Patagonia Inc legal name headquarters Ventura California",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Patagonia Purpose Trust ownership structure voting stock Holdfast Collective 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Patagonia Inc",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Patagonia Inc fraud lawsuit 2024 2025 2026",
+      "results": 5,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Patagonia,_Inc.",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "GLEIF legal-entity (LEI) records"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct SEC filing was examined because Patagonia is privately held and does not file with the SEC.",
+    "State business registry (California Secretary of State) was not queried to confirm the exact legal entity status.",
+    "Comprehensive criminal docket search (e.g., PACER, state court systems) beyond news sources was not performed."
+  ],
+  "next_steps": [
+    "Search the California Secretary of State’s business entity database for Patagonia, Inc. to confirm its legal name and active status.",
+    "Review the USPTO trademark database for any additional trademark proceedings involving Patagonia.",
+    "Examine PACER (Federal Court) for any civil or criminal cases filed against Patagonia, Inc. in the past five years.",
+    "Consult LexisNexis or Westlaw for state‑level civil judgments that may not appear in general news."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Patagonia,_Inc.",
+      "title": "Wikipedia: Patagonia, Inc.",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://corporate-executives.com/companies/patagonia",
+      "title": "Patagonia",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.mapquest.com/us/california/patagonia-430968644",
+      "title": "Patagonia Ventura",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.linkedin.com/company/patagonia_2",
+      "title": "Patagonia",
+      "tier": "user_generated",
+      "admiralty": "E",
+      "reliability": 0.3,
+      "published": null
+    },
+    {
+      "url": "https://www.causeartist.com/case-studies/patagonia",
+      "title": "Patagonia Case Study – Causeartist",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-05-05"
+    },
+    {
+      "url": "https://fourweekmba.com/who-owns-patagonia",
+      "title": "Who Owns Patagonia? - FourWeekMBA",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2024-01-26"
+    },
+    {
+      "url": "https://nationswell.com/patagonia-ceo-ryan-gellert-our-biggest-impact-has-been-modeling-a-different-way-of-doing-business",
+      "title": "Patagonia CEO Ryan Gellert: “Our biggest impact has been modeling a different way of doing business” - NationSwell",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2023-09-25"
+    },
+    {
+      "url": "https://verfassungsblog.de/the-transfer-of-ownership-in-the-patagonia-case",
+      "title": "The Transfer of Ownership in the ‘Patagonia Case’",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2023-01-03"
+    },
+    {
+      "url": "https://www.mbr.co.uk/news/earth-is-now-our-only-shareholder-patagonia-owner-steps-away-from-the-brand-he-created-420363",
+      "title": "'Earth is now our only shareholder'; Patagonia owner steps away from the brand he created - MBR",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2022-09-15"
+    },
+    {
+      "url": "https://www.cbc.ca/news/business/patagonia-founder-trust-climate-crisis-1.6583492",
+      "title": "Patagonia founder to give apparel company to trust, direct profits toward climate crisis fight | CBC News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2022-09-15"
+    },
+    {
+      "url": "https://fortune.com/2026/06/12/patagonia-sues-drag-queen-pattie-gonia-seeking-1-for-trademark-infringement",
+      "title": "Patagonia sues drag queen Pattie Gonia, seeking $1 for trademark infringement",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/06/02/us/pattie-gonia-patagonia-trademark-lawsuit.html",
+      "title": "Patagonia Is Suing Pattie Gonia Over Trademark Infringement: What to Know",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-02"
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2026-05-29/patagonia-trademark-lawsuit-triggers-backlash-by-drag-queen-pattie-gonia",
+      "title": "Patagonia trademark lawsuit triggers backlash by drag queen Pattie Gonia - Los Angeles Times",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-05-29"
+    },
+    {
+      "url": "https://www.oregonlive.com/business/2026/05/oregon-drag-queen-pattie-gonia-fights-patagonia-trademark-lawsuit.html",
+      "title": "Oregon drag queen Pattie Gonia fights Patagonia trademark lawsuit - oregonlive.com",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-05-27"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's legal name is SIGNA Holding GmbH.",
+          "supported": true
+        },
+        {
+          "fact": "Its Firmenbuch registration number is FN 191343m.",
+          "supported": true
+        },
+        {
+          "fact": "Its registered office is Maria-Theresien-Straße 31, 6020 Innsbruck, Austria.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "René Benko is chairman of the Advisory Board of Signa Holding GmbH.",
+          "supported": true
+        },
+        {
+          "fact": "René Benko is the controlling (majority) shareholder of Signa Holding GmbH.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Signa Holding GmbH is Austria's largest privately owned real estate company.",
+          "supported": true
+        },
+        {
+          "fact": "Signa is engaged in real estate development and investment.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Signa Holding GmbH announced insolvency proceedings at the end of November 2023.",
+          "supported": true
+        },
+        {
+          "fact": "Signa Holding applied for self-administration and restructuring at the Vienna Commercial Court.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "On 11 April 2024 the Handelsgericht Wien changed Signa Holding GmbH's proceedings into a Konkursverfahren (bankruptcy liquidation).",
+          "supported": true
+        },
+        {
+          "fact": "The proceedings had previously been a Sanierungsverfahren (restructuring proceedings) opened on 29 November 2023.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of 2026-10-01, Signa Holding GmbH's insolvency proceedings remain ongoing.",
+          "supported": false
+        },
+        {
+          "fact": "An insolvency plan obliged parent company Signa to contribute €200 million (to Galeria's rehabilitation).",
+          "supported": true
+        },
+        {
+          "fact": "A large portion of that €200 million contribution has not yet been paid.",
+          "supported": true
+        },
+        {
+          "fact": "Only a small fraction of the claims (about €80.3 million) had been recognized by the insolvency administrator.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

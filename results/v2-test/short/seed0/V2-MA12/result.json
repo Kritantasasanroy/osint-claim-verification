@@ -1,0 +1,101 @@
+{
+  "case_id": "V2-MA12",
+  "mode": "short",
+  "seed": 0,
+  "split": "test",
+  "slices": [
+    "materiality"
+  ],
+  "kind": "company",
+  "tags": [
+    "materiality"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.9176425904559081,
+  "llm_confidence": 0.92,
+  "posterior_confidence": 0.9176425904559081,
+  "confidence_inputs": {
+    "llm_probability": 0.92,
+    "posterior_probability": 0.9176425904559081,
+    "independent_supporters": 4.0,
+    "authoritative_support": 1.0
+  },
+  "scope": {
+    "kind_correct": true,
+    "assertion_preserved": true,
+    "disambiguators_preserved": true
+  },
+  "stop_reason": "concluded",
+  "max_steps": 4,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.8594512319362141,
+      "p_correct": 0.8594512319362141,
+      "llm_p_correct": 0.86,
+      "posterior_p_correct": 0.8594512319362141,
+      "reward": {
+        "step": 1,
+        "progress": 0.5261178986028807,
+        "information": 0.8992386067316963,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "ADVERSE",
+      "confidence": 0.9176425904559081,
+      "p_correct": 0.9176425904559081,
+      "llm_p_correct": 0.92,
+      "posterior_p_correct": 0.9176425904559081,
+      "reward": {
+        "step": 2,
+        "progress": 0.058191358519694036,
+        "information": 0.3296799539643607,
+        "corroboration": 0.6666666666666666,
+        "redundancy": 0.7142857142857143,
+        "tool_failure": 0.0,
+        "cost": 0.65365
+      }
+    }
+  ],
+  "tool_calls": 6,
+  "tool_failures": 0,
+  "rejected_repeats": 0,
+  "critic_checks": 1,
+  "prompt_tokens": 29113,
+  "completion_tokens": 21686,
+  "cost_usd": 0.013754299999999999,
+  "wall_clock_s": 667.4745222999481,
+  "call_latency_s": 458.676,
+  "key_fact_recall": 1.0,
+  "citation_precision": 0.9166666666666666,
+  "findings": 5,
+  "conflicts_final": 0,
+  "independent_domains": 7,
+  "evidence_weight": 5.390000000000001,
+  "supporting_weight": 2.2,
+  "mean_evidence_reliability": 0.5549999999999999,
+  "authoritative_evidence": true,
+  "primary_record_cited": false,
+  "withdrawn_statements": 0,
+  "manipulation_flags": 0,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "judge_model": "z-ai/glm-5.3-flash",
+  "attempts": 1,
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 0.9166666666666666,
+    "calibration": 0.9932172570931868,
+    "cost": 0.33866
+  }
+}

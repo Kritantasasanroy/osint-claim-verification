@@ -1,0 +1,61 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Michael I. Jordan is a professor at the University of California, Berkeley.",
+          "supported": true
+        },
+        {
+          "fact": "The full name of the UC Berkeley professor Michael I. Jordan is Michael Irwin Jordan.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Michael I. Jordan is a professor at the University of California, Berkeley.",
+          "supported": true
+        },
+        {
+          "fact": "He holds the Pehong Chen Distinguished Professor appointment at UC Berkeley.",
+          "supported": true
+        },
+        {
+          "fact": "His appointment is split across EECS and Statistics.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Michael I. Jordan was born on February 25, 1956.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The cited biographical excerpts describe Michael I. Jordan's career solely in academia (machine learning, statistics, computer science), with a timeline of BS 1978, MS 1980, PhD 1985, MIT professor 1988-1998, and UC Berkeley professor thereafter.",
+          "supported": true
+        },
+        {
+          "fact": "None of the cited excerpts mention Michael I. Jordan having a professional basketball career in the NBA.",
+          "supported": true
+        },
+        {
+          "fact": "No credible biographical source mentions Michael I. Jordan having a professional basketball career in the NBA.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

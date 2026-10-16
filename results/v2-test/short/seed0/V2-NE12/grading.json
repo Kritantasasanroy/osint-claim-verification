@@ -1,0 +1,56 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Vijay Mallya's full legal name is Vijay Vittal Mallya.",
+          "supported": true
+        },
+        {
+          "fact": "He is commonly known as Vijay Mallya.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Kingfisher Airlines was established in 2003.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Vijay Mallya held a 1.87% shareholding in Kingfisher Airlines.",
+          "supported": true
+        },
+        {
+          "fact": "Vijay Mallya was listed as a promoter of Kingfisher Airlines.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Vijay Mallya served as Chairman of Kingfisher Airlines.",
+          "supported": true
+        },
+        {
+          "fact": "His chairmanship of Kingfisher Airlines began in January 2004.",
+          "supported": true
+        },
+        {
+          "fact": "The chairmanship is listed as continuing to the present (i.e., onward from January 2004).",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

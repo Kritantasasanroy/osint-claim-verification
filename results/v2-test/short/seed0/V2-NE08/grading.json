@@ -1,0 +1,64 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Lego Group's official legal name is LEGO System A/S",
+          "supported": true
+        },
+        {
+          "fact": "LEGO System A/S is registered in Denmark under the Danish CVR (no. 47458714)",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Lego Group's Danish CVR number is 47458714",
+          "supported": true
+        },
+        {
+          "fact": "The address registered for LEGO System A/S (CVR 47458714) is Aastvej 1, 7190 Billund, Denmark",
+          "supported": true
+        },
+        {
+          "fact": "Aastvej 1, 7190 Billund, Denmark is the Lego Group's headquarters address",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Lego Group's headquarters is located in Billund, Denmark",
+          "supported": true
+        },
+        {
+          "fact": "The headquarters was still in Billund, Denmark as of 2026, consistent with the as-of date 2026-10-01",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "largestcompanies.com lists LEGO System A/S's address as Åstvej 1, DK-7190 Billund, Denmark",
+          "supported": true
+        },
+        {
+          "fact": "largestcompanies.com ties this address to the company's Danish registry identifiers (VAT No DK47458714, CFAR 1001897135)",
+          "supported": true
+        },
+        {
+          "fact": "largestcompanies.com is an independent third-party source rather than the Lego Group's own website",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

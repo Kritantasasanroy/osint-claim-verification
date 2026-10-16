@@ -1,0 +1,93 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Elizabeth Holmes was convicted of one count of conspiracy to commit wire fraud against investors.",
+          "supported": true
+        },
+        {
+          "fact": "She was convicted of three counts of wire fraud involving investments totaling more than $140 million.",
+          "supported": true
+        },
+        {
+          "fact": "These four counts constituted a conviction for defrauding investors.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Holmes was acquitted of a charge relating to patient-related conspiracy to commit wire fraud.",
+          "supported": true
+        },
+        {
+          "fact": "She was acquitted of three other wire fraud counts.",
+          "supported": true
+        },
+        {
+          "fact": "An additional charge of wire fraud related to a Theranos patient was dismissed during trial.",
+          "supported": true
+        },
+        {
+          "fact": "Overall, she was found not guilty on four counts of defrauding patients.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Holmes's original sentence was 135 months (11 years and 3 months).",
+          "supported": true
+        },
+        {
+          "fact": "In March 2026, a federal judge reduced her sentence to 123 months.",
+          "supported": true
+        },
+        {
+          "fact": "The reduction was granted as relief under a retroactive amendment addressing sentencing guidelines.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Ninth Circuit rejected Holmes's appeal.",
+          "supported": true
+        },
+        {
+          "fact": "The Ninth Circuit upheld her conviction, sentence, and restitution order.",
+          "supported": true
+        },
+        {
+          "fact": "The appellate ruling upholding her conviction occurred in February 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Walgreens settled a class-action lawsuit over Theranos blood tests.",
+          "supported": true
+        },
+        {
+          "fact": "The Theranos tests at issue were fraudulent.",
+          "supported": false
+        },
+        {
+          "fact": "If a judge approves the settlement, patients who bought a Theranos blood test would receive double the amount they paid for it.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

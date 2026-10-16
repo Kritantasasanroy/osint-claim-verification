@@ -1,0 +1,35 @@
+{
+  "git_sha": "7de518170ab183657c4c645c5c685f1c6b40108a",
+  "dirty": false,
+  "settings": {
+    "llm_model": "nvidia/nemotron-3-super-120b-a12b",
+    "judge_model": "z-ai/glm-5.3-flash",
+    "ocr_model": "nvidia/nemotron-parse",
+    "embedding_model": "nvidia/nemotron-3-embed-1b",
+    "llm_reasoning": true,
+    "temperature": 0.2,
+    "llm_cache": false,
+    "search_cache": true,
+    "max_concurrent_requests": 4,
+    "price_input_per_mtok": 0.1,
+    "price_output_per_mtok": 0.5
+  },
+  "budget": {
+    "max_steps": 4,
+    "max_tool_calls": 12,
+    "actions_per_step": 3
+  },
+  "benchmark_file": "benchmark\\cases_v2.json",
+  "benchmark_sha256": "6859370050dc3dd562700bcf1562a4768baedc78e722bc0c37baf5e148f92844",
+  "split": "test",
+  "seeds": [
+    0
+  ],
+  "modes": [
+    "closed_book",
+    "short"
+  ],
+  "pre_scoped": false,
+  "started_at": "2026-10-13T13:10:35+00:00",
+  "finished_at": "2026-10-14T09:56:10+00:00"
+}

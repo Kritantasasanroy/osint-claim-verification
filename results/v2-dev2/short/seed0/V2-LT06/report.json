@@ -1,0 +1,137 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Powell Raw Materials Trading LLC (UAE)",
+    "entity": "Powell Raw Materials Trading LLC",
+    "disambiguators": [
+      "UAE"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.8593,
+  "estimative": "very likely",
+  "summary": "The entity’s legal name is POWELL RAW MATERIALS TRADING L.L.C, registration number 930153, jurisdiction Dubai, UAE, and it was incorporated on 1 February 2021. No adverse findings regarding business activities, criminal convictions, civil judgments, insolvency, or regulatory enforcement were located in the performed searches.",
+  "findings": [
+    {
+      "statement": "The exact legal name is POWELL RAW MATERIALS TRADING L.L.C (Arabic: باول لتجارة المواد الاولية ذ.م.م), registration number 930153, jurisdiction United Arab Emirates (Dubai).",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://ofac.treasury.gov/recent-actions/20250916"
+      ]
+    },
+    {
+      "statement": "Powell Raw Materials Trading L.L.C was established on 1 February 2021 according to its UAE registration.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.cus.com.cy/images/Newsletters%20PDF/2025/38/Attachment%201%20-%20US%20TREASURY%20REPORT.pdf"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Powell Raw Materials Trading LLC UAE Ministry of Economy commercial register",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "sanctions",
+      "query": "Powell Raw Materials Trading LLC",
+      "results": 0,
+      "failure": "UnusableArgument: sanctions needs a tool this toolbox offers, got: Powell Raw Materials Trading LLC",
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Powell Raw Materials Trading LLC",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Powell Raw Materials Trading LLC trade license Dubai business activities date of incorporation",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Powell Raw Materials Trading LLC lawsuit judgment bankruptcy regulatory action UAE",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Powell Raw Materials Trading LLC UN EU UK sanctions list",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "Powell Raw Materials Trading L.L.C is listed on the US OFAC Specially Designated Nationals (SDN) list with programs IFSR and SDGT. [withdrawn: no tool checked sanctions]",
+    "As of 2026-10-01, Powell Raw Materials Trading LLC (UAE) is assessed ADVERSE with 86% confidence because it appears on the US OFAC Specially Designated Nationals list (IFSR/SDGT programs) since at least September 2025. [withdrawn: no tool checked sanctions]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No evidence found regarding the primary business activities of Powell Raw Materials Trading LLC from its UAE trade license.",
+    "No records located of criminal convictions, major civil judgments, insolvency/bankruptcy proceedings, or major regulatory enforcement actions against Powell Raw Materials Trading LLC in UAE courts or international jurisdictions up to 2026-09-30."
+  ],
+  "next_steps": [
+    "Query the UAE Ministry of Economy’s official commercial register for Powell Raw Materials Trading LLC’s trade license to confirm business activities and date of incorporation.",
+    "Search UAE court records (e.g., Dubai Courts, Abu Dhabi Judicial Department) for any civil, criminal, or insolvency cases involving Powell Raw Materials Trading LLC up to 2026-09-30.",
+    "Check the UN Sanctions List, EU Consolidated List, and UK HM Treasury sanctions list for Powell Raw Materials Trading LLC to seek independent confirmation of the OFAC listing.",
+    "Monitor global watchlists (World-Check, Refinitiv) for any additional regulatory actions or adverse media concerning Powell Raw Materials Trading LLC."
+  ],
+  "sources": [
+    {
+      "url": "https://ofac.treasury.gov/recent-actions/20250916",
+      "title": "Counter Terrorism Designations | Office of Foreign Assets Control",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.cus.com.cy/images/Newsletters%20PDF/2025/38/Attachment%201%20-%20US%20TREASURY%20REPORT.pdf",
+      "title": "us treasury report",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

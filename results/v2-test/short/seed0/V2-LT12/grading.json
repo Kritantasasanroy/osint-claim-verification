@@ -1,0 +1,64 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The legal name of the company is Hagenauer GmbH",
+          "supported": true
+        },
+        {
+          "fact": "The company's registered address is 87509 Immenstadt, Germany",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "No insolvency, bankruptcy, or liquidation proceedings have been opened against Hagenauer GmbH",
+          "supported": false
+        },
+        {
+          "fact": "Hagenauer GmbH applied for a protective shield procedure (Schutzschirmverfahren) at Amtsgericht Kempten in April 2026",
+          "supported": true
+        },
+        {
+          "fact": "An application to open insolvency proceedings over the assets of Hagenauer GmbH was filed at Amtsgericht Würzburg on 26 November 2020",
+          "supported": true
+        },
+        {
+          "fact": "Neither the protective shield application nor the Würzburg insolvency application resulted in an opened proceeding",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The reviewed sources contain no records of criminal convictions against Hagenauer GmbH",
+          "supported": false
+        },
+        {
+          "fact": "The reviewed sources contain no records of regulatory sanctions or fines exceeding €500k against Hagenauer GmbH",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "No civil judgment involving a fraud finding against Hagenauer GmbH is recorded in the reviewed sources",
+          "supported": false
+        },
+        {
+          "fact": "No civil judgment with damages over €1 million against Hagenauer GmbH is recorded in the reviewed sources",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,68 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Jeremy Jordan-Jones is the CEO of Amalgam Capital Ventures.",
+          "supported": true
+        },
+        {
+          "fact": "Jeremy Jordan-Jones is a one-third shareholder of Amalgam Capital Ventures.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Jeremy Jordan-Jones served as CEO of Amalgam Capital Ventures.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-09-30, Jeremy Jordan-Jones remained the CEO of Amalgam Capital Ventures.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "On May 21, 2025, the Securities and Exchange Commission charged Jeremy Jordan-Jones.",
+          "supported": true
+        },
+        {
+          "fact": "The SEC charged Jeremy Jordan-Jones with securities violations.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The Department of Justice indicted Jeremy Jordan-Jones.",
+          "supported": true
+        },
+        {
+          "fact": "The indictment charged Jeremy Jordan-Jones with wire fraud.",
+          "supported": true
+        },
+        {
+          "fact": "The indictment charged Jeremy Jordan-Jones with false statements.",
+          "supported": true
+        },
+        {
+          "fact": "The charges related to defrauding investors in Amalgam Ventures.",
+          "supported": true
+        },
+        {
+          "fact": "The charges were unsealed after mid-2025.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,60 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt AB filed for bankruptcy in Sweden.",
+          "supported": true
+        },
+        {
+          "fact": "The Swedish bankruptcy filing occurred on March 12, 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt filed for Chapter 11 bankruptcy protection in the United States.",
+          "supported": true
+        },
+        {
+          "fact": "The Chapter 11 filing occurred on November 21, 2024.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Creditors have filed claims against Northvolt AB in its bankruptcy proceedings.",
+          "supported": false
+        },
+        {
+          "fact": "Subcontractors that worked on the Skellefteå site are owed millions in unpaid invoices by Northvolt entities (i.e., they are creditors).",
+          "supported": true
+        },
+        {
+          "fact": "Major financial institutions (e.g., Swedish Export Credit Corporation, EIB, ING, BNP Paribas, Santander) are creditors of Northvolt AB.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Northvolt AB's Swedish corporate registration number (orgnr) is 559015-8894.",
+          "supported": true
+        },
+        {
+          "fact": "Northvolt AB's registered/legal address is Alströmergatan 20, 112 47 Stockholm, Sweden.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

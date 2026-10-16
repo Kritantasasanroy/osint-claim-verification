@@ -1,0 +1,56 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tricolor Holdings, LLC filed a bankruptcy petition on September 10, 2025",
+          "supported": true
+        },
+        {
+          "fact": "The bankruptcy was a Chapter 7 case filed in the United States Bankruptcy Court for the Northern District of Texas",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The court docket excerpt contains a notation that a case was discharged on 7/14/26 ('CASE DISCHARGED 7/14/26 PER DKT. 21')",
+          "supported": true
+        },
+        {
+          "fact": "The case discharged on July 14, 2026 was Tricolor Holdings' Chapter 7 bankruptcy case",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Public sources describe Tricolor Holdings as a now-bankrupt investment company",
+          "supported": true
+        },
+        {
+          "fact": "The description of Tricolor Holdings as now-bankrupt is dated as of October 13, 2026",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The bankruptcy filing record (Chapter 7 petition filed September 10, 2025) contradicts the claim that Tricolor Holdings has never filed for bankruptcy",
+          "supported": true
+        },
+        {
+          "fact": "Discharge records for Tricolor Holdings' own bankruptcy case contradict the claim that it never filed for bankruptcy",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

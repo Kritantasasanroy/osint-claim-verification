@@ -1,0 +1,19 @@
+{
+  "subject": {
+    "kind": "company",
+    "statement": "Velmorrath Bioassay Logistics GmbH, Leipzig"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.8,
+  "summary": "Based on the provided evidence set, which contains no verifiable sources, it is not possible to confirm or deny any adverse information about Velmorrath Bioassay Logistics GmbH. Consequently the assessment is UNVERIFIABLE with 80% confidence, reflecting the lack of data rather than a determination of innocence or guilt.",
+  "findings": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No source URLs were supplied in the evidence list, preventing any factual verification.",
+    "Absence of Handelsregister extracts, sanctions list checks, insolvency register queries, or media reports means key corporate and risk indicators cannot be established.",
+    "Without primary registry data, we cannot confirm the company's existence, registration number, founding date, address, or management."
+  ],
+  "sources": []
+}

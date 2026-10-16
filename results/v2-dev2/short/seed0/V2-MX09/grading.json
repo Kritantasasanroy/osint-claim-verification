@@ -1,0 +1,57 @@
+{
+  "key_facts_established": [
+    false,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "René Benko was convicted of insolvency fraud in October 2025.",
+          "supported": true
+        },
+        {
+          "fact": "The October 2025 conviction was handed down by the Landesgericht Innsbruck (Innsbruck State Court).",
+          "supported": true
+        },
+        {
+          "fact": "René Benko was sentenced to two years imprisonment for the October 2025 conviction.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nathalie Benko is the wife of René Benko.",
+          "supported": true
+        },
+        {
+          "fact": "Nathalie Benko was acquitted in a criminal trial.",
+          "supported": true
+        },
+        {
+          "fact": "Nathalie Benko's acquittal occurred in the December 2025 trial at the Landesgericht Innsbruck.",
+          "supported": false
+        },
+        {
+          "fact": "Nathalie Benko was not convicted of any criminal offense in 2025.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Nathalie Benko was involved in legal proceedings related to the Signa Holding bankruptcy.",
+          "supported": true
+        },
+        {
+          "fact": "Those proceedings involving Nathalie Benko took place at the Landesgericht Innsbruck in December 2025.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

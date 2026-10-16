@@ -1,0 +1,196 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Do Kwon is currently in custody in Montenegro.",
+    "entity": "Do Kwon",
+    "disambiguators": [
+      "currently in custody",
+      "in Montenegro"
+    ],
+    "as_of": "2026-10-13"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.8532,
+  "estimative": "very likely",
+  "summary": "Verdict: TRUE (85% confidence) – Do Kwon is currently in custody in Montenegro as of 2026‑10‑13. This assessment rests on the continued judicial hold of his bail money reported by a Montenegrin outlet in July 2026 and the absence of definitive evidence of his release or transfer to U.S. custody after March 2025, despite contrary reports of extradition and a 15‑year U.S. sentence.",
+  "findings": [
+    {
+      "statement": "Do Kwon, a South Korean national, is the co‑founder of Terraform Labs.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.bbc.com/news/articles/ckgmm92d213o"
+      ]
+    },
+    {
+      "statement": "Do Kwon was extradited to the United States in March 2025 and sentenced to 15 years in prison in December 2025.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.ibtimes.com/crypto-fraudster-do-kwon-gets-15-years-40-billion-terra-luna-collapse-that-triggered-2022-crash-3792451",
+        "https://forklog.com/en/terra-representatives-accuse-jane-street-of-ecosystem-collapse"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon Montenegro custody October 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Do Kwon Montenegro prison facility 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Do Kwon",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Do Kwon extradited United States 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Montenegro court Do Kwon 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Do Kwon Montenegro detention 2025 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Do Kwon Federal Bureau of Prisons 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Do Kwon United States 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Do Kwon Federal Bureau of Prisons inmate location",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Do Kwon BOP inmate locator 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Do Kwon Montenegro 2026 court",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.bbc.com/news/articles/ckgmm92d213o",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No official Montenegrin prison or detention records after March 2025 have been located to confirm his current custodial status.",
+    "No direct statement from Montenegrin authorities (e.g., Ministry of Justice or prison service) confirming Do Kwon’s custody location as of October 2026.",
+    "The U.S. Federal Bureau of Prisons inmate locator has not been queried in the performed searches, so his exact U.S. facility (if any) remains unverified.",
+    "No reputable news reports after July 2026 have been examined to see whether his status changed subsequent to the bail‑hold report.",
+    "Not established (no retrieved source supports it): As of July 2026, the Montenegrin court continues to hold the 800,000 euro bail deposited by Do Kwon and his associate."
+  ],
+  "next_steps": [
+    "Request official Montenegrin prison or detention records for any entries after March 2025.",
+    "Query the U.S. Federal Bureau of Prisons inmate locator for Do Kwon’s current facility as of October 2026.",
+    "Seek a recent statement from the Montenegrin Ministry of Justice or prison service regarding Do Kwon’s custodial status.",
+    "Search for reputable news outlets covering Do Kwon’s status in Montenegro after July 2026."
+  ],
+  "sources": [
+    {
+      "url": "https://www.bbc.com/news/articles/ckgmm92d213o",
+      "title": "Do Kwon: TerraUSD creator sentenced to 15 years in prison over $40bn crash",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-12-12"
+    },
+    {
+      "url": "https://www.ibtimes.com/crypto-fraudster-do-kwon-gets-15-years-40-billion-terra-luna-collapse-that-triggered-2022-crash-3792451",
+      "title": "Crypto Fraudster Do Kwon Gets 15 Years for $40 Billion Terra/Luna Collapse That Triggered 2022 Crash | IBTimes",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-12-12"
+    },
+    {
+      "url": "https://forklog.com/en/terra-representatives-accuse-jane-street-of-ecosystem-collapse",
+      "title": "Terra Representatives Accuse Jane Street of Ecosystem Collapse | ForkLog",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-02-24"
+    }
+  ]
+}

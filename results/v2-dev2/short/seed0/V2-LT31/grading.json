@@ -1,0 +1,32 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Ternus's full name is John Patrick Ternus.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, John Ternus's current title is Chief Executive Officer of Apple Inc.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Ternus assumed the role of CEO of Apple Inc.",
+          "supported": true
+        },
+        {
+          "fact": "John Ternus assumed the CEO role on September 1, 2026.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

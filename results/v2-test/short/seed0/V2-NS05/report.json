@@ -1,0 +1,168 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Nikola Tesla, the inventor, founded Tesla, Inc.",
+    "entity": "Nikola Tesla",
+    "disambiguators": [
+      "the inventor"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "The claim that Nikola Tesla founded Tesla, Inc. is false. Nikola Tesla died on 7 January 1943, while Tesla, Inc. was incorporated on 1 July 2003 by Martin Eberhard and Marc Tarpenning, making any direct involvement impossible. The company was named in honor of the inventor, but he had no role in its establishment.",
+  "findings": [
+    {
+      "statement": "Nikola Tesla died on January 7, 1943.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Nikola_Tesla"
+      ]
+    },
+    {
+      "statement": "Tesla, Inc. was incorporated on July 1, 2003.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Tesla,_Inc."
+      ]
+    },
+    {
+      "statement": "The founders of Tesla, Inc. were Martin Eberhard and Marc Tarpenning.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Tesla,_Inc."
+      ]
+    },
+    {
+      "statement": "Nikola Tesla had no involvement in the founding of Tesla, Inc. because he died in 1943, 60 years before the company's incorporation.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Nikola_Tesla",
+        "https://en.wikipedia.org/wiki/Tesla,_Inc."
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Nikola Tesla",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Tesla, Inc.",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Nikola Tesla death 1943 Tesla Inc founded 2003",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "sec_edgar",
+      "query": "Tesla Inc.",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "wikidata",
+      "query": "Tesla, Inc.",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/Archives/edgar/data/1318605/000119312510068933/dex1025.htm",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "encyclopedia",
+      "query": "Nikola Tesla",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Nikola Tesla Tesla Inc founder",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "SEC EDGAR filings",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact birth date varies between July 9 and July 10, 1856 across sources; no primary birth record was consulted.",
+    "No direct statement exists that Nikola Tesla had zero involvement with Tesla, Inc.; the conclusion is inferred from chronological impossibility."
+  ],
+  "next_steps": [
+    "Consult a primary birth or baptism record for Nikola Tesla to resolve the July 9 vs July 10 discrepancy.",
+    "Search SEC EDGAR for any Tesla, Inc. filings that mention Nikola Tesla (e.g., naming rights, trademark assignments).",
+    "Check USPTO trademark database for 'Tesla' to see if the inventor's estate or heirs hold any rights.",
+    "Review historical news archives (1940s‑2000s) for any reference to Nikola Tesla being consulted or honored in the early 2000s EV startup context."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Nikola_Tesla",
+      "title": "Nikola Tesla - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+      "title": "Wikipedia: Tesla, Inc.",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    }
+  ]
+}

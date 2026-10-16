@@ -1,0 +1,78 @@
+{
+  "case_id": "V2-NS04",
+  "mode": "closed_book",
+  "seed": 0,
+  "split": "dev",
+  "slices": [
+    "namesake"
+  ],
+  "kind": "claim",
+  "tags": [
+    "namesake"
+  ],
+  "expected": "TRUE",
+  "verdict": "FALSE",
+  "correct": false,
+  "confidence": 0.99,
+  "llm_confidence": 0.99,
+  "posterior_confidence": 0.0,
+  "confidence_inputs": {},
+  "scope": {
+    "kind_correct": true,
+    "assertion_preserved": true,
+    "disambiguators_preserved": true
+  },
+  "stop_reason": "closed_book",
+  "max_steps": 4,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.99,
+      "p_correct": 0.003333333333333336,
+      "llm_p_correct": 0.003333333333333336,
+      "posterior_p_correct": 0.0,
+      "reward": {
+        "step": 1,
+        "progress": -0.24666666666666667,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.03675
+      }
+    }
+  ],
+  "tool_calls": 0,
+  "tool_failures": 0,
+  "rejected_repeats": 0,
+  "critic_checks": 0,
+  "prompt_tokens": 1103,
+  "completion_tokens": 666,
+  "cost_usd": 0.0004433,
+  "wall_clock_s": 2.3596800999948755,
+  "call_latency_s": 10.459,
+  "key_fact_recall": 0.0,
+  "citation_precision": 0.0,
+  "findings": 0,
+  "conflicts_final": 0,
+  "independent_domains": 0,
+  "evidence_weight": 0.0,
+  "supporting_weight": 0.0,
+  "mean_evidence_reliability": 0.0,
+  "authoritative_evidence": false,
+  "primary_record_cited": false,
+  "withdrawn_statements": 0,
+  "manipulation_flags": 0,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "judge_model": "z-ai/glm-5.3-flash",
+  "episode_reward": {
+    "correctness": 0.0,
+    "key_fact_recall": 0.0,
+    "citation_precision": 0.0,
+    "calibration": 0.01990000000000003,
+    "cost": 0.011793333333333333
+  }
+}

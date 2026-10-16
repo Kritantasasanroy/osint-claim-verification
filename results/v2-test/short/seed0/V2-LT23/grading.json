@@ -1,0 +1,32 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Satya Nadella was Chairman and CEO of Microsoft.",
+          "supported": true
+        },
+        {
+          "fact": "He held these roles as of May 2025.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Microsoft Build 2025 was a developer conference.",
+          "supported": true
+        },
+        {
+          "fact": "It was held from May 19 to May 22, 2025.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

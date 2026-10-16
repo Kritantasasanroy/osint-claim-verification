@@ -1,0 +1,181 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Mark Zuckerberg, the Indianapolis bankruptcy lawyer, sued Meta.",
+    "entity": "Mark Zuckerberg",
+    "disambiguators": [
+      "the Indianapolis bankruptcy lawyer"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "As of 2026-10-01, the claim that Mark Zuckerberg, the Indianapolis bankruptcy lawyer, sued Meta is TRUE with 99% confidence; evidence shows he filed a lawsuit against Meta in September 2025.",
+  "findings": [
+    {
+      "statement": "There is a person named Mark Zuckerberg who is a bankruptcy lawyer practicing in Indianapolis.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://nypost.com/2025/09/03/us-news/lawyer-named-mark-zuckerberg-sues-meta-over-claims-hes-impersonating-founder",
+        "https://www.indystar.com/story/money/2025/09/06/mark-zuckerberg-facebook-meta-indianapolis-bankruptcy-attorney/85988333007",
+        "https://www.axios.com/2025/09/05/mark-zuckerberg-sues-meta-facebook-indiana-lawyer",
+        "https://www.bbc.com/news/articles/c5yk810pgkko"
+      ]
+    },
+    {
+      "statement": "Mark Zuckerberg is an Indiana bankruptcy lawyer with his office located at 429 North Pennsylvania Street, Suite 100, Indianapolis, IN.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.americancollegeofbankruptcy.com/directory/mark-steven-zuckerberg-1226",
+        "https://www.yelp.com/biz/bankruptcy-law-office-of-mark-s-zuckerberg-indianapolis-3"
+      ]
+    },
+    {
+      "statement": "Mark Zuckerberg, the Indianapolis bankruptcy lawyer, filed a lawsuit against Meta (formerly Facebook) in September 2025.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.axios.com/2025/09/05/mark-zuckerberg-sues-meta-facebook-indiana-lawyer",
+        "https://www.indystar.com/story/money/2025/09/06/mark-zuckerberg-facebook-meta-indianapolis-bankruptcy-attorney/85988333007",
+        "https://www.bbc.com/news/articles/c5yk810pgkko"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Mark Zuckerberg Indianapolis bankruptcy lawyer Meta",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Mark Zuckerberg bankruptcy lawyer Indianapolis attorney",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Mark Zuckerberg Indianapolis bankruptcy lawyer practice",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Mark S. Zuckerberg v. Meta Platforms Marion Superior Court 2025 complaint docket number",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Mark Zuckerberg Indianapolis bankruptcy lawyer Meta lawsuit 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Mark Zuckerberg Meta Marion Superior Court",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "No direct copy of the Marion Superior Court docket or case number was provided in the evidence.",
+    "The evidence does not show the current status or outcome of the lawsuit as of 2026-10-01.",
+    "No independent verification from the Indiana State Bar Association or PACER was presented."
+  ],
+  "next_steps": [
+    "Retrieve the Marion Superior Court docket for the case using the attorney’s name and approximate filing date.",
+    "Search PACER for any federal filing related to the lawsuit against Meta.",
+    "Contact the lawyer’s office listed at 429 N Pennsylvania St, Indianapolis, IN for confirmation of the lawsuit’s status.",
+    "Consult the Indiana State Bar Association’s attorney directory to validate the lawyer’s standing and any disciplinary history."
+  ],
+  "sources": [
+    {
+      "url": "https://nypost.com/2025/09/03/us-news/lawyer-named-mark-zuckerberg-sues-meta-over-claims-hes-impersonating-founder",
+      "title": "Lawyer named Mark Zuckerberg sues Meta over claims he's impersonating founder",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-09-03"
+    },
+    {
+      "url": "https://www.indystar.com/story/money/2025/09/06/mark-zuckerberg-facebook-meta-indianapolis-bankruptcy-attorney/85988333007",
+      "title": "Facebook keeps kicking off Indianapolis bankruptcy lawyer Mark Zuckerberg. Now he's suing",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-09-06"
+    },
+    {
+      "url": "https://www.axios.com/2025/09/05/mark-zuckerberg-sues-meta-facebook-indiana-lawyer",
+      "title": "Mark Zuckerberg vs. Mark Zuckerberg: Indiana lawyer sues Meta",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2025-09-05"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/c5yk810pgkko",
+      "title": "Mark Zuckerberg - no, not that one - sues Facebook for account shutdowns",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-09-05"
+    },
+    {
+      "url": "https://www.americancollegeofbankruptcy.com/directory/mark-steven-zuckerberg-1226",
+      "title": "Mark Steven Zuckerberg | Directory",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.yelp.com/biz/bankruptcy-law-office-of-mark-s-zuckerberg-indianapolis-3",
+      "title": "BANKRUPTCY LAW OFFICE OF MARK S ZUCKERBERG",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

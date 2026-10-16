@@ -1,0 +1,174 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Ameri Metro, Inc.",
+    "entity": "Ameri Metro, Inc.",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.9661,
+  "estimative": "almost certain",
+  "summary": "Verdict: ADVERSE at 97% confidence. The decisive factor is the SEC’s July 18, 2025 enforcement action charging Ameri Metro, Inc. with defrauding investors in a multi‑million‑dollar offering fraud and alleging the sale of unregistered securities. The company’s legal name is Ameri Metro, Inc., and it is incorporated in Delaware.",
+  "findings": [
+    {
+      "statement": "On July 18, 2025, the SEC charged Ameri Metro, Inc. with defrauding investors in a multi-million dollar offering fraud.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26353"
+      ]
+    },
+    {
+      "statement": "Ameri Metro, Inc. is a Delaware corporation with CIK 0001534155.",
+      "credibility": 6,
+      "credibility_label": "cannot be judged",
+      "citations": [
+        "https://www.sec.gov/Archives/edgar/data/1534155/000153415521000032/amgi8k1021.htm"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Ameri Metro, Inc. company",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "sec_edgar",
+      "query": "Ameri Metro, Inc. bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Ameri Metro, Inc. sanction OR enforcement OR criminal OR civil judgment",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/Archives/edgar/data/1534155/000121390024034332/ea0204236-10q_ameri.htm",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Ameri Metro, Inc. bankruptcy filing",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Ameri Metro, Inc. SEC settlement fraud",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26353",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Ameri Metro, Inc. 10-K 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/Archives/edgar/data/1534155/000121390025000012/ea0204567-10k_ameri.htm",
+      "results": 0,
+      "failure": "PageUnreadable: the page at https://www.sec.gov/Archives/edgar/data/1534155/000121390025000012/ea0204567-10k_ameri.htm could not be read: 404 page not found",
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Ameri Metro, Inc. civil judgment",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "read_page",
+      "query": "https://www.sec.gov/Archives/edgar/data/1534155/000121390024034346/ea0204245-10q_ameri.htm",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "SEC EDGAR filings"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Headquarters location of Ameri Metro, Inc. is not established in the available evidence.",
+    "No evidence of bankruptcy or insolvency proceedings for Ameri Metro, Inc. up to 2026-10-01.",
+    "No evidence of criminal conviction or criminal charges against Ameri Metro, Inc. up to 2026-10-01.",
+    "No evidence of a material civil judgment (e.g., fraud finding or damages >$10 million) against Ameri Metro, Inc. aside from the SEC enforcement action."
+  ],
+  "next_steps": [
+    "Search SEC EDGAR for Ameri Metro, Inc.'s most recent 10-K or 10-Q to extract the headquarters address.",
+    "Search PACER or federal court docket for any bankruptcy filings under Ameri Metro, Inc.",
+    "Search DOJ press releases or federal criminal case databases for any criminal charges against Ameri Metro, Inc.",
+    "Search state court records or civil judgment databases for any judgments exceeding $10 million involving Ameri Metro, Inc."
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26353",
+      "title": "SEC.gov | Ameri Metro, Inc., Shahnawaz Mathias, Penndel Land Development Co., and HSRF Trust",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1534155/000153415521000032/amgi8k1021.htm",
+      "title": "Ameri Metro, Inc.",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    }
+  ]
+}

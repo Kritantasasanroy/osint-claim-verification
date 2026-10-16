@@ -1,0 +1,204 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Wirecard AG reported record revenue for fiscal year 2023.",
+    "entity": "Wirecard AG",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "wirecard_results_2023.png"
+  ],
+  "verdict": "FALSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "The claim is FALSE: Wirecard AG was dissolved on 2020-09-03 and was under insolvency proceedings as of 2023-12-21, so it could not have published FY 2023 revenue.",
+  "findings": [
+    {
+      "statement": "Wirecard AG was dissolved on 2020-09-03, meaning it could not have existed to report FY 2023 revenue.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.wikidata.org/wiki/Q587325"
+      ]
+    },
+    {
+      "statement": "As of 2023-12-21, Wirecard AG was listed as participating in insolvency proceedings in Germany.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.gpif.go.jp/en/topics/annual_report_fiscal_year_2025.pdf"
+      ]
+    },
+    {
+      "statement": "Due to its insolvency status, Wirecard AG did not publish or file financial statements for fiscal year 2023.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.wsj.com/articles/wirecard-files-for-insolvency-after-revealing-accounting-hole-11593075223"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Wirecard AG annual report 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Wirecard AG 2023 revenue",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Wirecard AG",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Wirecard AG insolvency register 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Wirecard AG liquidator report 2023 financial statements",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Wirecard AG today reported revenue of EUR 4.1 billion for 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.gpif.go.jp/en/topics/annual_report_fiscal_year_2025.pdf",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Wirecard AG insolvenzverwalterbericht 2023",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.wirecard-insolvenz.de/en",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Wirecard AG Insolvenzregister München 2023 extract",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Wirecard AG Insolvenzverwalterbericht 2023 PDF Munich",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "wirecard_results_2023.png source provenance",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "Exact commercial register number (HRB) and registration date of Wirecard AG. [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [
+    "The provided image wirecard_results_2023.png asserts a FY 2023 revenue figure that contradicts the established fact that Wirecard AG was dissolved in 2020 and under insolvency proceedings in December 2023, indicating the document is likely fabricated or misleading; it does not address an AI reader and is internally inconsistent with verified evidence."
+  ],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Verified revenue figure for FY 2023 (if any) from official filings.",
+    "Authenticity and source provenance of the provided wirecard_results_2023.png image.",
+    "Official insolvency registry extracts from Munich court covering 2023 to confirm filing status."
+  ],
+  "next_steps": [
+    "Request the Handelsregister extract for Wirecard AG to obtain its registration number and current status.",
+    "Obtain the official insolvency proceedings file from the Munich Insolvency Court for 2023 to confirm whether any financial statements were submitted.",
+    "Conduct a forensic metadata analysis of wirecard_results_2023.png (e.g., ExifTool) and perform a reverse image search to assess its origin.",
+    "Cross-check any claimed revenue figures against the insolvency administrator's asset reports or liquidator statements."
+  ],
+  "sources": [
+    {
+      "url": "https://www.wikidata.org/wiki/Q587325",
+      "title": "Wikidata: Wirecard",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.gpif.go.jp/en/topics/annual_report_fiscal_year_2025.pdf",
+      "title": "ANNUAL REPORT",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-09-29"
+    },
+    {
+      "url": "https://www.wsj.com/articles/wirecard-files-for-insolvency-after-revealing-accounting-hole-11593075223",
+      "title": "Wirecard Files for Insolvency After Revealing Accounting Hole - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": null
+    }
+  ]
+}

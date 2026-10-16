@@ -1,0 +1,40 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Hagenauer GmbH is registered in the Handelsregister (commercial register) with the legal form Gesellschaft mit beschränkter Haftung (GmbH).",
+          "supported": true
+        },
+        {
+          "fact": "The seat of Hagenauer GmbH is in Immenstadt.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The stated business purpose (Gegenstand) of Hagenauer GmbH is to act as a general contractor (Generalunternehmer), planning and constructing objects of any kind.",
+          "supported": true
+        },
+        {
+          "fact": "The purpose particularly concerns upscale hotels, healthcare facilities, and office buildings.",
+          "supported": true
+        },
+        {
+          "fact": "The purpose includes the complete outfitting (Gesamtausbau) of cruise liners.",
+          "supported": true
+        },
+        {
+          "fact": "The purpose includes all business areas related to the aforementioned activities.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Tischlerei Bellmann GmbH (Chemnitz)",
+    "entity": "Tischlerei Bellmann GmbH",
+    "disambiguators": [
+      "Chemnitz"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.7936,
+  "estimative": "likely",
+  "summary": "Tischlerei Bellmann GmbH (HRB 3279, Chemnitz) is a carpentry/joinery firm established in 1991 with its registered office at Reinhardtstraße 37, 09130 Chemnitz. No material adverse events—such as insolvency, criminal conviction, regulatory sanction, or major civil judgment—were found in the performed searches as of 2026-10-01, supporting a NO_ADVERSE verdict at 79% confidence.",
+  "findings": [
+    {
+      "statement": "The registered office address of Tischlerei Bellmann GmbH is Reinhardtstraße 37, 09130 Chemnitz.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.online-handelsregister.de/handelsregisterauszug/sn/Chemnitz/HRB/3279/Tischlerei-Bellmann-GmbH",
+        "https://www.tischlerei-bellmann.de"
+      ]
+    },
+    {
+      "statement": "The primary business activity of Tischlerei Bellmann GmbH is carpentry/joinery, specifically manufacture of furniture.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://handelsregister.ai/de/organizations/chemnitz/taetigkeiten-der-grosshandelsvermittlung-von-moebeln",
+        "https://firmeneintrag.creditreform.de/09130/3030006604/TISCHLEREI_BELLMANN_GMBH",
+        "https://www.tischlerei-bellmann.de"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Tischlerei Bellmann GmbH Chemnitz insolvenz OR strafverfahren OR sanktionen",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Tischlerei Bellmann GmbH Chemnitz Handelsregister HRB Zweck gegründet",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Tischlerei Bellmann GmbH Chemnitz insolvenz OR strafverfahren OR sanktionen OR bußgeld OR verurteilung",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Tischlerei Bellmann GmbH HRB 3279 Chemnitz Handelsregister",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Tischlerei Bellmann GmbH insolvenzverfahren",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Tischlerei Bellmann GmbH sanktion bußgeld",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "'Tischlerei Bellmann GmbH' insolvenz OR bußgeld OR sanktionen 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "'Tischlerei Bellmann GmbH' Insolvenzverfahren site:bundesanzeiger.de",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "'Tischlerei Bellmann GmbH' Bußgeld OR Sanktion site:bundesanstalt.de",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Tischlerei Bellmann GmbH insolvenz 2025",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Tischlerei Bellmann GmbH bundesanzeiger insolvenz",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Tischlerei Bellmann GmbH Bußgeld 2024",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "Tischlerei Bellmann GmbH's legal name is Tischlerei Bellmann GmbH and it is registered under HRB 3279 in the Chemnitz Commercial Register. [withdrawn: no tool checked company_register]",
+    "Tischlerei Bellmann GmbH was established in 1991, with registration in the Handelsregister on 17 October 1991. [withdrawn: no tool checked company_register]",
+    "Firmeneintrag.creditreform.de confirms that Tischlerei Bellmann GmbH is registered with HRB 3279 at the Chemnitz district court. [withdrawn: no tool checked credit_bureau]",
+    "Direct access to the official insolvency register (Bundesanzeiger) was not verified beyond keyword web search. [withdrawn: no tool checked insolvency_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Specific enforcement databases such as BaFin, Bundesanstalt für Finanzdienstleistungsaufsicht, or EU sanctions lists were not queried.",
+    "Court judgments or prosecutor press releases were not examined beyond general news search.",
+    "Not established (no retrieved source supports it): As of 2026-10-01, no insolvency, bankruptcy, criminal conviction, regulatory sanction, or major civil judgment was found for Tischlerei Bellmann GmbH in the performed searches."
+  ],
+  "next_steps": [
+    "Query the Bundesanzeiger (www.bundesanzeiger.de) for any insolvency or bankruptcy notices concerning HRB 3279.",
+    "Check the BaFin website and the EU sanctions list for any sanctions or fines involving Tischlerei Bellmann GmbH.",
+    "Search the public prosecutor’s office press releases for Chemnitz for any criminal proceedings against the company.",
+    "Review recent issues of local Chemnitz newspapers (e.g., Freie Presse) for any unreported civil judgments."
+  ],
+  "sources": [
+    {
+      "url": "https://www.online-handelsregister.de/handelsregisterauszug/sn/Chemnitz/HRB/3279/Tischlerei-Bellmann-GmbH",
+      "title": "Handelsregisterauszug von Tischlerei Bellmann GmbH aus Chemnitz (HRB 3279)",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://www.tischlerei-bellmann.de",
+      "title": "Tischlerei Bellmann GmbH",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://handelsregister.ai/de/organizations/chemnitz/taetigkeiten-der-grosshandelsvermittlung-von-moebeln",
+      "title": "Tätigkeiten der Großhandelsvermittlung von Möbeln ...",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://firmeneintrag.creditreform.de/09130/3030006604/TISCHLEREI_BELLMANN_GMBH",
+      "title": "Tischlerei Bellmann GmbH, Chemnitz | Firmenauskunft",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}

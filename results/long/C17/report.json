@@ -1,0 +1,121 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Trevor Milton, founder of Nikola"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.88,
+  "summary": "The adverse verdict reflects Trevor Milton's criminal conviction for fraud, his subsequent presidential pardon that removed incarceration but left the conviction's legal status ambiguous, the dismissal of SEC civil actions, and the persistence of pending private civil lawsuits against him personally.",
+  "findings": [
+    {
+      "statement": "Trevor Robert Milton was convicted in October 2022 of one count of securities fraud and two counts of wire fraud and sentenced in December 2023 to four years in prison, a $1 million fine, and $168 million in restitution.",
+      "confidence": 0.96,
+      "citations": [
+        "https://www.reuters.com/world/us/nikola-founder-trevor-milton-says-granted-full-pardon-by-trump-2025-03-28",
+        "https://www.gov.ca.gov/2026/03/05/trumpcriminals3",
+        "https://www.courthousenews.com/trump-pardons-nikola-founder-trevor-milton"
+      ]
+    },
+    {
+      "statement": "In March 2025, President Donald Trump granted Trevor Milton a full and unconditional pardon, which vacated his prison sentence and resulted in no active incarceration record as of August 2025.",
+      "confidence": 0.95,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Trevor_Milton",
+        "https://www.gov.ca.gov/2026/03/05/trumpcriminals3",
+        "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html"
+      ]
+    },
+    {
+      "statement": "While the pardon spares Milton from incarceration and likely relieves him of restitution obligations, authoritative sources do not specify whether the conviction is vacated, expunged, or remains on his criminal record.",
+      "confidence": 0.68,
+      "citations": [
+        "https://www.congress.gov/congressional-record/volume-172/issue-49/house-section/article/H2568-1",
+        "https://www.courthousenews.com/trump-pardons-nikola-founder-trevor-milton"
+      ]
+    },
+    {
+      "statement": "In September 2025, the SEC filed a joint stipulation to dismiss, with prejudice, its civil enforcement action against Trevor Milton, indicating no active SEC sanctions or civil judgments against him personally.",
+      "confidence": 0.98,
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26397"
+      ]
+    },
+    {
+      "statement": "As of August 2025, private civil lawsuits filed by Nikola investors against Trevor Milton remain pending, with settlement stipulations dated August 12 and August 21, 2025.",
+      "confidence": 0.62,
+      "citations": [
+        "https://www.cohenmilstein.com/case-study/nikola-corp-derivative-litigation",
+        "https://landline.media/nikola-founder-pardoned-by-trump-after-convicted-of-fraud-costing-investors-hundreds-of-millions-of-dollars"
+      ]
+    }
+  ],
+  "conflicts": [
+    "Are there any active civil judgments, SEC sanctions, bankruptcy filings, or ongoing litigation against Trevor Milton personally (excluding Nikola Corporation) as of the latest public records? - supported by cnbc.com, cohenmilstein.com, dandodiary.com, landline.media, lit-wc.aoshearman.com, news.bloomberglaw.com, sec.gov (weight 3.88) vs refuted by en.wikipedia.org, sec.gov (weight 1.95)"
+  ],
+  "conflict_notes": [
+    "Regarding active civil judgments, SEC sanctions, or ongoing litigation against Trevor Milton personally, supporting sources (e.g., CNBC, Cohen Milstein, Dandodiary, Landline Media, Bloomberg Law) indicate an ongoing SEC case, arbitration award, or pending private lawsuits, while refuting sources (e.g., Wikipedia, SEC dismissal filing) state that the SEC dropped its civil enforcement action with prejudice and that there are no active SEC sanctions. The weight of the SEC dismissal with prejudice and Wikipedia’s statement was given greater weight, leading to the conclusion that there are no active SEC sanctions, but private civil litigation may still be pending."
+  ],
+  "gaps": [
+    "The precise legal effect of the presidential pardon on Milton's conviction record—whether the conviction is vacated, expunged, or remains on file—is not explicitly stated in the available sources.",
+    "The exact amount of any restitution or financial obligation that may still be owed after the pardon is unclear, as sources differ on whether the pardon eliminates restitution.",
+    "Trevor Milton's current financial interest in Nikola Corporation (e.g., stock ownership percentage or claims) is not definitively established by the evidence.",
+    "The status of any creditor claims or bankruptcy-related assertions beyond the noted private civil lawsuits is not detailed in the sources."
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/world/us/nikola-founder-trevor-milton-says-granted-full-pardon-by-trump-2025-03-28",
+      "title": "Nikola founder Trevor Milton says he was granted a full pardon by Trump",
+      "tier": "major_news",
+      "reliability": 0.963
+    },
+    {
+      "url": "https://www.gov.ca.gov/2026/03/05/trumpcriminals3",
+      "title": "Trump pardons wipe nearly $2 billion in victim repayment and taxpayer recovery for Medicare and tax fraud, and more | Governor of California",
+      "tier": "official",
+      "reliability": 0.971
+    },
+    {
+      "url": "https://www.courthousenews.com/trump-pardons-nikola-founder-trevor-milton",
+      "title": "Trump pardons Nikola founder Trevor Milton | Courthouse News Service",
+      "tier": "unvetted",
+      "reliability": 0.8
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trevor_Milton",
+      "title": "Wikipedia: Trevor Milton",
+      "tier": "reference",
+      "reliability": 0.971
+    },
+    {
+      "url": "https://www.cnbc.com/2025/03/28/trump-pardons-nikola-trevor-milton-ceo-securities-fraud-electric-vehicle.html",
+      "title": "Trump pardons Nikola founder Trevor Milton",
+      "tier": "major_news",
+      "reliability": 0.9
+    },
+    {
+      "url": "https://www.congress.gov/congressional-record/volume-172/issue-49/house-section/article/H2568-1",
+      "title": "Congressional Record",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26397",
+      "title": "SEC.gov | Trevor R. Milton",
+      "tier": "official",
+      "reliability": 0.98
+    },
+    {
+      "url": "https://www.cohenmilstein.com/case-study/nikola-corp-derivative-litigation",
+      "title": "Nikola Corp. Derivative Litigation - Cohen Milstein",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://landline.media/nikola-founder-pardoned-by-trump-after-convicted-of-fraud-costing-investors-hundreds-of-millions-of-dollars",
+      "title": "Nikola founder convicted of fraud pardoned by Trump » Land Line Media",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

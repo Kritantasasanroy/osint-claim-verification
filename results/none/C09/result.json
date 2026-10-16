@@ -1,0 +1,57 @@
+{
+  "case_id": "C09",
+  "mode": "none",
+  "kind": "claim",
+  "tags": [
+    "cluster:theranos",
+    "company_claim_vs_reality"
+  ],
+  "expected": "FALSE",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.85,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.85,
+      "p_correct": 0.85,
+      "reward": {
+        "step": 1,
+        "progress": 0.6,
+        "information": 0.9275602429657486,
+        "corroboration": 1.0,
+        "redundancy": 0.2777777777777778,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 13539,
+  "completion_tokens": 15085,
+  "cost_usd": 0.0088964,
+  "wall_clock_s": 32.1829119999893,
+  "call_latency_s": 145.817,
+  "key_fact_recall": 0.5,
+  "citation_precision": 1.0,
+  "findings": 4,
+  "conflicts_final": 0,
+  "independent_domains": 6,
+  "evidence_weight": 5.25,
+  "mean_evidence_reliability": 0.4375,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.5,
+    "citation_precision": 1.0,
+    "calibration": 0.9775,
+    "cost": 0.19082666666666667
+  }
+}

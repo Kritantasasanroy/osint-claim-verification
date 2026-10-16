@@ -1,0 +1,57 @@
+{
+  "case_id": "C10",
+  "mode": "short",
+  "kind": "company",
+  "tags": [
+    "fraud",
+    "cluster:ftx"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.95,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.95,
+      "p_correct": 0.95,
+      "reward": {
+        "step": 1,
+        "progress": 0.6166666666666667,
+        "information": 0.9997090909841527,
+        "corroboration": 1.0,
+        "redundancy": 0.16666666666666666,
+        "tool_failure": 0.0,
+        "cost": 1.0
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 16768,
+  "completion_tokens": 17879,
+  "cost_usd": 0.010616299999999999,
+  "wall_clock_s": 0.03718540002591908,
+  "call_latency_s": 140.255,
+  "key_fact_recall": 0.3333333333333333,
+  "citation_precision": 0.9,
+  "findings": 10,
+  "conflicts_final": 0,
+  "independent_domains": 12,
+  "evidence_weight": 16.285,
+  "mean_evidence_reliability": 0.5467741935483871,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.3333333333333333,
+    "citation_precision": 0.9,
+    "calibration": 0.9974999999999999,
+    "cost": 0.23098
+  }
+}

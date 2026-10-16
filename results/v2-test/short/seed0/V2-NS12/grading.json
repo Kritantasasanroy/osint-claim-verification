@@ -1,0 +1,61 @@
+{
+  "key_facts_established": [
+    false,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's registered name at Companies House is APPLE CORPS LIMITED.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's registered office address is 27 Ovington Square, London, SW3 1LJ.",
+          "supported": true
+        },
+        {
+          "fact": "The company is incorporated in the United Kingdom (England and Wales), as shown by its listing on the UK Companies House register with a London registered office.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's registered company number is 00764797.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's nature of business (SIC) is listed as 93290 - Other amusement and recreation activities not elsewhere classified.",
+          "supported": true
+        },
+        {
+          "fact": "This SIC code represents the company's primary business activity.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's status at Companies House is 'Active'.",
+          "supported": true
+        },
+        {
+          "fact": "The company has not entered insolvency, liquidation, administration, or bankruptcy.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

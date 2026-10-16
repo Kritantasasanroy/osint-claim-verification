@@ -1,0 +1,93 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Elizabeth Holmes was acquitted of all charges in her 2022 fraud trial."
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.92,
+  "summary": "Elizabeth Holmes was not acquitted of all charges in her 2022 fraud trial. The trial concluded on January 3, 2022 with a partial verdict: guilty on four counts of defrauding investors, not guilty on four counts of defrauding patients, and a mistrial on three investor fraud counts. She was later sentenced on November 18, 2022 to 135 months in prison. The claim that she was acquitted of all charges is therefore false.",
+  "findings": [
+    {
+      "statement": "Elizabeth Holmes's fraud trial concluded on January 3, 2022 with a partial verdict.",
+      "confidence": 0.93,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes",
+        "https://www.nytimes.com/live/2022/01/03/technology/elizabeth-holmes-trial-verdict",
+        "https://www.bbc.com/news/business-58336998"
+      ]
+    },
+    {
+      "statement": "The jury found Holmes guilty on four counts of defrauding investors (three wire fraud, one conspiracy), not guilty on four counts of defrauding patients, and unable to reach a unanimous verdict on three counts of wire fraud (mistrial).",
+      "confidence": 0.92,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes",
+        "https://www.nytimes.com/live/2022/01/03/technology/elizabeth-holmes-trial-verdict",
+        "https://www.bbc.com/news/business-58336998"
+      ]
+    },
+    {
+      "statement": "The charges brought against Holmes were defrauding investors (wire fraud and conspiracy) and defrauding patients.",
+      "confidence": 0.94,
+      "citations": [
+        "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+        "https://www.bbc.com/news/business-58336998"
+      ]
+    },
+    {
+      "statement": "Holmes was not acquitted of all charges; she was convicted on four investor fraud counts.",
+      "confidence": 0.91,
+      "citations": [
+        "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+        "https://abcnews.com/Business/theranos-founder-elizabeth-holmes-conviction-upheld-us-appeals/story?id=119135714"
+      ]
+    },
+    {
+      "statement": "The official source documenting the verdict and sentencing is the U.S. Department of Justice page for the Northern District of California case (justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al).",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "Some Wikipedia edits state that on July 7, 2022 the jury returned a verdict of guilty on all 12 counts, which contradicts multiple independent sources (DOJ, NYT, BBC, ABC News) that record a partial verdict on January 3, 2022 with guilty on four investor fraud counts, not guilty on four patient fraud counts, and a mistrial on three investor fraud counts. The July 7 claim was given low weight due to lack of corroboration and likely editorial error, while the January 3 partial verdict was supported by high‑weight sources (DOJ weight 0.95, NYT weight 0.85, BBC weight 0.85) and therefore accepted as the accurate record."
+  ],
+  "gaps": [
+    "No direct link to the sealed jury verdict form or court docket entry showing the exact counts and deliberations was provided in the evidence; reliance on secondary reports introduces a small risk of misinterpretation.",
+    "The evidence does not include a transcript of the January 3, 2022 verdict reading, so we cannot verify the exact wording used by the judge or jury foreperson."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Trial_of_Elizabeth_Holmes",
+      "title": "Trial of Elizabeth Holmes - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.nytimes.com/live/2022/01/03/technology/elizabeth-holmes-trial-verdict",
+      "title": "Elizabeth Holmes Trial: Elizabeth Holmes Found Guilty of Four Charges of Fraud - The New York Times",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.bbc.com/news/business-58336998",
+      "title": "Theranos scandal: Who is Elizabeth Holmes and why was she on trial?",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+      "title": "Northern District of California | U.S. v. Elizabeth Holmes, et al.",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://abcnews.com/Business/theranos-founder-elizabeth-holmes-conviction-upheld-us-appeals/story?id=119135714",
+      "title": "Theranos founder Elizabeth Holmes' conviction upheld by US appeals court - ABC News",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

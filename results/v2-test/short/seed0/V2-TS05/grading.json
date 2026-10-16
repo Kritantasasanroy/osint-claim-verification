@@ -1,0 +1,49 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The full legal name of the individual known as Sam Bankman-Fried is Samuel Benjamin Bankman-Fried.",
+          "supported": true
+        },
+        {
+          "fact": "Sam Bankman-Fried was born on March 5, 1992.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "On March 28, 2024, Sam Bankman-Fried was sentenced to 25 years in federal prison.",
+          "supported": true
+        },
+        {
+          "fact": "He began serving that sentence immediately after sentencing, i.e., he was incarcerated following the March 28, 2024 sentencing.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of July 1, 2026, Sam Bankman-Fried remains incarcerated.",
+          "supported": true
+        },
+        {
+          "fact": "He is serving a 25-year prison sentence.",
+          "supported": true
+        },
+        {
+          "fact": "No pardon or commutation has been granted to Sam Bankman-Fried.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

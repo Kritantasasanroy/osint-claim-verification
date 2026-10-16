@@ -1,0 +1,9 @@
+{
+  "case_id": "C18",
+  "mode": "long",
+  "correct": true,
+  "verdict_flips": 0,
+  "steps_to_stable": 1,
+  "misleading_memories_trusted": 2,
+  "failure_modes": []
+}

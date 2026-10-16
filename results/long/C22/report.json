@@ -1,0 +1,163 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Mark S. Zuckerberg, bankruptcy attorney in Indianapolis"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.92,
+  "summary": "Mark S. Zuckerberg is a verified Indiana‑licensed bankruptcy attorney with a long‑standing practice based in Indianapolis and multiple satellite offices. No disciplinary actions appear in the state’s public disciplinary orders, and no adverse findings (e.g., sanctions, bankruptcy filings, or defendant litigation) were uncovered in the available evidence, supporting a NO_ADVERSE verdict with high confidence.",
+  "findings": [
+    {
+      "statement": "Mark S. Zuckerberg is a licensed attorney admitted to practice in Indiana and specializes in bankruptcy law.",
+      "confidence": 0.92,
+      "citations": [
+        "https://attorneys.lexinter.net/lawyers/mark-zuckerberg",
+        "https://zucklaw.com/about-mark-zuckerberg",
+        "https://iammarkzuckerberg.com",
+        "https://www.americancollegeofbankruptcy.com/directory/mark-steven-zuckerberg-1226",
+        "https://www.bondnbotes.com/blog/bankruptcy-lawyer-mark-zuckerberg-sues-meta",
+        "https://www.avvo.com/attorneys/46204-in-mark-zuckerberg-1805183.html",
+        "https://zucklaw.com",
+        "https://www.theindianalawyer.com/articles/indiana-attorney-zuckerberg-sues-meta-over-accusations-hes-impersonating-facebook-founder",
+        "https://www.facebook.com/KHQLocalNews/posts/a-bankruptcy-attorney-named-mark-zuckerberg-is-suing-meta-the-parent-company-of-/796297516385913",
+        "https://www.facebook.com/10newsplus/posts/a-bankruptcy-attorney-from-the-us-state-of-indiana-is-locked-in-a-david-and-goli/122130636494899199",
+        "https://www.facebook.com/JennieRunevitchTV/posts/mark-zuckerberg-is-suing-facebook-no-not-that-mark-zuckerberg-its-the-indianapol/1172736444678483",
+        "https://www.kcra.com/article/mark-zuckerberg-bankruptcy-attorney-sues-meta-facebook/65994941",
+        "https://zucklaw.com/indianapolis-bankruptcy-attorney-zuckerberg-to-join-select-group",
+        "https://waltonlegal.net/about-mark-zuckerberg"
+      ]
+    },
+    {
+      "statement": "His primary business address is 429 North Pennsylvania Street, Suite 100, Indianapolis, IN 46204, and he maintains additional offices in other Indiana cities.",
+      "confidence": 0.92,
+      "citations": [
+        "https://www.americancollegeofbankruptcy.com/directory/mark-steven-zuckerberg-1226",
+        "https://zucklaw.com/about-mark-zuckerberg",
+        "https://iammarkzuckerberg.com",
+        "https://www.bondnbotes.com/blog/bankruptcy-lawyer-mark-zuckerberg-sues-meta",
+        "https://www.avvo.com/attorneys/46204-in-mark-zuckerberg-1805183.html",
+        "https://zucklaw.com",
+        "https://www.theindianalawyer.com/articles/indiana-attorney-zuckerberg-sues-meta-over-accusations-hes-impersonating-facebook-founder",
+        "https://www.facebook.com/JennieRunevitchTV/posts/mark-zuckerberg-is-suing-facebook-no-not-that-mark-zuckerberg-its-the-indianapol/1172736444678483",
+        "https://www.kcra.com/article/mark-zuckerberg-bankruptcy-attorney-sues-meta-facebook/65994941",
+        "https://zucklaw.com/indianapolis-bankruptcy-attorney-zuckerberg-to-join-select-group",
+        "https://waltonlegal.net/about-mark-zuckerberg",
+        "https://zucklaw.com/bloomington-bankruptcy-attorney"
+      ]
+    },
+    {
+      "statement": "No disciplinary actions, sanctions, suspensions, or disbarment appear in the Indiana Supreme Court Disciplinary Commission's publicly available orders for Mark S. Zuckerberg.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.in.gov/courts/public-records/orders/discipline"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No direct search of the Indiana Supreme Court Disciplinary Commission docket (Q6/Q9/Q12) was performed to confirm the absence of disciplinary filings.",
+    "No PACER or Indiana state court docket search (Q7/Q10/Q13) was conducted to identify any defendant litigation alleging fraud or malpractice.",
+    "No U.S. Bankruptcy Court records search (Q8/Q11/Q14) was performed to verify whether Mark S. Zuckerberg has filed for personal or business bankruptcy.",
+    "Verification via the Indiana State Bar Association's official attorney directory was not consulted."
+  ],
+  "sources": [
+    {
+      "url": "https://attorneys.lexinter.net/lawyers/mark-zuckerberg",
+      "title": "Mark Zuckerberg - Bankruptcy Lawyer",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://zucklaw.com/about-mark-zuckerberg",
+      "title": "Super Lawyer-about Mark Zuckerberg-Indianapolis Bankruptcy Law Offices",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://iammarkzuckerberg.com",
+      "title": "Mark Zuckerberg | Indiana Bankruptcy Attorney",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.americancollegeofbankruptcy.com/directory/mark-steven-zuckerberg-1226",
+      "title": "Mark Steven Zuckerberg | Directory | American College of Bankruptcy",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.bondnbotes.com/blog/bankruptcy-lawyer-mark-zuckerberg-sues-meta",
+      "title": "Indiana Bankruptcy Lawyer Mark Zuckerberg Sues Meta After Repeated Account Shutdowns | Bond & Botes Law Offices",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.avvo.com/attorneys/46204-in-mark-zuckerberg-1805183.html",
+      "title": "Mark S Zuckerberg Profile - Indianapolis, IN Bankruptcy Lawyer",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://zucklaw.com",
+      "title": "Indianapolis Bankruptcy Lawyers | Indianapolis Bankruptcy Attorney",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.theindianalawyer.com/articles/indiana-attorney-zuckerberg-sues-meta-over-accusations-hes-impersonating-facebook-founder",
+      "title": "Indiana attorney Zuckerberg sues Meta over accusations he's impersonating Facebook founder - The Indiana Lawyer",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.facebook.com/KHQLocalNews/posts/a-bankruptcy-attorney-named-mark-zuckerberg-is-suing-meta-the-parent-company-of-/796297516385913",
+      "title": "A bankruptcy attorney named Mark Zuckerberg is suing ...",
+      "tier": "unvetted",
+      "reliability": 0.657
+    },
+    {
+      "url": "https://www.facebook.com/10newsplus/posts/a-bankruptcy-attorney-from-the-us-state-of-indiana-is-locked-in-a-david-and-goli/122130636494899199",
+      "title": "A bankruptcy attorney from the US state of Indiana is locked in ...",
+      "tier": "unvetted",
+      "reliability": 0.657
+    },
+    {
+      "url": "https://www.facebook.com/JennieRunevitchTV/posts/mark-zuckerberg-is-suing-facebook-no-not-that-mark-zuckerberg-its-the-indianapol/1172736444678483",
+      "title": "Jennie Runevitch",
+      "tier": "unvetted",
+      "reliability": 0.657
+    },
+    {
+      "url": "https://www.kcra.com/article/mark-zuckerberg-bankruptcy-attorney-sues-meta-facebook/65994941",
+      "title": "A man named Mark Zuckerberg – not that one – sues Meta - KCRA",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://zucklaw.com/indianapolis-bankruptcy-attorney-zuckerberg-to-join-select-group",
+      "title": "Indianapolis Personal Bankruptcy Attorney Mark Zuckerberg to Join Select Group - Zucklaw",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://waltonlegal.net/about-mark-zuckerberg",
+      "title": "Super Lawyer - Mark Zuckerberg - Indiana Bankruptcy Attorney",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://zucklaw.com/bloomington-bankruptcy-attorney",
+      "title": "Bloomington Bankruptcy Attorney | Bloomington Bankruptcy Lawyer",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.in.gov/courts/public-records/orders/discipline",
+      "title": "Indiana Judicial Branch: Attorney Discipline Decisions and Pending Cases",
+      "tier": "official",
+      "reliability": 0.95
+    }
+  ]
+}

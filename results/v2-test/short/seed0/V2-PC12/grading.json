@@ -1,0 +1,73 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "First Brands Group entered Chapter 7 bankruptcy liquidation.",
+          "supported": true
+        },
+        {
+          "fact": "The Chapter 7 bankruptcy liquidation occurred as of September 1, 2026.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "First Brands Group initiated voluntary U.S. Chapter 11 bankruptcy cases.",
+          "supported": true
+        },
+        {
+          "fact": "The Chapter 11 initiation was announced in a press release dated September 28, 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "First Brands Group is a supplier of automotive aftermarket parts.",
+          "supported": true
+        },
+        {
+          "fact": "First Brands Group is a global (worldwide-operating) supplier.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "First Brands Group was founded in 2013.",
+          "supported": true
+        },
+        {
+          "fact": "First Brands Group was founded in Ohio.",
+          "supported": true
+        },
+        {
+          "fact": "First Brands Group was originally named Crowne Group.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "First Brands Group's headquarters is located in Cleveland, Ohio.",
+          "supported": true
+        },
+        {
+          "fact": "First Brands Group's headquarters is located in the United States.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

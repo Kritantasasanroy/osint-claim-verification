@@ -1,0 +1,44 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Jensen Huang's full legal name is Jen-Hsun Huang",
+          "supported": true
+        },
+        {
+          "fact": "Jensen Huang serves as Founder, President, and Chief Executive Officer of Nvidia Corporation",
+          "supported": true
+        },
+        {
+          "fact": "These details come from Nvidia's 2025 annual report (proxy statement/Form 10-K) filed with the SEC",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "As of October 1, 2026, there is no public record of Jensen Huang ever being convicted of a crime",
+          "supported": false
+        },
+        {
+          "fact": "As of October 1, 2026, there is no public record of Jensen Huang being charged with a criminal offense",
+          "supported": false
+        },
+        {
+          "fact": "As of October 1, 2026, there is no public record of Jensen Huang being sanctioned by a government regulator",
+          "supported": false
+        },
+        {
+          "fact": "As of October 1, 2026, there is no public record of Jensen Huang being subject to a major civil judgment",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,88 @@
+{
+  "case_id": "C22",
+  "mode": "long",
+  "kind": "person",
+  "tags": [
+    "ambiguous_name",
+    "clean_entity",
+    "cluster:zuckerberg"
+  ],
+  "expected": "NO_ADVERSE",
+  "verdict": "NO_ADVERSE",
+  "correct": true,
+  "confidence": 0.92,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "NO_ADVERSE",
+      "confidence": 0.88,
+      "p_correct": 0.88,
+      "reward": {
+        "step": 1,
+        "progress": 0.5466666666666666,
+        "information": 0.9744871090874707,
+        "corroboration": 1.0,
+        "redundancy": 0.3333333333333333,
+        "tool_failure": 0.0,
+        "cost": 0.88265
+      }
+    },
+    {
+      "step": 2,
+      "verdict": "NO_ADVERSE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 2,
+        "progress": 0.020000000000000018,
+        "information": 0.9079767747767812,
+        "corroboration": 0.6666666666666666,
+        "redundancy": 0.5,
+        "tool_failure": 0.0,
+        "cost": 0.9925
+      }
+    },
+    {
+      "step": 3,
+      "verdict": "NO_ADVERSE",
+      "confidence": 0.92,
+      "p_correct": 0.92,
+      "reward": {
+        "step": 3,
+        "progress": 0.020000000000000018,
+        "information": 0.0,
+        "corroboration": 0.0,
+        "redundancy": 0.07692307692307693,
+        "tool_failure": 0.0,
+        "cost": 0.91965
+      }
+    }
+  ],
+  "tool_calls": 9,
+  "tool_failures": 0,
+  "prompt_tokens": 42379,
+  "completion_tokens": 22323,
+  "cost_usd": 0.0153994,
+  "wall_clock_s": 187.29626560001634,
+  "call_latency_s": 266.032,
+  "key_fact_recall": 0.0,
+  "citation_precision": 1.0,
+  "findings": 3,
+  "conflicts_final": 0,
+  "independent_domains": 11,
+  "evidence_weight": 12.108571428571429,
+  "mean_evidence_reliability": 0.4768472906403941,
+  "authoritative_evidence": false,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.0,
+    "citation_precision": 1.0,
+    "calibration": 0.9936,
+    "cost": 0.43134666666666666
+  }
+}

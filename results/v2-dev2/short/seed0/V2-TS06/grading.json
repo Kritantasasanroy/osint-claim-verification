@@ -1,0 +1,57 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tim Cook stepped down as Apple CEO effective September 1, 2026",
+          "supported": true
+        },
+        {
+          "fact": "Cook's last day as Apple CEO was August 31, 2026",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "John Ternus became Apple's CEO",
+          "supported": true
+        },
+        {
+          "fact": "Ternus became Apple CEO effective September 1, 2026",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tim Cook's current title at Apple is Executive Chairman",
+          "supported": true
+        },
+        {
+          "fact": "Cook became Executive Chairman effective September 1, 2026",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Tim Cook ceased to be Apple's CEO on September 1, 2026, when John Ternus took over",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Tim Cook is not Apple's CEO",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

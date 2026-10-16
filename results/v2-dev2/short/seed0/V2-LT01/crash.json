@@ -1,0 +1,7 @@
+{
+  "case_id": "V2-LT01",
+  "mode": "short",
+  "kind": "person",
+  "error": "MalformedCompletion: The model did not return a valid Grading: it ran out of output tokens. Got: ",
+  "seed": 0
+}

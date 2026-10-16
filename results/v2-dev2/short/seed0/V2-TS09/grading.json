@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "On May 12, 2023, Musk announced that Yaccarino would be the new CEO of X Corp (Twitter's owner).",
+          "supported": true
+        },
+        {
+          "fact": "Yaccarino took over as CEO of X Corp on June 6, 2023.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Yaccarino joined Twitter as CEO in 2023.",
+          "supported": true
+        },
+        {
+          "fact": "Yaccarino resigned as X CEO in July 2025.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Yaccarino resigned from X in July 2025.",
+          "supported": true
+        },
+        {
+          "fact": "Yaccarino is now the CEO of eMed.",
+          "supported": true
+        },
+        {
+          "fact": "Yaccarino is no longer the CEO of X.",
+          "supported": true
+        },
+        {
+          "fact": "eMed is a health care startup focused on telehealth and GLP-1 treatments.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

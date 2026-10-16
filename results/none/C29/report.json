@@ -1,0 +1,107 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Do Kwon, co-founder of Terraform Labs"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.92,
+  "summary": "The preponderance of evidence shows that Do Kwon (Kwon Do‑hyung) is a central figure in a multi‑billion‑dollar crypto asset securities fraud, has been charged by the SEC, is subject to an arrest warrant and Interpol Red Notice, was extradited to the United States, pleaded guilty to fraud, and received a 15‑year prison sentence. These adverse findings support the ADVERSE verdict with high confidence.",
+  "findings": [
+    {
+      "statement": "Do Kwon's full legal name is Kwon Do‑hyung and he was born on 6 September 1991.",
+      "confidence": 0.85,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Do_Kwon"
+      ]
+    },
+    {
+      "statement": "Do Kwon is the sole director, Chief Executive Officer, and majority shareholder (approximately 92%) of Terraform Labs Pte. Ltd.",
+      "confidence": 0.6,
+      "citations": [
+        "https://www.lit-wc.aoshearman.com/45992/04_Securities_and_Exchange_Commis%20v.%20Terraform.pdf"
+      ]
+    },
+    {
+      "statement": "The U.S. Securities and Exchange Commission charged Do Kwon with orchestrating a multi‑billion‑dollar crypto asset securities fraud involving an algorithmic stablecoin and other crypto asset securities.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25692"
+      ]
+    },
+    {
+      "statement": "A publicly accessible federal court case names Do Kwon as defendant: SEC v. Terraform Labs PTE Ltd. and Do Hyeong Kwon, No. 1:23-cv-01346 (S.D.N.Y.), filed February 16, 2023.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25692"
+      ]
+    },
+    {
+      "statement": "South Korean authorities issued an arrest warrant for Do Kwon and Interpol subsequently issued a Red Notice for his arrest.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.bbc.com/news/technology-63033262",
+        "https://www.reuters.com/world/europe/montenegro-police-arrest-suspected-former-ceo-terraform-labs-interior-minister-2023-03-23"
+      ]
+    },
+    {
+      "statement": "Do Kwon was extradited from Montenegro to the United States to face fraud‑related charges.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses"
+      ]
+    },
+    {
+      "statement": "Following extradition, Do Kwon pleaded guilty to two counts of fraud and was sentenced to 15 years imprisonment in December 2025.",
+      "confidence": 0.85,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Do_Kwon"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No direct copy of the guilty plea agreement or sentencing order from the U.S. District Court is publicly available; reliance on secondary reports.",
+    "No official South Korean arrest warrant document or Interpol Red Notice notice is accessible via official channels; evidence is limited to news articles and social media.",
+    "No publicly disclosed asset forfeiture, restitution, or monetary penalty amounts imposed on Do Kwon personally in the SEC or DOJ cases."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Do_Kwon",
+      "title": "Wikipedia: Do Kwon",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.lit-wc.aoshearman.com/45992/04_Securities_and_Exchange_Commis%20v.%20Terraform.pdf",
+      "title": "Case 1:23-cv-01346 Document 1 Filed 02/16/23 Page 1 of 55",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25692",
+      "title": "SEC.gov | Terraform Labs PTE Ltd and Do Hyeong Kwon",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.bbc.com/news/technology-63033262",
+      "title": "Interpol seeks arrest of failed crypto-firm boss Do Kwon",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.reuters.com/world/europe/montenegro-police-arrest-suspected-former-ceo-terraform-labs-interior-minister-2023-03-23",
+      "title": "Crypto founder Do Kwon indicted in US following ...",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.justice.gov/archives/opa/pr/do-kwon-extradited-united-states-montenegro-face-charges-relating-fraud-resulting-40b-losses",
+      "title": "Department of Justice | Homepage | United States Department of Justice",
+      "tier": "official",
+      "reliability": 0.95
+    }
+  ]
+}

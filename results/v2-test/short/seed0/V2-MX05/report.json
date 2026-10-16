@@ -1,0 +1,330 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Changpeng Zhao pleaded guilty to a money laundering charge and served four years in prison.",
+    "entity": "Changpeng Zhao",
+    "disambiguators": [],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "FALSE",
+  "confidence": 0.25,
+  "estimative": "unlikely",
+  "summary": "Verdict: FALSE at 25% confidence. While Changpeng Zhao did plead guilty to a money laundering charge (violating the Bank Secrecy Act), he served only a four‑month prison sentence, was released on 2024‑09‑27, received a pardon in October 2025, and a UK High Court civil claim remained active as of July 2026. The claim that he served approximately four years in prison is therefore incorrect.",
+  "findings": [
+    {
+      "statement": "Changpeng Zhao pleaded guilty to violating the Bank Secrecy Act, a money laundering charge.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://www.coindesk.com/policy/2024/09/27/binance-founder-changpeng-cz-zhao-is-a-free-man",
+        "https://www.gov.ca.gov/2026/03/05/trumpcriminals3",
+        "https://www.aljazeera.com/news/2025/10/24/is-trumps-pardon-of-binance-boss-changpeng-zhao-a-conflict-of-interest",
+        "https://www.bloomberg.com/news/articles/2024-09-27/binance-founder-changpeng-zhao-is-released-from-us-custody",
+        "https://www.cnbc.com/2024/04/30/binance-founder-changpeng-zhao-cz-sentenced-to-four-months-in-prison-.html"
+      ]
+    },
+    {
+      "statement": "Changpeng Zhao was sentenced to four months in prison, not approximately four years.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.coindesk.com/policy/2024/09/27/binance-founder-changpeng-cz-zhao-is-a-free-man",
+        "https://startupfortune.com/nearly-1700-uk-investors-are-suing-binance-and-cz-for-150-million-over-unauthorized-derivatives-sold-to-retail-customers",
+        "https://www.aljazeera.com/news/2025/10/24/is-trumps-pardon-of-binance-boss-changpeng-zhao-a-conflict-of-interest",
+        "https://www.bloomberg.com/news/articles/2024-09-27/binance-founder-changpeng-zhao-is-released-from-us-custody",
+        "https://fortune.com/crypto/2024/09/26/cz-changpeng-zhao-crypto-release-date-binance-founder",
+        "https://www.cnbc.com/2024/04/30/binance-founder-changpeng-zhao-cz-sentenced-to-four-months-in-prison-.html"
+      ]
+    },
+    {
+      "statement": "The exact length of Changpeng Zhao's prison sentence was four months.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.coindesk.com/policy/2024/09/27/binance-founder-changpeng-cz-zhao-is-a-free-man",
+        "https://startupfortune.com/nearly-1700-uk-investors-are-suing-binance-and-cz-for-150-million-over-unauthorized-derivatives-sold-to-retail-customers",
+        "https://www.aljazeera.com/news/2025/10/24/is-trumps-pardon-of-binance-boss-changpeng-zhao-a-conflict-of-interest",
+        "https://www.bloomberg.com/news/articles/2024-09-27/binance-founder-changpeng-zhao-is-released-from-us-custody",
+        "https://fortune.com/crypto/2024/09/26/cz-changpeng-zhao-crypto-release-date-binance-founder",
+        "https://www.cnbc.com/2024/04/30/binance-founder-changpeng-zhao-cz-sentenced-to-four-months-in-prison-.html"
+      ]
+    },
+    {
+      "statement": "Changpeng Zhao was released from custody on September 27, 2024.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.coindesk.com/policy/2024/09/27/binance-founder-changpeng-cz-zhao-is-a-free-man",
+        "https://www.bloomberg.com/news/articles/2024-09-27/binance-founder-changpeng-zhao-is-released-from-us-custody",
+        "https://fortune.com/crypto/2024/09/26/cz-changpeng-zhao-crypto-release-date-binance-founder",
+        "https://www.aljazeera.com/news/2025/10/24/is-trumps-pardon-of-binance-boss-changpeng-zhao-a-conflict-of-interest"
+      ]
+    },
+    {
+      "statement": "Changpeng Zhao received a presidential pardon from Donald Trump in October 2025.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://startupfortune.com/nearly-1700-uk-investors-are-suing-binance-and-cz-for-150-million-over-unauthorized-derivatives-sold-to-retail-customers",
+        "https://www.bbc.com/news/articles/c8x7kxjgq9xo",
+        "https://www.wsj.com/finance/currencies/binance-iran-sanctions-financing-staff-b1648133",
+        "https://www.icij.org/investigations/coin-laundry/cryptocurrency-exchanges-binance-okx-money-laundering-crime"
+      ]
+    },
+    {
+      "statement": "As of July 2026, a UK High Court claim filed by nearly 1,700 British investors against Binance and Changpeng Zhao remains ongoing, indicating the pardon did not extinguish civil liability.",
+      "credibility": 4,
+      "credibility_label": "doubtful",
+      "citations": [
+        "https://99bitcoins.com/news/altcoins/binance-uk-lawsuit-crypto-derivatives",
+        "https://www.financemagnates.com/cryptocurrency/exchange/binance-faces-150m-uk-lawsuit-from-1692-retail-derivatives-traders",
+        "https://www.reuters.com/world/uk/uk-investors-sue-binance-london-150-million-2026-06-30",
+        "https://startupfortune.com/nearly-1700-uk-investors-are-suing-binance-and-cz-for-150-million-over-unauthorized-derivatives-sold-to-retail-customers"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [
+    "Are there any ongoing legal proceedings or appeals related to his guilty plea? - supported by 99bitcoins.com, financemagnates.com, wsj.com (weight 1.65) vs refuted by gov.ca.gov (weight 0.95)"
+  ],
+  "conflict_notes": [
+    "Q8 Are there any ongoing legal proceedings or appeals related to his guilty plea?: supporting sources (99bitcoins.com, financemagnates.com, wsj.com) weight 1.65 vs refuting source (gov.ca.gov) weight 0.95. The supporting sources refer to a civil UK High Court claim, while the refuting source concerns criminal proceedings; the pardon would resolve criminal liability but does not affect the civil claim, so the claim of ongoing legal proceedings (civil) is weighed as true."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Changpeng Zhao pleaded guilty money laundering charge",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "court_records",
+      "query": "Changpeng Zhao",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Changpeng Zhao",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://www.justice.gov/criminal/case/united-states-v-changpeng-zhao",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Changpeng Zhao sentenced 4 months prison",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Changpeng Zhao guilty plea failure to maintain effective anti-money laundering program",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Changpeng Zhao released from prison date",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Changpeng Zhao appeal ongoing legal proceedings",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.nytimes.com/2026/10/01/business/changpeng-zhao-binance.html",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "UK High Court claim Binance Changpeng Zhao pardon 2026 status",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Binance UK lawsuit crypto derivatives latest 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Changpeng Zhao pardon extinguishes civil liability UK High Court claim",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact day of the presidential pardon (October 2025) is not specified in the evidence.",
+    "The current procedural status of the UK High Court claim (e.g., whether it is proceeding to trial, settled, or dismissed) after the pardon is not detailed.",
+    "Whether any other civil or criminal proceedings besides the UK claim exist after the pardon is not clarified.",
+    "The precise impact of the pardon on any potential future liability (e.g., ability to reopen the criminal case) is not explicitly addressed in the sources."
+  ],
+  "next_steps": [
+    "Consult the U.S. Department of Justice press release or pardon proclamation for the exact date of the October 2025 pardon.",
+    "Search the UK High Court’s online case docket for the claim filed by British investors to obtain its current status and any recent hearings.",
+    "Review the Bureau of Prisons inmate locator or release records to confirm the exact release date and any subsequent custody.",
+    "Search for any additional civil suits or regulatory actions against Binance or Changpeng Zhao filed after the pardon to assess ongoing liability."
+  ],
+  "sources": [
+    {
+      "url": "https://www.coindesk.com/policy/2024/09/27/binance-founder-changpeng-cz-zhao-is-a-free-man",
+      "title": "Binance Founder Changpeng ‘CZ’ Zhao Is a Free Man",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-10-08"
+    },
+    {
+      "url": "https://www.gov.ca.gov/2026/03/05/trumpcriminals3",
+      "title": "Trump pardons wipe nearly $2 billion in victim repayment and taxpayer recovery for Medicare and tax fraud, and more | Governor of California",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2026-03-05"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2025/10/24/is-trumps-pardon-of-binance-boss-changpeng-zhao-a-conflict-of-interest",
+      "title": "Is Trump’s pardon of Binance boss Changpeng Zhao a conflict of interest? | Business and Economy News | Al Jazeera",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2025-10-24"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2024-09-27/binance-founder-changpeng-zhao-is-released-from-us-custody",
+      "title": "Binance Founder CZ Is Released From US Custody - Bloomberg",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2024-09-27"
+    },
+    {
+      "url": "https://www.cnbc.com/2024/04/30/binance-founder-changpeng-zhao-cz-sentenced-to-four-months-in-prison-.html",
+      "title": "Binance founder Changpeng 'CZ' Zhao sentenced to 4 months in prison",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2024-04-30"
+    },
+    {
+      "url": "https://startupfortune.com/nearly-1700-uk-investors-are-suing-binance-and-cz-for-150-million-over-unauthorized-derivatives-sold-to-retail-customers",
+      "title": "Nearly 1,700 UK investors are suing Binance and CZ for £150 million over unauthorized derivatives sold to retail customers - Startup Fortune",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-30"
+    },
+    {
+      "url": "https://fortune.com/crypto/2024/09/26/cz-changpeng-zhao-crypto-release-date-binance-founder",
+      "title": "Binance founder CZ gets out of prison on Friday. What he will do next? | Fortune",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2024-09-26"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/c8x7kxjgq9xo",
+      "title": "Trump family crypto firm sued over alleged 'extortion'",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-04-22"
+    },
+    {
+      "url": "https://www.wsj.com/finance/currencies/binance-iran-sanctions-financing-staff-b1648133",
+      "title": "Binance Fired Staff Who Flagged $1 Billion Moving to Sanctioned Iran Entities - WSJ",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-02-23"
+    },
+    {
+      "url": "https://www.icij.org/investigations/coin-laundry/cryptocurrency-exchanges-binance-okx-money-laundering-crime",
+      "title": "Binance, exchanges moved dirty crypto after crackdown",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2025-11-17"
+    },
+    {
+      "url": "https://99bitcoins.com/news/altcoins/binance-uk-lawsuit-crypto-derivatives",
+      "title": "Binance UK News: Exchange Faces £150M Lawsuit",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-01"
+    },
+    {
+      "url": "https://www.financemagnates.com/cryptocurrency/exchange/binance-faces-150m-uk-lawsuit-from-1692-retail-derivatives-traders",
+      "title": "Binance Faces £150M UK Lawsuit From 1,692 Retail Derivatives Traders",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-01"
+    },
+    {
+      "url": "https://www.reuters.com/world/uk/uk-investors-sue-binance-london-150-million-2026-06-30",
+      "title": "UK investors sue Binance in London for £150 million",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-07-01"
+    }
+  ]
+}

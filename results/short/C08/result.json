@@ -1,0 +1,56 @@
+{
+  "case_id": "C08",
+  "mode": "short",
+  "kind": "claim",
+  "tags": [
+    "misinformation"
+  ],
+  "expected": "FALSE",
+  "verdict": "FALSE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "FALSE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 1,
+        "progress": 0.65,
+        "information": 0.9626528994649384,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.7908
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 12468,
+  "completion_tokens": 10030,
+  "cost_usd": 0.0062618000000000005,
+  "wall_clock_s": 0.03584399982355535,
+  "call_latency_s": 157.165,
+  "key_fact_recall": 0.0,
+  "citation_precision": 1.0,
+  "findings": 4,
+  "conflicts_final": 0,
+  "independent_domains": 9,
+  "evidence_weight": 6.575,
+  "mean_evidence_reliability": 0.5916666666666667,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 0.0,
+    "citation_precision": 1.0,
+    "calibration": 0.99,
+    "cost": 0.14998666666666666
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "FTX was headquartered in the Bahamas when it collapsed."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.86,
+  "summary": "The available evidence shows that FTX's bankruptcy petition listed its headquarters as Nassau, Bahamas, and the Bahamian corporate registry confirms FTX Digital Ltd's registered address at Equity Trust House Caves Village West Bay Street, Nassau, Bahamas. While no pre‑bankruptcy public statements from FTX explicitly affirm this location, the convergence of the bankruptcy filing and the Bahamian registry supports the claim that FTX was headquartered in the Bahamas when it collapsed, yielding a TRUE verdict with high confidence.",
+  "findings": [
+    {
+      "statement": "FTX's Chapter 11 bankruptcy petition filed on November 11, 2022 listed its headquarters as Nassau, Bahamas.",
+      "confidence": 0.55,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Bankruptcy_of_FTX"
+      ]
+    },
+    {
+      "statement": "FTX Digital Ltd's registered address in the Bahamas' public corporate registry is Equity Trust House Caves Village West Bay Street, Nassau, Bahamas.",
+      "confidence": 0.85,
+      "citations": [
+        "https://scb.gov.bs/wp-content/uploads/2025/12/DARE-Firms-as-at-30-November-2025-2.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No direct FTX press release, SEC filing, or official communication prior to the bankruptcy filing explicitly stating that the company's headquarters was located in the Bahamas.",
+    "No employee testimony, internal communications, or other contemporaneous evidence confirming the HQ location or any relocation out of the Bahamas before November 2022.",
+    "Absence of explicit documentation showing whether FTX maintained any other operational headquarters outside the Bahamas at the time of collapse."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_FTX",
+      "title": "Bankruptcy of FTX - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://scb.gov.bs/wp-content/uploads/2025/12/DARE-Firms-as-at-30-November-2025-2.pdf",
+      "title": "REGISTER OF DIGITAL ASSET BUSINESSES",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

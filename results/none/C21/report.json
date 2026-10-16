@@ -1,0 +1,155 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Patagonia's founder transferred ownership of the company to a trust and a nonprofit in 2022."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.94,
+  "summary": "The evidence confirms that Patagonia's founder, Yvon Chouinard, transferred ownership of the company in 2022 to a newly created trust (Patagonia Purpose Trust) and a nonprofit organization (Holdfast Collective). Multiple reputable news sources and the company's own press release corroborate the transfer, the identities of the recipients, and their legal classifications, supporting a TRUE verdict with high confidence.",
+  "findings": [
+    {
+      "statement": "The founder of Patagonia is Yvon Chouinard.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.cnbc.com/amp/2022/09/15/yvon-chouinard-donates-patagonia-to-fight-climate-change-protect-land.html",
+        "https://verfassungsblog.de/the-transfer-of-ownership-in-the-patagonia-case",
+        "https://finance.yahoo.com/news/meet-children-patagonia-founder-yvon-154004622.html",
+        "https://www.patagoniaworks.com/press/2022/9/14/patagonias-next-chapter-earth-is-now-our-only-shareholder",
+        "https://www.patagonia.com/ownership",
+        "https://www.aljazeera.com/news/2022/9/15/patagonia-owner-yvon-chouinard-gives-away-company-to-save-planet",
+        "https://www.businessinsider.com/patagonia-founder-gives-away-company-profits-to-go-climate-crisis-2022-9",
+        "https://www.wsj.com/articles/patagonia-founder-yvon-chouinardis-giving-company-away-in-pledge-to-fight-climate-change-11663190342",
+        "https://www.theguardian.com/us-news/2022/sep/14/patagonias-billionaire-owner-gives-away-company-to-fight-climate-crisis-yvon-chouinard"
+      ]
+    },
+    {
+      "statement": "The founder transferred ownership of Patagonia in 2022.",
+      "confidence": 0.94,
+      "citations": [
+        "https://www.cnbc.com/amp/2022/09/15/yvon-chouinard-donates-patagonia-to-fight-climate-change-protect-land.html",
+        "https://verfassungsblog.de/the-transfer-of-ownership-in-the-patagonia-case",
+        "https://finance.yahoo.com/news/meet-children-patagonia-founder-yvon-154004622.html",
+        "https://www.patagoniaworks.com/press/2022/9/14/patagonias-next-chapter-earth-is-now-our-only-shareholder",
+        "https://www.patagonia.com/ownership",
+        "https://www.aljazeera.com/news/2022/9/15/patagonia-owner-yvon-chouinard-gives-away-company-to-save-planet",
+        "https://www.businessinsider.com/patagonia-founder-gives-away-company-profits-to-go-climate-crisis-2022-9",
+        "https://www.wsj.com/articles/patagonia-founder-yvon-chouinardis-giving-company-away-in-pledge-to-fight-climate-change-11663190342",
+        "https://news.northeastern.edu/2022/09/20/patagonias-founder",
+        "https://www.latimes.com/business/story/2022-09-14/patagonia-founder-yvon-chouinard-donating-shares-history",
+        "https://www.theguardian.com/us-news/2022/sep/14/patagonias-billionaire-owner-gives-away-company-to-fight-climate-crisis-yvon-chouinard"
+      ]
+    },
+    {
+      "statement": "Ownership was transferred to the Patagonia Purpose Trust (a trust) and the Holdfast Collective (a nonprofit).",
+      "confidence": 0.93,
+      "citations": [
+        "https://www.cnbc.com/amp/2022/09/15/yvon-chouinard-donates-patagonia-to-fight-climate-change-protect-land.html",
+        "https://verfassungsblog.de/the-transfer-of-ownership-in-the-patagonia-case",
+        "https://finance.yahoo.com/news/meet-children-patagonia-founder-yvon-154004622.html",
+        "https://www.patagoniaworks.com/press/2022/9/14/patagonias-next-chapter-earth-is-now-our-only-shareholder",
+        "https://www.patagonia.com/ownership",
+        "https://www.businessinsider.com/patagonia-founder-gives-away-company-profits-to-go-climate-crisis-2022-9",
+        "https://news.northeastern.edu/2022/09/20/patagonias-founder",
+        "https://www.latimes.com/business/story/2022-09-14/patagonia-founder-yvon-chouinard-donating-shares-history"
+      ]
+    },
+    {
+      "statement": "The recipient entities are classified as a trust and a nonprofit organization under applicable law.",
+      "confidence": 0.92,
+      "citations": [
+        "https://www.cnbc.com/amp/2022/09/15/yvon-chouinard-donates-patagonia-to-fight-climate-change-protect-land.html",
+        "https://verfassungsblog.de/the-transfer-of-ownership-in-the-patagonia-case",
+        "https://finance.yahoo.com/news/meet-children-patagonia-founder-yvon-154004622.html",
+        "https://www.patagoniaworks.com/press/2022/9/14/patagonias-next-chapter-earth-is-now-our-only-shareholder",
+        "https://www.patagonia.com/ownership",
+        "https://www.aljazeera.com/news/2022/9/15/patagonia-owner-yvon-chouinard-gives-away-company-to-save-planet",
+        "https://www.wsj.com/articles/patagonia-founder-yvon-chouinardis-giving-company-away-in-pledge-to-fight-climate-change-11663190342",
+        "https://news.northeastern.edu/2022/09/20/patagonias-founder",
+        "https://www.latimes.com/business/story/2022-09-14/patagonia-founder-yvon-chouinard-donating-shares-history"
+      ]
+    },
+    {
+      "statement": "There is a verifiable primary source (an official company press release/website) that confirms the transfer and identifies the recipients.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.patagoniaworks.com/press/2022/9/14/patagonias-next-chapter-earth-is-now-our-only-shareholder",
+        "https://www.patagonia.com/ownership"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "No direct SEC filing or regulatory document was located in the provided evidence; reliance is on news articles and the company's own press release.",
+    "The precise legal classification of Holdfast Collective (e.g., 501(c)(4) status) is only indirectly referenced in one source, leaving a minor gap in confirming its nonprofit status under U.S. tax law."
+  ],
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/amp/2022/09/15/yvon-chouinard-donates-patagonia-to-fight-climate-change-protect-land.html",
+      "title": "Yvon Chouinard donates Patagonia to fight climate change, protect land",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://verfassungsblog.de/the-transfer-of-ownership-in-the-patagonia-case",
+      "title": "The Transfer of Ownership in the ‘Patagonia Case’",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://finance.yahoo.com/news/meet-children-patagonia-founder-yvon-154004622.html",
+      "title": "Meet the children of Patagonia founder Yvon Chouinard",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://www.patagoniaworks.com/press/2022/9/14/patagonias-next-chapter-earth-is-now-our-only-shareholder",
+      "title": "Patagonia's Next Chapter: Earth is Now Our Only Shareholder — Patagonia Works",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.patagonia.com/ownership",
+      "title": "Yvon Chouinard Donates Patagonia to Fight Climate Crisis",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2022/9/15/patagonia-owner-yvon-chouinard-gives-away-company-to-save-planet",
+      "title": "Patagonia owner Yvon Chouinard gives company away to save planet | Climate Crisis News | Al Jazeera",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.businessinsider.com/patagonia-founder-gives-away-company-profits-to-go-climate-crisis-2022-9",
+      "title": "Patagonia Founder Gives Away Company, Profits to Go to Climate Crisis - Business Insider",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://www.wsj.com/articles/patagonia-founder-yvon-chouinardis-giving-company-away-in-pledge-to-fight-climate-change-11663190342",
+      "title": "Patagonia Founder Is Giving His Company Away in Pledge to Fight Climate Change - WSJ",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2022/sep/14/patagonias-billionaire-owner-gives-away-company-to-fight-climate-crisis-yvon-chouinard",
+      "title": "Patagonia’s billionaire owner gives away company to fight climate crisis",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://news.northeastern.edu/2022/09/20/patagonias-founder",
+      "title": "Patagonia's founder gives away company to fight climate change",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.latimes.com/business/story/2022-09-14/patagonia-founder-yvon-chouinard-donating-shares-history",
+      "title": "Patagonia founder Yvon Chouinard's history of activism - Los Angeles Times",
+      "tier": "news",
+      "reliability": 0.65
+    }
+  ]
+}

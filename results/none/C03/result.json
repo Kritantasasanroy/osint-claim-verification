@@ -1,0 +1,57 @@
+{
+  "case_id": "C03",
+  "mode": "none",
+  "kind": "person",
+  "tags": [
+    "fraud",
+    "cluster:wirecard"
+  ],
+  "expected": "ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": true,
+  "confidence": 0.9,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.9,
+      "p_correct": 0.9,
+      "reward": {
+        "step": 1,
+        "progress": 0.5666666666666667,
+        "information": 0.9489525659958457,
+        "corroboration": 1.0,
+        "redundancy": 0.3076923076923077,
+        "tool_failure": 0.0,
+        "cost": 0.7113
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 9780,
+  "completion_tokens": 8881,
+  "cost_usd": 0.0054185,
+  "wall_clock_s": 19.03344130003825,
+  "call_latency_s": 55.459,
+  "key_fact_recall": 1.0,
+  "citation_precision": 1.0,
+  "findings": 6,
+  "conflicts_final": 0,
+  "independent_domains": 5,
+  "evidence_weight": 5.95,
+  "mean_evidence_reliability": 0.74375,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 1.0,
+    "key_fact_recall": 1.0,
+    "citation_precision": 1.0,
+    "calibration": 0.99,
+    "cost": 0.12440666666666667
+  }
+}

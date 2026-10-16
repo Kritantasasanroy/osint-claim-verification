@@ -1,0 +1,102 @@
+{
+  "subject": {
+    "kind": "claim",
+    "statement": "Wirecard's financial statements were audited by EY (Ernst & Young)."
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.9,
+  "summary": "The claim that Wirecard's financial statements were audited by EY is true with high confidence: EY served as Wirecard's auditor for the 2018 and 2019 fiscal years and remained the auditor up to the insolvency filing in June 2020, and no official records show a prior auditor change.",
+  "findings": [
+    {
+      "statement": "EY was named as the auditor in Wirecard AG's auditor's report for the fiscal year ended 31 December 2019.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.ft.com/content/bcadbdcb-5cd7-487e-afdd-1e926831e9b7?syn-25a6b1a6=1",
+        "https://www.europarl.europa.eu/RegData/etudes/BRIE/2020/651357/IPOL_BRI(2020)651357_EN.pdf",
+        "https://en.wikipedia.org/wiki/Wirecard_scandal"
+      ]
+    },
+    {
+      "statement": "EY was named as the auditor in Wirecard AG's auditor's report for the fiscal year ended 31 December 2018.",
+      "confidence": 0.9,
+      "citations": [
+        "https://wirecard.com/wp-content/uploads/2020/12/Annual-Report-2018.pdf",
+        "https://finance.yahoo.com/news/wirecard-fallout-auditor-ey-accused-125416972.html",
+        "https://en.wikipedia.org/wiki/Wirecard_scandal"
+      ]
+    },
+    {
+      "statement": "Ernst & Young continued to serve as Wirecard AG's auditor up to the insolvency filing on 25 June 2020.",
+      "confidence": 0.85,
+      "citations": [
+        "https://www.ft.com/content/bcadbdcb-5cd7-487e-afdd-1e926831e9b7?syn-25a6b1a6=1",
+        "https://leap.luiss.it/wp-content/uploads/2022/09/WP5.21-The-Wirecard-scandal-and-the-role-of-Bafin.pdf",
+        "https://www.europarl.europa.eu/RegData/etudes/BRIE/2020/651357/IPOL_BRI(2020)651357_EN.pdf",
+        "https://www.linkedin.com/pulse/wirecard-audit-scandal-19-billion-never-existed-harshini-anandaraj-uwgnc",
+        "https://en.wikipedia.org/wiki/Wirecard_scandal"
+      ]
+    },
+    {
+      "statement": "No official filings (German commercial register, BaFin announcements) indicate a change of auditor for Wirecard AG prior to its insolvency.",
+      "confidence": 0.8,
+      "citations": [
+        "https://wirecard.com/wp-content/uploads/2020/12/Annual-Report-2018.pdf",
+        "https://www.europarl.europa.eu/RegData/etudes/BRIE/2020/651357/IPOL_BRI(2020)651357_EN.pdf"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [
+    "No conflicts detected in the evidence."
+  ],
+  "gaps": [
+    "Direct copies of the auditor's reports for 2018 and 2019 were not provided; reliance on secondary summaries.",
+    "No explicit BaFin announcement or commercial register entry confirming auditor appointment was located in the evidence.",
+    "Evidence does not include the actual tender outcome or shareholder resolution for the 2019 audit, leaving a small uncertainty about whether a change was formally approved but not implemented."
+  ],
+  "sources": [
+    {
+      "url": "https://www.ft.com/content/bcadbdcb-5cd7-487e-afdd-1e926831e9b7?syn-25a6b1a6=1",
+      "title": "EY and Wirecard: anatomy of a flawed audit",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2020/651357/IPOL_BRI(2020)651357_EN.pdf",
+      "title": "Banking Union: Wirecard",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wirecard_scandal",
+      "title": "Wirecard scandal - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.8
+    },
+    {
+      "url": "https://wirecard.com/wp-content/uploads/2020/12/Annual-Report-2018.pdf",
+      "title": "Annual Report 2018 | wirecard",
+      "tier": "unvetted",
+      "reliability": 0.52
+    },
+    {
+      "url": "https://finance.yahoo.com/news/wirecard-fallout-auditor-ey-accused-125416972.html",
+      "title": "Wirecard Fallout: Auditor EY Accused of Not Flagging $2.1B Black Hole Sooner",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://leap.luiss.it/wp-content/uploads/2022/09/WP5.21-The-Wirecard-scandal-and-the-role-of-Bafin.pdf",
+      "title": "[PDF] The Wirecard scandal and the role of BaFin",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/wirecard-audit-scandal-19-billion-never-existed-harshini-anandaraj-uwgnc",
+      "title": "The Wirecard Audit Scandal – The €1.9 Billion That Never Existed",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

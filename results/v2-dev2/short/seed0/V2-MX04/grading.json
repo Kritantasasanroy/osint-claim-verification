@@ -1,0 +1,93 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Charlie Javice founded the startup Frank.",
+          "supported": true
+        },
+        {
+          "fact": "Frank is a fintech startup.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "A jury convicted Charlie Javice.",
+          "supported": true
+        },
+        {
+          "fact": "The conviction occurred in March 2025.",
+          "supported": true
+        },
+        {
+          "fact": "The conviction was for defrauding JPMorgan Chase.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Charlie Javice was sentenced to 85 months in prison.",
+          "supported": true
+        },
+        {
+          "fact": "85 months equals 7 years and 1 month.",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was for the $175 million fraud against JPMorgan.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Charlie Javice was born in 1992 or 1993.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The cited justice.gov page is an official U.S. Department of Justice (SDNY) press release.",
+          "supported": true
+        },
+        {
+          "fact": "The press release concerns Javice's sentencing to 85 months for a $175 million fraud.",
+          "supported": true
+        },
+        {
+          "fact": "The quoted press release excerpt confirms Javice's conviction.",
+          "supported": false
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Some sources report the sentence as seven years.",
+          "supported": true
+        },
+        {
+          "fact": "Some sources report the sentence as more than seven years.",
+          "supported": true
+        },
+        {
+          "fact": "The differing reports create uncertainty about the exact length of the sentence.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

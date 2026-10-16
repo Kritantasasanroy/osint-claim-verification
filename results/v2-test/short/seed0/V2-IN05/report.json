@@ -1,0 +1,180 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Sam Bankman-Fried's fraud conviction was vacated on appeal in June 2026.",
+    "entity": "Sam Bankman-Fried",
+    "disambiguators": [
+      "fraud conviction",
+      "vacated on appeal",
+      "June 2026",
+      "Second Circuit"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "sbf_appeal.png"
+  ],
+  "verdict": "FALSE",
+  "confidence": 0.9712,
+  "estimative": "almost certain",
+  "summary": "Verdict: FALSE. As of 2026-10-01, Sam Bankman-Fried's fraud conviction has not been vacated; the Second Circuit upheld it on June 12, 2026, and he is seeking Supreme Court review.",
+  "findings": [
+    {
+      "statement": "Sam Bankman-Fried was convicted of fraud by a jury in November 2023.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+      ]
+    },
+    {
+      "statement": "Sam Bankman-Fried was sentenced to 25 years in federal prison on March 28, 2024.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+      ]
+    },
+    {
+      "statement": "On June 12, 2026, the United States Court of Appeals for the Second Circuit upheld Sam Bankman-Fried's fraud conviction and refused to vacate it.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.law.com/newyorklawjournal/2026/06/12/us-appeals-court-refuses-to-free-sam-bankman-fried-from-25-year-sentence-11-billion-order",
+        "https://www.politico.com/news/2026/06/12/sam-bankman-frieds-conviction-upheld-by-appeals-court-00960434",
+        "https://www.nbcnews.com/business/business-news/sam-bankman-fried-loses-bid-overturn-crypto-fraud-conviction-rcna349806",
+        "https://www.washingtonpost.com/business/2026/06/12/sam-bankman-fried-ftx-cryptocurrency-appeal/c5c72148-6673-11f1-bdd4-805ebb99a693_story.html",
+        "https://www.courtlistener.com/opinion/10875054/us-v/"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "The undated image sbf_appeal.png claims the Second Circuit vacated Sam Bankman-Fried's fraud conviction in June 2026, but multiple dated, reputable sources (law.com, politico.com, nbcnews.com, washingtonpost.com, courtlistener.com) from June 12, 2026 state the court upheld the conviction and refused to vacate it; the latter were given greater weight due to their recency, specificity, and independent corroboration."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "wikidata",
+      "query": "Sam Bankman-Fried",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Sam Bankman-Fried fraud conviction date",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Second Circuit vacates Sam Bankman-Fried conviction June 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Bankman-Fried Second Circuit appeal vacated",
+      "results": 2,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "court_records",
+      "query": "Sam Bankman-Fried Second Circuit appeal June 2026",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments",
+    "structured_identity"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [
+    "The analyst-provided document sbf_appeal.png is an undated image asserting a vacatur that contradicts multiple contemporaneous, verifiable sources; it lacks internal date consistency and does not address an AI reader, reducing its reliability."
+  ],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The exact filing date of the Supreme Court petition (beyond the September 14, 2026 news report) is not established.",
+    "Whether any further appellate proceedings (e.g., en banc rehearing) were pursued after the June 12, 2026 decision is not confirmed by the performed searches."
+  ],
+  "next_steps": [
+    "Retrieve the docket for U.S. v. Bankman-Fried from PACER to confirm the June 12, 2026 opinion and any subsequent filings.",
+    "Check the U.S. Supreme Court docket for the certiorari petition mentioned in the September 14, 2026 news article.",
+    "Search for any en banc rehearing request or Second Circuit mandamus filings after June 12, 2026.",
+    "Monitor reputable legal news outlets for updates on the Supreme Court petition's status."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried",
+      "title": "Trial of Sam Bankman-Fried - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.law.com/newyorklawjournal/2026/06/12/us-appeals-court-refuses-to-free-sam-bankman-fried-from-25-year-sentence-11-billion-order",
+      "title": "US Appeals Court Refuses to Free Sam Bankman-Fried From 25-Year Sentence, $11 Billion Order | Law.com",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.politico.com/news/2026/06/12/sam-bankman-frieds-conviction-upheld-by-appeals-court-00960434",
+      "title": "Sam Bankman-Fried’s conviction upheld by appeals court - POLITICO",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.nbcnews.com/business/business-news/sam-bankman-fried-loses-bid-overturn-crypto-fraud-conviction-rcna349806",
+      "title": "Sam Bankman-Fried loses bid to overturn crypto fraud conviction",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.washingtonpost.com/business/2026/06/12/sam-bankman-fried-ftx-cryptocurrency-appeal/c5c72148-6673-11f1-bdd4-805ebb99a693_story.html",
+      "title": "Appeals court upholds FTX co-founder Sam Bankman-Fried's fraud conviction - The Washington Post",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-12"
+    },
+    {
+      "url": "https://www.courtlistener.com/opinion/10875054/us-v/",
+      "title": "CourtListener: U.S. V.",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": "2026-06-12"
+    }
+  ]
+}

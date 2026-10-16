@@ -1,0 +1,259 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "company",
+    "statement": "Wirecard AG (Zahlungsdienstleister aus Aschheim)",
+    "entity": "Wirecard AG",
+    "disambiguators": [
+      "Zahlungsdienstleister aus Aschheim"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "Verdict: ADVERSE at 99% confidence as of 2026-10-01. The decisive adverse factors are the ongoing insolvency/bankruptcy proceedings of Wirecard AG (ongoing since June 2020) and the criminal charges against senior executive Markus Braun (charged March 2022, no final judgment yet). No material financial regulator sanction was found to be in effect.",
+  "findings": [
+    {
+      "statement": "Wirecard AG's exact legal name is Wirecard AG and its registered headquarters address is Aschheim, Germany.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://search.gleif.org/#/record/529900A8LX4KL0YUTH71",
+        "https://en.wikipedia.org/wiki/Wirecard"
+      ]
+    },
+    {
+      "statement": "As of 2026-10-01, Wirecard AG is subject to ongoing insolvency/bankruptcy proceedings in Germany.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://en.paperjam.lu/article/cyberservices-bankruptcy-proce",
+        "https://rrlaw.de/en",
+        "https://www.channelnewsasia.com/singapore/jail-wirecard-citadelle-two-men-5822926",
+        "https://www.dw.com/en/wirecard-trial-against-fraudulent-fintech-star-kicks-off-in-germany/a-64011129",
+        "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+        "https://fortune.com/2020/06/23/wirecard-ceo-arrest-accounting-scandal",
+        "https://en.wikipedia.org/wiki/Wirecard"
+      ]
+    },
+    {
+      "statement": "Former CEO Markus Braun, a senior executive of Wirecard AG, has been charged with fraud and related offenses, with proceedings ongoing as of 2026-10-01, but no final judgment has been recorded.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.dw.com/en/wirecard-trial-against-fraudulent-fintech-star-kicks-off-in-germany/a-64011129",
+        "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+        "https://fortune.com/2020/06/23/wirecard-ceo-arrest-accounting-scandal",
+        "https://en.wikipedia.org/wiki/Wirecard",
+        "https://money.usnews.com/investing/articles/biggest-corporate-frauds-in-history",
+        "https://www.channelnewsasia.com/singapore/jail-wirecard-citadelle-two-men-5822926",
+        "https://www.straitstimes.com/singapore/courts-crime/jail-for-singaporean-briton-over-offences-linked-to-wirecard"
+      ]
+    },
+    {
+      "statement": "No material financial regulator sanction (e.g., license revocation, major fine) against Wirecard AG remained in effect as of 2026-10-01.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.dw.com/en/wirecard-trial-against-fraudulent-fintech-star-kicks-off-in-germany/a-64011129",
+        "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+        "https://fortune.com/2020/06/23/wirecard-ceo-arrest-accounting-scandal",
+        "https://en.wikipedia.org/wiki/Wirecard",
+        "https://money.usnews.com/investing/articles/biggest-corporate-frauds-in-history",
+        "https://www.channelnewsasia.com/singapore/jail-wirecard-citadelle-two-men-5822926",
+        "https://www.straitstimes.com/singapore/courts-crime/jail-for-singaporean-briton-over-offences-linked-to-wirecard",
+        "https://search.gleif.org/#/record/529900A8LX4KL0YUTH71"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "gleif",
+      "query": "Wirecard AG",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Wirecard AG insolvency proceedings 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Wirecard AG fraud conviction BaFin sanction 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "encyclopedia",
+      "query": "Wirecard AG",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Wirecard AG senior executive convicted fraud 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Wirecard AG BaFin license revoked still in effect 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Wirecard AG Insolvenzverfahren beendet eingestellt Löschung Handelsregister 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://en.wikipedia.org/wiki/Wirecard",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://en.paperjam.lu/article/cyberservices-bankruptcy-proce",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    }
+  ],
+  "checked": [
+    "GLEIF legal-entity (LEI) records"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Final judgment of any criminal conviction against Wirecard AG or its senior executives has not been established from the available sources.",
+    "Exact current status of the insolvency proceedings (whether they have been concluded, stayed, or converted) as of 2026-10-01 is not definitively confirmed.",
+    "Any sealed or non-public regulatory enforcement actions that might not appear in the searched news sources cannot be ruled out."
+  ],
+  "next_steps": [
+    "Consult the German Handelsregister or insolvency register to verify whether Wirecard AG's bankruptcy proceedings are still open as of 2026-10-01.",
+    "Search BaFin's enforcement actions database for any material sanctions against Wirecard AG that may have been missed in news searches.",
+    "Review court records or press releases for any final judgments in the fraud trials of former executives such as Markus Braun.",
+    "Monitor official Wirecard AG insolvency administrator reports for updates on asset distribution or case closure."
+  ],
+  "sources": [
+    {
+      "url": "https://search.gleif.org/#/record/529900A8LX4KL0YUTH71",
+      "title": "GLEIF: Wirecard AG",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wirecard",
+      "title": "Wikipedia: Wirecard",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://en.paperjam.lu/article/cyberservices-bankruptcy-proce",
+      "title": "Cyberservices bankruptcy proceeding, says receiver",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-07"
+    },
+    {
+      "url": "https://rrlaw.de/en",
+      "title": "Rotter – 25 Years Banking and Capital Markets Law",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-10-05"
+    },
+    {
+      "url": "https://www.channelnewsasia.com/singapore/jail-wirecard-citadelle-two-men-5822926",
+      "title": "2 men given jail over fake documents at Singapore-based firm linked to multi-million-dollar Wirecard case - CNA",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-01-06"
+    },
+    {
+      "url": "https://www.dw.com/en/wirecard-trial-against-fraudulent-fintech-star-kicks-off-in-germany/a-64011129",
+      "title": "Wirecard fraud trial begins in Germany",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2022-12-07"
+    },
+    {
+      "url": "https://www.reuters.com/business/finance/rise-fall-wirecard-2022-12-06",
+      "title": "The rise and fall of Wirecard | Reuters",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2022-12-06"
+    },
+    {
+      "url": "https://fortune.com/2020/06/23/wirecard-ceo-arrest-accounting-scandal",
+      "title": "Wirecard's former CEO arrested in the case of the missing billions | Fortune",
+      "tier": "news",
+      "admiralty": "C",
+      "reliability": 0.65,
+      "published": "2020-06-23"
+    },
+    {
+      "url": "https://money.usnews.com/investing/articles/biggest-corporate-frauds-in-history",
+      "title": "9 of the Biggest Financial Fraud Cases in Recent History | Investing | U.S. News",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-03-03"
+    },
+    {
+      "url": "https://www.straitstimes.com/singapore/courts-crime/jail-for-singaporean-briton-over-offences-linked-to-wirecard",
+      "title": "Jail for Singaporean, Briton over offences linked to Wirecard | The Straits Times",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-01-06"
+    }
+  ]
+}

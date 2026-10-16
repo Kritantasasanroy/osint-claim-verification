@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The LEGO Group's headquarters is located in Billund, Denmark.",
+          "supported": true
+        },
+        {
+          "fact": "The headquarters address is Aastvej 1, 7190 Billund, Denmark.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "LEGO System A/S, the entity at the LEGO Group's Billund headquarters address, has CVR number 47458714.",
+          "supported": true
+        },
+        {
+          "fact": "The LEGO Group's CVR number is 47458714.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The LEGO Group was founded on 10 August 1932.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Niels B. Christiansen is the CEO of The LEGO Group.",
+          "supported": true
+        },
+        {
+          "fact": "Niels B. Christiansen was still CEO as of 25 August 2026, supporting that he was CEO as of the 2026-10-01 as-of date.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

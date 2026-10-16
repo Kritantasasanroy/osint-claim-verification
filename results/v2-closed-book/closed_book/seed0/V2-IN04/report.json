@@ -1,0 +1,46 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Binance has never been charged with any violation in the United States.",
+    "entity": "Binance",
+    "disambiguators": [
+      "United States"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [
+    "binance_compliance.png"
+  ],
+  "verdict": "FALSE",
+  "confidence": 0.95,
+  "estimative": "almost certain",
+  "summary": "Binance has faced multiple US enforcement actions, including a 2023 DOJ settlement where it pleaded guilty to anti-money laundering and sanctions violations, and earlier CFTC and SEC charges.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Closed book: nothing was searched."
+  ],
+  "next_steps": [],
+  "sources": []
+}

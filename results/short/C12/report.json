@@ -1,0 +1,119 @@
+{
+  "subject": {
+    "kind": "person",
+    "statement": "Sam Bankman-Fried"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.95,
+  "summary": "The evidence establishes that Samuel Benjamin Bankman-Fried (born March 5, 1992) founded and led FTX Trading Ltd. as CEO from 2019‑2022, co‑founded Alameda Research in 2017, maintained control after stepping down as its director in September 2022, was convicted of fraud in 2023, and received a 25‑year prison sentence in March 2024. These adverse findings support the ADVERSE verdict at 95% confidence. No evidence of sanctions or civil litigation was found in the supplied sources, leaving those questions open.",
+  "findings": [
+    {
+      "statement": "Samuel Benjamin Bankman-Fried's full legal name is Samuel Benjamin Bankman-Fried and he was born on March 5, 1992 (with some sources also reporting March 6, 1992).",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.biography.com/crime/a68080292/sam-bankman-fried",
+        "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+        "https://www.britannica.com/money/Sam-Bankman-Fried",
+        "https://en.geneastar.org/genealogy/bankmanfrie/sam-bankman-fried"
+      ]
+    },
+    {
+      "statement": "Sam Bankman-Fried was the founder and chief executive officer of FTX Trading Ltd. from 2019 to 2022, co-founded Alameda Research in September 2017, and continued to exercise substantial control over Alameda after stepping down as its sole director on September 6, 2022.",
+      "confidence": 0.95,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+        "https://www.britannica.com/money/Sam-Bankman-Fried",
+        "https://restructuring.ra.kroll.com/FTX/ExternalCall-DownloadPDF?id1=MzIyMzQwMw%3D%3D&id2=0&cid=0",
+        "https://restructuring.ra.kroll.com/FTX/ExternalCall-DownloadPDF?id1=MzIyMzQwMw%3D%3D&id2=0&cid=0",
+        "https://www.youtube.com/watch?v=VF6nFT0_clA",
+        "https://iq.wiki/wiki/alameda-research",
+        "https://en.wikipedia.org/wiki/Alameda_Research"
+      ]
+    },
+    {
+      "statement": "Sam Bankman-Fried was convicted of fraud and related crimes in 2023 and sentenced to 25 years imprisonment in March 2024.",
+      "confidence": 0.9,
+      "citations": [
+        "https://www.biography.com/crime/a68080292/sam-bankman-fried",
+        "https://www.forbes.com/profile/sam-bankman-fried",
+        "https://www.financialcrimematters.com/type/fraud-scams",
+        "https://fortune.com/2022/12/23/sam-bankman-fried-ftx-cofounder-gary-wang-alameda-research-ceo-caroline-ellison-plea-deal"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "The provided evidence does not contain information about any sanctions, designations, or restrictions imposed on Sam Bankman-Fried by OFAC, the EU, the UN, or other governmental authorities.",
+    "Details of any major civil litigation naming Sam Bankman-Fried as a defendant related to the FTX collapse, and the current status of those cases, are not present in the evidence."
+  ],
+  "sources": [
+    {
+      "url": "https://www.biography.com/crime/a68080292/sam-bankman-fried",
+      "title": "Sam Bankman-Fried: How the Crypto King Was Unmasked as a Con Artist",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+      "title": "Sam Bankman-Fried - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.britannica.com/money/Sam-Bankman-Fried",
+      "title": "Sam Bankman-Fried | FTX, Education, Conviction, & Prison | Britannica Money",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://en.geneastar.org/genealogy/bankmanfrie/sam-bankman-fried",
+      "title": "Family tree of Sam Bankman-Fried",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://restructuring.ra.kroll.com/FTX/ExternalCall-DownloadPDF?id1=MzIyMzQwMw%3D%3D&id2=0&cid=0",
+      "title": "FTX TRADING LTD., et al.,1 Debtors. Chapter 11 Case No",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VF6nFT0_clA",
+      "title": "Bankman-Fried's Struggle to Start Alameda Research",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://iq.wiki/wiki/alameda-research",
+      "title": "Alameda Research - Projects & Protocols | IQ.wiki",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alameda_Research",
+      "title": "Alameda Research - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.75
+    },
+    {
+      "url": "https://www.forbes.com/profile/sam-bankman-fried",
+      "title": "Sam Bankman-Fried",
+      "tier": "news",
+      "reliability": 0.65
+    },
+    {
+      "url": "https://www.financialcrimematters.com/type/fraud-scams",
+      "title": "Fraud & scams news — Financial Crime Matters",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://fortune.com/2022/12/23/sam-bankman-fried-ftx-cofounder-gary-wang-alameda-research-ceo-caroline-ellison-plea-deal",
+      "title": "Sam Bankman-Fried undercut by FTX co-founder, Alameda CEO plea deals | Fortune",
+      "tier": "news",
+      "reliability": 0.65
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "claim",
+    "statement": "Sam Bankman-Fried is still serving his 25-year sentence.",
+    "entity": "Sam Bankman-Fried",
+    "disambiguators": [],
+    "as_of": "2026-07-01"
+  },
+  "documents": [],
+  "verdict": "TRUE",
+  "confidence": 0.99,
+  "estimative": "almost certain",
+  "summary": "The verdict is TRUE: as of 2026-07-01 Sam Bankman‑Fried is still serving his 25‑year sentence. Decisive facts: he was sentenced to 25 years on 2024‑03‑28 and began serving immediately; no pardon or commutation has been granted (pardon request pending as of 2026‑07‑13); multiple sources confirm he remained incarcerated through mid‑2026, with Senate resolutions opposing clemency and a pardon request still pending.",
+  "findings": [
+    {
+      "statement": "Samuel Benjamin Bankman-Fried (born March 5, 1992) is the full legal name and date of birth of the individual known as Sam Bankman-Fried.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://en.wikipedia.org/wiki/Sam_Bankman-Fried"
+      ]
+    },
+    {
+      "statement": "On March 28, 2024, Sam Bankman-Fried was sentenced to 25 years in federal prison and began serving that sentence immediately thereafter.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.reuters.com/legal/government/sam-bankman-fried-loses-bid-overturn-crypto-fraud-conviction-2026-06-12",
+        "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried"
+      ]
+    },
+    {
+      "statement": "As of July 1, 2026, Sam Bankman-Fried remains incarcerated serving his 25-year sentence, with no pardon or commutation granted.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://nymag.com/intelligencer/article/sam-bankman-fried-prison-donald-trump-pardon-appeal.html",
+        "https://cryptoslate.com/predictions/market/will-trump-pardon-sbf-by-july-31",
+        "https://thenationaldesk.com/news/americas-news-now/senate-unanimously-passes-resolution-saying-sam-bankman-fried-should-not-receive-pardon-trump-ftx-ruben-gallego-cynthia-lummis-cryptocurrency"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried prison status July 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "encyclopedia",
+      "query": "Sam Bankman-Fried",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Sam Bankman-Fried sentence length 25 years start date",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried pardon 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Federal Bureau of Prisons inmate locator Sam Bankman-Fried",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://nymag.com/intelligencer/article/sam-bankman-fried-prison-donald-trump-pardon-appeal.html",
+      "results": 1,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Sam Bankman-Fried inmate number 37244-510 site:bop.gov",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "read_page",
+      "query": "https://www.bop.gov/inmateloc",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried commutation 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried released from prison OR bail pending appeal June 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "Sam Bankman-Fried pardoned July 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Samuel Benjamin Bankman-Fried site:bop.gov",
+      "results": 5,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "Court dockets and judgments: not checked (a tool exists but was not used)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact current prison facility (e.g., Lompoc) is reported but not verified via an official BOP locator snapshot for July 2026.",
+    "No direct BOP inmate locator record for register 37244-510 dated July 2026 was examined.",
+    "Official release date calculation (good conduct time) was not confirmed.",
+    "Any clemency decision after the July 13, 2026 pardon‑attorney snapshot was not seen."
+  ],
+  "next_steps": [
+    "Retrieve the BOP inmate locator page for register 37244-510 as of July 2026 to confirm facility and release date.",
+    "Consult DOJ pardon attorney records for any post‑July‑13‑2026 updates on Sam Bankman‑Fried’s pardon/commutation request.",
+    "Search for news articles after June 2026 reporting a transfer, release, or clemency decision.",
+    "Locate the exact text of the July 16, 2026 Senate resolution to verify its wording regarding pardon/commutation opposition."
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Sam_Bankman-Fried",
+      "title": "Wikipedia: Sam Bankman-Fried",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://www.reuters.com/legal/government/sam-bankman-fried-loses-bid-overturn-crypto-fraud-conviction-2026-06-12",
+      "title": "Sam Bankman-Fried loses bid to overturn crypto fraud conviction",
+      "tier": "major_news",
+      "admiralty": "B",
+      "reliability": 0.85,
+      "published": "2026-06-16"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Trial_of_Sam_Bankman-Fried",
+      "title": "Trial of Sam Bankman-Fried - Wikipedia",
+      "tier": "reference",
+      "admiralty": "B",
+      "reliability": 0.75,
+      "published": null
+    },
+    {
+      "url": "https://nymag.com/intelligencer/article/sam-bankman-fried-prison-donald-trump-pardon-appeal.html",
+      "title": "Sam Bankman-Fried’s Desperate Campaign to Get Free",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-06-16"
+    },
+    {
+      "url": "https://cryptoslate.com/predictions/market/will-trump-pardon-sbf-by-july-31",
+      "title": "Will Trump pardon SBF by July 31 Final Result & Prediction Market | CryptoSlate",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-20"
+    },
+    {
+      "url": "https://thenationaldesk.com/news/americas-news-now/senate-unanimously-passes-resolution-saying-sam-bankman-fried-should-not-receive-pardon-trump-ftx-ruben-gallego-cynthia-lummis-cryptocurrency",
+      "title": "Senate unanimously passes resolution saying Sam Bankman-Fried should not receive pardon",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": "2026-07-16"
+    }
+  ]
+}

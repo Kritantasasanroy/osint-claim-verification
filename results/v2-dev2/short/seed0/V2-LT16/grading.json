@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's exact registered name is Flash Heating and Plumbing Solutions Ltd",
+          "supported": true
+        },
+        {
+          "fact": "The company's company number is 13384455",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's registered office address is 14 New Road, Whitehill, Bordon, England, GU35 9AY",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Flash Heating and Plumbing Solutions Ltd was incorporated on 10 May 2021",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's filing history through September 2026 contains no insolvency, liquidation, administration, winding-up, or strike-off filings",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's filing history through September 2026 contains no criminal conviction, charge, regulatory sanction, enforcement action, or major civil judgment filings",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

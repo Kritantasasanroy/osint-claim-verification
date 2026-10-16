@@ -1,0 +1,56 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The grocery chain's full legal name is Trader Joe's Company.",
+          "supported": true
+        },
+        {
+          "fact": "Trader Joe's operates under United States jurisdiction.",
+          "supported": true
+        },
+        {
+          "fact": "Trader Joe's is headquartered in Monrovia, California.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "In 1979, Aldi North (Aldi Nord), under Theodor Albrecht, bought Trader Joe's.",
+          "supported": true
+        },
+        {
+          "fact": "Aldi Nord is controlled by the Albrecht family.",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026-10-01, Aldi Nord remains the ultimate parent company of Trader Joe's.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Trader Joe's agreed to a $7.4 million civil settlement.",
+          "supported": true
+        },
+        {
+          "fact": "The settlement was over claims that Trader Joe's receipts showed too many digits from customers' credit and debit cards.",
+          "supported": true
+        },
+        {
+          "fact": "The settlement agreement was reached in April 2026.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

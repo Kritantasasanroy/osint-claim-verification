@@ -1,0 +1,97 @@
+{
+  "key_facts_established": [
+    true,
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried's full name is Samuel Benjamin Bankman-Fried.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried was born on March 5, 1992.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried founded the cryptocurrency exchange FTX.",
+          "supported": true
+        },
+        {
+          "fact": "FTX failed/collapsed (in 2022).",
+          "supported": true
+        },
+        {
+          "fact": "As of 2026, Bankman-Fried is publicly characterized as the disgraced founder of FTX, with 2026 coverage identifying him primarily by that role.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried was convicted of fraud.",
+          "supported": true
+        },
+        {
+          "fact": "The conviction was a criminal conviction (United States v. Bankman-Fried, felony charges, federal jury), including related counts such as conspiracy and money laundering.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Sam Bankman-Fried was sentenced to 25 years in prison.",
+          "supported": true
+        },
+        {
+          "fact": "The sentence was imposed on March 28, 2024.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "In June 2026, a federal appeals court upheld Bankman-Fried's conviction and 25-year sentence, so the sentence was not altered on appeal.",
+          "supported": true
+        },
+        {
+          "fact": "As of September 2026, Bankman-Fried has appealed to the Supreme Court, asking for a new trial.",
+          "supported": true
+        },
+        {
+          "fact": "Bankman-Fried remains incarcerated, serving his 25-year sentence (interviewed from his prison cell; described as 'serving 25 years for fraud').",
+          "supported": true
+        },
+        {
+          "fact": "The sentence had not been altered by a pardon; his pardon request was pending and Trump said he had no intention of pardoning him.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Every source cited for this finding (Wikipedia, CNN, Forbes, NY Post, Reuters, NYT, PBS) reports a 25-year prison sentence.",
+          "supported": true
+        },
+        {
+          "fact": "None of the cited sources report a life sentence for Bankman-Fried.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

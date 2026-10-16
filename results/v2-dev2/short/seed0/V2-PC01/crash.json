@@ -1,0 +1,7 @@
+{
+  "case_id": "V2-PC01",
+  "mode": "short",
+  "kind": "claim",
+  "error": "MalformedCompletion: The model did not return a valid ClaimReflection: 1 validation error for ClaimReflection. Got: {\"answered_question_ids\": [\"Q1\", \"Q2\", \"Q3\", \"Q4\"], \"critique\": \"The only evidence provided for the claim comes from Wikipedia, which is a single source and not considered an independent publisher for verification purposes. No official court records, major news outlets, or government sources corrobo",
+  "seed": 0
+}

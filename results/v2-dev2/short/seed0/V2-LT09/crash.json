@@ -1,0 +1,7 @@
+{
+  "case_id": "V2-LT09",
+  "mode": "short",
+  "kind": "company",
+  "error": "MalformedCompletion: The model did not return a valid CompanyReflection: 1 validation error for CompanyReflection. Got: {\"answered_question_ids\": [\"Q1\"], \"critique\": \"Evidence confirms the legal name, HRB number, and registered address of Roland Schütter Schreinerei GmbH via northdata.de, a generally reliable source for German commercial register data. However, no evidence was provided for Q2 (business purpose), Q3 (",
+  "seed": 0
+}

@@ -1,0 +1,52 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The exact legal name of the company that operates the In-N-Out Burger restaurant chain is In-N-Out Burger, Inc.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "In-N-Out Burger was founded in 1948.",
+          "supported": true
+        },
+        {
+          "fact": "In-N-Out Burger was founded by Harry and Esther Snyder.",
+          "supported": true
+        },
+        {
+          "fact": "In-N-Out Burger is headquartered in Irvine, California.",
+          "supported": true
+        },
+        {
+          "fact": "In-N-Out Burger is currently owned and controlled by Lynsi Snyder.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Searches covering 2020-01-01 through 2026-09-30 were conducted for criminal indictments, convictions, bankruptcy, regulator enforcement actions, and civil judgments exceeding $5 million.",
+          "supported": false
+        },
+        {
+          "fact": "No criminal convictions or indictments of In-N-Out Burger were identified for the period 2020-01-01 through 2026-09-30.",
+          "supported": false
+        },
+        {
+          "fact": "No bankruptcies, regulator enforcement actions, or civil judgments exceeding $5 million involving In-N-Out Burger were identified for the period 2020-01-01 through 2026-09-30.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

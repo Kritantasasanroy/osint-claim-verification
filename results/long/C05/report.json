@@ -1,0 +1,110 @@
+{
+  "subject": {
+    "kind": "company",
+    "statement": "Theranos"
+  },
+  "documents": [],
+  "verdict": "ADVERSE",
+  "confidence": 0.96,
+  "summary": "The preponderance of evidence shows that Theranos engaged in widespread fraud: it was founded in 2003 by Elizabeth Holmes, faced SEC fraud charges in 2018 that it settled, its executives were criminally convicted and sentenced, and it received regulatory warnings from CMS regarding its laboratory practices. These adverse findings support the ADVERSE verdict at 96% confidence.",
+  "findings": [
+    {
+      "statement": "Theranos, Inc. was founded in 2003 by Elizabeth Holmes.",
+      "confidence": 0.96,
+      "citations": [
+        "https://www.ebsco.com/research-starters/technology/theranos",
+        "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+        "https://finance.yahoo.com/news/theranos-elizabeth-holmes-sunny-balwani-found-guilty-192046190.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8979578"
+      ]
+    },
+    {
+      "statement": "In March 2018 the SEC charged Theranos, Inc., Elizabeth Holmes, and Ramesh 'Sunny' Balwani with fraud, and Theranos agreed to settle the charges.",
+      "confidence": 0.95,
+      "citations": [
+        "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-24069",
+        "https://www.sec.gov/newsroom/press-releases/2018-41"
+      ]
+    },
+    {
+      "statement": "A jury convicted Elizabeth Holmes on four counts of fraud and she was sentenced to over 11 years in prison; Ramesh Balwani was convicted on twelve counts of wire fraud and conspiracy.",
+      "confidence": 0.93,
+      "citations": [
+        "https://finance.yahoo.com/news/theranos-elizabeth-holmes-sunny-balwani-found-guilty-192046190.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8979578",
+        "https://www.bbc.com/news/world-us-canada-63685131",
+        "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+        "https://finance.yahoo.com/news/theranos-elizabeth-holmes-sunny-balwani-found-guilty-192046190.html"
+      ]
+    },
+    {
+      "statement": "Theranos received a CMS warning letter in July 2016 regarding its laboratory practices, indicating potential loss of CLIA certification and Medicare/Medicaid sanctions.",
+      "confidence": 0.78,
+      "citations": [
+        "https://www.fdli.org/2023/06/united-states-v-elizabeth-holmes-and-ramesh-balwani"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "conflict_notes": [],
+  "gaps": [
+    "The available evidence does not contain documentation of Theranos filing for bankruptcy or undergoing formal insolvency proceedings.",
+    "While a CMS warning letter is cited, the sources do not explicitly confirm that Theranos lost its CLIA laboratory certification or was formally excluded from Medicare/Medicaid programs."
+  ],
+  "sources": [
+    {
+      "url": "https://www.ebsco.com/research-starters/technology/theranos",
+      "title": "Theranos | Technology | Research Starters | EBSCOhost",
+      "tier": "unvetted",
+      "reliability": 0.4
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+      "title": "Elizabeth Holmes - Wikipedia",
+      "tier": "reference",
+      "reliability": 0.933
+    },
+    {
+      "url": "https://finance.yahoo.com/news/theranos-elizabeth-holmes-sunny-balwani-found-guilty-192046190.html",
+      "title": "Theranos: Elizabeth Holmes co-defendant Sunny Balwani found guilty of all 12 counts",
+      "tier": "news",
+      "reliability": 0.72
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8979578",
+      "title": "Lessons from Theranos – Restructuring Biomedical Innovation",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-24069",
+      "title": "SEC.gov | Elizabeth Holmes, et al. and Ramesh \"Sunny\" Balwani",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2018-41",
+      "title": "SEC.gov | Theranos, CEO Holmes, and Former President Balwani Charged With Massive Fraud",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.bbc.com/news/world-us-canada-63685131",
+      "title": "Theranos founder Elizabeth Holmes jailed for fraud",
+      "tier": "major_news",
+      "reliability": 0.85
+    },
+    {
+      "url": "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+      "title": "Northern District of California | U.S. v. Elizabeth Holmes, et al.",
+      "tier": "official",
+      "reliability": 0.95
+    },
+    {
+      "url": "https://www.fdli.org/2023/06/united-states-v-elizabeth-holmes-and-ramesh-balwani",
+      "title": "United States v. Elizabeth Holmes and Ramesh Balwani - Food and Drug Law Institute (FDLI)",
+      "tier": "unvetted",
+      "reliability": 0.4
+    }
+  ]
+}

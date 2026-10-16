@@ -1,0 +1,57 @@
+{
+  "case_id": "C20",
+  "mode": "none",
+  "kind": "company",
+  "tags": [
+    "clean_entity",
+    "cluster:patagonia"
+  ],
+  "expected": "NO_ADVERSE",
+  "verdict": "ADVERSE",
+  "correct": false,
+  "confidence": 0.85,
+  "stop_reason": "concluded",
+  "max_steps": 5,
+  "steps": [
+    {
+      "step": 1,
+      "verdict": "ADVERSE",
+      "confidence": 0.85,
+      "p_correct": 0.1,
+      "reward": {
+        "step": 1,
+        "progress": -0.2333333333333333,
+        "information": 0.9449767799435927,
+        "corroboration": 1.0,
+        "redundancy": 0.0,
+        "tool_failure": 0.0,
+        "cost": 0.9264
+      }
+    }
+  ],
+  "tool_calls": 3,
+  "tool_failures": 0,
+  "prompt_tokens": 13381,
+  "completion_tokens": 10606,
+  "cost_usd": 0.0066411000000000005,
+  "wall_clock_s": 34.37140990002081,
+  "call_latency_s": 163.499,
+  "key_fact_recall": 0.6666666666666666,
+  "citation_precision": 1.0,
+  "findings": 4,
+  "conflicts_final": 0,
+  "independent_domains": 4,
+  "evidence_weight": 5.8,
+  "mean_evidence_reliability": 0.5272727272727272,
+  "authoritative_evidence": true,
+  "memories_retrieved": 0,
+  "memory_labels": {},
+  "memories_distrusted": [],
+  "episode_reward": {
+    "correctness": 0.0,
+    "key_fact_recall": 0.6666666666666666,
+    "citation_precision": 1.0,
+    "calibration": 0.2775000000000001,
+    "cost": 0.15991333333333332
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "The company's legal name is ALPA HONG KONG LIMITED.",
+          "supported": true
+        },
+        {
+          "fact": "The company's Company Number is 3321489.",
+          "supported": true
+        },
+        {
+          "fact": "The company's Business Registration Number is 75743885.",
+          "supported": true
+        },
+        {
+          "fact": "These identifiers are recorded in the Hong Kong Companies Registry.",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Alpa Hong Kong Limited was incorporated on 22 September 2023.",
+          "supported": true
+        },
+        {
+          "fact": "It is a private company limited by shares.",
+          "supported": true
+        },
+        {
+          "fact": "It is registered in Hong Kong.",
+          "supported": true
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

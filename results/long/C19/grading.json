@@ -1,0 +1,14 @@
+{
+  "key_facts_established": [
+    true,
+    false
+  ],
+  "findings_supported": [
+    true,
+    true,
+    true,
+    false,
+    true
+  ],
+  "memory_labels_in_order": []
+}

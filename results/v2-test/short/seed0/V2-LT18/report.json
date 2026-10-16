@@ -1,0 +1,150 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "Dorian Vashenko (logistics consultant in Tallinn)",
+    "entity": "Dorian Vashenko",
+    "disambiguators": [
+      "logistics consultant",
+      "in Tallinn"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "UNVERIFIABLE",
+  "confidence": 0.3333,
+  "estimative": "unlikely",
+  "summary": "As of 2026-10-01, the subject Dorian Vashenko is assessed as UNVERIFIABLE with 33% confidence because no reliable records confirming identity, current employment as a logistics consultant in Tallinn, or any adverse legal/financial history were located in the performed searches.",
+  "findings": [],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "Dorian Vashenko Tallinn criminal conviction sanction bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Dorian Vashenko logistics consultant Tallinn LinkedIn",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "Dorian Vashenko Eesti äriregister",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "Dorian Vashenko court Estonia",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "read_page",
+      "query": "https://ariregister.rik.ee/est/company/10038386/O%C3%9C-ESTONIA",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "Dorian Vashenko site:ariregister.rik.ee",
+      "results": 3,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Dorian Vashenko LinkedIn",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "Dorian Vashenko crime Estonia",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "Dorian Vashenko Tallinn site:linkedin.com/in",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "Dorian Vashenko Estonia",
+      "results": 0,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Dorian Vashenko äriregister",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "Dorian Vashenko Tallinn logistic consultant LinkedIn",
+      "results": 1,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [
+    "No identifiable records were returned for Dorian Vashenko in the performed searches (news, web, court records, and Estonian Business Register queries), so identity, current employment/logistics consultant activity, and any legal or financial adverse history cannot be confirmed. [withdrawn: no tool checked company_register]"
+  ],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "The absence of evidence may be due to the subject having a low public profile, use of variant name spelling, or operating under a different business name; without additional data points we cannot rule out these possibilities."
+  ],
+  "next_steps": [
+    "Perform a direct lookup in the Estonian Business Register (ariregister.rik.ee) for the name 'Dorian Vashenko' and examine any associated company roles or activity codes.",
+    "Run a targeted LinkedIn search with filters for location Tallinn and industry logistics/logistics consultant to locate a profile matching the name.",
+    "Check Estonian court registries (e.g., Kohus.info) for any criminal or civil cases involving the exact name.",
+    "Search for news articles in Estonian-language outlets (e.g., Delfi, Postimees) using the name combined with terms like 'kuritegevus', 'bankroot', 'menetlus'."
+  ],
+  "sources": []
+}

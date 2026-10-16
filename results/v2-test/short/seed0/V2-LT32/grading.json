@@ -1,0 +1,40 @@
+{
+  "key_facts_established": [
+    true
+  ],
+  "findings": [
+    {
+      "atomic_facts": [
+        {
+          "fact": "Greg Abel's official position title at Berkshire Hathaway is Chief Executive Officer (CEO).",
+          "supported": true
+        },
+        {
+          "fact": "Greg Abel held the CEO position at Berkshire Hathaway as of 2026-10-01 (he became CEO on January 1, 2026, and is referred to as Berkshire Hathaway CEO in sources dated September 2026).",
+          "supported": true
+        }
+      ]
+    },
+    {
+      "atomic_facts": [
+        {
+          "fact": "Greg Abel served as Chief Executive Officer of Berkshire Hathaway Energy Company (BHE).",
+          "supported": true
+        },
+        {
+          "fact": "BHE is a subsidiary of Berkshire Hathaway (approximately 90.9%-91% owned).",
+          "supported": true
+        },
+        {
+          "fact": "Greg Abel's tenure as BHE CEO began in 2008 and ran until January 9, 2018.",
+          "supported": true
+        },
+        {
+          "fact": "2008 was the year Greg Abel first joined Berkshire Hathaway.",
+          "supported": false
+        }
+      ]
+    }
+  ],
+  "memory_labels_in_order": []
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": "2",
+  "subject": {
+    "kind": "person",
+    "statement": "John Smith (businessman)",
+    "entity": "John Smith",
+    "disambiguators": [
+      "businessman"
+    ],
+    "as_of": "2026-10-01"
+  },
+  "documents": [],
+  "verdict": "NO_ADVERSE",
+  "confidence": 0.8215,
+  "estimative": "very likely",
+  "summary": "Verdict: NO_ADVERSE (82% confidence). The decisive facts are that John Smith (businessman) has no criminal conviction, charge, or major regulatory sanction; no personal bankruptcy or major civil judgment; his only adverse‑related involvement is a bid in a bankruptcy sale of a joint venture he co‑founded. His full legal name is John Francis \"Jack\" Smith Jr., born April 6, 1938, known as \"Jack\", and he held senior roles at General Motors, Eagle Advisors LLC, and TI Fluid Systems plc.",
+  "findings": [
+    {
+      "statement": "John Smith (businessman) co‑founded Smith‑Bennett Properties, Inc. in 1981, helped form the Spicewood Springs Venture joint venture, served as COO, CEO and Chairman of General Motors, is principal of Eagle Advisors LLC, and serves on the board of TI Fluid Systems plc.",
+      "credibility": 1,
+      "credibility_label": "confirmed",
+      "citations": [
+        "https://www.ca5.uscourts.gov/opinions/pub/94/94-40709.CV0.wpd.pdf",
+        "https://www.conference-board.org/bio/john-jack-smith",
+        "https://people.equilar.com/bio/person/john-smith-general-motors-company/46231"
+      ]
+    },
+    {
+      "statement": "No evidence shows John Smith (businessman) has been convicted of a crime, charged criminally, or subject to a major regulatory sanction as of September 30, 2026.",
+      "credibility": 2,
+      "credibility_label": "probably true",
+      "citations": [
+        "https://www.ca5.uscourts.gov/opinions/pub/94/94-40709.CV0.wpd.pdf",
+        "https://www.conference-board.org/bio/john-jack-smith"
+      ]
+    },
+    {
+      "statement": "John Smith (businessman) was involved in a bankruptcy sale of a joint venture he co‑founded, submitting a bid to pay the mortgage note, per a court record.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://www.ca5.uscourts.gov/opinions/pub/94/94-40709.CV0.wpd.pdf"
+      ]
+    },
+    {
+      "statement": "No personal bankruptcy, insolvency, or major civil judgment involving John Smith (businessman) is found in the sources reviewed.",
+      "credibility": 3,
+      "credibility_label": "possibly true",
+      "citations": [
+        "https://people.equilar.com/bio/person/john-smith-general-motors-company/46231"
+      ]
+    }
+  ],
+  "minor_adverse_items": [],
+  "conflicts": [],
+  "conflict_notes": [
+    "Direct evidence shows John Smith (businessman) submitted a bid in a bankruptcy sale of a joint venture he co-founded (Q4), while indirect sources state there is no mention of bankruptcy, insolvency, or major civil judgment involving him (Q7). The direct court record was given greater weight, indicating involvement in a joint‑venture bankruptcy proceeding but no personal bankruptcy or major civil judgment."
+  ],
+  "searches": [
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "John Smith businessman convicted crime 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "news_search",
+      "query": "John Smith businessman SEC sanction 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 1,
+      "tool": "web_search",
+      "query": "John Smith businessman bankruptcy civil judgment 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "John Smith businessman born",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "news_search",
+      "query": "John Smith businessman indicted 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 2,
+      "tool": "web_search",
+      "query": "John Smith businessman insolvency 2026",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "court_records",
+      "query": "John Smith businessman",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "news_search",
+      "query": "John Smith bankruptcy 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 3,
+      "tool": "web_search",
+      "query": "John Smith judgment lien 2024",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "web_search",
+      "query": "John Francis Jack Smith Jr. bankruptcy",
+      "results": 6,
+      "failure": null,
+      "decisive": true
+    },
+    {
+      "step": 4,
+      "tool": "court_records",
+      "query": "John Francis Jack Smith Jr.",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    },
+    {
+      "step": 4,
+      "tool": "news_search",
+      "query": "John Francis Jack Smith Jr. SEC sanction",
+      "results": 6,
+      "failure": null,
+      "decisive": false
+    }
+  ],
+  "checked": [
+    "Court dockets and judgments"
+  ],
+  "not_checked": [
+    "Sanctions lists (OFAC SDN, EU, UN, UK): not checked (no connector)",
+    "Politically-exposed-person lists: not checked (no connector)",
+    "Company registers: not checked (no connector)",
+    "Insolvency registers: not checked (no connector)",
+    "SEC EDGAR filings: not checked (a tool exists but was not used)",
+    "GLEIF legal-entity (LEI) records: not checked (a tool exists but was not used)",
+    "Credit bureaus: not checked (no connector)",
+    "Interpol notices: not checked (no connector)",
+    "Archived (Wayback) copies of pages: not checked (a tool exists but was not used)"
+  ],
+  "withdrawn_statements": [],
+  "document_assessment": [],
+  "document_claims": [],
+  "manipulation_flags": [],
+  "gaps": [
+    "Exact date and docket details of the bankruptcy sale involving the joint venture are not provided in the cited court opinion.",
+    "Whether any undisclosed legal matters (e.g., sealed settlements, minor fines) exist cannot be determined from the searched sources.",
+    "Verification of John Smith’s date of death (March 17, 2026) from an official vital‑record source was not performed."
+  ],
+  "next_steps": [
+    "Retrieve the full docket for the case cited at ca5.uscourts.gov to obtain the filing date, parties, and outcome of the bankruptcy sale.",
+    "Search PACER and state court systems for any additional civil or criminal filings under the name John Francis \"Jack\" Smith Jr.",
+    "Check the SEC EDGAR database for any enforcement actions or filings related to John Smith or entities he solely owned.",
+    "Verify the reported date of death via a state vital‑records office or obituary from a reputable newspaper."
+  ],
+  "sources": [
+    {
+      "url": "https://www.ca5.uscourts.gov/opinions/pub/94/94-40709.CV0.wpd.pdf",
+      "title": "United States Court of Appeals",
+      "tier": "official",
+      "admiralty": "A",
+      "reliability": 0.95,
+      "published": null
+    },
+    {
+      "url": "https://www.conference-board.org/bio/john-jack-smith",
+      "title": "John Smith Jr.",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    },
+    {
+      "url": "https://people.equilar.com/bio/person/john-smith-general-motors-company/46231",
+      "title": "John Francis Smith Jr. - Executive Bio, Work History, and Contacts - Equilar ExecAtlas",
+      "tier": "unvetted",
+      "admiralty": "D",
+      "reliability": 0.4,
+      "published": null
+    }
+  ]
+}
